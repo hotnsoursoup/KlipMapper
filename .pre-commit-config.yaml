@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: agentmap
+        name: agentmap scan
+        entry: target/release/agentmap scan
+        language: system
+        pass_filenames: true

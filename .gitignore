@@ -1,0 +1,59 @@
+# Rust
+target/
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Testing
+coverage/
+*.coverage
+
+# Documentation build
+book/
+target/doc/
+
+# Profiling
+*.prof
+flamegraph.svg
+perf.data*
+
+# Editor/IDE specific
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Cache directories
+.cache/
