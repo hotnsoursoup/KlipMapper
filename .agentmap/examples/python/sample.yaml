@@ -1,0 +1,22 @@
+agentmap: v1
+source: examples/python/sample.py
+source_hash: 8113edd1bd52a767
+regions:
+- name: module
+  anchor: <r:module>
+  start: 1
+  end: 10
+- name: func
+  anchor: <r:func>
+  start: 11
+  end: 14
+symbols:
+- kind: function
+  name: square
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

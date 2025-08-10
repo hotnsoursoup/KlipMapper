@@ -51,7 +51,7 @@ impl Adapter for TsAdapter {
 
         for m in matches {
     for cap in m.captures {
-        let cname = self.query.capture_names()[cap.index as usize].clone();
+        let cname = self.query.capture_names()[cap.index as usize];
         let node = cap.node;
         let range = node.range();
         let bytes = &f.text.as_bytes()[node.byte_range()];

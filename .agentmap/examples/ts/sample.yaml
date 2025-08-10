@@ -1,0 +1,62 @@
+agentmap: v1
+source: examples/ts/sample.ts
+source_hash: bd61feb0d95ba2ca
+regions:
+- name: imports
+  anchor: <r:imports>
+  start: 1
+  end: 3
+- name: func
+  anchor: <r:func>
+  start: 4
+  end: 8
+- name: class
+  anchor: <r:class>
+  start: 9
+  end: 12
+symbols:
+- kind: function
+  name: readFileSync
+  range:
+  - 2
+  - 2
+  doc_capsule: null
+- kind: function
+  name: hello
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: hello
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []
