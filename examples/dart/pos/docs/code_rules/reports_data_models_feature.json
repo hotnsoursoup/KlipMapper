@@ -1,0 +1,68 @@
+{
+  "category": "Reports Data Models Feature",
+  "description": "Comprehensive business analytics data models using Freezed for immutable data structures",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/data/models/report_data.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart"
+      ],
+      "components": [
+        {
+          "ReportData": "Base union type for all business report data with specialized report types (revenue, service performance, technician metrics, customer analytics, appointment analytics, payment analytics)."
+        },
+        {
+          "DailyRevenue": "Daily revenue tracking with date, revenue amount, and service count."
+        },
+        {
+          "ServiceRevenue": "Service-specific revenue metrics including percentage contribution and booking count."
+        },
+        {
+          "ServiceMetrics": "Comprehensive service performance metrics including bookings, revenue, ratings, and duration."
+        },
+        {
+          "ServiceTrend": "Service trend analysis with data points and growth rate calculations."
+        },
+        {
+          "TechnicianMetrics": "Technician performance analytics including appointments, revenue, ratings, and utilization rate."
+        },
+        {
+          "TechnicianRevenue": "Technician revenue tracking with daily breakdown and total earnings."
+        },
+        {
+          "CustomerSegment": "Customer segmentation analysis with count, percentage, and average spending patterns."
+        },
+        {
+          "CustomerRetention": "Monthly customer retention analytics with new vs returning customer metrics."
+        },
+        {
+          "HourlyBooking": "Hour-by-hour booking pattern analysis for operational insights."
+        },
+        {
+          "AppointmentType": "Appointment type distribution analysis for service categorization."
+        },
+        {
+          "PaymentTrend": "Payment method trend analysis with temporal data and payment preferences."
+        },
+        {
+          "TrendPoint": "Generic trend data point with date and value for various analytics."
+        }
+      ],
+      "rules": [
+        "Comprehensive business intelligence data models supporting full POS analytics suite.",
+        "Freezed immutable data structures with JSON serialization for data persistence and API integration.",
+        "Union types with factory constructors for type-safe report data handling across different business domains.",
+        "Revenue analytics supporting daily, weekly, monthly, and yearly revenue tracking with service breakdown.",
+        "Service performance metrics including booking frequency, revenue generation, customer ratings, and trend analysis.",
+        "Technician performance tracking with utilization rates, revenue attribution, and productivity metrics.",
+        "Customer analytics supporting segmentation, retention analysis, and lifetime value calculations.",
+        "Appointment analytics with booking patterns, show-up rates, and operational efficiency metrics.",
+        "Payment analytics supporting multiple payment methods, transaction analysis, and tip tracking.",
+        "Time-based trend analysis supporting various data visualization and business forecasting needs.",
+        "Enum support for report types (revenue, service performance, technician performance, customer analytics, appointment analytics, payment analytics).",
+        "Time range enumeration supporting flexible reporting periods (today, yesterday, weekly, monthly, yearly, custom).",
+        "JSON serialization support for data export, API integration, and persistent report caching."
+      ]
+    }
+  }
+}

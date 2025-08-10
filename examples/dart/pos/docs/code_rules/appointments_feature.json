@@ -1,0 +1,518 @@
+{
+  "category": "Appointments Feature",
+  "description": "Appointment scheduling and management functionality",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/screens/simple_calendar_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../data/models/calendar_view_mode.dart",
+        "../../../settings/data/settings_store.dart",
+        "../widgets/appointment_calendar_grid.dart",
+        "../widgets/appointment_week_view.dart",
+        "../widgets/appointment_week_chart_view.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../widgets/comprehensive_appointment_dialog.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart"
+      ],
+      "components": [
+        {
+          "SimpleCalendarScreen": "A StatefulWidget that provides a calendar interface for viewing and managing appointments with multiple view modes (day, week, week chart)."
+        }
+      ],
+      "rules": [
+        "Supports three view modes: day, week, and weekChart through CalendarViewMode enum.",
+        "Loads appointments from AppointmentsStore with date range filtering based on view mode.",
+        "For week views, calculates date ranges either anchored to today or normal Monday-Sunday week view.",
+        "Always uses forceRefresh when loading appointments to ensure fresh data for calendar navigation.",
+        "Provides navigation controls: Today button, previous/next arrows, and date picker.",
+        "Shows different filter options based on view mode: staff and service filters only for day view.",
+        "Week view includes additional toggles: 'Anchor to Today' and 'Show Overlap Count'.",
+        "Service category filters exclude 'other' category and show up to 8 categories as filter chips.",
+        "Manual navigation (prev/next arrows) disables 'Anchor to Today' mode.",
+        "Tapping appointments opens ComprehensiveAppointmentDialog for editing.",
+        "Tapping time slots opens ComprehensiveAppointmentDialog for creating new appointments.",
+        "New appointment button always available in header for creating appointments.",
+        "Handles appointment save/update/cancel operations through DriftAppointmentRepository.",
+        "Updates with expanded date ranges when appointments are modified to keep them visible.",
+        "Shows loading states, error states with retry functionality.",
+        "Uses Observer pattern for reactive UI updates based on AppointmentsStore state."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/screens/appointments_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:go_router/go_router.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/widgets/pagination_controls.dart",
+        "../../../../core/widgets/loading_skeletons.dart",
+        "../../../../core/utils/text_measurement_utils.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../shared/data/repositories/drift_customer_repository.dart",
+        "../../../../core/utils/debouncer.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../data/stores/appointments_store.dart",
+        "../widgets/comprehensive_appointment_dialog.dart"
+      ],
+      "components": [
+        {
+          "AppointmentsScreen": "A StatefulWidget that provides a comprehensive list view of appointments with filtering, searching, and pagination capabilities."
+        }
+      ],
+      "rules": [
+        "Uses StandardAppHeader with navigation to calendar view and new appointment creation.",
+        "Provides comprehensive filtering: status, technician, customer search, and date range filters.",
+        "Customer search includes autocomplete functionality loaded from DriftCustomerRepository.",
+        "Supports quick date filters: Today, Tomorrow, This Week with visual active state indicators.",
+        "Shows appointment summary cards with counts for Scheduled, Confirmed, Today, Tomorrow.",
+        "Summary cards are calculated from filtered appointments, not all appointments.",
+        "Uses DataTable for appointment display with fixed column widths for consistency.",
+        "Shows appointment details: date, time, customer, technician, services, status, actions.",
+        "Services are displayed as ServicePills with truncation (first 3 + more indicator).",
+        "Status is displayed as colored chips with appropriate colors for each status type.",
+        "Technician display shows both requested and assigned technicians with clear labeling.",
+        "Appointment tapping opens ComprehensiveAppointmentDialog for editing.",
+        "Handles appointment save/update/cancel operations through DriftAppointmentRepository.",
+        "Uses client-side filtering through AppointmentsStore for responsive filter changes.",
+        "Supports pagination with PaginationControls and configurable items per page.",
+        "Uses Debouncer for customer search to avoid excessive API calls.",
+        "Shows loading skeletons during data loading for better UX.",
+        "Clear filters button shows active filter count and resets all filters.",
+        "Empty state shows helpful message and new appointment creation button.",
+        "Error state shows retry functionality with store error clearing."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/stores/appointments_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../repositories/appointments_repository.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../../core/services/cache_coordination_service.dart",
+        "../../../../core/services/settings_manager.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "AppointmentsStore": "A comprehensive MobX store managing appointment data, filtering, searching, and caching with TTL (Time-To-Live) support."
+        }
+      ],
+      "rules": [
+        "Implements 5-minute cache TTL system for optimal performance and data freshness.",
+        "Supports multiple filtering options: status, technician, customer search, date ranges.",
+        "Provides search functionality with debounced query processing.",
+        "Manages both appointments and technicians data with reactive observables.",
+        "Initial loading uses skeleton loading states for better UX.",
+        "Error handling with retry functionality and error message management.",
+        "Integrates with CacheCoordinationService for cross-screen cache invalidation.",
+        "Supports force refresh to bypass cache when needed (navigation, critical updates).",
+        "Date range filtering with start/end date support.",
+        "Customer filtering with search query functionality.",
+        "Loading states: initial loading (skeleton), regular loading (spinner).",
+        "Last loaded timestamp tracking for cache TTL decisions.",
+        "Observable lists for reactive UI updates: appointments, technicians.",
+        "Filter state management: status, technician, customer, date filters.",
+        "Repository pattern: uses AppointmentsRepository and DriftEmployeeRepository.",
+        "Settings integration through SettingsManager for user preferences.",
+        "Comprehensive error logging for debugging and monitoring."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/stores/calendar_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../models/calendar_appointment.dart as calendar_appointment",
+        "../models/calendar_day.dart",
+        "../models/calendar_view_mode.dart",
+        "../models/time_slot.dart",
+        "../models/calendar_theme.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "CalendarStore": "A specialized MobX store for calendar-specific appointment management with view modes, date navigation, and technician filtering."
+        }
+      ],
+      "rules": [
+        "Supports multiple calendar view modes: day, week, month through CalendarViewMode enum.",
+        "Manages selected date state with reactive navigation (previous/next).",
+        "Technician filtering with multi-select support (selectedTechnicianIds).",
+        "Calendar-specific appointment model (CalendarAppointment) with enhanced display properties.",
+        "Date range management for efficient data loading based on view mode.",
+        "Selected appointment tracking for detailed view/editing.",
+        "Available technicians management with reactive updates.",
+        "Loading and error state management specific to calendar operations.",
+        "Computed properties for filtered data based on view and technician selection.",
+        "Integration with DriftAppointmentRepository for appointment data.",
+        "Integration with DriftEmployeeRepository for technician information.",
+        "Calendar day model for structured day-based data organization.",
+        "Time slot management for calendar grid rendering.",
+        "Calendar theme support for customizable visual appearance.",
+        "Error logging integration for calendar-specific debugging.",
+        "Reactive UI updates through MobX observables for smooth calendar interactions."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_calendar_grid.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/data/models/setting_model.dart",
+        "technician_column.dart"
+      ],
+      "components": [
+        {
+          "AppointmentCalendarGrid": "A sophisticated StatefulWidget that renders the main calendar grid with technician columns, time slots, and appointment blocks."
+        }
+      ],
+      "rules": [
+        "Supports paginated technician view with 8 technicians per page for performance.",
+        "Uses fixed time column width (100px) and dynamic technician column expansion.",
+        "Time slot height is 35 pixels per 15-minute increment for precise scheduling.",
+        "Header height fixed at 80 pixels for technician information display.",
+        "Vertical scrolling controller for time navigation within calendar view.",
+        "Service category filtering affects appointment visibility on calendar.",
+        "Callback system: onAppointmentTap for editing, onTimeSlotTap for new appointments.",
+        "Page navigation support with onPageChanged callback for technician pagination.",
+        "Integrates with AppointmentsStore for reactive appointment data.",
+        "Uses Observer pattern for MobX-based reactive UI updates.",
+        "Settings integration for user preferences and display options.",
+        "Current time line performance optimization moved to separate widget.",
+        "Appointment blocks rendered within technician columns with time positioning.",
+        "Handles appointment overlap detection and visual representation.",
+        "Responsive design adapts to different screen sizes and technician counts."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/comprehensive_appointment_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:intl/intl.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../shared/data/repositories/drift_service_repository.dart",
+        "../../../shared/presentation/widgets/customer_search_widget.dart",
+        "../../data/services/technician_service_compatibility_service.dart"
+      ],
+      "components": [
+        {
+          "AppointmentDialogMode": "An enum defining the three modes: create, edit, fromCalendar."
+        },
+        {
+          "ComprehensiveAppointmentDialog": "A complex StatefulWidget for creating and editing appointments with full functionality."
+        }
+      ],
+      "rules": [
+        "Supports three modes: create (new appointment), edit (existing), fromCalendar (calendar overlay).",
+        "Factory constructors provide convenient creation for different use cases.",
+        "Pre-selection support: date, time, and technician can be pre-populated from calendar.",
+        "Customer search integration with CustomerSearchWidget for customer selection.",
+        "Service selection with multi-service support and duration calculations.",
+        "Technician assignment with compatibility checking via TechnicianServiceCompatibilityService.",
+        "Date and time picking with validation and conflict detection.",
+        "Appointment status management for existing appointments.",
+        "Notes and special instructions support.",
+        "Group booking support with size specification.",
+        "Real-time validation of appointment conflicts and technician availability.",
+        "Cancellation workflow with reason tracking.",
+        "Integration with drift repositories for employee and service data.",
+        "Callback system: onSave for successful operations, onCancel for cancellations.",
+        "Comprehensive form validation before save operations.",
+        "Material Design UI with proper theming and accessibility."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/services/technician_service_compatibility_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../../core/database/drift_database.dart as db",
+        "../../../../core/utils/logger.dart"
+      ],
+      "components": [
+        {
+          "TechnicianServiceCompatibilityService": "A singleton service that determines technician-service compatibility based on employee capabilities."
+        },
+        {
+          "ServiceCompatibilityResult": "A result class containing compatibility analysis with warning messages and suggested alternatives."
+        }
+      ],
+      "rules": [
+        "Uses singleton pattern for application-wide access to compatibility logic.",
+        "Implements 10-minute cache TTL for performance optimization of capability and service category lookups.",
+        "Handles 'any' technician case by allowing all services (returns true for compatibility).",
+        "Checks technician capabilities against service categories for compatibility validation.",
+        "Provides multi-service compatibility checking with detailed result analysis.",
+        "Suggests alternative technicians for incompatible services.",
+        "Caches technician capabilities and service categories to reduce database queries.",
+        "Defaults to allowing services if compatibility check encounters errors (fail-safe approach).",
+        "Integrates with employee service categories table for capability management.",
+        "Generates human-readable warning messages for incompatible service assignments.",
+        "Supports batch operations for checking multiple services against single technician.",
+        "Cache invalidation available through clearCache() method.",
+        "Error handling with logging for all database operations.",
+        "Provides fallback default capabilities (Nails, Gel, Acrylic) if capability loading fails.",
+        "Service category lookup with fallback to 'Other' category if not found.",
+        "Technician name resolution for user-friendly error messages."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/screens/simple_calendar_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../data/models/calendar_view_mode.dart",
+        "../../../settings/data/settings_store.dart",
+        "../widgets/appointment_calendar_grid.dart",
+        "../widgets/appointment_week_view.dart",
+        "../widgets/appointment_week_chart_view.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../widgets/comprehensive_appointment_dialog.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart"
+      ],
+      "components": [
+        {
+          "SimpleCalendarScreen": "A comprehensive StatefulWidget for appointment calendar management with multiple view modes and filtering capabilities."
+        }
+      ],
+      "rules": [
+        "Supports multiple calendar view modes: day, week, and week chart views.",
+        "Integrates AppointmentsStore for reactive appointment data management.",
+        "Calendar navigation with date-based filtering and technician selection.",
+        "Filtering capabilities by technician and service categories with toggle chips.",
+        "Anchored-to-today mode for week views starting from current date.",
+        "Real-time appointment loading with forceRefresh for consistent data.",
+        "Uses Observer pattern for reactive UI updates based on store changes.",
+        "Service category filtering with color-coded chips matching ServiceCategories config.",
+        "Calendar grid integration with AppointmentCalendarGrid widget.",
+        "Week view integration with AppointmentWeekView and AppointmentWeekChart widgets.",
+        "Comprehensive appointment dialog integration for appointment management.",
+        "Settings integration for user preferences and calendar display options.",
+        "Date range calculation for different view modes (day/week/chart).",
+        "Technician-specific appointment filtering with dropdown selection.",
+        "Calendar view mode persistence and fallback handling for deprecated modes.",
+        "Today's date anchor support for consistent calendar navigation.",
+        "Loading state management during appointment data fetching.",
+        "Error handling for appointment loading operations with graceful fallbacks."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/screens/appointments_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:go_router/go_router.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/widgets/pagination_controls.dart",
+        "../../../../core/widgets/loading_skeletons.dart",
+        "../../../../core/utils/text_measurement_utils.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../shared/data/repositories/drift_customer_repository.dart",
+        "../../../../core/utils/debouncer.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../data/stores/appointments_store.dart",
+        "../widgets/comprehensive_appointment_dialog.dart"
+      ],
+      "components": [
+        {
+          "AppointmentsScreen": "A comprehensive StatefulWidget for appointment management with filtering, searching, and pagination capabilities."
+        }
+      ],
+      "rules": [
+        "Uses StandardAppHeader with calendar navigation and new appointment creation functionality.",
+        "Integrates AppointmentsStore for reactive appointment data management.",
+        "Advanced filtering: status (All, Scheduled, Confirmed, In-Progress, Completed, Cancelled), technician selection.",
+        "Customer search functionality with debounced query processing and autocomplete suggestions.",
+        "Date range filtering with start and end date selection through date pickers.",
+        "Pagination support with PaginationControls for large appointment datasets.",
+        "Loading skeletons for better UX during data loading operations.",
+        "Appointment list display with status indicators and service information.",
+        "Service pills showing appointment services with category-based styling.",
+        "Edit appointment functionality through ComprehensiveAppointmentDialog integration.",
+        "Observer pattern for reactive UI updates based on store state changes.",
+        "Text measurement utilities for responsive layout calculations.",
+        "Debounced customer search to reduce database queries during typing.",
+        "Customer repository integration for customer name autocomplete.",
+        "Loading states and error handling for all data operations.",
+        "Calendar button integration for navigation to SimpleCalendarScreen.",
+        "Appointment status management with visual status indicators.",
+        "Integration with go_router for navigation between appointment views."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/stores/calendar_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../models/calendar_appointment.dart as calendar_appointment",
+        "../models/calendar_day.dart",
+        "../models/calendar_view_mode.dart",
+        "../models/time_slot.dart",
+        "../models/calendar_theme.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../../utils/error_logger.dart",
+        "calendar_store.g.dart"
+      ],
+      "components": [
+        {
+          "CalendarStore": "A comprehensive MobX store for calendar management with appointments, technicians, and date navigation."
+        }
+      ],
+      "rules": [
+        "Manages calendar state including selected date, view mode, and date ranges.",
+        "Supports multiple calendar view modes through CalendarViewMode enum.",
+        "Maintains technician selection state with observable list of selected technician IDs.",
+        "Stores calendar appointments as CalendarAppointment objects with full scheduling data.",
+        "Provides technician filtering with multi-select capability.",
+        "Integrates with DriftAppointmentRepository for appointment data operations.",
+        "Integrates with DriftEmployeeRepository for technician data loading.",
+        "Observable loading states for async operations with UI feedback.",
+        "Error handling with error message state for user notifications.",
+        "Selected appointment tracking for editing and detail operations.",
+        "Date range management for week/month view calculations.",
+        "Uses computed properties for derived calendar data and filtering.",
+        "Appointment selection state management for user interactions.",
+        "Calendar navigation with date-based filtering and view switching.",
+        "Real-time appointment data with reactive UI updates through MobX observers.",
+        "Technician availability tracking with calendar integration.",
+        "Calendar appointment conversion from database appointment models.",
+        "Error logging integration for debugging and monitoring calendar operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/presentation/widgets/service_category_icon.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../../settings/data/settings_store.dart"
+      ],
+      "components": [
+        {
+          "AppointmentCard": "A StatelessWidget displaying appointment information in a compact card format for upcoming appointments section."
+        }
+      ],
+      "rules": [
+        "Compact appointment card design optimized for upcoming appointments display.",
+        "Late appointment detection with visual indicators and time-late badges.",
+        "Time formatting with 12-hour format display (AM/PM) for user convenience.",
+        "Confirmation status badges with success/warning colors based on appointment status.",
+        "Service display modes: respects user preference for service pills vs category icons.",
+        "Service pills integration with small form factor for space efficiency.",
+        "Service category icons with size configuration for visual service representation.",
+        "Fallback service display using service IDs when full service objects unavailable.",
+        "Customer name display with proper text overflow handling for long names.",
+        "Technician information display: preferred technician name or ID when available.",
+        "Action buttons positioned at top-right: Check In (primary) and Contact (secondary).",
+        "Border color coding: red for late appointments, subtle gray for on-time appointments.",
+        "Shadow and elevation for card visual hierarchy and depth perception.",
+        "InkWell integration for tappable card interaction with proper ripple effects.",
+        "Late appointment calculation using real-time comparison with current DateTime.",
+        "Minutes-late display with compact badge format for space conservation.",
+        "Responsive button styling with proper touch targets and accessibility support.",
+        "Settings integration through Consumer pattern for reactive service display preferences.",
+        "Provider pattern integration for accessing SettingsStore configuration.",
+        "Material Design principles with consistent theming and visual standards.",
+        "Confirmation status visual indicators: green checkmark for confirmed, orange warning for unconfirmed.",
+        "Professional styling with proper spacing, padding, and visual hierarchy.",
+        "Error-resistant design with null safety and graceful fallbacks for missing data."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_check_in_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/presentation/widgets/service_pill.dart"
+      ],
+      "components": [
+        {
+          "AppointmentCheckInDialog": "A comprehensive StatefulWidget providing detailed appointment information with check-in capabilities and status management."
+        },
+        {
+          "_AppointmentCheckInDialogState": "State management for appointment dialog with stage-based action buttons and group booking support."
+        }
+      ],
+      "rules": [
+        "Comprehensive appointment details dialog with customer, services, and timing information.",
+        "Stage-based functionality: needs_customer, ready_to_checkin, checked_in states with appropriate actions.",
+        "Group appointment support with member chip display (planned for future domain model updates).",
+        "Service display using ServicePill components with extra-small form factor.",
+        "Status-based visual indicators with color-coded sections for different appointment states.",
+        "Date and time formatting with 12-hour format display for user-friendly presentation.",
+        "Customer information display with name and phone number when available.",
+        "Technician preference display showing requested technician information.",
+        "Expected duration display for appointment planning and scheduling purposes.",
+        "Action button customization based on appointment stage and availability.",
+        "Dialog-based interface with proper header styling and close functionality.",
+        "Scrollable content area for comprehensive appointment information display.",
+        "Status section with color-coded status indicators: scheduled (orange), confirmed (blue), arrived (green).",
+        "Group member chips with primary customer highlighting and additional member support.",
+        "Service validation with warning display for appointments missing service selections.",
+        "Future-ready group booking architecture with placeholder implementation.",
+        "Professional dialog styling with primary blue header and structured content layout.",
+        "Callback integration for check-in actions, appointment updates, and creation workflows.",
+        "Responsive design with fixed width constraints and flexible height for content.",
+        "Material Design principles with consistent theming and accessibility considerations.",
+        "Icon integration for visual section identification and user guidance.",
+        "Comprehensive information display: time, customer, services, duration, technician, status.",
+        "Error-resistant design with null safety handling and graceful fallbacks."
+      ]
+    }
+  }
+}

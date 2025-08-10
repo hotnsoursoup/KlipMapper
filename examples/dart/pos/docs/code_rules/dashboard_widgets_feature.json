@@ -1,0 +1,37 @@
+{
+  "category": "Dashboard Widgets Feature",
+  "description": "User interface widgets for dashboard functionality including customer contact dialogs and dashboard-specific components",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/contact_customer_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/appointment_model.dart"
+      ],
+      "components": [
+        {
+          "ContactCustomerDialog": "Customer contact dialog displaying appointment details with confirmation status and customer information."
+        }
+      ],
+      "rules": [
+        "Modal dialog design with 400px fixed width for consistent customer contact information display.",
+        "Customer information display with name, phone, email, and fallback handling for missing contact details.",
+        "Appointment details section showing formatted time, date, confirmation status, and service information.",
+        "Time formatting utility converting 24-hour time strings to 12-hour AM/PM format with error handling.",
+        "Status-based visual indicators: green check for confirmed appointments, orange warning for unconfirmed.",
+        "Service listing displaying service names, prices, and duration for comprehensive appointment overview.",
+        "Service ID fallback handling showing service IDs when full service objects are not available.",
+        "Confirmation status logic determining whether to show confirmation action button based on appointment status.",
+        "Professional container styling with borders, background colors, and rounded corners for information sections.",
+        "Action button integration with confirmation workflow (currently placeholder with TODO implementation).",
+        "Icon integration providing visual context for contact information, time, date, and status elements.",
+        "Responsive layout with proper spacing and alignment for clean information presentation.",
+        "Theme integration using AppColors and AppTextStyles for consistent brand styling throughout dialog.",
+        "Close dialog functionality with both close button in header and close text button in footer.",
+        "Professional header with contact phone icon, dialog title, and positioned close button for user clarity."
+      ]
+    }
+  }
+}

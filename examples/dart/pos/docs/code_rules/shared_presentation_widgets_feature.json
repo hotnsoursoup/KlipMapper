@@ -1,0 +1,242 @@
+{
+  "category": "Shared Presentation Widgets Feature",
+  "description": "Reusable UI components for consistent design patterns across the POS application including specialized dialogs, search fields, and service display widgets",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/cash_drawer_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart"
+      ],
+      "components": [
+        {
+          "CashDrawerDialog": "Comprehensive cash drawer management dialog with PIN protection, denomination counting, and audit trail functionality."
+        },
+        {
+          "CashDrawerOperation": "Enumeration defining cash drawer operations (open, drop, pickup, count) with descriptions and icons."
+        }
+      ],
+      "rules": [
+        "Comprehensive cash drawer management with PIN-protected operations requiring manager authorization.",
+        "Four distinct operation types: open drawer, cash drop, cash pickup, and cash count with context-specific UI.",
+        "Denomination-based cash counting with automatic total calculation supporting bills and coins.",
+        "Form validation with predefined reason selection and custom reason input for audit compliance.",
+        "Privileged operations integration ensuring proper authorization before cash drawer access.",
+        "Professional Material Design dialog with consistent styling and error handling.",
+        "Factory constructors for each operation type simplifying dialog instantiation.",
+        "Comprehensive input validation preventing invalid amounts and ensuring required fields.",
+        "Real-time discount percentage calculation and visual feedback for cash count operations.",
+        "Audit trail support with reasons, notes, and employee tracking for compliance requirements."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/compact_services_display.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../shared/data/models/service_model.dart",
+        "service_pill.dart",
+        "service_category_icon.dart"
+      ],
+      "components": [
+        {
+          "CompactServicesDisplay": "Space-efficient service display showing service pills for first items and icons for overflow."
+        },
+        {
+          "UltraCompactServicesDisplay": "Ultra-compact variant displaying all services as icons for maximum space efficiency."
+        }
+      ],
+      "rules": [
+        "Space-efficient service display optimizing for limited UI space while maintaining service visibility.",
+        "Configurable pill display count with automatic overflow to icon-only display for remaining services.",
+        "Dual display modes: standard compact (pills + icons) and ultra compact (icons only).",
+        "Service categorization integration using ServicePill and ServiceCategoryIcon components.",
+        "Responsive sizing support with small and extra-small pill variants for different layout requirements.",
+        "Empty state handling with graceful degradation when no services are provided.",
+        "Wrap layout ensuring proper text flow and responsive behavior across screen sizes."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/customer_search_field.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/models/customer_model.dart",
+        "../../data/repositories/drift_customer_repository.dart"
+      ],
+      "components": [
+        {
+          "CustomerSearchField": "Advanced customer search field with real-time search, overlay dropdown, and customer selection functionality."
+        }
+      ],
+      "rules": [
+        "Real-time customer search with debounced input preventing excessive database queries.",
+        "Overlay dropdown displaying search results with customer avatars and contact information.",
+        "Search trigger threshold requiring minimum 2 characters before initiating search operations.",
+        "Repository integration with DriftCustomerRepository for comprehensive customer data access.",
+        "Focus management with automatic overlay show/hide based on field focus state.",
+        "Customer selection callback with complete customer model data for parent component integration.",
+        "Loading state indication during search operations with visual feedback.",
+        "Clear functionality allowing users to reset search and clear selected customer.",
+        "Form validation ensuring customer selection before form submission.",
+        "Professional UI design with Material Design principles and consistent theming."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/optimized_service_category_icon.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../services/data/service_category_store.dart"
+      ],
+      "components": [
+        {
+          "OptimizedServiceCategoryIcon": "Performance-optimized service category icon widget using MobX store integration with fallback behavior."
+        },
+        {
+          "ServiceCategoryIconProvider": "InheritedWidget providing ServiceCategoryStore context to descendant widgets."
+        },
+        {
+          "ServiceCategoryIcon": "Wrapper widget automatically using provided category store from context."
+        }
+      ],
+      "rules": [
+        "Performance-optimized category icon display with MobX store integration for real-time category updates.",
+        "InheritedWidget pattern providing ServiceCategoryStore context throughout widget subtree.",
+        "Fallback behavior generating color and icon when store data is unavailable.",
+        "Dynamic category ID support accepting both integer and string identifiers.",
+        "Heuristic-based icon selection when service category data is incomplete.",
+        "Tooltip support providing additional context about services and categories.",
+        "Configurable sizing and tooltip visibility for different UI contexts.",
+        "Color generation algorithm ensuring consistent visual representation when database categories unavailable.",
+        "Provider pattern implementation for clean dependency injection and testing support."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/price_override_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart",
+        "../../data/models/service_model.dart"
+      ],
+      "components": [
+        {
+          "PriceOverrideDialog": "Comprehensive price override dialog with PIN protection, discount calculation, and audit trail for service price modifications."
+        }
+      ],
+      "rules": [
+        "PIN-protected price override functionality ensuring manager authorization for price modifications.",
+        "Real-time discount percentage calculation with visual feedback for price changes.",
+        "Predefined reason selection with custom reason input for comprehensive audit trail.",
+        "Quick discount buttons (10%, 20% off) for common pricing scenarios.",
+        "Price validation preventing negative values and ensuring valid currency formats.",
+        "Visual price difference indication showing increase/decrease amounts and percentages.",
+        "Service information display providing context for the price override operation.",
+        "Professional dialog design with consistent Material Design styling and error handling.",
+        "Form validation ensuring all required fields are completed before processing.",
+        "Integration with PrivilegedOperations system for secure price modification workflow."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/service_category_icon.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/config/service_categories.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryIcon": "Compact service category icon widget with category mapping and fallback icon generation."
+        }
+      ],
+      "rules": [
+        "Compact icon representation for service categories with minimal space usage.",
+        "Category ID mapping supporting both integer and string category identifiers for backward compatibility.",
+        "Service name-based category guessing when explicit category ID is not provided.",
+        "ServiceCategories configuration integration for consistent color and icon theming.",
+        "Tooltip support providing service name or category information on hover.",
+        "Configurable sizing and tooltip visibility for different UI layout requirements.",
+        "Fallback icon selection based on service name patterns for robust category detection.",
+        "Consistent visual styling with rounded corners and color-coded backgrounds."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/service_pill.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../../core/services/lookup_service.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "ServicePill": "Pill-shaped service display widget with color-coded categories, multiple sizing options, and intelligent text contrast."
+        }
+      ],
+      "rules": [
+        "Pill-shaped service display with consistent color coding based on service categories.",
+        "Multiple sizing variants (normal, small, extra-small) for different UI layout requirements.",
+        "LookupService integration for dynamic category color resolution.",
+        "Intelligent text contrast calculation ensuring readability across all color backgrounds.",
+        "Service name-based category detection when explicit category ID is unavailable.",
+        "HSL color manipulation for optimal text contrast and professional appearance.",
+        "Backward compatibility supporting both integer and string category identifiers.",
+        "Responsive typography scaling based on pill size variant."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/standard_app_header.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/debouncer.dart"
+      ],
+      "components": [
+        {
+          "StandardAppHeader": "Comprehensive standardized AppBar component with search functionality, action buttons, and consistent styling across all screens."
+        },
+        {
+          "HeaderActionStyles": "Predefined action button styles for common POS operations."
+        }
+      ],
+      "rules": [
+        "Standardized AppBar ensuring consistent header design across all application screens.",
+        "Factory constructors for common header patterns (add actions, navigation, management screens).",
+        "Debounced search functionality with configurable search hints and real-time search callbacks.",
+        "Multiple action button types: colored, outlined, subtle, and icon-only with consistent styling.",
+        "Performance optimization with RepaintBoundary isolation preventing unnecessary repaints.",
+        "Flexible action system supporting primary actions, secondary actions, and search integration.",
+        "Professional button styling with consistent padding, colors, and typography throughout.",
+        "Predefined styles for common POS operations (check-in, checkout, calendar, register, save).",
+        "Extension methods providing quick configuration for management and calendar-integrated screens.",
+        "Search widget integration with proper focus management and clear functionality."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/status_badge.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "StatusBadge": "Compact status badge widget for displaying customer types, appointment status, and service categories with consistent styling."
+        }
+      ],
+      "rules": [
+        "Factory constructors for common status types (walk-in, appointment, group service, assigned) with predefined colors and icons.",
+        "Flexible badge design supporting custom text, background colors, and optional icons.",
+        "Consistent styling with rounded corners, appropriate padding, and professional appearance.",
+        "Icon integration with conditional display and standardized sizing.",
+        "Color-coded status representation improving visual scanning and status identification.",
+        "Compact design minimizing space usage while maintaining readability."
+      ]
+    }
+  }
+}

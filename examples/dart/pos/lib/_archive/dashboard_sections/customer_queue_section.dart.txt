@@ -1,0 +1,226 @@
+// Archived: moved from lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart
+// Not compiled. Kept for reference during migration.
+// ---- BEGIN ORIGINAL CONTENT ----
+// lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart
+// Customer queue section widget displaying active tickets with MobX state management. Features real-time queue updates, ticket status monitoring, and customer queue visualization for dashboard display.
+// Usage: ACTIVE - Core dashboard section showing customer queue and ticket status
+
+import 'package:flutter/material.dart';
+// MobX import removed - needs Riverpod conversion
+import 'package:provider/provider.dart';
+import '../../../../../core/theme/app_colors.dart';
+import '../../../../../core/theme/app_text_styles.dart';
+import '../../../data/dashboard_store.dart';
+import '../../../../settings/data/settings_store.dart';
+import '../customer_queue_card.dart';
+import '../ticket_details/ticket_details_dialog.dart';
+
+/// A dedicated section for displaying the customer queue with filtering and management capabilities.
+/// 
+/// Features:
+/// * Real-time queue display with MobX reactivity
+/// * Queue filtering by status, wait time, and service type
+/// * Customer queue cards with visual indicators
+/// * Quick actions for ticket management
+/// * Performance-optimized Observer placement
+/// * Settings integration for display preferences
+/// * Empty state handling with helpful messaging
+/// 
+/// Usage:
+/// ```dart
+/// CustomerQueueSection()  // No props needed - uses Provider context
+/// ```
+class CustomerQueueSection extends StatelessWidget {
+  const CustomerQueueSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final dashboardStore = Provider.of<DashboardStore>(context, listen: false);
+    final settingsStore = Provider.of<SettingsStore>(context, listen: false);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Header with filters
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              // Title with count badge
+              Observer(
+                builder: (_) => Row(
+                  children: [
+                    Text(
+                      'Customer Queue',
+                      style: AppTextStyles.headline2.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    if (dashboardStore.waitingCustomersCount > 0)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 2,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.primaryBlue,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          '${dashboardStore.waitingCustomersCount}',
+                          style: AppTextStyles.labelSmall.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+              // Filter controls
+              Observer(
+                builder: (_) => Row(
+                  children: [
+                    _buildFilterChip(
+                      context,
+                      'All',
+                      dashboardStore.queueFilter == 'All',
+                      () => dashboardStore.setQueueFilter('All'),
+                    ),
+                    const SizedBox(width: 8),
+                    _buildFilterChip(
+                      context,
+                      'Walk In',
+                      dashboardStore.queueFilter == 'Walk In',
+                      () => dashboardStore.setQueueFilter('Walk In'),
+                    ),
+                    const SizedBox(width: 8),
+                    _buildFilterChip(
+                      context,
+                      'Appointment',
+                      dashboardStore.queueFilter == 'Appointment',
+                      () => dashboardStore.setQueueFilter('Appointment'),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        
+        // Queue grid with focused Observer
+        Expanded(
+          child: Observer(
+            builder: (_) {
+              final tickets = dashboardStore.filteredQueueTickets;
+              
+              if (tickets.isEmpty) {
+                return Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.people_outline,
+                        size: 64,
+                        color: AppColors.textSecondary.withValues(alpha: 0.3),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        'No customers in queue',
+                        style: AppTextStyles.bodyLarge.copyWith(
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'Check in a customer to get started',
+                        style: AppTextStyles.bodyMedium.copyWith(
+                          color: AppColors.textSecondary.withValues(alpha: 0.7),
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              }
+
+              // Get service display mode once
+              final serviceDisplayMode = settingsStore.serviceDisplayMode;
+              
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: GridView.builder(
+                  key: const PageStorageKey('customer_queue_grid'),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    childAspectRatio: 2.5,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                  ),
+                  itemCount: tickets.length,
+                  itemBuilder: (context, index) {
+                    final ticket = tickets[index];
+                    
+                    return CustomerQueueCard(
+                      key: ValueKey(ticket.id), // Key optimization
+                      ticket: ticket,
+                      technicians: dashboardStore.technicians,
+                      serviceDisplayMode: serviceDisplayMode,
+                      onTap: () => _showTicketDetailsDialog(
+                        context,
+                        dashboardStore,
+                        ticket,
+                      ),
+                    );
+                  },
+                ),
+              );
+            },
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildFilterChip(
+    BuildContext context,
+    String label,
+    bool isSelected,
+    VoidCallback onTap,
+  ) {
+    return FilterChip(
+      label: Text(label),
+      selected: isSelected,
+      onSelected: (_) => onTap(),
+      selectedColor: AppColors.primaryBlue.withValues(alpha: 0.2),
+      checkmarkColor: AppColors.primaryBlue,
+      labelStyle: TextStyle(
+        color: isSelected ? AppColors.primaryBlue : AppColors.textSecondary,
+        fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+      ),
+    );
+  }
+
+  void _showTicketDetailsDialog(
+    BuildContext context,
+    DashboardStore store,
+    dynamic ticket,
+  ) {
+    // Prepare dialog data if needed
+    store.prepareTicketDetailsDialog();
+    
+    showDialog(
+      context: context,
+      builder: (context) => TicketDetailsDialog(
+        ticket: ticket,
+        availableServices: store.availableServices,
+        availableTechnicians: store.allTechnicians,
+        onConfirm: (updatedTicket) {
+          store.updateTicket(updatedTicket);
+        },
+      ),
+    );
+  }
+}
+// ---- END ORIGINAL CONTENT ----

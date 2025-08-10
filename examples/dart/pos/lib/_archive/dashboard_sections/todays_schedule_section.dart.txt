@@ -1,0 +1,288 @@
+// Archived: moved from lib/features/dashboard/presentation/widgets/sections/todays_schedule_section.dart
+// Not compiled. Kept for reference during migration.
+// ---- BEGIN ORIGINAL CONTENT ----
+// lib/features/dashboard/presentation/widgets/sections/todays_schedule_section.dart
+// Today's schedule section displaying daily appointments and tasks in timeline format. Shows chronological view of appointments with status indicators and quick actions.
+// Usage: ACTIVE - Core dashboard section for displaying daily schedule overview
+
+import 'package:flutter/material.dart';
+// MobX import removed - needs Riverpod conversion
+import 'package:provider/provider.dart';
+import '../../../../../core/theme/app_colors.dart';
+import '../../../../../core/theme/app_text_styles.dart';
+import '../../../data/dashboard_store.dart';
+import '../../../../shared/data/models/appointment_model.dart';
+
+/// Today's Schedule Section - Timeline view
+/// Wrapped in focused Observer for timeline-specific updates
+class TodaysScheduleSection extends StatelessWidget {
+  const TodaysScheduleSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final dashboardStore = Provider.of<DashboardStore>(context, listen: false);
+
+    return Container(
+      margin: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(12),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.05),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Header
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: AppColors.primaryBlue.withValues(alpha: 0.05),
+              borderRadius: const BorderRadius.vertical(
+                top: Radius.circular(12),
+              ),
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      Icons.schedule,
+                      color: AppColors.primaryBlue,
+                      size: 24,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      "Today's Schedule",
+                      style: AppTextStyles.headline3.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.primaryBlue,
+                      ),
+                    ),
+                  ],
+                ),
+                // Expand/Collapse button
+                Observer(
+                  builder: (_) => IconButton(
+                    onPressed: () => dashboardStore.toggleTimeline(),
+                    icon: Icon(
+                      dashboardStore.isTimelineExpanded
+                          ? Icons.expand_less
+                          : Icons.expand_more,
+                    ),
+                    tooltip: dashboardStore.isTimelineExpanded
+                        ? 'Collapse'
+                        : 'Expand',
+                  ),
+                ),
+              ],
+            ),
+          ),
+          
+          // Timeline content with Observer
+          Observer(
+            builder: (_) {
+              if (!dashboardStore.isTimelineExpanded) {
+                // Collapsed view - show summary
+                return Container(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      _buildSummaryItem(
+                        Icons.people,
+                        '${dashboardStore.upcomingAppointmentsCount}',
+                        'Appointments',
+                        AppColors.servicePurple,
+                      ),
+                      _buildSummaryItem(
+                        Icons.hourglass_empty,
+                        '${dashboardStore.waitingCustomersCount}',
+                        'Waiting',
+                        AppColors.warningOrange,
+                      ),
+                      _buildSummaryItem(
+                        Icons.check_circle,
+                        '${dashboardStore.availableTechniciansCount}',
+                        'Available',
+                        AppColors.successGreen,
+                      ),
+                    ],
+                  ),
+                );
+              }
+              
+              // Expanded view - show timeline
+              return Container(
+                height: 300,
+                padding: const EdgeInsets.all(16),
+                child: _buildTimeline(dashboardStore),
+              );
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSummaryItem(
+    IconData icon,
+    String count,
+    String label,
+    Color color,
+  ) {
+    return Column(
+      children: [
+        Container(
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: color.withValues(alpha: 0.1),
+            shape: BoxShape.circle,
+          ),
+          child: Icon(
+            icon,
+            color: color,
+            size: 24,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          count,
+          style: AppTextStyles.headline3.copyWith(
+            fontWeight: FontWeight.bold,
+            color: color,
+          ),
+        ),
+        Text(
+          label,
+          style: AppTextStyles.labelSmall.copyWith(
+            color: AppColors.textSecondary,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildTimeline(DashboardStore store) {
+    // Get current hour for highlighting
+    final now = DateTime.now();
+    final currentHour = now.hour;
+    
+    // Business hours (9 AM to 6 PM)
+    const startHour = 9;
+    const endHour = 18;
+    
+    return ListView.builder(
+      itemCount: endHour - startHour,
+      itemBuilder: (context, index) {
+        final hour = startHour + index;
+        final isCurrentHour = hour == currentHour;
+        
+        return Container(
+          height: 60,
+          margin: const EdgeInsets.only(bottom: 8),
+          child: Row(
+            children: [
+              // Time label
+              SizedBox(
+                width: 60,
+                child: Text(
+                  _formatHour(hour),
+                  style: AppTextStyles.bodyMedium.copyWith(
+                    color: isCurrentHour
+                        ? AppColors.primaryBlue
+                        : AppColors.textSecondary,
+                    fontWeight: isCurrentHour ? FontWeight.bold : FontWeight.normal,
+                  ),
+                ),
+              ),
+              // Timeline line
+              Container(
+                width: 2,
+                color: isCurrentHour
+                    ? AppColors.primaryBlue
+                    : AppColors.border,
+              ),
+              // Appointments for this hour
+              Expanded(
+                child: Container(
+                  margin: const EdgeInsets.symmetric(horizontal: 8),
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: isCurrentHour
+                        ? AppColors.primaryBlue.withValues(alpha: 0.05)
+                        : Colors.transparent,
+                    borderRadius: BorderRadius.circular(8),
+                    border: isCurrentHour
+                        ? Border.all(
+                            color: AppColors.primaryBlue.withValues(alpha: 0.2),
+                          )
+                        : null,
+                  ),
+                  child: _buildHourContent(store, hour),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  String _formatHour(int hour) {
+    final period = hour >= 12 ? 'PM' : 'AM';
+    final displayHour = hour > 12 ? hour - 12 : (hour == 0 ? 12 : hour);
+    return '$displayHour:00 $period';
+  }
+
+  Widget _buildHourContent(DashboardStore store, int hour) {
+    // Filter appointments for this hour
+    final hourAppointments = store.upcomingAppointments.where((apt) {
+      final aptHour = apt.scheduledStartTime.hour;
+      return aptHour == hour;
+    }).toList();
+    
+    if (hourAppointments.isEmpty) {
+      return Center(
+        child: Text(
+          'Available',
+          style: AppTextStyles.labelSmall.copyWith(
+            color: AppColors.textSecondary.withValues(alpha: 0.5),
+          ),
+        ),
+      );
+    }
+
+    final firstCustomer = hourAppointments.first.customerName ?? 'Customer';
+    final moreCount = hourAppointments.length - 1;
+    
+    return Row(
+      children: [
+        Icon(
+          Icons.event,
+          size: 16,
+          color: AppColors.servicePurple,
+        ),
+        const SizedBox(width: 4),
+        Expanded(
+          child: Text(
+            moreCount > 0
+                ? '$firstCustomer +$moreCount more'
+                : firstCustomer,
+            style: AppTextStyles.bodySmall.copyWith(
+              fontWeight: FontWeight.w500,
+            ),
+            overflow: TextOverflow.ellipsis,
+          ),
+        ),
+      ],
+    );
+  }
+}
+// ---- END ORIGINAL CONTENT ----

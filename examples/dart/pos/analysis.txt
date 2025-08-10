@@ -1,0 +1,577 @@
+Analyzing pos...                                                
+
+   info • The private field _categories could be 'final' • lib/core/config/service_categories.dart:24:45 • prefer_final_fields
+warning • The declaration '_getPinLength' isn't referenced • lib/core/services/auth_service.dart:162:7 • unused_element
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/services.dart' • lib/core/services/background_converter_service.dart:6:8 • unnecessary_import
+warning • Unused import: 'dart:ui' • lib/core/services/background_converter_service.dart:7:8 • unused_import
+warning • Unused import: 'package:flutter/material.dart' • lib/core/services/background_converter_service.dart:8:8 • unused_import
+warning • Unused import: 'dart:io' • lib/core/services/background_image_service.dart:5:8 • unused_import
+   info • The import of 'dart:typed_data' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/services.dart' • lib/core/services/background_image_service.dart:6:8 • unnecessary_import
+   info • The value of the argument is redundant because it matches the default value • lib/core/services/background_preview_generator.dart:66:63 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/services/background_preview_generator.dart:84:63 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/services/background_preview_generator.dart:97:61 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/services/background_preview_generator.dart:108:26 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/services/background_preview_generator.dart:164:24 • avoid_redundant_argument_values
+   info • The import of 'package:flutter/foundation.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/core/services/lookup_service.dart:5:8 • unnecessary_import
+warning • The value of the field '_accessToken' isn't used • lib/core/services/remote_view_service.dart:28:11 • unused_field
+warning • The value of the field '_apiSecret' isn't used • lib/core/services/remote_view_service.dart:33:23 • unused_field
+warning • The declaration '_initializeLiveKitRoom' isn't referenced • lib/core/services/remote_view_service.dart:102:16 • unused_element
+warning • The declaration '_startScreenSharing' isn't referenced • lib/core/services/remote_view_service.dart:168:16 • unused_element
+warning • The declaration '_stopScreenSharing' isn't referenced • lib/core/services/remote_view_service.dart:198:16 • unused_element
+warning • The declaration '_onRoomEvent' isn't referenced • lib/core/services/remote_view_service.dart:226:8 • unused_element
+warning • The declaration '_generateAccessToken' isn't referenced • lib/core/services/remote_view_service.dart:248:10 • unused_element
+   info • Don't use 'BuildContext's across async gaps • lib/core/utils/privileged_operations.dart:160:11 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/core/utils/privileged_operations.dart:167:42 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/core/utils/privileged_operations.dart:196:9 • use_build_context_synchronously
+   info • Unnecessary 'this.' qualifier • lib/core/widgets/async_value_widget.dart:110:28 • unnecessary_this
+warning • A value for optional parameter 'borderRadius' isn't ever given • lib/core/widgets/loading_skeletons.dart:242:10 • unused_element_parameter
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:15:3 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:26:5 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:31:7 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:42:11 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:45:13 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:52:5 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:53:5 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:56:7 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:57:7 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:58:7 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:60:7 • avoid_print
+warning • Don't invoke 'print' in production code • lib/debug_appointment_overlaps.dart:64:5 • avoid_print
+  error • The argument type 'Widget Function()' can't be assigned to the parameter type 'Widget Function(BuildContext)?'.  • lib/features/appointments/presentation/screens/appointments_screen.dart:86:34 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/appointments_screen.dart:87:42 • require_trailing_commas
+  error • The argument type 'Widget Function(BuildContext, Object)' can't be assigned to the parameter type 'Widget Function(BuildContext, Object, StackTrace)?'.  • lib/features/appointments/presentation/screens/appointments_screen.dart:88:32 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/appointments_screen.dart:120:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/appointments_screen.dart:162:11 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/appointments_screen.dart:169:18 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/appointments/presentation/screens/appointments_screen.dart:172:18 • avoid_redundant_argument_values
+warning • The left operand can't be null, so the right operand is never executed • lib/features/appointments/presentation/screens/appointments_screen.dart:216:51 • dead_null_aware_expression
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:244:26 • prefer_single_quotes
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:245:26 • prefer_single_quotes
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:246:26 • prefer_single_quotes
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:247:26 • prefer_single_quotes
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/appointments_screen.dart:258:25 • require_trailing_commas
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:271:47 • prefer_single_quotes
+   info • Unnecessary use of double quotes • lib/features/appointments/presentation/screens/appointments_screen.dart:275:47 • prefer_single_quotes
+warning • The value of the field '_selectedTechnicianId' isn't used • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:27:11 • unused_field
+warning • The value of the field '_showOffTime' isn't used • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:29:14 • unused_field
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:82:8 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:82:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:272:10 • require_trailing_commas
+warning • The declaration '_calculateTextWidth' isn't referenced • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:381:10 • unused_element
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:403:5 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:411:5 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:419:5 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/presentation/screens/simple_calendar_screen.dart:433:5 • require_trailing_commas
+warning • The value of the local variable 'selectedDate' isn't used • lib/features/appointments/presentation/widgets/appointment_calendar_grid.dart:63:11 • unused_local_variable
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/appointments/presentation/widgets/appointment_details_dialog.dart:273:27 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/appointments/presentation/widgets/appointment_details_dialog.dart:348:27 • deprecated_member_use
+  error • The name 'AppointmentSlot' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:48:20 • non_type_as_type_argument
+  error • The name 'AppointmentSlot' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:49:28 • non_type_as_type_argument
+  error • The property 'id' can't be unconditionally accessed because the receiver can be 'null' • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:57:58 • unchecked_use_of_nullable_value
+  error • The name 'AppointmentSlot' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:67:53 • non_type_as_type_argument
+  error • The name 'AppointmentSlot' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:94:19 • non_type_as_type_argument
+   info • The value of the argument is redundant because it matches the default value • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:182:22 • avoid_redundant_argument_values
+  error • The name 'AppointmentSlot' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:224:30 • non_type_as_type_argument
+  error • The property 'id' can't be unconditionally accessed because the receiver can be 'null' • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:228:47 • unchecked_use_of_nullable_value
+   info • The value of the argument is redundant because it matches the default value • lib/features/appointments/presentation/widgets/appointment_icon_overlay.dart:333:22 • avoid_redundant_argument_values
+  error • Expected to find ';' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:134:7 • expected_token
+  error • Expected an identifier • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:134:8 • missing_identifier
+  error • Unexpected text ';' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:134:8 • unexpected_token
+   info • Missing a required trailing comma • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:135:5 • require_trailing_commas
+  error • Expected to find '}' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:135:5 • expected_token
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:138:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:138:10 • named_function_expression
+  error • Too many positional arguments: 0 expected, but 7 found • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:138:26 • extra_positional_arguments_could_be_named
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:176:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:176:10 • named_function_expression
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:286:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:286:17 • named_function_expression
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:302:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:302:10 • named_function_expression
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:319:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:319:9 • named_function_expression
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:327:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:327:10 • named_function_expression
+  error • Expected to find ',' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:347:3 • expected_token
+  error • Function expressions can't be named • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:347:10 • named_function_expression
+  error • Expected to find ';' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:361:3 • expected_token
+  error • Expected to find ')' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:362:1 • expected_token
+  error • Expected to find '}' • lib/features/appointments/presentation/widgets/appointment_summary_card.dart:362:2 • expected_token
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/appointments/presentation/widgets/appointment_week_chart_view.dart:8:8 • depend_on_referenced_packages
+  error • The name 'AppointmentsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_chart_view.dart:39:43 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_chart_view.dart:357:39 • non_type_as_type_argument
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/appointments/presentation/widgets/appointment_week_grid_view.dart:8:8 • depend_on_referenced_packages
+  error • The name 'AppointmentsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_grid_view.dart:52:43 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_grid_view.dart:300:39 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_grid_view.dart:461:39 • non_type_as_type_argument
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/appointments/presentation/widgets/appointment_week_view.dart:8:8 • depend_on_referenced_packages
+  error • The name 'AppointmentsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_view.dart:55:43 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_view.dart:56:39 • non_type_as_type_argument
+warning • The declaration '_buildOverlapIndicator' isn't referenced • lib/features/appointments/presentation/widgets/appointment_week_view.dart:436:10 • unused_element
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_view.dart:465:39 • non_type_as_type_argument
+warning • The declaration '_getOverlapInfo' isn't referenced • lib/features/appointments/presentation/widgets/appointment_week_view.dart:723:24 • unused_element
+warning • The declaration '_calculateCongestionLevel' isn't referenced • lib/features/appointments/presentation/widgets/appointment_week_view.dart:865:10 • unused_element
+  error • The name 'AppointmentsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_view.dart:916:43 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/appointment_week_view.dart:944:39 • non_type_as_type_argument
+warning • The declaration '_formatTime' isn't referenced • lib/features/appointments/presentation/widgets/appointment_week_view.dart:985:10 • unused_element
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/appointments/presentation/widgets/calendar_grid.dart:8:8 • depend_on_referenced_packages
+  error • The name 'CalendarStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/calendar_grid.dart:48:32 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/appointments/presentation/widgets/calendar_grid.dart:69:40 • non_type_as_type_argument
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/appointments/presentation/widgets/comprehensive_appointment_dialog.dart:431:13 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/appointments/presentation/widgets/comprehensive_appointment_dialog.dart:631:15 • deprecated_member_use
+  error • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/appointments/presentation/widgets/comprehensive_appointment_dialog.dart:1368:23 • deprecated_member_use
+  error • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/appointments/presentation/widgets/comprehensive_appointment_dialog.dart:1369:23 • deprecated_member_use
+   info • Missing a required trailing comma • lib/features/appointments/presentation/widgets/technician_column.dart:172:99 • require_trailing_commas
+  error • Missing concrete implementations of 'getter mixin _$AppointmentPaginationState on Object.currentPage', 'getter mixin _$AppointmentPaginationState on Object.displayedAppointments', 'getter mixin _$AppointmentPaginationState on Object.itemsPerPage', and 'getter mixin _$AppointmentPaginationState on Object.totalItems' • lib/features/appointments/providers/appointment_pagination_provider.dart:15:7 • non_abstract_class_inherits_abstract_member
+   info • Unnecessary braces in a string interpolation • lib/features/appointments/providers/appointment_pagination_provider.dart:28:73 • unnecessary_brace_in_string_interps
+warning • The value of the local variable 'endIndex' isn't used • lib/features/appointments/providers/appointment_pagination_provider.dart:40:11 • unused_local_variable
+warning • The value of the local variable 'endIndex' isn't used • lib/features/appointments/providers/appointment_pagination_provider.dart:96:9 • unused_local_variable
+   info • The member 'update' overrides an inherited member but isn't annotated with '@override' • lib/features/appointments/providers/appointment_providers.dart:240:16 • annotate_overrides
+  error • 'AppointmentDetails.update' ('Future<void> Function(Appointment)') isn't a valid override of '$AsyncClassModifier.update' ('Future<Appointment?> Function(FutureOr<Appointment?> Function(Appointment?), {FutureOr<Appointment?> Function(Object, StackTrace)? onError})') • lib/features/appointments/providers/appointment_providers.dart:240:16 • invalid_override
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers.dart:408:5 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers.dart:417:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers.dart:425:5 • require_trailing_commas
+  error • Missing concrete implementations of 'getter mixin _$AppointmentDateRange on Object.endDate' and 'getter mixin _$AppointmentDateRange on Object.startDate' • lib/features/appointments/providers/appointment_providers.dart:471:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$AppointmentFilterState on Object.endDate', 'getter mixin _$AppointmentFilterState on Object.searchQuery', 'getter mixin _$AppointmentFilterState on Object.selectedServiceCategories', 'getter mixin _$AppointmentFilterState on Object.selectedStatus', and 4 more • lib/features/appointments/providers/appointment_providers.dart:479:7 • non_abstract_class_inherits_abstract_member
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/appointments/providers/appointment_providers_updated.dart:8:8 • unnecessary_import
+warning • Unused import: 'package:freezed_annotation/freezed_annotation.dart' • lib/features/appointments/providers/appointment_providers_updated.dart:10:8 • unused_import
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers_updated.dart:206:18 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers_updated.dart:243:7 • require_trailing_commas
+  error • The argument type 'AppointmentsByDateRangeProvider' can't be assigned to the parameter type 'ProviderListenable<FutureOr<List<Appointment>>>'.  • lib/features/appointments/providers/appointment_providers_updated.dart:316:22 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointment_providers_updated.dart:318:6 • require_trailing_commas
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/appointments/providers/appointments_efficient_provider.dart:6:8 • unnecessary_import
+  error • The argument type 'AppointmentsByDateRangeProvider' can't be assigned to the parameter type 'ProviderListenable<FutureOr<List<Appointment>>>'.  • lib/features/appointments/providers/appointments_efficient_provider.dart:152:20 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_efficient_provider.dart:154:4 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/appointments/providers/appointments_efficient_provider.dart:160:56 • avoid_redundant_argument_values
+  error • The argument type 'AppointmentsByDateRangeProvider' can't be assigned to the parameter type 'ProviderListenable<FutureOr<List<Appointment>>>'.  • lib/features/appointments/providers/appointments_efficient_provider.dart:162:20 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_efficient_provider.dart:164:4 • require_trailing_commas
+  error • The argument type 'AppointmentsByDateRangeProvider' can't be assigned to the parameter type 'ProviderListenable<FutureOr<List<Appointment>>>'.  • lib/features/appointments/providers/appointments_efficient_provider.dart:173:20 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_efficient_provider.dart:175:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_efficient_provider.dart:183:28 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_efficient_provider.dart:219:28 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/appointments/providers/appointments_efficient_provider.dart:258:70 • avoid_redundant_argument_values
+warning • The value of the local variable 'now' isn't used • lib/features/appointments/providers/appointments_efficient_provider.dart:262:13 • unused_local_variable
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/appointments/providers/appointments_master_provider.dart:7:8 • unnecessary_import
+  error • Missing concrete implementations of 'getter mixin _$AppointmentFilter on Object.date', 'getter mixin _$AppointmentFilter on Object.search', 'getter mixin _$AppointmentFilter on Object.status', and 'getter mixin _$AppointmentFilter on Object.technicianId' • lib/features/appointments/providers/appointments_master_provider.dart:19:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$AppointmentStatistics on Object.cancelledCount', 'getter mixin _$AppointmentStatistics on Object.completedCount', 'getter mixin _$AppointmentStatistics on Object.confirmedCount', 'getter mixin _$AppointmentStatistics on Object.todayCount', and 1 more • lib/features/appointments/providers/appointments_master_provider.dart:31:7 • non_abstract_class_inherits_abstract_member
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • lib/features/appointments/providers/appointments_master_provider.dart:80:21 • invalid_null_aware_operator
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:81:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:88:9 • require_trailing_commas
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • lib/features/appointments/providers/appointments_master_provider.dart:95:28 • invalid_null_aware_operator
+  error • The method 'any' can't be unconditionally invoked because the receiver can be 'null' • lib/features/appointments/providers/appointments_master_provider.dart:97:24 • unchecked_use_of_nullable_value
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:98:9 • require_trailing_commas
+warning • The value of the local variable 'tomorrow' isn't used • lib/features/appointments/providers/appointments_master_provider.dart:123:13 • unused_local_variable
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:140:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:144:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/appointments/providers/appointments_master_provider.dart:148:7 • require_trailing_commas
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/appointments/providers/technician_providers.dart:6:8 • unnecessary_import
+   info • Missing a required trailing comma • lib/features/appointments/providers/technician_providers.dart:28:7 • require_trailing_commas
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/checkout/presentation/screens/checkout_screen.dart:7:8 • depend_on_referenced_packages
+  error • The name 'TicketsStore' isn't a type, so it can't be used as a type argument • lib/features/checkout/presentation/screens/checkout_screen.dart:33:33 • non_type_as_type_argument
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/checkout/presentation/screens/checkout_screen.dart:231:9 • deprecated_member_use
+   info • The value of the argument is redundant because it matches the default value • lib/features/checkout/presentation/screens/checkout_screen.dart:240:35 • avoid_redundant_argument_values
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/checkout/presentation/screens/checkout_screen.dart:253:9 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/features/checkout/presentation/screens/checkout_screen.dart:393:29 • unnecessary_to_list_in_spreads
+   info • Unnecessary braces in a string interpolation • lib/features/checkout/presentation/screens/checkout_screen.dart:529:15 • unnecessary_brace_in_string_interps
+   info • Don't use 'BuildContext's across async gaps • lib/features/checkout/presentation/screens/checkout_screen.dart:555:30 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/features/checkout/presentation/screens/checkout_screen.dart:568:28 • use_build_context_synchronously
+   info • Dangling library doc comment • lib/features/checkout/presentation/widgets/checkout_dialog.dart:1:1 • dangling_library_doc_comments
+warning • The value of the local variable 'subtotal' isn't used • lib/features/checkout/presentation/widgets/checkout_dialog.dart:598:11 • unused_local_variable
+   info • Dangling library doc comment • lib/features/checkout/presentation/widgets/discount_selector.dart:1:1 • dangling_library_doc_comments
+  error • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/checkout/presentation/widgets/discount_selector.dart:244:19 • deprecated_member_use
+  error • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/checkout/presentation/widgets/discount_selector.dart:245:19 • deprecated_member_use
+  error • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/checkout/presentation/widgets/discount_selector.dart:258:19 • deprecated_member_use
+  error • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/checkout/presentation/widgets/discount_selector.dart:259:19 • deprecated_member_use
+warning • The value of the local variable 'value' isn't used • lib/features/checkout/presentation/widgets/discount_selector.dart:438:12 • unused_local_variable
+   info • Dangling library doc comment • lib/features/checkout/presentation/widgets/order_summary_panel.dart:1:1 • dangling_library_doc_comments
+   info • Missing type annotation • lib/features/checkout/presentation/widgets/order_summary_panel.dart:197:30 • strict_top_level_inference
+   info • Use 'const' for final variables initialized to a constant value • lib/features/customers/presentation/screens/customers_screen.dart:100:17 • prefer_const_declarations
+   info • Use 'const' for final variables initialized to a constant value • lib/features/customers/presentation/screens/customers_screen.dart:102:17 • prefer_const_declarations
+   info • Local variables should be final • lib/features/customers/presentation/screens/customers_screen.dart:244:17 • prefer_final_locals
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:252:69 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:256:74 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:260:74 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:289:76 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:304:57 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:321:64 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:352:50 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:385:61 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:411:66 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:416:76 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:444:57 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:453:66 • require_trailing_commas
+  error • The named parameter 'onSave' isn't defined • lib/features/customers/presentation/screens/customers_screen.dart:477:9 • undefined_named_parameter
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:482:27 • require_trailing_commas
+  error • The named parameter 'onSave' isn't defined • lib/features/customers/presentation/screens/customers_screen.dart:505:9 • undefined_named_parameter
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:569:75 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:580:64 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:597:39 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:666:5 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:673:74 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:682:70 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:705:75 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/presentation/screens/customers_screen.dart:744:75 • require_trailing_commas
+   info • Parameter 'key' could be a super parameter • lib/features/customers/presentation/screens/customers_screen.dart:773:9 • use_super_parameters
+warning • The left operand can't be null, so the right operand is never executed • lib/features/customers/presentation/widgets/customer_details_dialog.dart:534:48 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/features/customers/presentation/widgets/customer_details_dialog.dart:590:108 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/features/customers/presentation/widgets/new_customer_dialog.dart:66:52 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/features/customers/presentation/widgets/new_customer_dialog.dart:67:48 • dead_null_aware_expression
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/customers/presentation/widgets/new_customer_dialog.dart:316:35 • deprecated_member_use
+   info • Unnecessary use of parentheses • lib/features/customers/presentation/widgets/new_customer_dialog.dart:535:17 • unnecessary_parenthesis
+  error • The argument type 'Object' can't be assigned to the parameter type 'DateTime'.  • lib/features/customers/presentation/widgets/new_customer_dialog.dart:545:22 • argument_type_not_assignable
+  error • The argument type 'String' can't be assigned to the parameter type 'DateTime'.  • lib/features/customers/presentation/widgets/new_customer_dialog.dart:546:22 • argument_type_not_assignable
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/customers/providers/customer_details_provider.dart:6:8 • unnecessary_import
+  error • Missing concrete implementations of 'getter mixin _$CustomerDetails on Object.averageSpent', 'getter mixin _$CustomerDetails on Object.isLoading', 'getter mixin _$CustomerDetails on Object.lastVisit', 'getter mixin _$CustomerDetails on Object.serviceFrequency', and 3 more • lib/features/customers/providers/customer_details_provider.dart:18:7 • non_abstract_class_inherits_abstract_member
+   info • Local variables should be final • lib/features/customers/providers/customer_details_provider.dart:52:7 • prefer_final_locals
+   info • Missing a required trailing comma • lib/features/customers/providers/customer_details_provider.dart:77:7 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/customers/providers/customer_details_provider.dart:86:9 • avoid_redundant_argument_values
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/customers/providers/customers_provider.dart:4:8 • unnecessary_import
+  error • The named parameter 'limit' isn't defined • lib/features/customers/providers/customers_provider.dart:44:9 • undefined_named_parameter
+  error • The named parameter 'offset' isn't defined • lib/features/customers/providers/customers_provider.dart:45:9 • undefined_named_parameter
+  error • The named parameter 'search' isn't defined • lib/features/customers/providers/customers_provider.dart:46:9 • undefined_named_parameter
+  error • The named parameter 'activeOnly' isn't defined • lib/features/customers/providers/customers_provider.dart:47:9 • undefined_named_parameter
+   info • The value of the argument is redundant because it matches the default value • lib/features/customers/providers/customers_provider.dart:57:20 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/customers/providers/customers_provider.dart:63:20 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/customers/providers/customers_provider.dart:75:13 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/customers/providers/customers_provider.dart:78:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/providers/customers_provider.dart:91:6 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/customers/providers/customers_provider.dart:101:13 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/customers/providers/customers_provider.dart:104:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/customers/providers/customers_provider.dart:117:8 • require_trailing_commas
+  error • The argument type 'Scaffold Function(BuildContext, WidgetRef, dynamic)' can't be assigned to the parameter type 'Widget Function(BuildContext, WidgetRef)'.  • lib/features/dashboard/examples/riverpod_mobx_usage_examples.dart:35:16 • argument_type_not_assignable
+  error • The named parameter 'loadingBuilder' isn't defined • lib/features/dashboard/examples/riverpod_mobx_usage_examples.dart:48:7 • undefined_named_parameter
+  error • The named parameter 'errorBuilder' isn't defined • lib/features/dashboard/examples/riverpod_mobx_usage_examples.dart:62:7 • undefined_named_parameter
+  error • Arguments of a constant creation must be constant expressions • lib/features/dashboard/examples/riverpod_mobx_usage_examples.dart:124:38 • const_with_non_constant_argument
+warning • The value of the local variable 'queueStore' isn't used • lib/features/dashboard/examples/riverpod_mobx_usage_examples.dart:296:9 • unused_local_variable
+   info • The imported package 'flutter_mobx' isn't a dependency of the importing package • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:7:8 • depend_on_referenced_packages
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:9:8 • depend_on_referenced_packages
+  error • The name 'DashboardStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:40:26 • non_type_as_type_argument
+   info • The value of the argument is redundant because it matches the default value • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:56:31 • avoid_redundant_argument_values
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:73:20 • non_type_as_type_argument
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:94:27 • require_trailing_commas
+warning • Don't invoke 'print' in production code • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:126:25 • avoid_print
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:156:18 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:201:40 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:243:40 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:283:40 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:323:40 • non_type_as_type_argument
+warning • The value of the local variable 'settingsStore' isn't used • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:413:15 • unused_local_variable
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:413:44 • non_type_as_type_argument
+  error • The named parameter 'state' is required, but there's no corresponding argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:430:20 • missing_required_argument
+  error • The named parameter 'technicianId' is required, but there's no corresponding argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:430:20 • missing_required_argument
+  error • The named parameter 'technicianName' is required, but there's no corresponding argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:430:20 • missing_required_argument
+  error • The named parameter 'store' isn't defined • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:431:15 • undefined_named_parameter
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:448:44 • non_type_as_type_argument
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:529:9 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:552:9 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart:596:9 • use_build_context_synchronously
+   info • The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:5:8 • unnecessary_import
+warning • Unused import: '../../providers/ticket_assignment_provider.dart' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:24:8 • unused_import
+   info • The value of the argument is redundant because it matches the default value • lib/features/dashboard/presentation/screens/dashboard_screen.dart:94:31 • avoid_redundant_argument_values
+   info • Unnecessary use of parentheses • lib/features/dashboard/presentation/screens/dashboard_screen.dart:131:27 • unnecessary_parenthesis
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:153:17 • require_trailing_commas
+warning • Don't invoke 'print' in production code • lib/features/dashboard/presentation/screens/dashboard_screen.dart:185:15 • avoid_print
+   info • Unnecessary use of parentheses • lib/features/dashboard/presentation/screens/dashboard_screen.dart:254:27 • unnecessary_parenthesis
+   info • Unnecessary use of parentheses • lib/features/dashboard/presentation/screens/dashboard_screen.dart:297:27 • unnecessary_parenthesis
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:322:98 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:325:104 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:328:99 • require_trailing_commas
+   info • Unnecessary use of parentheses • lib/features/dashboard/presentation/screens/dashboard_screen.dart:348:27 • unnecessary_parenthesis
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:373:91 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:376:95 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/screens/dashboard_screen.dart:379:99 • require_trailing_commas
+   info • Unnecessary use of parentheses • lib/features/dashboard/presentation/screens/dashboard_screen.dart:399:27 • unnecessary_parenthesis
+warning • The value of the local variable 'technicianStatusAsync' isn't used • lib/features/dashboard/presentation/screens/dashboard_screen.dart:493:11 • unused_local_variable
+  error • The property 'technicianStates' can't be unconditionally accessed because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:499:46 • unchecked_use_of_nullable_value
+  error • The property 'currentTickets' can't be unconditionally accessed because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:527:55 • unchecked_use_of_nullable_value
+warning • The value of the local variable 'showCustomerPhone' isn't used • lib/features/dashboard/presentation/screens/dashboard_screen.dart:556:11 • unused_local_variable
+  error • The property 'queueTickets' can't be unconditionally accessed because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:566:44 • unchecked_use_of_nullable_value
+  error • The property 'isEmpty' can't be unconditionally accessed because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:624:26 • unchecked_use_of_nullable_value
+  error • The property 'length' can't be unconditionally accessed because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:629:35 • unchecked_use_of_nullable_value
+  error • The method '[]' can't be unconditionally invoked because the receiver can be 'null' • lib/features/dashboard/presentation/screens/dashboard_screen.dart:631:57 • unchecked_use_of_nullable_value
+   info • Dangling library doc comment • lib/features/dashboard/presentation/widgets/appointment_selection_widget.dart:1:1 • dangling_library_doc_comments
+   info • Dangling library doc comment • lib/features/dashboard/presentation/widgets/check_in_dialog.dart:1:1 • dangling_library_doc_comments
+warning • Unused import: '../../../../core/utils/name_formatter.dart' • lib/features/dashboard/presentation/widgets/customer_queue_card.dart:10:8 • unused_import
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/customer_queue_card.dart:299:14 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/customer_queue_card.dart:334:14 • require_trailing_commas
+warning • The operand can't be 'null', so the condition is always 'true' • lib/features/dashboard/presentation/widgets/customer_queue_card_stub.dart:51:35 • unnecessary_null_comparison
+warning • The '!' will have no effect because the receiver can't be null • lib/features/dashboard/presentation/widgets/customer_queue_card_stub.dart:51:61 • unnecessary_non_null_assertion
+warning • The '!' will have no effect because the receiver can't be null • lib/features/dashboard/presentation/widgets/customer_queue_card_stub.dart:52:50 • unnecessary_non_null_assertion
+   info • The value of the argument is redundant because it matches the default value • lib/features/dashboard/presentation/widgets/customer_selection_widget.dart:160:29 • avoid_redundant_argument_values
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart:7:8 • depend_on_referenced_packages
+  error • The name 'DashboardStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart:35:40 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart:36:39 • non_type_as_type_argument
+  error • The named parameter 'technicians' isn't defined • lib/features/dashboard/presentation/widgets/sections/customer_queue_section.dart:165:23 • undefined_named_parameter
+warning • Unused import: '../../../../../core/theme/app_text_styles.dart' • lib/features/dashboard/presentation/widgets/sections/dashboard_header.dart:8:8 • unused_import
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/dashboard/presentation/widgets/sections/status_section.dart:7:8 • depend_on_referenced_packages
+  error • The name 'DashboardStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/status_section.dart:22:40 • non_type_as_type_argument
+  error • The name 'SettingsStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/status_section.dart:23:39 • non_type_as_type_argument
+  error • The named parameter 'state' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/sections/status_section.dart:121:28 • missing_required_argument
+  error • The named parameter 'technicianId' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/sections/status_section.dart:121:28 • missing_required_argument
+  error • The named parameter 'technicianName' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/sections/status_section.dart:121:28 • missing_required_argument
+  error • The named parameter 'store' isn't defined • lib/features/dashboard/presentation/widgets/sections/status_section.dart:123:23 • undefined_named_parameter
+  error • The named parameter 'serviceDisplayMode' isn't defined • lib/features/dashboard/presentation/widgets/sections/status_section.dart:125:23 • undefined_named_parameter
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/dashboard/presentation/widgets/sections/todays_schedule_section.dart:7:8 • depend_on_referenced_packages
+  error • The name 'DashboardStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/todays_schedule_section.dart:20:40 • non_type_as_type_argument
+   info • The imported package 'provider' isn't a dependency of the importing package • lib/features/dashboard/presentation/widgets/sections/upcoming_appointments_section.dart:7:8 • depend_on_referenced_packages
+  error • The name 'DashboardStore' isn't a type, so it can't be used as a type argument • lib/features/dashboard/presentation/widgets/sections/upcoming_appointments_section.dart:23:40 • non_type_as_type_argument
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/dashboard/presentation/widgets/service_selection_widget.dart:108:30 • unnecessary_null_comparison
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/dashboard/presentation/widgets/service_selection_widget.dart:121:30 • unnecessary_null_comparison
+warning • The left operand can't be null, so the right operand is never executed • lib/features/dashboard/presentation/widgets/service_selection_widget.dart:331:95 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/features/dashboard/presentation/widgets/service_selection_widget.dart:542:109 • dead_null_aware_expression
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/dashboard/presentation/widgets/simplified_ticket_details_dialog.dart:1346:23 • deprecated_member_use
+warning • The declaration '_buildReadOnlyAssignmentSummary' isn't referenced • lib/features/dashboard/presentation/widgets/simplified_ticket_details_dialog.dart:1652:10 • unused_element
+warning • The declaration '_buildCheckInTypeSelector' isn't referenced • lib/features/dashboard/presentation/widgets/simplified_ticket_details_dialog.dart:1799:10 • unused_element
+warning • Unused import: '../../../shared/presentation/widgets/service_pill.dart' • lib/features/dashboard/presentation/widgets/technician_card.dart:13:8 • unused_import
+   info • Don't use 'BuildContext's across async gaps • lib/features/dashboard/presentation/widgets/technician_card.dart:72:9 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps • lib/features/dashboard/presentation/widgets/technician_card.dart:80:9 • use_build_context_synchronously
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/technician_card.dart:262:10 • require_trailing_commas
+   info • Don't use 'BuildContext's across async gaps • lib/features/dashboard/presentation/widgets/ticket_actions_widget.dart:165:37 • use_build_context_synchronously
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/customer_selection_view.dart:55:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/customer_selection_view.dart:63:15 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/customer_selection_view.dart:102:21 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:42:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:50:15 • require_trailing_commas
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:122:19 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:249:11 • deprecated_member_use
+   info • The value of the argument is redundant because it matches the default value • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:258:22 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:264:14 • require_trailing_commas
+  error • The named parameter 'avatarColor' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:268:66 • missing_required_argument
+  error • The named parameter 'avatarInitial' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:268:66 • missing_required_argument
+  error • The named parameter 'status' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:268:66 • missing_required_argument
+  error • The named parameter 'turnNumber' is required, but there's no corresponding argument • lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart:268:66 • missing_required_argument
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/ticket_actions_view.dart:42:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/ticket_actions_view.dart:50:15 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/components/ticket_details_header.dart:41:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/presentation/widgets/ticket_details/ticket_details_dialog.dart:44:6 • require_trailing_commas
+warning • Unused import: '../../../shared/data/models/service_model.dart' • lib/features/dashboard/presentation/widgets/ticket_summary_widget.dart:8:8 • unused_import
+warning • Unused import: 'dashboard_ui_provider.dart' • lib/features/dashboard/providers/dashboard_providers.dart:9:8 • unused_import
+warning • Unused import: 'ticket_assignment_provider.dart' • lib/features/dashboard/providers/dashboard_providers.dart:12:8 • unused_import
+warning • The value of the local variable 'stack' isn't used • lib/features/dashboard/providers/dashboard_providers.dart:57:11 • unused_local_variable
+   info • Statements in an if should be enclosed in a block • lib/features/dashboard/providers/dashboard_providers.dart:65:13 • curly_braces_in_flow_control_structures
+  error • Missing concrete implementations of 'getter mixin _$DashboardUIState on Object.isCheckInDialogOpen', 'getter mixin _$DashboardUIState on Object.isTicketDetailsDialogOpen', 'getter mixin _$DashboardUIState on Object.notificationMessage', 'getter mixin _$DashboardUIState on Object.notificationTimestamp', and 2 more • lib/features/dashboard/providers/dashboard_ui_provider.dart:92:7 • non_abstract_class_inherits_abstract_member
+   info • Missing a required trailing comma • lib/features/dashboard/providers/queue_management_provider.dart:224:70 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/dashboard/providers/queue_management_provider.dart:273:5 • require_trailing_commas
+  error • Missing concrete implementations of 'getter mixin _$QueueManagementState on Object.currentFilter', 'getter mixin _$QueueManagementState on Object.errorMessage', 'getter mixin _$QueueManagementState on Object.lastUpdated', and 'getter mixin _$QueueManagementState on Object.queueTickets' • lib/features/dashboard/providers/queue_management_provider.dart:280:7 • non_abstract_class_inherits_abstract_member
+   info • Missing a required trailing comma • lib/features/dashboard/providers/technician_status_provider.dart:309:5 • require_trailing_commas
+  error • Missing concrete implementations of 'getter mixin _$TechnicianStatusState on Object implements DiagnosticableTreeMixin.currentTickets', 'getter mixin _$TechnicianStatusState on Object implements DiagnosticableTreeMixin.errorMessage', 'getter mixin _$TechnicianStatusState on Object implements DiagnosticableTreeMixin.lastUpdated', 'getter mixin _$TechnicianStatusState on Object implements DiagnosticableTreeMixin.technicianStates', and 5 more • lib/features/dashboard/providers/technician_status_provider.dart:440:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TechnicianState on Object implements DiagnosticableTreeMixin.currentTicketId', 'getter mixin _$TechnicianState on Object implements DiagnosticableTreeMixin.isOff', 'getter mixin _$TechnicianState on Object implements DiagnosticableTreeMixin.lastUpdated', 'getter mixin _$TechnicianState on Object implements DiagnosticableTreeMixin.specializations', and 7 more • lib/features/dashboard/providers/technician_status_provider.dart:450:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TechnicianStatusCalculation on Object implements DiagnosticableTreeMixin.reason', 'getter mixin _$TechnicianStatusCalculation on Object implements DiagnosticableTreeMixin.status', 'getter mixin _$TechnicianStatusCalculation on Object implements DiagnosticableTreeMixin.ticketId', 'mixin DiagnosticableTreeMixin on Object implements DiagnosticableTree.debugDescribeChildren', and 4 more • lib/features/dashboard/providers/technician_status_provider.dart:476:7 • non_abstract_class_inherits_abstract_member
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/dashboard/providers/ticket_assignment_provider.dart:6:8 • unnecessary_import
+warning • Unused import: '../../shared/data/repositories/drift_ticket_repository.dart' • lib/features/dashboard/providers/ticket_assignment_provider.dart:11:8 • unused_import
+   info • Missing a required trailing comma • lib/features/dashboard/providers/ticket_assignment_provider.dart:129:7 • require_trailing_commas
+warning • The operand can't be 'null', so the condition is always 'true' • lib/features/dashboard/providers/ticket_assignment_provider.dart:355:30 • unnecessary_null_comparison
+   info • Missing a required trailing comma • lib/features/dashboard/providers/ticket_assignment_provider.dart:374:9 • require_trailing_commas
+  error • Missing concrete implementations of 'getter mixin _$TicketAssignmentState on Object.assignments', 'getter mixin _$TicketAssignmentState on Object.autoAssignmentEnabled', 'getter mixin _$TicketAssignmentState on Object.errorMessage', 'getter mixin _$TicketAssignmentState on Object.isProcessing', and 1 more • lib/features/dashboard/providers/ticket_assignment_provider.dart:443:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$AssignmentResult on Object.technicianId' and 'getter mixin _$AssignmentResult on Object.ticketId' • lib/features/dashboard/providers/ticket_assignment_provider.dart:454:7 • non_abstract_class_inherits_abstract_member
+   info • The private field _clockInOrder could be 'final' • lib/features/employees/presentation/screens/employees_screen.dart:31:30 • prefer_final_fields
+warning • The declaration '_loadClockInOrder' isn't referenced • lib/features/employees/presentation/screens/employees_screen.dart:57:16 • unused_element
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen.dart:389:78 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen.dart:492:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen.dart:564:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen.dart:758:61 • require_trailing_commas
+warning • The declaration '_loadClockInOrder' isn't referenced • lib/features/employees/presentation/screens/employees_screen_stub.dart:57:16 • unused_element
+  error • The argument type 'Map<String, dynamic>' can't be assigned to the parameter type 'ClockInOrderEntry'.  • lib/features/employees/presentation/screens/employees_screen_stub.dart:270:53 • argument_type_not_assignable
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen_stub.dart:504:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen_stub.dart:576:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/screens/employees_screen_stub.dart:772:61 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/presentation/widgets/employee_details_dialog.dart:168:14 • require_trailing_commas
+warning • The value of the local variable 'fullName' isn't used • lib/features/employees/presentation/widgets/employee_details_dialog.dart:231:13 • unused_local_variable
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/employees/presentation/widgets/employee_details_dialog.dart:741:23 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/employees/presentation/widgets/employee_details_dialog.dart:943:19 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/features/employees/presentation/widgets/employee_grid_card.dart:67:59 • use_build_context_synchronously
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/employees/presentation/widgets/employee_schedule_editor.dart:459:21 • deprecated_member_use
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/employees/providers/employees_provider.dart:5:8 • unnecessary_import
+   info • Missing a required trailing comma • lib/features/employees/providers/employees_provider.dart:51:72 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/providers/employees_provider.dart:192:40 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/providers/employees_provider.dart:213:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/providers/employees_provider.dart:221:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/employees/providers/employees_provider.dart:229:4 • require_trailing_commas
+  error • The named parameter 'createdAt' is required, but there's no corresponding argument • lib/features/employees/providers/employees_provider.dart:241:33 • missing_required_argument
+  error • The named parameter 'locationId' is required, but there's no corresponding argument • lib/features/employees/providers/employees_provider.dart:241:33 • missing_required_argument
+  error • The named parameter 'updatedAt' is required, but there's no corresponding argument • lib/features/employees/providers/employees_provider.dart:241:33 • missing_required_argument
+  error • The named parameter 'username' is required, but there's no corresponding argument • lib/features/employees/providers/employees_provider.dart:241:33 • missing_required_argument
+  error • The named parameter 'hireDate' isn't defined • lib/features/employees/providers/employees_provider.dart:248:21 • undefined_named_parameter
+  error • A value of type 'Future<bool>' can't be returned from the function 'employeeClockedIn' because it has a return type of 'bool' • lib/features/employees/providers/employees_provider.dart:355:10 • return_of_invalid_type
+  error • Missing concrete implementations of 'getter mixin _$DailyRevenue on Object.date', 'getter mixin _$DailyRevenue on Object.revenue', 'getter mixin _$DailyRevenue on Object.serviceCount', and 'mixin _$DailyRevenue on Object.toJson' • lib/features/reports/data/models/report_data.dart:66:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$ServiceRevenue on Object.count', 'getter mixin _$ServiceRevenue on Object.percentage', 'getter mixin _$ServiceRevenue on Object.revenue', 'getter mixin _$ServiceRevenue on Object.serviceName', and 1 more • lib/features/reports/data/models/report_data.dart:77:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$ServiceMetrics on Object.averageRating', 'getter mixin _$ServiceMetrics on Object.durationMinutes', 'getter mixin _$ServiceMetrics on Object.revenue', 'getter mixin _$ServiceMetrics on Object.serviceName', and 2 more • lib/features/reports/data/models/report_data.dart:89:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$ServiceTrend on Object.dataPoints', 'getter mixin _$ServiceTrend on Object.growthRate', 'getter mixin _$ServiceTrend on Object.serviceName', and 'mixin _$ServiceTrend on Object.toJson' • lib/features/reports/data/models/report_data.dart:102:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TechnicianMetrics on Object.appointmentsCompleted', 'getter mixin _$TechnicianMetrics on Object.averageRating', 'getter mixin _$TechnicianMetrics on Object.technicianName', 'getter mixin _$TechnicianMetrics on Object.totalRevenue', and 2 more • lib/features/reports/data/models/report_data.dart:113:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TechnicianRevenue on Object.dailyBreakdown', 'getter mixin _$TechnicianRevenue on Object.revenue', 'getter mixin _$TechnicianRevenue on Object.technicianName', and 'mixin _$TechnicianRevenue on Object.toJson' • lib/features/reports/data/models/report_data.dart:126:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$CustomerSegment on Object.averageSpend', 'getter mixin _$CustomerSegment on Object.count', 'getter mixin _$CustomerSegment on Object.percentage', 'getter mixin _$CustomerSegment on Object.segment', and 1 more • lib/features/reports/data/models/report_data.dart:137:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$CustomerRetention on Object.month', 'getter mixin _$CustomerRetention on Object.newCustomers', 'getter mixin _$CustomerRetention on Object.retentionRate', 'getter mixin _$CustomerRetention on Object.returningCustomers', and 1 more • lib/features/reports/data/models/report_data.dart:149:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$HourlyBooking on Object.bookingCount', 'getter mixin _$HourlyBooking on Object.hour', 'getter mixin _$HourlyBooking on Object.percentage', and 'mixin _$HourlyBooking on Object.toJson' • lib/features/reports/data/models/report_data.dart:161:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$AppointmentType on Object.count', 'getter mixin _$AppointmentType on Object.percentage', 'getter mixin _$AppointmentType on Object.type', and 'mixin _$AppointmentType on Object.toJson' • lib/features/reports/data/models/report_data.dart:172:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$PaymentTrend on Object.amount', 'getter mixin _$PaymentTrend on Object.date', 'getter mixin _$PaymentTrend on Object.paymentMethod', and 'mixin _$PaymentTrend on Object.toJson' • lib/features/reports/data/models/report_data.dart:183:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TrendPoint on Object.date', 'getter mixin _$TrendPoint on Object.value', and 'mixin _$TrendPoint on Object.toJson' • lib/features/reports/data/models/report_data.dart:194:7 • non_abstract_class_inherits_abstract_member
+   info • Use interpolation to compose strings and values • lib/features/reports/presentation/screens/reports_screen.dart:390:27 • prefer_interpolation_to_compose_strings
+   info • The value of the argument is redundant because it matches the default value • lib/features/reports/presentation/screens/reports_screen.dart:923:19 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/reports/presentation/screens/reports_screen.dart:932:19 • avoid_redundant_argument_values
+warning • The declaration '_buildTopServicesSection' isn't referenced • lib/features/reports/presentation/screens/sales_reports_screen.dart:314:10 • unused_element
+   info • The value of the argument is redundant because it matches the default value • lib/features/reports/presentation/widgets/report_card.dart:37:66 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/reports/presentation/widgets/report_time_range_selector.dart:107:24 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:154:73 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:179:62 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:208:57 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:212:62 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:245:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:256:58 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:429:66 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:429:67 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:432:65 • require_trailing_commas
+  error • The argument type 'Service?' can't be assigned to the parameter type 'ServiceDomain?'.  • lib/features/services/presentation/screens/services_screen.dart:511:18 • argument_type_not_assignable
+  error • The argument type 'Object?' can't be assigned to the parameter type 'List<ServiceCategoryWithCount>'.  • lib/features/services/presentation/screens/services_screen.dart:512:21 • argument_type_not_assignable
+  error • The named parameter 'basePrice' is required, but there's no corresponding argument • lib/features/services/presentation/screens/services_screen.dart:514:39 • missing_required_argument
+  error • The argument type 'Object' can't be assigned to the parameter type 'String'.  • lib/features/services/presentation/screens/services_screen.dart:515:17 • argument_type_not_assignable
+  error • The named parameter 'price' isn't defined • lib/features/services/presentation/screens/services_screen.dart:518:13 • undefined_named_parameter
+  error • The argument type 'Object?' can't be assigned to the parameter type 'List<ServiceCategoryWithCount>'.  • lib/features/services/presentation/screens/services_screen.dart:547:21 • argument_type_not_assignable
+  error • The named parameter 'basePrice' is required, but there's no corresponding argument • lib/features/services/presentation/screens/services_screen.dart:550:30 • missing_required_argument
+  error • The argument type 'int' can't be assigned to the parameter type 'String'.  • lib/features/services/presentation/screens/services_screen.dart:551:17 • argument_type_not_assignable
+  error • The named parameter 'price' isn't defined • lib/features/services/presentation/screens/services_screen.dart:554:13 • undefined_named_parameter
+   info • Missing a required trailing comma • lib/features/services/presentation/screens/services_screen.dart:576:42 • require_trailing_commas
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/services/presentation/widgets/dynamic_service_form_dialog.dart:116:17 • deprecated_member_use
+   info • The value of the argument is redundant because it matches the default value • lib/features/services/presentation/widgets/service_category_color_picker.dart:108:33 • avoid_redundant_argument_values
+  error • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/services/presentation/widgets/service_category_color_picker.dart:113:40 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/features/services/presentation/widgets/service_category_color_picker.dart:113:62 • deprecated_member_use
+   info • The value of the argument is redundant because it matches the default value • lib/features/services/presentation/widgets/service_category_icon_picker.dart:190:35 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/services/presentation/widgets/service_category_icon_picker.dart:222:45 • avoid_redundant_argument_values
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/services/presentation/widgets/service_form_dialog.dart:141:17 • deprecated_member_use
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/services/providers/services_provider.dart:5:8 • unnecessary_import
+  error • The argument type 'int' can't be assigned to the parameter type 'String'.  • lib/features/services/providers/services_provider.dart:90:32 • argument_type_not_assignable
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • lib/features/services/providers/services_provider.dart:238:25 • invalid_null_aware_operator
+   info • Missing a required trailing comma • lib/features/services/providers/services_provider.dart:239:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/providers/services_provider.dart:265:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/services/providers/services_provider.dart:275:4 • require_trailing_commas
+warning • The left operand can't be null, so the right operand is never executed • lib/features/services/providers/services_provider.dart:288:50 • dead_null_aware_expression
+   info • The type of the right operand ('int') isn't a subtype or a supertype of the left operand ('String') • lib/features/services/providers/services_provider.dart:312:48 • unrelated_type_equality_checks
+warning • Don't invoke 'print' in production code • lib/features/settings/data/models/background_option.dart:70:7 • avoid_print
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:366:9 • deprecated_member_use
+warning • The declaration '_buildDropdownTile' isn't referenced • lib/features/settings/presentation/screens/settings_screen.dart:371:10 • unused_element
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/screens/settings_screen.dart:879:28 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/screens/settings_screen.dart:938:28 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/screens/settings_screen.dart:997:28 • avoid_redundant_argument_values
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1290:13 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1683:31 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1719:31 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1840:13 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1851:17 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/screens/settings_screen.dart:1879:17 • deprecated_member_use
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/settings/providers/settings_provider.dart:4:8 • unnecessary_import
+warning • Unused import: '../../shared/data/models/setting_model.dart' • lib/features/settings/providers/settings_provider.dart:6:8 • unused_import
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:23:22 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:27:22 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:34:36 • non_type_as_type_argument
+  error • The type 'Map<String, dynamic>' used in the 'for' loop must implement 'Iterable' • lib/features/settings/providers/settings_provider.dart:36:29 • for_in_of_invalid_type
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:221:34 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:227:38 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:231:32 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:237:38 • non_type_as_type_argument
+  error • The name 'Setting' isn't a type, so it can't be used as a type argument • lib/features/settings/providers/settings_provider.dart:243:50 • non_type_as_type_argument
+  error • Missing concrete implementations of 'getter mixin _$Appointment on Object.appointmentDate', 'getter mixin _$Appointment on Object.appointmentTime', 'getter mixin _$Appointment on Object.assignedTechnicianId', 'getter mixin _$Appointment on Object.cancellationReason', and 19 more • lib/features/shared/data/models/appointment_model.dart:13:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$Customer on Object.address', 'getter mixin _$Customer on Object.allergies', 'getter mixin _$Customer on Object.city', 'getter mixin _$Customer on Object.createdAt', and 19 more • lib/features/shared/data/models/customer_model.dart:12:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$Employee on Object.canAcceptAppointments', 'getter mixin _$Employee on Object.canAcceptWalkins', 'getter mixin _$Employee on Object.capabilities', 'getter mixin _$Employee on Object.commissionRate', and 25 more • lib/features/shared/data/models/employee_model.dart:12:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$GiftCard on Object.code', 'getter mixin _$GiftCard on Object.createdAt', 'getter mixin _$GiftCard on Object.currentBalance', 'getter mixin _$GiftCard on Object.customerId', and 8 more • lib/features/shared/data/models/gift_card_model.dart:13:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$GiftCardTransaction on Object.amount', 'getter mixin _$GiftCardTransaction on Object.balanceAfter', 'getter mixin _$GiftCardTransaction on Object.createdAt', 'getter mixin _$GiftCardTransaction on Object.giftCardId', and 4 more • lib/features/shared/data/models/gift_card_model.dart:34:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$Payment on Object.amount', 'getter mixin _$Payment on Object.cardLastFour', 'getter mixin _$Payment on Object.cardType', 'getter mixin _$Payment on Object.createdAt', and 10 more • lib/features/shared/data/models/payment_model.dart:11:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$StoreSetting on Object.category', 'getter mixin _$StoreSetting on Object.createdAt', 'getter mixin _$StoreSetting on Object.dataType', 'getter mixin _$StoreSetting on Object.description', and 5 more • lib/features/shared/data/models/setting_model.dart:15:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$StoreHours on Object.hours' and 'mixin _$StoreHours on Object.toJson' • lib/features/shared/data/models/setting_model.dart:159:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$DayHours on Object.closeTime', 'getter mixin _$DayHours on Object.isOpen', 'getter mixin _$DayHours on Object.openTime', and 'mixin _$DayHours on Object.toJson' • lib/features/shared/data/models/setting_model.dart:206:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$TimeEntry on Object.breakMinutes', 'getter mixin _$TimeEntry on Object.clockIn', 'getter mixin _$TimeEntry on Object.clockOut', 'getter mixin _$TimeEntry on Object.createdAt', and 8 more • lib/features/shared/data/models/time_entry_model.dart:13:7 • non_abstract_class_inherits_abstract_member
+   info • Unnecessary 'const' keyword • lib/features/shared/data/repositories/drift_employee_repository.dart:191:23 • unnecessary_const
+warning • The value of the local variable 'startDateStr' isn't used • lib/features/shared/data/repositories/drift_invoice_repository.dart:314:13 • unused_local_variable
+warning • The value of the local variable 'endDateStr' isn't used • lib/features/shared/data/repositories/drift_invoice_repository.dart:315:13 • unused_local_variable
+  error • The named parameter 'taxAmount' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:44:7 • undefined_named_parameter
+  error • The named parameter 'discountAmount' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:45:7 • undefined_named_parameter
+  error • The named parameter 'totalAmount' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:46:7 • undefined_named_parameter
+  error • The named parameter 'discountType' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:47:7 • undefined_named_parameter
+  error • The named parameter 'discountCode' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:48:7 • undefined_named_parameter
+  error • The named parameter 'discountReason' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:49:7 • undefined_named_parameter
+  error • The named parameter 'lastFourDigits' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:51:7 • undefined_named_parameter
+  error • The named parameter 'authorizationCode' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:53:7 • undefined_named_parameter
+  error • The named parameter 'processedAt' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:54:7 • undefined_named_parameter
+  error • The named parameter 'processedBy' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:57:7 • undefined_named_parameter
+  error • The named parameter 'notes' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:58:7 • undefined_named_parameter
+  error • The named parameter 'updatedAt' isn't defined • lib/features/shared/data/repositories/drift_payment_repository.dart:62:7 • undefined_named_parameter
+   info • The value of the argument is redundant because it matches the default value • lib/features/shared/data/repositories/drift_payment_repository.dart:110:74 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/shared/data/repositories/drift_payment_repository.dart:183:8 • require_trailing_commas
+   info • Local variables should be final • lib/features/shared/data/repositories/drift_payment_repository.dart:228:7 • prefer_final_locals
+warning • The left operand can't be null, so the right operand is never executed • lib/features/shared/data/repositories/drift_service_repository.dart:241:46 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/features/shared/data/repositories/drift_service_repository.dart:252:38 • dead_null_aware_expression
+warning • The value of the field '_inFlightTicketCountQueries' isn't used • lib/features/shared/data/repositories/drift_ticket_repository.dart:63:41 • unused_field
+warning • The declaration '_clearConversionCache' isn't referenced • lib/features/shared/data/repositories/drift_ticket_repository.dart:72:8 • unused_element
+warning • The value of the local variable 'subtotal' isn't used • lib/features/shared/data/repositories/payment_repository.dart:46:13 • unused_local_variable
+warning • The value of the local variable 'startStr' isn't used • lib/features/shared/data/repositories/payment_repository.dart:263:13 • unused_local_variable
+warning • The value of the local variable 'endStr' isn't used • lib/features/shared/data/repositories/payment_repository.dart:264:13 • unused_local_variable
+warning • The declaration '_parseCategoryId' isn't referenced • lib/features/shared/data/repositories/ticket_repository.dart:11:5 • unused_element
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/shared/presentation/widgets/cash_drawer_dialog.dart:473:11 • deprecated_member_use
+warning • The value of the local variable 'reason' isn't used • lib/features/shared/presentation/widgets/cash_drawer_dialog.dart:592:11 • unused_local_variable
+  error • The named parameter 'onSave' isn't defined • lib/features/shared/presentation/widgets/customer_search_widget.dart:162:9 • undefined_named_parameter
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/shared/presentation/widgets/price_override_dialog.dart:345:11 • deprecated_member_use
+warning • The declaration '_getDefaultColor' isn't referenced • lib/features/shared/presentation/widgets/service_pill.dart:88:9 • unused_element
+   info • The value of the argument is redundant because it matches the default value • lib/features/shared/presentation/widgets/standard_app_header.dart:200:70 • avoid_redundant_argument_values
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/shared/providers/appointments_master_provider.dart:7:8 • unnecessary_import
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:225:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:232:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:248:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:307:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:315:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:332:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:337:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:341:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/appointments_master_provider.dart:345:7 • require_trailing_commas
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/shared/providers/tickets_master_provider.dart:7:8 • unnecessary_import
+  error • The expression doesn't evaluate to a function, so it can't be invoked • lib/features/shared/providers/tickets_master_provider.dart:18:10 • invocation_of_non_function_expression
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:242:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:249:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:273:9 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:306:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:314:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:322:4 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:339:7 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/shared/providers/tickets_master_provider.dart:345:7 • require_trailing_commas
+  error • The argument type 'void Function(RangeValues?, dynamic)' can't be assigned to the parameter type 'ValueChanged<RangeValues?>'.  • lib/features/tickets/presentation/screens/tickets_screen.dart:119:35 • argument_type_not_assignable
+warning • The left operand can't be null, so the right operand is never executed • lib/features/tickets/presentation/widgets/refund_void_dialog.dart:232:57 • dead_null_aware_expression
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/tickets/presentation/widgets/refund_void_dialog.dart:347:11 • deprecated_member_use
+  error • The named parameter 'notes' isn't defined • lib/features/tickets/providers/ticket_details_provider.dart:116:9 • undefined_named_parameter
+  error • The named parameter 'notes' isn't defined • lib/features/tickets/providers/ticket_details_provider.dart:132:9 • undefined_named_parameter
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/tickets/providers/tickets_efficient_provider.dart:8:8 • unnecessary_import
+  error • The expression doesn't evaluate to a function, so it can't be invoked • lib/features/tickets/providers/tickets_efficient_provider.dart:19:10 • invocation_of_non_function_expression
+  error • The named parameter 'search' isn't defined • lib/features/tickets/providers/tickets_efficient_provider.dart:194:9 • undefined_named_parameter
+  error • The argument type 'DateTime?' can't be assigned to the parameter type 'String?'.  • lib/features/tickets/providers/tickets_efficient_provider.dart:195:15 • argument_type_not_assignable
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_efficient_provider.dart:206:20 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_efficient_provider.dart:212:20 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_efficient_provider.dart:228:6 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_efficient_provider.dart:239:13 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_efficient_provider.dart:243:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_efficient_provider.dart:257:8 • require_trailing_commas
+   info • The import of 'package:flutter_riverpod/flutter_riverpod.dart' is unnecessary because all of the used elements are also provided by the import of 'package:riverpod_annotation/riverpod_annotation.dart' • lib/features/tickets/providers/tickets_provider.dart:4:8 • unnecessary_import
+  error • The expression doesn't evaluate to a function, so it can't be invoked • lib/features/tickets/providers/tickets_provider.dart:15:10 • invocation_of_non_function_expression
+  error • The named parameter 'search' isn't defined • lib/features/tickets/providers/tickets_provider.dart:49:9 • undefined_named_parameter
+  error • The argument type 'DateTime?' can't be assigned to the parameter type 'String?'.  • lib/features/tickets/providers/tickets_provider.dart:50:15 • argument_type_not_assignable
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_provider.dart:63:20 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_provider.dart:69:20 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_provider.dart:85:6 • require_trailing_commas
+   info • The value of the argument is redundant because it matches the default value • lib/features/tickets/providers/tickets_provider.dart:96:13 • avoid_redundant_argument_values
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_provider.dart:100:6 • require_trailing_commas
+   info • Missing a required trailing comma • lib/features/tickets/providers/tickets_provider.dart:114:8 • require_trailing_commas
+warning • Don't invoke 'print' in production code • lib/utils/app_logger.dart:106:7 • avoid_print
+warning • Unused import: 'dart:io' • lib/utils/debug_logger.dart:6:8 • unused_import
+warning • Don't invoke 'print' in production code • lib/utils/debug_logger.dart:89:7 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/add_sales.dart:62:5 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/add_sales.dart:136:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/improved_add_sales.dart:89:5 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/improved_add_sales.dart:170:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:44:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:45:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:46:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:129:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:130:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:131:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:132:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:133:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:134:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:135:3 • avoid_print
+warning • Don't invoke 'print' in production code • scripts/simple_sales_generator.dart:136:3 • avoid_print
+
+573 issues found. (ran in 19.5s)

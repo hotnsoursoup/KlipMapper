@@ -1,0 +1,20 @@
+Analyzing settings...                                           
+
+warning • Don't invoke 'print' in production code • lib/features/settings/data/models/background_option.dart:70:7 • avoid_print
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:334:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:392:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:450:24 • avoid_redundant_argument_values
+   info • Use interpolation to compose strings and values • lib/features/settings/presentation/widgets/settings_logging_section.dart:142:40 • prefer_interpolation_to_compose_strings
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_logging_section.dart:414:21 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_logging_section.dart:415:21 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_logging_section.dart:422:21 • avoid_redundant_argument_values
+   info • Use 'const' for final variables initialized to a constant value • lib/features/settings/presentation/widgets/settings_logging_section.dart:784:7 • prefer_const_declarations
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/settings/providers/settings_provider.dart:86:19 • unnecessary_null_comparison
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:102:18 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:156:20 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:234:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:257:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:287:16 • unnecessary_underscores
+warning • The value of the local variable 'dashboardNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:470:13 • unused_local_variable
+warning • The value of the local variable 'masterNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:471:13 • unused_local_variable
+

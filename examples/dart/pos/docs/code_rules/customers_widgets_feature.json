@@ -1,0 +1,76 @@
+{
+  "category": "Customers Widgets Feature",
+  "description": "User interface widgets for customer management, customer details, and customer analytics display",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/customers/presentation/widgets/customer_details_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../data/customers_store.dart"
+      ],
+      "components": [
+        {
+          "CustomerDetailsDialog": "Comprehensive customer details modal with analytics, ticket history, and service frequency analysis."
+        }
+      ],
+      "rules": [
+        "Large modal dialog design with 1200px max width and 90% screen height for comprehensive customer information display.",
+        "Professional header with customer avatar, name, membership badge, contact information, and dark navy styling.",
+        "Split layout: 320px left sidebar for customer overview and analytics, expandable right side for ticket history.",
+        "Customer analytics display: total spent, visit count, average spent per visit, and last visit date with color-coded stats.",
+        "Service frequency analysis showing top 5 most frequent services with usage count and percentage calculations.",
+        "MobX Observer integration for reactive updates when customer data changes through store interactions.",
+        "Date range filtering for ticket history with DateTimeRange picker and formatted date display.",
+        "Ticket card display with comprehensive information: ticket number, status, services, pricing, and technician details.",
+        "Dynamic avatar colors based on customer name with consistent color assignment across application sessions.",
+        "Membership level badges with color coding: gold, platinum, VIP with distinct visual styling.",
+        "Status color coding for tickets: green (completed/paid), blue (in-service), orange (queued), red (cancelled).",
+        "Service breakdown in tickets showing individual service names, prices, duration totals, and per-service averages.",
+        "Professional styling with proper shadows, borders, rounded corners, and consistent spacing throughout.",
+        "Empty state handling for customers with no ticket history showing appropriate placeholder messaging.",
+        "Responsive date formatting: relative dates for recent visits, absolute dates for older history.",
+        "Customer notes display with text overflow handling and proper formatting for additional customer information.",
+        "Integrated CustomersStore dependency for accessing customer analytics and ticket data through computed properties.",
+        "Business metrics display including revenue information, technician assignments, and service duration calculations.",
+        "Professional layout with proper container constraints, scroll handling, and visual hierarchy.",
+        "Theme integration using AppColors and AppTextStyles for consistent brand styling across customer management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/customers/presentation/widgets/customer_list_item.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/customer_model.dart"
+      ],
+      "components": [
+        {
+          "CustomerListItem": "Compact customer list item with avatar, contact info, analytics, and action menu for customer management lists."
+        }
+      ],
+      "rules": [
+        "Compact list item design optimized for customer browsing with essential information and analytics display.",
+        "Customer avatar with consistent color assignment based on name for visual identification across sessions.",
+        "Membership level badges with color coding: gold, platinum, VIP with distinct visual styling for tier recognition.",
+        "Contact information display showing phone and email with fallback handling for missing information.",
+        "Customer analytics integration displaying total spent and visit count in highlighted stat containers.",
+        "Last visit date formatting with relative time display: Today, Yesterday, days/weeks ago, or absolute date.",
+        "PopupMenuButton integration providing edit and delete actions with appropriate iconography and colors.",
+        "Professional card styling with shadows, borders, rounded corners, and proper touch feedback.",
+        "Action callbacks for tap, edit, and delete operations enabling parent component integration.",
+        "Color-coded statistics: blue for total spent, green for visit count emphasizing key business metrics.",
+        "InkWell integration providing Material Design touch feedback with proper border radius matching container.",
+        "Responsive layout handling varying content lengths and maintaining consistent visual hierarchy.",
+        "Theme integration using AppColors and AppTextStyles for consistent brand styling throughout application.",
+        "Membership badge visibility logic hiding 'Regular' membership while highlighting premium tiers.",
+        "Professional spacing and alignment ensuring clean list display with proper information hierarchy."
+      ]
+    }
+  }
+}

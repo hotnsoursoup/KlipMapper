@@ -1,0 +1,311 @@
+{
+  "category": "Appointments Presentation Widgets Feature",
+  "description": "UI components for appointment display, editing, and management including blocks, dialogs, and summary cards",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_block.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:intl/intl.dart",
+        "../../data/models/calendar_appointment.dart",
+        "../../data/models/calendar_theme.dart",
+        "../../../shared/presentation/widgets/service_category_icon.dart"
+      ],
+      "components": [
+        {
+          "AppointmentBlock": "Compact calendar appointment widget for time-slot based calendar views with smart content adaptation."
+        }
+      ],
+      "rules": [
+        "Compact appointment block design optimized for calendar grid display with space-efficient layout.",
+        "CalendarTheme integration for consistent decoration, colors, and text styling across calendar views.",
+        "Selection state support with visual feedback through enhanced borders and shadows.",
+        "Past appointment visual treatment with reduced opacity for temporal context awareness.",
+        "Technician color-based appointment background with proper text contrast calculation.",
+        "Status badge display for non-scheduled appointments with abbreviated status text.",
+        "Smart time range formatting with AM/PM optimization for same-period appointments.",
+        "Duration-based content adaptation: basic info for short appointments, services for 45+ minutes, notes for 60+ minutes.",
+        "Service display with category icon, primary service name, and additional service count indicator.",
+        "Customer name prominence with ellipsis overflow handling for long names.",
+        "Material Design InkWell integration for proper touch feedback and accessibility.",
+        "Service category icon integration with size and tooltip configuration.",
+        "Status abbreviation mapping: SCH, CON, IN, WRK, DONE, CAN, NO, RSC for space efficiency.",
+        "Responsive text styling based on appointment background color for optimal readability.",
+        "Notes preview with italic styling and multi-line ellipsis for appointment context.",
+        "Structured layout hierarchy: customer name and status, time, services, notes based on available space.",
+        "Professional visual design with rounded corners and appropriate spacing for calendar integration."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_details_dialog.dart": {
+      "file_type": "dialog",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:intl/intl.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/models/calendar_appointment.dart",
+        "../../data/models/calendar_theme.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/service_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentDetailsDialog": "Comprehensive appointment creation and editing dialog with full form validation and technician integration."
+        }
+      ],
+      "rules": [
+        "Dual-mode dialog supporting both appointment creation and editing with mode-specific behavior.",
+        "Comprehensive form validation with required field enforcement and data type validation.",
+        "Customer information management with name and phone number capture and validation.",
+        "Date and time picker integration with Material Design date/time selection widgets.",
+        "Technician selection dropdown with avatar display and CalendarTheme color integration.",
+        "Appointment status management with dropdown selection for existing appointments.",
+        "Notes field for additional appointment context and special instructions.",
+        "Auto-adjustment logic for end time when start time changes maintaining 1-hour default duration.",
+        "Form validation with comprehensive error messaging and field requirement indicators.",
+        "DateTime construction from separate date and time picker values for precise scheduling.",
+        "Customer model creation with ID generation for new customers during appointment creation.",
+        "CalendarAppointment model construction with proper technician color assignment.",
+        "Action button layout with delete option for existing appointments and save/cancel operations.",
+        "Callback pattern for onCreate, onUpdate, and onDelete operations with proper data flow.",
+        "Text controller management with proper initialization from existing appointment data.",
+        "Memory management with controller disposal in widget lifecycle methods.",
+        "Status badge display showing current appointment status with themed colors and styling.",
+        "Professional dialog layout with 600x700 fixed dimensions for consistent user experience.",
+        "Scrollable form content to accommodate all fields within dialog constraints.",
+        "AppTextStyles and AppColors integration for consistent theming throughout dialog components."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_summary_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../data/stores/appointments_store.dart"
+      ],
+      "components": [
+        {
+          "AppointmentSummaryCard": "MobX-reactive dashboard summary card displaying daily appointment metrics and service breakdown analytics."
+        }
+      ],
+      "rules": [
+        "MobX Observer integration for reactive updates when appointment data changes.",
+        "Professional card design with subtle shadows, borders, and rounded corners for dashboard integration.",
+        "Daily summary header with calendar icon and formatted date display.",
+        "Four-metric layout: Total appointments, Confirmed appointments, Upcoming appointments, Revenue calculation.",
+        "Color-coded metric cards with icons and themed backgrounds for visual differentiation.",
+        "Service breakdown visualization using category colors and count badges.",
+        "Revenue calculation based on completed and confirmed appointments only for accurate financial reporting.",
+        "Service category mapping with numeric ID to name conversion and color assignment.",
+        "Empty state handling with informative message when no services are scheduled.",
+        "ServiceCategories integration for consistent category color and naming across application.",
+        "Wrap layout for service breakdown chips supporting dynamic content and responsive design.",
+        "Category count badges with white text on category-colored backgrounds for clear metrics.",
+        "Custom date formatting with full weekday and month names for professional appearance.",
+        "Error handling in category color and name resolution with fallback values.",
+        "AppointmentsStore integration accessing todaysAppointments, confirmedAppointments, and upcomingAppointments.",
+        "Professional typography hierarchy using AppTextStyles for consistent text presentation.",
+        "AppColors integration for theming with primaryBlue, successGreen, warningOrange color scheme.",
+        "Responsive layout design adapting to available space with flexible metric card arrangement."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_week_chart_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../shared/data/models/appointment_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentWeekChartView": "Stacked bar chart widget displaying appointment density across time periods with interactive week view."
+        }
+      ],
+      "rules": [
+        "Stacked bar chart visualization showing appointment density by time periods: Morning, Early Afternoon, Late Afternoon.",
+        "Time period categorization: Morning (7AM-12PM), Early Afternoon (12PM-4PM), Late Afternoon (4PM-10PM).",
+        "Weekly view with 7-day display calculating appointment distribution for each day of the week.",
+        "MobX Observer integration for reactive chart updates when appointment data changes through store.",
+        "Store hours integration checking day-specific business hours for accurate availability display.",
+        "Color-coded legend with distinct colors for each time period: Green (Morning), Blue (Early), Purple (Late).",
+        "Proportional bar height calculation based on maximum appointments per day for visual scaling.",
+        "Today highlighting with distinct styling and color emphasis for current date identification.",
+        "Store closure handling with 'CLOSED' indicator for non-business days based on settings configuration.",
+        "Horizontal scrolling support for week navigation with centered alignment and proper spacing.",
+        "Empty state handling for days with zero appointments showing minimal placeholder bars.",
+        "Professional business styling with rounded corners, shadows, and consistent color scheme.",
+        "Responsive layout using LayoutBuilder for adaptive sizing based on available screen space.",
+        "Date anchoring options: anchor to today or specific selected date for flexible navigation.",
+        "Chart title and description providing clear context for appointment distribution visualization.",
+        "Total appointment count display above each bar for quick numerical reference.",
+        "Appointment count labels within bar segments when space permits for detailed breakdown.",
+        "Weekend and weekday differentiation through store hours validation and visual indicators.",
+        "Appointment density calculation ensuring accurate data aggregation from appointments store.",
+        "Provider pattern for accessing AppointmentsStore and SettingsStore with proper dependency injection."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_week_grid_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../shared/data/models/appointment_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentWeekGridView": "Rotated grid widget with horizontal time axis and vertical day rows for alternative week calendar view.",
+          "TimeSlot": "Data class representing time slot with hour and minute for grid positioning calculations."
+        }
+      ],
+      "rules": [
+        "Rotated grid layout with time on horizontal axis and days as vertical rows for alternative week calendar view.",
+        "30-minute time slot intervals optimized for horizontal space usage and appointment positioning.",
+        "7-day week display with Monday-to-Sunday layout supporting custom date anchoring to today.",
+        "MobX Observer integration for reactive grid updates when appointment data changes through store.",
+        "Store hours integration with visual indicators showing open/close times as vertical lines across grid.",
+        "Service category filtering support through selectedServiceCategories parameter for focused appointment views.",
+        "Professional appointment blocks rendered as colored rectangles with positioning based on time duration.",
+        "Store closure handling with 'CLOSED' overlay for non-business days based on settings configuration.",
+        "Today highlighting with distinct styling and color emphasis for current date identification.",
+        "Horizontal scrolling support for time navigation with synchronized header and content scrolling.",
+        "Store hours visual lines: green for opening time, red for closing time with time labels.",
+        "Time slot background grid with proper borders and spacing for visual time slot separation.",
+        "Appointment block positioning calculations using time-based mathematics for precise placement.",
+        "Day label column with full weekday names and formatted dates for clear day identification.",
+        "Time header row with AM/PM formatting and reduced font sizes for horizontal space optimization.",
+        "Responsive layout with fixed row heights and column widths for consistent grid appearance.",
+        "Empty state handling for days with no appointments showing empty grid slots.",
+        "Professional styling with borders, rounded corners, and consistent color scheme throughout.",
+        "Provider pattern for accessing AppointmentsStore and SettingsStore with proper dependency injection.",
+        "Memory management with ScrollController disposal in widget lifecycle methods."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointment_week_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/appointments_store.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/setting_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentWeekView": "Comprehensive week calendar widget with advanced appointment visualization, overlap detection, and capacity management.",
+          "TimeSlot": "Data class representing time slot with hour and minute for precise appointment positioning."
+        }
+      ],
+      "rules": [
+        "Comprehensive week view with 15-minute time slot precision for detailed appointment scheduling and visualization.",
+        "Advanced overlap detection system with multi-level appointment stacking and visibility management.",
+        "Capacity-based appointment coloring system indicating resource utilization from light to dark purple.",
+        "Store hours integration with visual indicators showing open/close times and extended hours support.",
+        "Service category filtering support through selectedServiceCategories parameter for focused appointment views.",
+        "Interactive time slot selection with hover effects and precise time slot targeting for appointment creation.",
+        "Today highlighting with distinct styling and color emphasis throughout week view display.",
+        "MobX Observer integration for reactive updates when appointment data changes through store.",
+        "Professional appointment blocks with capacity-based alpha blending and translucent color schemes.",
+        "Overlap count visualization showing concurrent appointment numbers for resource planning.",
+        "Protruding head detection for overlapping appointments ensuring partially visible appointments remain interactive.",
+        "Store closure handling with comprehensive 'CLOSED' overlay for non-business days.",
+        "Responsive layout with dynamic column width calculation based on available screen space.",
+        "Horizontal scrolling support for time navigation with synchronized header and content areas.",
+        "Advanced appointment positioning using mathematical calculations for pixel-perfect time-based placement.",
+        "Technician capacity calculation considering available staff for dynamic congestion assessment.",
+        "Time slot hover effects with blue highlighting and time display tooltips for user feedback.",
+        "Store hours visual lines with labeled open/close indicators and time formatting.",
+        "Empty state handling for days without appointments showing clean grid background.",
+        "Provider pattern for accessing AppointmentsStore and SettingsStore with proper dependency injection.",
+        "Memory management with ScrollController disposal in widget lifecycle methods.",
+        "Professional styling with consistent borders, shadows, and color schemes throughout."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/appointments_timeline.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "AppointmentsTimeline": "Timeline visualization widget displaying daily appointments in horizontal timeline format with current time indicator.",
+          "TimelineAppointment": "Data model for timeline appointment display with time range, customer, technician, and color information.",
+          "TimelinePainter": "Custom painter for rendering timeline background, appointment blocks, and current time indicator."
+        }
+      ],
+      "rules": [
+        "Horizontal timeline visualization displaying appointments across business hours (9 AM to 7 PM).",
+        "CustomPaint integration with TimelinePainter for high-performance appointment rendering.",
+        "Current time indicator with red line showing real-time position within business hours.",
+        "Appointment block positioning using mathematical calculations based on time offset within business hours.",
+        "Color-coded appointment blocks supporting customizable technician or category colors.",
+        "Professional timeline background with rounded corners and surface light color scheme.",
+        "Fixed time label display showing key hours: 9 AM, 12 PM, 3 PM, 7 PM for reference.",
+        "Appointment duration visualization with width proportional to appointment length.",
+        "TimelineAppointment data model containing essential appointment information for timeline display.",
+        "shouldRepaint optimization comparing appointment lists to minimize unnecessary redraws.",
+        "Business hours constraint ensuring timeline only displays relevant appointment window.",
+        "Responsive width calculation adapting to available space for timeline visualization.",
+        "Professional styling using AppColors and AppTextStyles for consistent theming.",
+        "Clean visual design with proper spacing and rounded corners for appointment blocks.",
+        "Time-based positioning ensuring accurate visual representation of appointment scheduling."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/condensed_appointment_row.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/presentation/widgets/service_pill.dart"
+      ],
+      "components": [
+        {
+          "CondensedAppointmentRow": "Compact appointment row widget for list displays with status indication, service details, and action buttons."
+        }
+      ],
+      "rules": [
+        "Condensed row layout optimized for appointment list displays with space-efficient design.",
+        "Status indicator strip with color-coded left border showing appointment status at a glance.",
+        "Time display with blue badge highlighting appointment time for quick reference.",
+        "Date display for non-today appointments with subtle styling and compact format.",
+        "Customer name prominence with ellipsis overflow handling for long names.",
+        "Service pills integration showing up to 3 services with category-based styling.",
+        "Technician assignment display with icon and name or 'Unassigned' fallback.",
+        "Status-based color coding: green (confirmed), orange (scheduled), blue (in-progress/completed), red (cancelled/no-show).",
+        "Today highlighting with enhanced border styling and color emphasis.",
+        "Check-in action button for confirmed appointments with success green styling.",
+        "Density mode support hiding services for more compact display when showDensity is true.",
+        "Professional status chip with bordered background and proper text contrast.",
+        "Material Design InkWell integration for proper touch feedback and accessibility.",
+        "Status text mapping providing user-friendly status labels from system status codes.",
+        "Responsive layout adapting content based on density settings and status requirements.",
+        "Professional card styling with subtle shadows, rounded corners, and proper spacing.",
+        "ServicePill integration for consistent service category display with small size variant.",
+        "Action button styling with themed colors and proper interaction feedback.",
+        "Today detection logic comparing appointment date with current date for highlighting.",
+        "Flexible content layout supporting both dense and expanded display modes."
+      ]
+    }
+  }
+}

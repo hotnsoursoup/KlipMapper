@@ -1,0 +1,46 @@
+{
+  "category": "Customers Stores Feature",
+  "description": "MobX store classes managing customer data, filtering, sorting, and analytics with caching and business intelligence",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/customers/data/customers_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/data/models/customer_model.dart",
+        "../../shared/data/models/ticket_model.dart",
+        "../../shared/data/repositories/drift_customer_repository.dart",
+        "../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../shared/data/repositories/drift_service_repository.dart",
+        "../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "CustomersStore": "Comprehensive MobX store for customer management with advanced filtering, sorting, analytics, and 10-minute cache TTL."
+        }
+      ],
+      "rules": [
+        "Extended 10-minute cache TTL optimized for customer data which changes less frequently than appointments or tickets.",
+        "Comprehensive customer filtering system: search query, membership level, date range, name letter filtering, and sort options.",
+        "Advanced sorting capabilities: name (first/last), total spend, total visits, last visit with ascending/descending toggle.",
+        "Customer analytics computed properties: total customers, active customers (30-day), total revenue, membership breakdown.",
+        "Selected customer analysis: total spent, visit count, average spent per visit, last visit date, service frequency.",
+        "ObservableMap integration for customer tickets maintaining reactive relationships between customers and their ticket history.",
+        "Cache invalidation and force refresh capabilities for data consistency and real-time updates when needed.",
+        "Repository integration with DriftCustomerRepository and DriftTicketRepository for comprehensive data management.",
+        "Error handling with ErrorLogger integration and user-friendly error messages for all database operations.",
+        "Customer CRUD operations: create, update, delete with proper cache management and observable list updates.",
+        "Pre-loading optimization loading all customer tickets during initial data load for performance optimization.",
+        "Name parsing logic handling first name and last name filtering with proper fallback for single names.",
+        "Membership level filtering supporting different customer tier classifications and analytics.",
+        "Date range filtering for customer ticket analysis and visit history within specific time periods.",
+        "Debug logging with emoji indicators for cache hits, data loading, and customer operations for development insight.",
+        "Service frequency analysis tracking customer service preferences and category usage patterns.",
+        "Reactive computed properties automatically updating when customer data or tickets change through MobX observation.",
+        "Professional cache management preventing unnecessary database calls while ensuring data freshness.",
+        "Customer selection state management with automatic ticket loading for detailed customer analysis.",
+        "Comprehensive business intelligence providing customer insights, revenue analytics, and membership distribution."
+      ]
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "category": "Reports Feature",
+  "description": "Business reporting functionality with sales analytics, KPI tracking, and multi-section report navigation",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/screens/reports_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/services/cache_coordination_service.dart",
+        "../../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../shared/data/repositories/payment_repository.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../shared/data/repositories/drift_customer_repository.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../../data/reports_store.dart",
+        "../../data/models/report_data.dart",
+        "../../data/models/report_data_extensions.dart",
+        "../widgets/report_time_range_selector.dart",
+        "../widgets/report_detail_view.dart",
+        "business_overview_screen.dart",
+        "sales_reports_screen.dart"
+      ],
+      "components": [
+        {
+          "ReportsScreen": "Main reports StatefulWidget providing multi-section report navigation with business, sales, employee, and customer analytics."
+        },
+        {
+          "_ReportsScreenState": "Report screen state management with section navigation, tab handling, and KPI display functionality."
+        }
+      ],
+      "rules": [
+        "Multi-section report navigation: Business Overview, Sales Reports, Employee Reports, Customer Reports.",
+        "ReportsStore integration with singleton repository instances for data access.",
+        "KPI cards display with real-time revenue, transaction count, average ticket value, and employee metrics.",
+        "Time range selector with custom date range support and reactive UI updates.",
+        "Section-based tab navigation with dynamic tab content based on selected report section.",
+        "Responsive two-column layout: 320px sidebar for section selection, expandable content area.",
+        "Report detail view integration for individual report type drill-down functionality.",
+        "MobX Observer pattern for reactive UI updates based on store state changes.",
+        "Loading states and error handling for all report types with proper fallback UI.",
+        "Cache coordination service integration for cross-component data synchronization.",
+        "StandardAppHeader with consistent navigation and branding across report screens.",
+        "KPI calculation logic: revenue change percentages, average ticket calculations, transaction counts.",
+        "Report data extensions for type-safe access to specific report data types.",
+        "Section button styling with selection states, icons, and descriptive metadata.",
+        "Business metrics integration: active metrics count, sales summaries, staff counts, customer totals.",
+        "RepaintBoundary optimization for expensive KPI card rendering and calculations.",
+        "Customer analytics integration with retention rates, visit values, and demographic breakdowns.",
+        "Interactive section selection with visual feedback and state management.",
+        "Export and filter functionality placeholders with proper UI button placement.",
+        "Comprehensive report initialization: loads all available report types on screen mount.",
+        "Time range dependent data loading with automatic refresh on range changes.",
+        "Professional dashboard styling with proper spacing, colors, and visual hierarchy.",
+        "Report type enumeration support with extensible architecture for new report types.",
+        "Error state management with graceful degradation and user-friendly error messages."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/screens/sales_reports_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../data/reports_store.dart",
+        "../../data/models/report_data.dart",
+        "../../data/models/report_data_extensions.dart"
+      ],
+      "components": [
+        {
+          "SalesReportsScreen": "StatelessWidget providing tabbed sales analytics interface with performance optimization patterns."
+        },
+        {
+          "_SalesSummaryTab": "Sales summary tab with KPI cards, payment methods breakdown, and daily trends visualization."
+        },
+        {
+          "_SalesByCategoryTab": "Category-based sales analysis with breakdown cards showing items sold, revenue, and percentages."
+        },
+        {
+          "_SalesByServiceTab": "Service-level sales analytics with tabular data showing units sold, average price, and total sales."
+        },
+        {
+          "_TicketDetailsTab": "Individual transaction details and history placeholder with future implementation plan."
+        },
+        {
+          "_RefundsTab": "Refunds analysis with tabular display of refund details, reasons, and amounts."
+        },
+        {
+          "_DiscountsTab": "Discount usage and impact analysis placeholder for future development."
+        }
+      ],
+      "rules": [
+        "Tabbed interface supporting Sales Summary, By Category, By Service, Ticket Details, Refunds, and Discounts.",
+        "UI Bible compliance: RepaintBoundary for expensive components, granular Observer placement, ListView.builder for lists.",
+        "Performance optimization with RepaintBoundary wrapping for stat cards and expensive calculations.",
+        "KPI cards design: total sales, net sales, transactions, average ticket, refunds, and discounts.",
+        "Payment methods breakdown with icon mapping, amount display, and visual categorization.",
+        "Revenue calculations with proper handling of totals, refunds, discounts, and net sales.",
+        "Category sales analysis with items sold, revenue amounts, and percentage calculations.",
+        "Service sales table with comprehensive data: units sold, average pricing, and total sales.",
+        "Refunds tracking with date, ticket ID, reason, and amount in tabular format.",
+        "Chart placeholders for daily sales trends with future visualization integration.",
+        "Top services by revenue analysis with ranking, count, percentage, and revenue display.",
+        "Material Design table implementation with proper headers, borders, and row styling.",
+        "Icon mapping for payment methods: cash, card, digital payments with appropriate visual indicators.",
+        "Observer pattern implementation for reactive data updates from ReportsStore.",
+        "Color-coded elements: positive/negative changes, status indicators, and category distinctions.",
+        "Currency formatting with proper decimal handling and dollar sign display.",
+        "Percentage calculations with one decimal place precision for readability.",
+        "Responsive design with proper spacing, padding, and container sizing.",
+        "Mock data integration for development with TODO comments for actual data integration.",
+        "Card-based layout design with consistent border radius, padding, and color schemes.",
+        "Error handling for missing data with appropriate fallback displays.",
+        "Tab content switching with proper state management and content preservation.",
+        "Professional styling with consistent use of app colors and typography scales.",
+        "Future-ready architecture with placeholder sections for planned functionality expansion."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/widgets/report_time_range_selector.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/presentation/widgets/date_range_picker.dart",
+        "../../data/models/report_data.dart"
+      ],
+      "components": [
+        {
+          "ReportTimeRangeSelector": "A StatelessWidget providing time range selection interface with predefined ranges and custom date picker integration."
+        },
+        {
+          "_TimeRangeChip": "Private StatelessWidget rendering individual time range selection chips with proper styling and interaction states."
+        }
+      ],
+      "rules": [
+        "UI Bible compliance with const constructors and RepaintBoundary optimization for performance.",
+        "Predefined time ranges: Today, Yesterday, This Week, Last Week, This Month, Last Month, This Year, Custom Range.",
+        "Chip-based interface with wrap layout for responsive time range selection.",
+        "Custom date range integration through DateRangePicker dialog for flexible date selection.",
+        "Visual selection states with primary blue theming for selected ranges.",
+        "Material Design chip components with proper elevation and shadow effects for selected state.",
+        "Callback pattern for range selection with separate handlers for predefined and custom ranges.",
+        "Interactive chip styling with proper hover states and visual feedback.",
+        "Range label mapping from enum values to user-friendly display strings.",
+        "Dialog integration for custom range selection with proper navigation handling.",
+        "RepaintBoundary wrapping at component level for expensive rendering optimization.",
+        "Accessibility support with proper touch targets and material ink effects.",
+        "Consistent spacing and visual hierarchy with 6px spacing between chips.",
+        "Color theming with selected (primary blue) and unselected (surface/border) states.",
+        "Typography integration with app text styles for consistent font handling.",
+        "Async handling for custom date range selection with proper dialog result processing.",
+        "Stateless design with callback-based communication to parent components.",
+        "Professional styling with rounded corners, borders, and proper contrast ratios."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/screens/business_overview_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../data/reports_store.dart",
+        "../../data/models/report_data.dart",
+        "../../data/models/report_data_extensions.dart"
+      ],
+      "components": [
+        {
+          "BusinessOverviewScreen": "UI Bible compliant StatelessWidget providing comprehensive business metrics dashboard with performance optimizations."
+        }
+      ],
+      "rules": [
+        "UI Bible compliance: RepaintBoundary for expensive widgets, granular Observer placement, const constructors.",
+        "Strategic Observer placement only for dynamic content: key metrics, appointment analytics, quick stats.",
+        "RepaintBoundary optimization for metric cards and analytics items to prevent unnecessary repaints.",
+        "Key metrics row: today's revenue, total appointments, show-up rate, average transaction value.",
+        "Revenue chart section with period selector and placeholder for future chart implementation.",
+        "Appointment analytics section with total, completed, cancelled appointments and show-up rate.",
+        "Quick stats grid: total customers, new customers this month, staff rating, total staff count.",
+        "Safe extension method usage for type-safe access to specific report data types.",
+        "Revenue data integration with ReportsStore cache using asRevenue extension.",
+        "Appointment analytics integration using asAppointmentAnalytics extension for safe type casting.",
+        "Payment analytics integration using asPaymentAnalytics extension for transaction data.",
+        "Customer analytics integration using asCustomerAnalytics extension for customer metrics.",
+        "Technician performance integration using asTechnicianPerformance extension for staff data.",
+        "Color-coded metric cards with positive/negative change indicators and proper theming.",
+        "Professional styling with consistent card layouts, borders, and visual hierarchy.",
+        "Loading state handling with progress indicators for missing or loading data.",
+        "Change percentage calculations with proper formatting and color coding.",
+        "Icon integration for visual metric identification and user guidance.",
+        "Responsive design with flexible layouts and proper spacing.",
+        "Time range selector integration with dropdown for period selection.",
+        "Chart placeholder with future implementation planning for revenue trends.",
+        "Analytics item design with icons, values, and descriptive labels.",
+        "Quick stat items with color-coded backgrounds and category-specific theming.",
+        "Error-resistant design with null safety and graceful fallbacks for missing data.",
+        "Performance optimization through minimal rebuilds and strategic widget separation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/data/models/report_data_extensions.dart": {
+      "file_type": "extension",
+      "imports": [
+        "report_data.dart"
+      ],
+      "components": [
+        {
+          "ReportDataExtensions": "Extension methods providing compile-time safe access to Freezed union types for different report data types."
+        }
+      ],
+      "rules": [
+        "Type-safe extension methods for accessing specific report data types from Freezed union.",
+        "Safe casting pattern: returns specific type or null to prevent runtime casting errors.",
+        "Revenue report data access through asRevenue extension method.",
+        "Service performance data access through asServicePerformance extension method.",
+        "Technician performance data access through asTechnicianPerformance extension method.",
+        "Customer analytics data access through asCustomerAnalytics extension method.",
+        "Appointment analytics data access through asAppointmentAnalytics extension method.",
+        "Payment analytics data access through asPaymentAnalytics extension method.",
+        "Compile-time safety: prevents ClassCastException errors through proper type checking.",
+        "Null safety: returns null for incompatible types rather than throwing exceptions.",
+        "Consistent naming pattern: 'as' prefix followed by report type name for clarity.",
+        "Pattern matching integration with Freezed generated union types.",
+        "Extension method pattern for clean API design and separation of concerns.",
+        "Type checking through 'is' operator before casting for runtime safety.",
+        "Integration with ReportsStore for safe data access in UI components.",
+        "Eliminates need for manual type checking and casting in presentation layer.",
+        "Supports all report types defined in ReportData union for comprehensive coverage.",
+        "Clean API design enabling fluent method chaining for data access."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/data/reports_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../../core/services/cache_coordination_service.dart",
+        "../../../core/utils/logger.dart",
+        "../../../core/utils/date_formatter.dart",
+        "../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../shared/data/repositories/payment_repository.dart",
+        "../../shared/data/repositories/drift_employee_repository.dart",
+        "../../shared/data/repositories/drift_customer_repository.dart",
+        "models/report_data.dart",
+        "reports_store.g.dart"
+      ],
+      "components": [
+        {
+          "ReportsStore": "Comprehensive MobX store managing all report data with 5-minute cache TTL and multi-repository integration."
+        },
+        {
+          "_ReportsStore": "Abstract base class defining the MobX store structure with observables, computed properties, and actions."
+        },
+        {
+          "DateRange": "Helper class for date range management with ISO8601 formatting and display text generation."
+        }
+      ],
+      "rules": [
+        "5-minute cache TTL system matching other stores for optimal performance and data freshness.",
+        "Multi-repository integration: tickets, appointments, payments, employees, customers for comprehensive reporting.",
+        "Observable report data cache with ReportType-based organization for efficient data management.",
+        "Loading and error state management per report type with granular control.",
+        "Time range management with predefined ranges (today, yesterday, week, month, year) and custom date support.",
+        "Cache coordination service integration for cross-component data synchronization.",
+        "Computed properties for derived data: loading states, time range display, effective date ranges.",
+        "DateRange class with ISO8601 formatting for database queries and display text for UI.",
+        "Revenue report implementation with actual payment repository integration and multi-period calculations.",
+        "Appointment analytics with real appointment data, status tracking, and show-up rate calculations.",
+        "Payment analytics integration with payment statistics and method breakdown analysis.",
+        "Mock data implementation for service performance, technician performance, and customer analytics.",
+        "Error handling with comprehensive logging and graceful fallback to empty data.",
+        "Force refresh capability bypassing cache when needed for critical data updates.",
+        "Time range change handling with automatic cache clearing and report reloading.",
+        "Custom date range support with start/end date selection and validation.",
+        "Report type selection state management for detailed view navigation.",
+        "Cache validation logic with TTL checking and data presence verification.",
+        "Batch report loading for dashboard initialization and refresh operations.",
+        "AppDateFormatter integration for consistent date handling across all time range calculations.",
+        "Status-based appointment filtering with comprehensive status mapping and calculation.",
+        "Show-up rate calculation with proper exclusion of cancelled appointments.",
+        "Revenue calculations across multiple time periods for trend analysis.",
+        "Observable map patterns for reactive UI updates and efficient state management.",
+        "Proper MobX code generation integration with part directive and abstract class pattern."
+      ]
+    }
+  }
+}

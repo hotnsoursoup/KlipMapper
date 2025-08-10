@@ -1,0 +1,173 @@
+{
+  "category": "Appointments Data Models Feature",
+  "description": "Data models and enums for appointment management including calendar appointments, time slots, themes, and view modes",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/models/calendar_appointment.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/service_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentStatus": "Enum defining comprehensive appointment lifecycle states from scheduled to completed."
+        },
+        {
+          "CalendarAppointment": "Enhanced appointment model specifically designed for calendar view with technician assignment and color coding."
+        }
+      ],
+      "rules": [
+        "Comprehensive appointment status enum: scheduled, confirmed, checkedIn, inProgress, completed, cancelled, noShow, rescheduled.",
+        "Customer and services integration with full model relationships for complete appointment data.",
+        "Technician assignment with ID and optional name for display optimization without lookups.",
+        "DateTime-based start and end time management with duration calculations.",
+        "Color coding system based on technician assignment for visual calendar organization.",
+        "Blocked time slot support for technician breaks, lunch, and off-time scheduling.",
+        "Group appointment functionality with group member ID tracking.",
+        "Recurring appointment support with pattern specification (weekly, biweekly, monthly).",
+        "Business logic getters: durationMinutes, durationHours, isToday, isPast, isCurrentlyActive.",
+        "Permission-based operations: canEdit, canCancel based on status and timing.",
+        "Total cost calculation aggregating all service prices for financial planning.",
+        "Status display text mapping for user-friendly status presentation.",
+        "Status color mapping providing visual status indicators with appropriate colors.",
+        "JSON serialization support with proper DateTime and Color handling.",
+        "Factory constructor with enum status resolution and fallback values.",
+        "CopyWith pattern for immutable updates with selective field modification.",
+        "Equality and hashCode implementation based on unique appointment ID.",
+        "Professional toString method providing comprehensive appointment summary.",
+        "Notes field for additional appointment context and special instructions."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/models/calendar_day.dart": {
+      "file_type": "model",
+      "imports": [
+        "calendar_appointment.dart",
+        "time_slot.dart"
+      ],
+      "components": [
+        {
+          "CalendarDay": "Comprehensive day model containing appointments, time slots, technician assignments, and business analytics."
+        },
+        {
+          "DaySummary": "Analytics summary class providing day-level statistics and performance metrics."
+        },
+        {
+          "ListExtension": "Extension adding firstOrNull getter to List<T> for null-safe operations."
+        }
+      ],
+      "rules": [
+        "Complete day representation with appointments, time slots, and technician availability.",
+        "Per-technician time slot mapping with comprehensive availability tracking.",
+        "Technician name mapping for efficient display without repeated database lookups.",
+        "Day classification: isToday, isWeekend, isHoliday with optional holiday naming.",
+        "Technician-specific appointment filtering with getAppointmentsForTechnician method.",
+        "Available slot retrieval per technician for booking optimization.",
+        "Appointment status filtering with getAppointmentsByStatus for workflow management.",
+        "Business analytics: totalAppointments, earliestAppointmentTime, latestAppointmentTime.",
+        "Revenue calculation based on completed appointments for financial reporting.",
+        "Technician utilization metrics calculating booking percentage for performance analysis.",
+        "Conflict detection identifying overlapping appointments for the same technician.",
+        "Time overlap calculation ensuring accurate conflict identification.",
+        "Next available slot finder with duration and time preferences for booking assistance.",
+        "DaySummary generation providing comprehensive day statistics and metrics.",
+        "Average utilization calculation across all technicians for operational insights.",
+        "JSON serialization with complex nested object handling for data persistence.",
+        "CopyWith pattern supporting immutable updates of day configuration.",
+        "Equality implementation based on date for proper day comparison.",
+        "Extension methods adding null-safe first element access to lists."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/models/calendar_theme.dart": {
+      "file_type": "theme",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart"
+      ],
+      "components": [
+        {
+          "CalendarTheme": "Static theming class providing comprehensive styling and color management for calendar components."
+        }
+      ],
+      "rules": [
+        "Predefined technician color palette with 12 distinct colors for visual differentiation.",
+        "Hash-based consistent color assignment ensuring same technician always gets same color.",
+        "Light and dark color variants for background and border styling with appropriate alpha values.",
+        "Grid styling constants: gridLineColor, currentTimeLineColor, weekendBackgroundColor, todayBackgroundColor.",
+        "Time slot color coding: available, booked, blocked, break slots with semantic color mapping.",
+        "Status color mapping synchronized with CalendarAppointment status colors.",
+        "Luminance-based text color calculation ensuring proper contrast on colored backgrounds.",
+        "Comprehensive dimension constants: header heights, column widths, row heights, padding values.",
+        "Responsive design breakpoints: mobile (600px), tablet (900px), desktop (1200px).",
+        "Dynamic column width calculation based on screen size for optimal calendar layout.",
+        "Maximum technician column calculation preventing layout overflow on smaller screens.",
+        "Appointment decoration factory with selection, past state, and conflict indicators.",
+        "Time slot decoration factory with availability, current time, and selection states.",
+        "Typography styles for different calendar components: time columns, headers, appointment text.",
+        "Animation duration constants for smooth transitions and user interactions.",
+        "Professional color scheme suitable for business calendar applications.",
+        "Accessibility considerations with proper contrast ratios and color differentiation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/models/calendar_view_mode.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "CalendarViewMode": "Enum defining different calendar view modes with comprehensive display options."
+        },
+        {
+          "CalendarViewModeExtension": "Extension providing metadata and display properties for each view mode."
+        }
+      ],
+      "rules": [
+        "Comprehensive view mode options: day, week, weekGrid, weekChart, month, agenda.",
+        "Display name mapping providing user-friendly view mode labels.",
+        "Icon name mapping for consistent UI iconography across view mode selectors.",
+        "Day count calculation determining how many days each view mode displays.",
+        "Time slot visibility control based on view mode requirements and detail level.",
+        "Multi-day detection for views spanning multiple days requiring different layout strategies.",
+        "Compact mode identification for views with reduced detail and simplified presentation.",
+        "View mode extension pattern providing clean separation of enum and display logic.",
+        "Consistent naming convention matching common calendar application standards.",
+        "Flexible view system supporting various user preferences and use cases."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/models/time_slot.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:flutter/material.dart"
+      ],
+      "components": [
+        {
+          "TimeSlot": "Time slot model representing availability periods with appointment and block tracking."
+        },
+        {
+          "TimeSlotGenerator": "Utility class for generating and managing time slots with availability logic."
+        }
+      ],
+      "rules": [
+        "Time-based availability tracking with start/end DateTime precision.",
+        "Availability status with reason tracking for breaks, lunch, blocks, and appointments.",
+        "Appointment association through appointmentId for booked time slot identification.",
+        "Technician assignment linking time slots to specific service providers.",
+        "Duration calculations in both minutes and hours for flexible time management.",
+        "Time-based state detection: isPast, isCurrentTime for real-time calendar updates.",
+        "Block type identification for breaks, lunch, and blocked time periods.",
+        "Appointment occupation detection with hasAppointment getter for booking status.",
+        "Visual styling properties: displayColor, borderColor based on slot status.",
+        "Current time highlighting with red border for real-time calendar indication.",
+        "JSON serialization supporting time slot persistence and data exchange.",
+        "CopyWith pattern for immutable time slot updates and modifications.",
+        "Equality implementation based on time range and technician for proper comparison.",
+        "TimeSlotGenerator utility providing automated slot creation for technician schedules.",
+        "Configurable slot generation: start/end hours, interval minutes, break/lunch/block times.",
+        "Time overlap detection algorithm for conflict identification and slot validation.",
+        "Available slot finder accommodating service duration requirements.",
+        "Consecutive slot validation ensuring services can be properly scheduled.",
+        "Preference-based slot sorting for optimal appointment booking suggestions.",
+        "Comprehensive time slot management supporting complex scheduling scenarios."
+      ]
+    }
+  }
+}

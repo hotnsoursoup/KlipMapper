@@ -1,0 +1,86 @@
+{
+  "category": "Checkout Widgets Feature",
+  "description": "User interface widgets for checkout workflow including payment processing and transaction management",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/presentation/widgets/checkout_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/repositories/payment_repository.dart",
+        "../../data/models/payment_result.dart",
+        "../../data/models/checkout_state.dart",
+        "discount_selector.dart"
+      ],
+      "components": [
+        {
+          "CheckoutDialog": "Comprehensive fullscreen checkout dialog supporting both ticket-based and quick sale payment workflows.",
+          "PaymentMethod": "Enumeration defining payment methods: cash, card, and other for payment processing options."
+        }
+      ],
+      "rules": [
+        "Fullscreen dialog layout with responsive design adapting to desktop and mobile screen sizes.",
+        "Dual payment mode support: ticket-based checkout and quick sale workflow with factory constructors.",
+        "Desktop layout with 30% left sidebar and 70% main content area for optimal checkout experience.",
+        "Mobile layout with summary header, main content, and bottom action bar for touch-optimized interface.",
+        "Comprehensive payment method selection: cash, card, and other with visual button selection.",
+        "Advanced tip system supporting percentage buttons (15%, 18%, 20%, 25%) and custom amount input.",
+        "Discount integration with DiscountSelector widget requiring employee authentication for discount application.",
+        "Real-time calculation display: subtotal, tip, discount, tax (8.75%), and total with live updates.",
+        "Payment processing workflow with loading states, error handling, and transaction completion callbacks.",
+        "Service listing with ticket organization showing customer details, service breakdown, and pricing.",
+        "CheckoutState integration maintaining immutable state with copyWith pattern for reactive updates.",
+        "PaymentRepository integration for payment processing with both quick sale and ticket payment workflows.",
+        "Professional styling using AppColors and AppTextStyles for consistent checkout experience.",
+        "Error handling with user-friendly error dialogs and processing state management.",
+        "Quick sale mode placeholder with coming soon indicators for future feature expansion.",
+        "Responsive calculation methods supporting both ticket and quick sale pricing structures.",
+        "Payment validation ensuring items and payment method selection before processing.",
+        "Material Design integration with proper button styling, form fields, and visual feedback.",
+        "Factory constructor pattern providing type-safe checkout dialog creation for different modes.",
+        "Comprehensive checkout workflow from item display through payment completion with proper state management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/presentation/widgets/discount_selector.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/auth/widgets/pin_protected_wrapper.dart",
+        "../../data/models/discount_model.dart"
+      ],
+      "components": [
+        {
+          "DiscountSelector": "Comprehensive discount selection widget with PIN protection, quick discounts, and custom discount forms."
+        }
+      ],
+      "rules": [
+        "PIN protection integration for all discount applications using PinProtectedWrapper for authorization security.",
+        "Quick discount selection using predefined Discount.commonDiscounts with percentage and fixed amount options.",
+        "Custom discount form supporting both percentage and fixed amount discounts with validation.",
+        "Employee authorization tracking with currentEmployeeId for audit trail and compliance requirements.",
+        "Input validation ensuring percentage discounts between 1-100% and fixed amounts not exceeding subtotal.",
+        "Required reason field for all custom discounts ensuring proper documentation for discount application.",
+        "Optional discount code field supporting promotional codes and tracking discount usage.",
+        "Real-time discount calculation display showing applied discount amount with success styling.",
+        "Form state management with controller initialization from existing discounts for editing workflows.",
+        "Visual feedback with chip-style quick discount buttons and professional form styling.",
+        "Error handling with user-friendly SnackBar messages for validation errors and requirements.",
+        "Discount removal functionality allowing users to remove applied discounts during checkout.",
+        "Custom discount toggle with expandable form section for advanced discount options.",
+        "Input formatting with FilteringTextInputFormatter for numeric validation and decimal precision.",
+        "Professional styling with color-coded sections: blue for selection, green for applied discounts.",
+        "Memory management with proper TextEditingController disposal in widget lifecycle.",
+        "Form validation preventing invalid discount amounts and ensuring business rule compliance.",
+        "Discount model integration with factory constructors for percentage and fixed discount creation.",
+        "State management with callback pattern for discount changes integration with parent checkout workflow.",
+        "Comprehensive discount workflow from selection through application with proper authorization validation."
+      ]
+    }
+  }
+}

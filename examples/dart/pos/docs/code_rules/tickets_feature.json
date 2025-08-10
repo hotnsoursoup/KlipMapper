@@ -1,0 +1,126 @@
+{
+  "category": "Tickets Feature",
+  "description": "Complete ticket management system with advanced filtering, caching, refund/void operations, and comprehensive ticket lifecycle management",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/tickets/data/tickets_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/data/models/ticket_model.dart",
+        "../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../../core/services/settings_manager.dart",
+        "../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "TicketsStore": "Comprehensive MobX store managing ticket data with advanced filtering, pagination, caching, and cache TTL system."
+        }
+      ],
+      "rules": [
+        "MobX reactive state management with computed properties for filtered tickets and pagination info.",
+        "5-minute cache TTL system matching other stores (AppointmentsStore pattern) for performance optimization.",
+        "Server-side pagination with configurable items per page and comprehensive pagination controls.",
+        "Advanced filtering system supporting search, status, technician, customer type, date range, and amount range filters.",
+        "Skeleton loading states for initial loads and subtle loading indicators for cache refreshes.",
+        "Cache invalidation methods for other screens to trigger data refresh when tickets are modified.",
+        "Repository integration with DriftTicketRepository for comprehensive ticket data access.",
+        "Revenue analytics with computed properties for total revenue, completed count, and refunded amounts.",
+        "Error handling with comprehensive logging for debugging and monitoring ticket operations.",
+        "Refund and void operations with cache invalidation ensuring data consistency across operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/tickets/presentation/screens/tickets_screen.dart": {
+      "file_type": "screen",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/widgets/loading_skeletons.dart",
+        "../../../../core/widgets/pagination_controls.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../widgets/ticket_filters.dart",
+        "../../../dashboard/presentation/widgets/ticket_details/ticket_details_dialog.dart",
+        "../../data/tickets_store.dart"
+      ],
+      "components": [
+        {
+          "TicketsScreen": "Comprehensive ticket management screen with dual-pane layout, advanced filtering, and detailed ticket preview."
+        }
+      ],
+      "rules": [
+        "Dual-pane layout with ticket list on left and detailed preview on right for efficient ticket management.",
+        "MobX Observer pattern for reactive UI updates responding to store state changes.",
+        "StandardAppHeader integration with search functionality and consistent navigation patterns.",
+        "Advanced filtering system with TicketFilters component supporting multiple filter criteria.",
+        "Skeleton loading for initial loads and subtle loading overlay for cache refreshes.",
+        "Pagination controls with comprehensive navigation (first, previous, next, last) and items per page selection.",
+        "Professional table design with sortable columns and status-based color coding.",
+        "Ticket selection system with detailed preview showing customer, services, timing, and total information.",
+        "Action buttons for editing tickets with TicketDetailsDialog integration.",
+        "Empty states with clear call-to-action for users when no tickets match filters.",
+        "DateTime formatting with relative time display (today, yesterday, specific dates) for better UX."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/tickets/presentation/widgets/refund_void_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/payment_model.dart",
+        "../../../shared/data/repositories/payment_repository.dart"
+      ],
+      "components": [
+        {
+          "RefundVoidDialog": "Advanced refund and void processing dialog with PIN protection, partial refund support, and comprehensive audit trail."
+        }
+      ],
+      "rules": [
+        "Dual-mode dialog supporting both refund and void operations with factory constructors for each mode.",
+        "PIN-protected operations using PrivilegedOperations system ensuring manager authorization for financial transactions.",
+        "Partial refund support with automatic calculation of maximum refundable amount based on payment history.",
+        "Comprehensive form validation preventing invalid refund amounts and ensuring all required fields are completed.",
+        "Predefined reason selection with custom reason input for comprehensive audit trail compliance.",
+        "Payment repository integration for processing refunds and void operations with proper transaction handling.",
+        "Professional Material Design dialog with consistent styling and error handling.",
+        "Real-time refund amount validation preventing refunds exceeding available amounts.",
+        "Audit trail support with reason codes, notes, and employee tracking for compliance requirements.",
+        "Success/failure feedback with appropriate snackbar notifications and dialog completion callbacks."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/tickets/presentation/widgets/ticket_list_item.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/service_model.dart"
+      ],
+      "components": [
+        {
+          "TicketListItem": "Expandable ticket list item widget with service details, customer information, and action buttons for ticket operations."
+        }
+      ],
+      "rules": [
+        "Expandable design with collapsible service details and customer information for space-efficient display.",
+        "Status-based color coding with consistent badge design for quick visual identification.",
+        "Group service indicator showing number of people for group bookings with visual badges.",
+        "Action buttons (refund, void, edit) contextually displayed based on ticket status.",
+        "Service breakdown display showing individual services with prices in expanded state.",
+        "Professional card design with consistent spacing, borders, and hover states.",
+        "Date formatting with intelligent relative time display (today with time, yesterday, days ago, full date).",
+        "Customer information display with name and group size when applicable.",
+        "Service details section with technician assignment and pricing information.",
+        "Callback pattern integration for parent component handling of ticket operations."
+      ]
+    }
+  }
+}

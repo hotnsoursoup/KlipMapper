@@ -1,0 +1,751 @@
+{
+  "title": "Flutter POS Application - Complete Business Logic Summary",
+  "description": "Hierarchical breakdown of all business rules, features, and logic cascading from screens to widgets to data components",
+  "version": "1.0.0",
+  "total_files_analyzed": 197,
+  "last_updated": "2025-01-08",
+  "business_systems": {
+    "1_dashboard_management_system": {
+      "title": "Dashboard Management System",
+      "description": "Central operational hub providing real-time salon management and daily operational control",
+      "business_purpose": "Streamline daily operations through centralized technician management, appointment monitoring, and customer queue processing",
+      "subtasks": {
+        "dashboard_screen_operations": {
+          "title": "Dashboard Screen Operations",
+          "screen_level_rules": [
+            "Provides centralized operational control for daily salon management",
+            "Real-time visibility into technician status, customer queue, and appointment schedule",
+            "Integrates check-in workflow, technician assignment, and service management in single interface",
+            "Performance-optimized with RepaintBoundary isolation and strategic Observer placement"
+          ],
+          "widget_components": {
+            "technician_management": {
+              "title": "Technician Cards & Assignment System",
+              "business_rules": [
+                "Turn-based technician assignment system prevents double-booking and ensures fair distribution",
+                "Real-time status tracking (available, busy, break, off) for optimal resource allocation",
+                "Clock-in prevention when technician has active in-service tickets for accountability",
+                "Avatar generation and color coding for quick visual identification",
+                "Prioritized display showing clocked-in technicians first for operational efficiency"
+              ],
+              "supporting_data_layer": {
+                "stores": ["DashboardStore", "EmployeesStore"],
+                "repositories": ["DriftEmployeeRepository", "DriftTicketRepository"],
+                "data_rules": [
+                  "5-minute cache TTL with cache coordination service for performance",
+                  "Turn number auto-increment with conflict resolution for assignment fairness",
+                  "Status validation ensuring business rule compliance"
+                ]
+              }
+            },
+            "schedule_visualization": {
+              "title": "Today's Schedule Widget & Traffic Analysis",
+              "business_rules": [
+                "Real-time appointment traffic visualization with expandable graph for capacity planning",
+                "Appointment density calculation including walk-in estimates for resource planning",
+                "Interactive data points showing appointment details for quick access",
+                "Loading states and error handling ensuring reliable schedule information",
+                "Automatic refresh on widget initialization for current data"
+              ],
+              "supporting_data_layer": {
+                "stores": ["AppointmentsStore"],
+                "repositories": ["DriftAppointmentRepository"],
+                "utilities": ["AppointmentTrafficCalculator", "TrafficGraph"],
+                "data_rules": [
+                  "Today-specific appointment filtering for focused daily view",
+                  "Traffic calculation algorithms for business insights",
+                  "Performance optimization with RepaintBoundary isolation"
+                ]
+              }
+            },
+            "queue_management": {
+              "title": "Customer Queue & Check-in Processing",
+              "business_rules": [
+                "Streamlined check-in workflow supporting both walk-ins and appointments",
+                "Customer search integration with real-time database queries",
+                "Service selection with pricing and duration validation",
+                "Group service support with party size management",
+                "Customer information collection with validation and data integrity"
+              ],
+              "supporting_data_layer": {
+                "stores": ["DashboardStore"],
+                "repositories": ["DriftCustomerRepository", "DriftServiceRepository"],
+                "data_rules": [
+                  "Customer data validation and duplicate prevention",
+                  "Service pricing calculations with real-time updates",
+                  "Queue position management with priority handling"
+                ]
+              }
+            },
+            "ticket_operations": {
+              "title": "Ticket Details & Management Dialog",
+              "business_rules": [
+                "Comprehensive ticket editing with customer, services, and technician assignment",
+                "Service modification with pricing recalculation and validation",
+                "Status management supporting complete ticket lifecycle",
+                "Notes and special instructions handling for customer preferences",
+                "Print functionality for ticket documentation"
+              ],
+              "supporting_data_layer": {
+                "stores": ["DashboardStore"],
+                "repositories": ["DriftTicketRepository"],
+                "data_rules": [
+                  "Ticket status validation ensuring proper workflow progression",
+                  "Total amount recalculation on service changes",
+                  "Audit trail for ticket modifications"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "2_customer_ticket_management_system": {
+      "title": "Customer & Ticket Management System", 
+      "description": "Comprehensive customer database operations and complete ticket lifecycle management",
+      "business_purpose": "Maintain customer relationships and track service delivery from initial booking through completion and payment",
+      "subtasks": {
+        "ticket_lifecycle_management": {
+          "title": "Tickets Screen & Lifecycle Management",
+          "screen_level_rules": [
+            "Dual-pane interface with ticket list and detailed preview for efficient management",
+            "Advanced filtering supporting search, status, technician, date range, and amount criteria",
+            "Server-side pagination with configurable page sizes for large dataset handling",
+            "Real-time ticket status updates with visual indicators"
+          ],
+          "widget_components": {
+            "ticket_filtering_system": {
+              "title": "Ticket Filters & Search Interface",
+              "business_rules": [
+                "Multi-criteria filtering enabling complex ticket searches",
+                "Real-time search with debounced input preventing excessive queries", 
+                "Date range filtering for historical ticket analysis",
+                "Status-based filtering for workflow management",
+                "Customer and technician filtering for focused views"
+              ]
+            },
+            "ticket_display_management": {
+              "title": "Ticket List Items & Preview System",
+              "business_rules": [
+                "Expandable design with service details for space-efficient display",
+                "Status-based color coding for quick visual identification",
+                "Group service indicators for party bookings",
+                "Action buttons contextually displayed based on ticket status",
+                "Relative time formatting for intuitive date display"
+              ]
+            },
+            "refund_void_operations": {
+              "title": "Refund & Void Processing Dialog",
+              "business_rules": [
+                "PIN-protected operations requiring manager authorization for financial security",
+                "Partial refund support with automatic calculation of maximum refundable amounts",
+                "Audit trail with reason codes and notes for compliance requirements",
+                "Payment validation preventing refunds exceeding available amounts",
+                "Dual-mode support for both refund and void operations with appropriate workflows"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["TicketsStore"],
+            "repositories": ["DriftTicketRepository", "PaymentRepository"],
+            "data_rules": [
+              "5-minute cache TTL matching other stores for consistency",
+              "Server-side pagination for efficient large dataset management",
+              "Cache invalidation on ticket modifications ensuring data consistency",
+              "Revenue analytics with computed properties for business reporting"
+            ]
+          }
+        },
+        "customer_database_operations": {
+          "title": "Customer Management & Database Operations",
+          "screen_level_rules": [
+            "Comprehensive customer database with advanced search and analytics",
+            "Customer lifecycle management from registration through service history",
+            "Analytics dashboard providing customer insights and business intelligence"
+          ],
+          "widget_components": {
+            "customer_search_interface": {
+              "title": "Customer Search Field & Selection",
+              "business_rules": [
+                "Real-time search with overlay dropdown for quick customer selection",
+                "Search threshold of 2 characters preventing excessive queries",
+                "Customer avatar display with name and contact information",
+                "Focus management with automatic overlay show/hide"
+              ]
+            },
+            "customer_management_forms": {
+              "title": "Customer Details & Registration Forms", 
+              "business_rules": [
+                "Comprehensive customer data collection with validation",
+                "Loyalty points integration for customer retention programs",
+                "Service history tracking for personalized service delivery",
+                "Contact preference management for marketing compliance"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["CustomersStore"],
+            "repositories": ["DriftCustomerRepository"],
+            "data_rules": [
+              "10-minute cache TTL for customer data optimization",
+              "Customer analytics with advanced filtering and insights",
+              "Data validation ensuring contact information integrity"
+            ]
+          }
+        }
+      }
+    },
+    "3_appointment_calendar_management_system": {
+      "title": "Appointment & Calendar Management System",
+      "description": "Comprehensive appointment scheduling with calendar visualization and conflict prevention",
+      "business_purpose": "Enable efficient appointment scheduling, prevent double-booking, and optimize technician utilization through intelligent calendar management",
+      "subtasks": {
+        "calendar_interface_management": {
+          "title": "Appointments Screen & Calendar Interface",
+          "screen_level_rules": [
+            "Dual-view interface supporting both calendar grid and simple list views",
+            "Real-time appointment visualization with technician assignments",
+            "Drag-and-drop appointment management for quick rescheduling",
+            "Conflict detection and prevention for appointment integrity"
+          ],
+          "widget_components": {
+            "calendar_grid_system": {
+              "title": "Appointment Calendar Grid & Visualization",
+              "business_rules": [
+                "Time-slot based calendar with configurable intervals",
+                "Technician-specific columns for resource visualization",
+                "Appointment overlap detection with visual conflict indicators",
+                "Current time indicator for real-time context",
+                "Performance optimization with RepaintBoundary isolation"
+              ]
+            },
+            "appointment_management_dialogs": {
+              "title": "Appointment Booking & Editing Dialogs",
+              "business_rules": [
+                "Comprehensive appointment creation with customer, service, and technician selection",
+                "Duration calculation based on selected services with buffer time",
+                "Conflict validation preventing double-booking scenarios",
+                "Group appointment support with party size management",
+                "Recurring appointment patterns for regular customers"
+              ]
+            },
+            "time_management_widgets": {
+              "title": "Time Column & Schedule Management",
+              "business_rules": [
+                "Hourly time slots with configurable granularity",
+                "Business hours enforcement preventing off-hours booking",
+                "Time zone handling for accurate scheduling",
+                "Buffer time integration between appointments for preparation"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["AppointmentsStore", "CalendarStore"],
+            "repositories": ["DriftAppointmentRepository"],
+            "data_rules": [
+              "5-minute cache TTL for real-time appointment data",
+              "Conflict detection algorithms preventing scheduling errors",
+              "Technician availability validation ensuring resource allocation",
+              "Date-based filtering for efficient calendar navigation"
+            ]
+          }
+        },
+        "appointment_booking_operations": {
+          "title": "Appointment Booking & Conflict Prevention",
+          "screen_level_rules": [
+            "Intelligent booking system with automatic conflict detection",
+            "Technician service compatibility validation",
+            "Appointment reminder and confirmation system"
+          ],
+          "widget_components": {
+            "conflict_prevention_system": {
+              "title": "Technician Service Compatibility & Conflict Detection",
+              "business_rules": [
+                "Service category compatibility checking for technician assignments",
+                "Overlapping appointment detection with visual warnings",
+                "Automatic technician suggestion based on service requirements",
+                "Capacity management preventing overbooking scenarios"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "services": ["TechnicianServiceCompatibilityService"],
+            "data_rules": [
+              "Real-time availability checking",
+              "Service-technician mapping for optimal assignments",
+              "Booking confirmation with customer notification"
+            ]
+          }
+        }
+      }
+    },
+    "4_employee_service_management_system": {
+      "title": "Employee & Service Management System",
+      "description": "Comprehensive staff management and service configuration for business operations",
+      "business_purpose": "Manage employee records, PIN authentication, service catalog, and pricing structure for complete business configuration",
+      "subtasks": {
+        "staff_management_operations": {
+          "title": "Employees Screen & Staff Management",
+          "screen_level_rules": [
+            "Complete employee lifecycle management from hiring through termination",
+            "PIN-based authentication system for security and accountability",
+            "Employee performance tracking and scheduling integration",
+            "Professional employee directory with contact and role information"
+          ],
+          "widget_components": {
+            "employee_management_interface": {
+              "title": "Employee Cards & Management Interface",
+              "business_rules": [
+                "Grid and list view options for employee browsing",
+                "Role-based access control with manager and staff distinctions",
+                "Employee status management (active, inactive, on break)",
+                "Professional employee profiles with photo and contact details"
+              ]
+            },
+            "pin_authentication_system": {
+              "title": "PIN Setup & Authentication Management",
+              "business_rules": [
+                "Self-service PIN setup for employee autonomy",
+                "PIN validation with security requirements",
+                "Manager PIN bootstrap for initial system access",
+                "Authentication wrapper for protected operations"
+              ]
+            },
+            "employee_scheduling_integration": {
+              "title": "Employee Scheduling & Time Management",
+              "business_rules": [
+                "Weekly schedule configuration with daily hour settings",
+                "Time-off management and schedule adjustments",
+                "Employee capability tracking for service assignments",
+                "Schedule conflict resolution for optimal staffing"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["EmployeesStore"],
+            "repositories": ["DriftEmployeeRepository", "DriftScheduleRepository"],
+            "data_rules": [
+              "Employee data validation with required field enforcement",
+              "PIN encryption for security compliance",
+              "Schedule management with time format conversion",
+              "Employee capability tracking for service compatibility"
+            ]
+          }
+        },
+        "service_configuration_management": {
+          "title": "Services Screen & Configuration Management", 
+          "screen_level_rules": [
+            "Complete service catalog management with categories and pricing",
+            "Service category organization for efficient browsing",
+            "Pricing control with manager authorization for changes",
+            "Service availability management for business operations"
+          ],
+          "widget_components": {
+            "service_catalog_management": {
+              "title": "Service Management & Category Organization",
+              "business_rules": [
+                "Category-based service organization for easy browsing",
+                "Service creation and editing with comprehensive validation",
+                "Pricing management with currency formatting and validation",
+                "Service duration configuration for accurate scheduling"
+              ]
+            },
+            "service_form_interfaces": {
+              "title": "Service Creation & Editing Forms",
+              "business_rules": [
+                "Dual-mode forms supporting both creation and editing workflows",
+                "Category preselection for streamlined service creation",
+                "Price validation with decimal formatting and business rules",
+                "Duration input with time validation and scheduling integration"
+              ]
+            },
+            "category_management_system": {
+              "title": "Service Category Management & Configuration",
+              "business_rules": [
+                "Dynamic category creation with color and icon selection",
+                "Service count tracking for category analytics",
+                "Category-based service filtering and organization",
+                "Visual category representation with consistent theming"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["ServiceCategoryStore"],
+            "repositories": ["DriftServiceRepository", "DriftServiceRepositoryImpl"],
+            "data_rules": [
+              "Service validation ensuring required fields and business compliance",
+              "Category management with automatic ID generation",
+              "Price validation preventing invalid currency values",
+              "Service-category relationships with referential integrity"
+            ]
+          }
+        }
+      }
+    },
+    "5_financial_payment_processing_system": {
+      "title": "Financial & Payment Processing System",
+      "description": "Comprehensive payment processing, financial reporting, and revenue analytics for business operations",
+      "business_purpose": "Handle all financial transactions, generate business reports, and provide analytics for data-driven business decisions",
+      "subtasks": {
+        "payment_processing_operations": {
+          "title": "Checkout Screen & Payment Processing",
+          "screen_level_rules": [
+            "Multi-checkout support for concurrent payment processing",
+            "Payment method flexibility supporting cash, card, and other options",
+            "Transaction validation with proper authorization and security",
+            "Receipt generation and customer notification integration"
+          ],
+          "widget_components": {
+            "checkout_interface_management": {
+              "title": "Checkout Dialog & Payment Interface",
+              "business_rules": [
+                "Payment method selection with appropriate validation for each type",
+                "Tip calculation with percentage and custom amount options",
+                "Tax calculation based on local rates and service types",
+                "Discount application with manager authorization for price changes"
+              ]
+            },
+            "payment_calculation_system": {
+              "title": "Order Summary & Calculation Engine",
+              "business_rules": [
+                "Real-time total calculation including services, tax, tips, and discounts",
+                "Currency formatting with proper decimal handling",
+                "Payment splitting support for group transactions",
+                "Calculation validation ensuring accuracy in financial transactions"
+              ]
+            },
+            "specialized_checkout_operations": {
+              "title": "Quick Sale & Special Transaction Handling",
+              "business_rules": [
+                "Quick sale support for items without full ticket creation",
+                "Cash drawer integration for register operations",
+                "Payment authorization for high-value transactions",
+                "Transaction logging for audit trail and compliance"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["MultiCheckoutStore"],
+            "repositories": ["PaymentRepository"],
+            "models": ["CheckoutCalculation", "PaymentResult", "DiscountData"],
+            "data_rules": [
+              "Payment validation ensuring transaction integrity",
+              "Financial calculation accuracy with proper rounding",
+              "Transaction logging for audit and compliance requirements",
+              "Multi-checkout coordination for concurrent operations"
+            ]
+          }
+        },
+        "financial_reporting_analytics": {
+          "title": "Reports Screen & Business Analytics",
+          "screen_level_rules": [
+            "Comprehensive business reporting with multiple time ranges and filters",
+            "Revenue analytics with service and technician breakdowns",
+            "Customer analytics for business insights and retention strategies",
+            "Performance metrics for operational efficiency measurement"
+          ],
+          "widget_components": {
+            "report_generation_system": {
+              "title": "Report Cards & Analytics Dashboard",
+              "business_rules": [
+                "Multiple report types supporting revenue, service performance, and customer analytics",
+                "Time range filtering for flexible reporting periods",
+                "Data visualization with charts and graphs for insight clarity",
+                "Export functionality for external analysis and record keeping"
+              ]
+            },
+            "business_analytics_interface": {
+              "title": "Business Overview & Analytics Screen",
+              "business_rules": [
+                "Key performance indicators with trend analysis",
+                "Revenue tracking with daily, weekly, and monthly breakdowns",
+                "Service popularity analysis for business optimization",
+                "Customer retention metrics for relationship management"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["ReportsStore"],
+            "models": ["ReportData", "ServiceMetrics", "TechnicianMetrics", "CustomerAnalytics"],
+            "data_rules": [
+              "Data aggregation algorithms for accurate business metrics",
+              "Time range validation for reporting accuracy",
+              "Performance optimization for large dataset analysis",
+              "Data export formatting for external system integration"
+            ]
+          }
+        }
+      }
+    },
+    "6_settings_configuration_system": {
+      "title": "Settings & Configuration System",
+      "description": "Application configuration management and system preferences for operational customization",
+      "business_purpose": "Enable business customization of application behavior, store configuration, and operational preferences",
+      "subtasks": {
+        "application_preferences_management": {
+          "title": "Settings Screen & Preferences Management",
+          "screen_level_rules": [
+            "Category-based settings organization for easy navigation",
+            "Type-safe setting management with validation",
+            "Setting import/export for backup and system migration",
+            "Real-time setting updates with application-wide propagation"
+          ],
+          "widget_components": {
+            "store_configuration_management": {
+              "title": "Store Configuration & Business Hours",
+              "business_rules": [
+                "Store hours configuration with daily hour settings and time zone support",
+                "Business operation parameters including appointment buffers and capacity limits",
+                "Location and contact information management for multi-location support",
+                "Holiday and special hours configuration for seasonal operations"
+              ]
+            },
+            "remote_access_configuration": {
+              "title": "Remote View Settings & Access Control",
+              "business_rules": [
+                "Remote viewing capability for support and monitoring purposes",
+                "LiveKit WebRTC integration for future remote access implementation",
+                "Access control with connection status management",
+                "URL generation and sharing for authorized remote access"
+              ]
+            },
+            "user_preference_management": {
+              "title": "User Interface & Experience Preferences",
+              "business_rules": [
+                "Theme selection with light and dark mode support",
+                "Dashboard layout preferences for personalized user experience",
+                "Notification preferences for system alerts and updates",
+                "Language and localization settings for international use"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "stores": ["SettingsStore"],
+            "repositories": ["DriftSettingsRepository"],
+            "services": ["RemoteViewService"],
+            "data_rules": [
+              "Type-safe setting storage with validation",
+              "Setting migration support for application updates",
+              "Default value handling for new installations",
+              "Real-time setting synchronization across application components"
+            ]
+          }
+        }
+      }
+    },
+    "7_core_infrastructure_system": {
+      "title": "Core Infrastructure System", 
+      "description": "Foundational systems providing authentication, data access, shared components, and utilities",
+      "business_purpose": "Provide secure, reliable foundation supporting all business operations with consistent data access and user interface components",
+      "subtasks": {
+        "authentication_security_framework": {
+          "title": "Authentication & Security Infrastructure",
+          "screen_level_rules": [
+            "PIN-based authentication for employee access control",
+            "Privileged operations system for sensitive business functions",
+            "Manager authorization workflow for financial and configuration changes",
+            "Security audit trail for compliance and accountability"
+          ],
+          "components": {
+            "pin_authentication_system": {
+              "title": "PIN Authentication & Authorization",
+              "business_rules": [
+                "Manager PIN bootstrap for initial system setup and recovery",
+                "Privileged operation enforcement for sensitive actions",
+                "Authentication wrapper providing context-aware security",
+                "PIN validation with configurable security requirements"
+              ]
+            },
+            "privileged_operations_framework": {
+              "title": "Privileged Operations & Authorization Control",
+              "business_rules": [
+                "Operation-specific authorization requirements",
+                "Manager authorization for price changes, refunds, voids",
+                "Audit logging for all privileged operations",
+                "Context-sensitive authorization based on operation type and employee role"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "utilities": ["PrivilegedOperations", "ManagerPinBootstrap"],
+            "data_rules": [
+              "PIN encryption and secure storage",
+              "Authorization context management",
+              "Security audit trail with operation logging"
+            ]
+          }
+        },
+        "data_access_layer": {
+          "title": "Database & Data Access Infrastructure",
+          "screen_level_rules": [
+            "Drift ORM providing type-safe database operations",
+            "Repository pattern ensuring clean architecture separation",
+            "Cache management with TTL for performance optimization",
+            "Data validation and integrity enforcement"
+          ],
+          "components": {
+            "database_infrastructure": {
+              "title": "Drift Database & ORM Integration",
+              "business_rules": [
+                "Type-safe database operations with compile-time validation",
+                "Migration support for database schema evolution",
+                "Transaction support ensuring data consistency",
+                "Performance optimization with indexed queries"
+              ]
+            },
+            "repository_pattern_implementation": {
+              "title": "Repository Pattern & Data Abstraction",
+              "business_rules": [
+                "Clean architecture separation between data and business logic",
+                "Consistent repository interfaces across all data entities",
+                "Error handling with graceful degradation",
+                "Singleton pattern for optimal resource utilization"
+              ]
+            },
+            "caching_coordination_system": {
+              "title": "Cache Management & TTL System",
+              "business_rules": [
+                "5-minute cache TTL across stores for consistent performance",
+                "Cache invalidation coordination preventing stale data",
+                "Memory management with efficient cache utilization",
+                "Cross-screen cache coordination for data consistency"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "infrastructure": ["BaseDriftRepository", "CacheCoordinationService"],
+            "data_rules": [
+              "Consistent cache TTL implementation across features",
+              "Database connection management and optimization",
+              "Data model conversion between layers"
+            ]
+          }
+        },
+        "shared_ui_infrastructure": {
+          "title": "Shared UI Components & Design System",
+          "screen_level_rules": [
+            "Consistent design system with standardized components",
+            "Performance optimization with RepaintBoundary isolation",
+            "Theme integration with consistent color and typography",
+            "Responsive design supporting multiple screen sizes"
+          ],
+          "components": {
+            "standardized_header_system": {
+              "title": "Standard App Header & Navigation",
+              "business_rules": [
+                "Consistent header design across all application screens",
+                "Search integration with debounced input handling",
+                "Action button patterns for common operations",
+                "Navigation consistency with standardized patterns"
+              ]
+            },
+            "shared_widget_library": {
+              "title": "Shared Widgets & UI Components",
+              "business_rules": [
+                "Service display components with category-based color coding",
+                "Customer search widgets with real-time database integration",
+                "Status badges with consistent visual indicators",
+                "Professional dialog patterns for user interactions"
+              ]
+            },
+            "theme_design_system": {
+              "title": "Theme System & Design Consistency",
+              "business_rules": [
+                "Consistent color palette across all interface elements",
+                "Typography system with appropriate text styles",
+                "Professional appearance with salon business requirements",
+                "Dark/light theme support for user preference"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "infrastructure": ["AppColors", "AppTextStyles", "StandardAppHeader"],
+            "data_rules": [
+              "Theme consistency enforcement",
+              "Component reusability patterns",
+              "Performance optimization guidelines"
+            ]
+          }
+        },
+        "utilities_support_services": {
+          "title": "Utilities & Support Services",
+          "screen_level_rules": [
+            "Comprehensive error logging for debugging and monitoring",
+            "Field validation ensuring data integrity across forms",
+            "Date formatting and time management utilities",
+            "Performance monitoring and optimization tools"
+          ],
+          "components": {
+            "error_logging_system": {
+              "title": "Error Logger & Debugging Infrastructure",
+              "business_rules": [
+                "File-based logging with timestamped entries for persistent debugging",
+                "Console integration for development-time debugging",
+                "Error categorization with different log levels for organized analysis",
+                "Production-safe logging with performance considerations"
+              ]
+            },
+            "field_validation_framework": {
+              "title": "Field Validators & Data Integrity",
+              "business_rules": [
+                "Phone number validation with flexible format support",
+                "Email validation for customer communication",
+                "Price and currency validation for financial accuracy",
+                "Required field validation for data completeness"
+              ]
+            },
+            "utility_services": {
+              "title": "Date Formatting & Utility Services",
+              "business_rules": [
+                "Consistent date and time formatting across application",
+                "Business hour calculations for scheduling logic",
+                "Performance utilities for optimization monitoring",
+                "Data export and import utilities for business continuity"
+              ]
+            }
+          },
+          "supporting_data_layer": {
+            "utilities": ["ErrorLogger", "FieldValidators", "DateFormatter"],
+            "data_rules": [
+              "Logging system initialization and file management",
+              "Validation rule consistency across forms",
+              "Utility function performance optimization"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "architecture_summary": {
+    "design_patterns": [
+      "MobX reactive state management with computed properties",
+      "Repository pattern for clean architecture separation",
+      "Singleton pattern for optimal resource utilization", 
+      "Factory constructors for specialized dialog creation",
+      "Observer pattern for reactive UI updates",
+      "Cache coordination with 5-minute TTL for performance"
+    ],
+    "business_logic_principles": [
+      "PIN-based security for sensitive operations requiring manager authorization",
+      "Turn-based technician assignment preventing double-booking scenarios",
+      "Real-time data validation ensuring business rule compliance",
+      "Audit trail logging for financial and configuration changes",
+      "Performance optimization with RepaintBoundary isolation and strategic caching",
+      "Professional UI design meeting salon business requirements"
+    ],
+    "data_flow_architecture": [
+      "Screen → Widget → Store → Repository → Database pattern for data flow",
+      "Cache TTL coordination across features for consistent performance",
+      "Real-time updates through MobX reactive programming",
+      "Type-safe operations with Drift ORM compile-time validation",
+      "Clean architecture separation between presentation and business logic"
+    ],
+    "key_business_capabilities": [
+      "Complete salon operations management from appointment booking through payment",
+      "Real-time technician and customer management with conflict prevention",
+      "Financial transaction processing with audit compliance",
+      "Business analytics and reporting for data-driven decisions",
+      "Scalable architecture supporting business growth and multi-location operations"
+    ]
+  }
+}

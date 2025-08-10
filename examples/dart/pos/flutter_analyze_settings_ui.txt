@@ -1,0 +1,18 @@
+Analyzing 2 items...                                            
+
+warning • Unused import: '../../../../core/theme/app_text_styles.dart' • lib/features/settings/presentation/screens/settings_screen.dart:7:8 • unused_import
+warning • Unused import: '../../../shared/data/models/setting_model.dart' • lib/features/settings/presentation/screens/settings_screen.dart:8:8 • unused_import
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:334:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:392:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:450:24 • avoid_redundant_argument_values
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_coming_soon_tile.dart:20:47 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_general.dart:36:11 • deprecated_member_use
+warning • Unused import: '../../../../core/utils/privileged_operations.dart' • lib/features/settings/presentation/widgets/settings_manager_pin_tile.dart:7:8 • unused_import
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_store_section.dart:32:11 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_switch_setting_title.dart:21:9 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:233:31 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:269:31 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:390:13 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:401:17 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:429:17 • deprecated_member_use
+

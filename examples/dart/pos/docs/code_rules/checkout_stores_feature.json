@@ -1,0 +1,45 @@
+{
+  "category": "Checkout Stores Feature",
+  "description": "MobX store classes managing checkout workflows, payment processing, and transaction state",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/stores/multi_checkout_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/invoice_model.dart",
+        "../../../shared/data/repositories/drift_invoice_repository.dart",
+        "../../../tickets/data/tickets_store.dart",
+        "../../../../utils/error_logger.dart",
+        "../models/checkout_calculation.dart"
+      ],
+      "components": [
+        {
+          "MultiCheckoutStore": "Comprehensive MobX store for multi-ticket checkout with selection state, payment processing, and transaction management."
+        }
+      ],
+      "rules": [
+        "Multi-ticket checkout support with selection state management using ObservableSet for reactive UI updates.",
+        "Complete checkout calculation system: subtotal, tax, tip, discount, and total calculations with live computation.",
+        "Comprehensive payment processing workflow with invoice generation and ticket status updates.",
+        "Ticket filtering and sorting system: search query, status filter, and multiple sort criteria for checkout management.",
+        "Tax rate configuration with 8.75% default rate supporting future configurable tax systems.",
+        "Tip management supporting both percentage and custom amount with mutual exclusivity logic.",
+        "Discount system with type, amount, code, and reason tracking for comprehensive promotion management.",
+        "Payment method integration supporting multiple payment types with card detail capture.",
+        "Error handling with user-friendly error messages and processing state management.",
+        "Repository integration with DriftInvoiceRepository and TicketsStore for data persistence.",
+        "Computed properties for reactive calculations: selectedTickets, availableTickets, calculation, canProcessPayment.",
+        "Selection management actions: toggle, select all, clear selection with error state clearing.",
+        "Payment processing with transaction validation, invoice creation, and ticket status updates.",
+        "Primary customer detection for multi-ticket scenarios using frequency-based customer identification.",
+        "Comprehensive state reset functionality for checkout completion and error recovery.",
+        "Professional error logging with ErrorLogger integration for transaction audit trails.",
+        "Business logic validation ensuring only completed/in-service tickets are available for checkout.",
+        "Immutable ticket operations using copyWith pattern for status and payment status updates.",
+        "Utility methods for ticket selection checking, selection summaries, and ready ticket counts.",
+        "MobX code generation with proper part file structure and mixin composition for reactive state management."
+      ]
+    }
+  }
+}

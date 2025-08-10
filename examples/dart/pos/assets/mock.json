@@ -1,0 +1,2008 @@
+{
+  "technicians": [
+    {
+      "id": "tech-1",
+      "name": "Jenny",
+      "status": "busy",
+      "turn": 3,
+      "currentTicketId": "T-122",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill",
+        "waxing"
+      ]
+    },
+    {
+      "id": "tech-2",
+      "name": "Lynn",
+      "status": "busy",
+      "turn": 4,
+      "currentTicketId": "T-122",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill"
+      ]
+    },
+    {
+      "id": "tech-3",
+      "name": "Vinh",
+      "status": "busy",
+      "turn": 5,
+      "currentTicketId": "T-107",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill"
+      ]
+    },
+    {
+      "id": "tech-4",
+      "name": "Tony",
+      "status": "off",
+      "turn": 6,
+      "currentTicketId": null,
+      "isOff": true,
+      "capabilities": [
+        "mani-pedi"
+      ]
+    },
+    {
+      "id": "tech-5",
+      "name": "Rose",
+      "status": "available",
+      "turn": 1,
+      "currentTicketId": null,
+      "assignedTicketId": "T-109",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "waxing",
+        "facial"
+      ]
+    },
+    {
+      "id": "tech-6",
+      "name": "David",
+      "status": "available",
+      "turn": 2,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi"
+      ]
+    },
+    {
+      "id": "tech-7",
+      "name": "Kim",
+      "status": "busy",
+      "turn": 7,
+      "currentTicketId": "T-112",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill",
+        "waxing"
+      ]
+    },
+    {
+      "id": "tech-8",
+      "name": "Mike",
+      "status": "available",
+      "turn": 8,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi"
+      ]
+    },
+    {
+      "id": "tech-9",
+      "name": "Jessica",
+      "status": "busy",
+      "turn": 9,
+      "currentTicketId": "T-117",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "facial"
+      ]
+    },
+    {
+      "id": "tech-10",
+      "name": "Sophia",
+      "status": "off",
+      "turn": 10,
+      "currentTicketId": null,
+      "isOff": true,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill",
+        "waxing",
+        "facial"
+      ]
+    },
+    {
+      "id": "tech-11",
+      "name": "Chris",
+      "status": "available",
+      "turn": 11,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi"
+      ]
+    },
+    {
+      "id": "tech-12",
+      "name": "Olivia",
+      "status": "available",
+      "turn": 12,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "waxing"
+      ]
+    },
+    {
+      "id": "tech-13",
+      "name": "James",
+      "status": "busy",
+      "turn": 13,
+      "currentTicketId": "T-118",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "full-set-fill"
+      ]
+    },
+    {
+      "id": "tech-14",
+      "name": "Isabella",
+      "status": "available",
+      "turn": 14,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "waxing",
+        "facial"
+      ]
+    },
+    {
+      "id": "tech-15",
+      "name": "Daniel",
+      "status": "available",
+      "turn": 15,
+      "currentTicketId": null,
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi"
+      ]
+    },
+    {
+      "id": "tech-16",
+      "name": "Mia",
+      "status": "busy",
+      "turn": 16,
+      "currentTicketId": "T-119",
+      "isOff": false,
+      "capabilities": [
+        "mani-pedi",
+        "waxing"
+      ]
+    }
+  ],
+  "serviceCategories": [
+    {
+      "id": "mani-pedi",
+      "name": "Mani & Pedi",
+      "color": "bg-blue-100 text-blue-800"
+    },
+    {
+      "id": "full-set-fill",
+      "name": "Full Set & Fill",
+      "color": "bg-purple-100 text-purple-800"
+    },
+    {
+      "id": "waxing",
+      "name": "Waxing",
+      "color": "bg-amber-100 text-amber-800"
+    },
+    {
+      "id": "facial",
+      "name": "Facial",
+      "color": "bg-green-100 text-green-800"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "Manicure",
+      "duration": 30,
+      "price": 37,
+      "childPrice": 25,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-2",
+      "name": "Pedicure",
+      "duration": 45,
+      "price": 47,
+      "childPrice": 30,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-3",
+      "name": "Gel Manicure",
+      "duration": 45,
+      "price": 40,
+      "childPrice": 28,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-4",
+      "name": "Gel Pedicure",
+      "duration": 60,
+      "price": 55,
+      "childPrice": 35,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-5",
+      "name": "Deluxe Pedicure",
+      "duration": 60,
+      "price": 65,
+      "childPrice": 40,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-6",
+      "name": "Hot Stone Pedicure",
+      "duration": 60,
+      "price": 70,
+      "childPrice": 45,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-7",
+      "name": "CBD Pedicure",
+      "duration": 60,
+      "price": 75,
+      "childPrice": 50,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-8",
+      "name": "Collagen Manicure",
+      "duration": 45,
+      "price": 38,
+      "childPrice": 26,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-9",
+      "name": "Men's Manicure",
+      "duration": 25,
+      "price": 30,
+      "childPrice": 20,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-10",
+      "name": "Men's Pedicure",
+      "duration": 40,
+      "price": 42,
+      "childPrice": 28,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-11",
+      "name": "Gel Polish Change",
+      "duration": 20,
+      "price": 25,
+      "childPrice": 18,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-12",
+      "name": "Manicure + Pedicure",
+      "duration": 75,
+      "price": 84,
+      "childPrice": 55,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-13",
+      "name": "Kids Manicure",
+      "duration": 20,
+      "price": 20,
+      "childPrice": 20,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-14",
+      "name": "Kids Pedicure",
+      "duration": 30,
+      "price": 25,
+      "childPrice": 25,
+      "category": "mani-pedi"
+    },
+    {
+      "id": "srv-15",
+      "name": "SNS Full Set",
+      "duration": 75,
+      "price": 50,
+      "category": "full-set-fill"
+    },
+    {
+      "id": "srv-16",
+      "name": "SNS P&W Ombre",
+      "duration": 75,
+      "price": 60,
+      "category": "full-set-fill"
+    },
+    {
+      "id": "srv-17",
+      "name": "Acrylic Full Set",
+      "duration": 90,
+      "price": 65,
+      "category": "full-set-fill"
+    },
+    {
+      "id": "srv-18",
+      "name": "Acrylic Fill",
+      "duration": 60,
+      "price": 50,
+      "category": "full-set-fill"
+    },
+    {
+      "id": "srv-19",
+      "name": "Dip Powder",
+      "duration": 50,
+      "price": 55,
+      "category": "full-set-fill"
+    },
+    {
+      "id": "srv-20",
+      "name": "Eyebrow Wax",
+      "duration": 15,
+      "price": 20,
+      "category": "waxing"
+    },
+    {
+      "id": "srv-21",
+      "name": "Lip Wax",
+      "duration": 10,
+      "price": 15,
+      "category": "waxing"
+    },
+    {
+      "id": "srv-22",
+      "name": "Chin Wax",
+      "duration": 10,
+      "price": 15,
+      "category": "waxing"
+    },
+    {
+      "id": "srv-23",
+      "name": "Basic Facial",
+      "duration": 45,
+      "price": 60,
+      "category": "facial"
+    },
+    {
+      "id": "srv-24",
+      "name": "Deluxe Facial",
+      "duration": 60,
+      "price": 85,
+      "category": "facial"
+    }
+  ],
+  "customers": [
+    {
+      "id": "C001",
+      "name": "Robert Kim",
+      "phone": "(555) 123-4567",
+      "email": "robert.kim@email.com",
+      "preferredTech": "Vinh",
+      "notes": "Prefers SNS services",
+      "visitCount": 15,
+      "lastVisit": "2024-12-20"
+    },
+    {
+      "id": "C002",
+      "name": "Sarah Johnson",
+      "phone": "(555) 234-5678",
+      "email": "sarah.j@email.com",
+      "preferredTech": "Rose",
+      "notes": "Allergic to certain gel polishes",
+      "visitCount": 23,
+      "lastVisit": "2024-12-25"
+    },
+    {
+      "id": "C003",
+      "name": "Emily Clark",
+      "phone": "(555) 345-6789",
+      "email": "emily.clark@email.com",
+      "preferredTech": "Kim",
+      "notes": "Regular acrylic fill customer",
+      "visitCount": 42,
+      "lastVisit": "2024-12-28"
+    },
+    {
+      "id": "C004",
+      "name": "Brian Rodriguez",
+      "phone": "(555) 456-7890",
+      "email": "brian.r@email.com",
+      "preferredTech": "Jessica",
+      "notes": "Likes hot stone pedicures",
+      "visitCount": 8,
+      "lastVisit": "2024-12-22"
+    },
+    {
+      "id": "C005",
+      "name": "Linda Hall",
+      "phone": "(555) 567-8901",
+      "email": "linda.hall@email.com",
+      "preferredTech": "James",
+      "notes": "Prefers dip powder",
+      "visitCount": 17,
+      "lastVisit": "2024-12-26"
+    },
+    {
+      "id": "C006",
+      "name": "Rachel Wilson",
+      "phone": "(555) 678-9012",
+      "email": "rachel.w@email.com",
+      "preferredTech": "Jenny",
+      "notes": "Usually comes with children",
+      "visitCount": 31,
+      "lastVisit": "2024-12-29"
+    },
+    {
+      "id": "C007",
+      "name": "Emma Wilson",
+      "phone": "(555) 678-9012",
+      "email": "rachel.w@email.com",
+      "preferredTech": "Jenny",
+      "notes": "Child - daughter of Rachel Wilson",
+      "visitCount": 12,
+      "lastVisit": "2024-12-29"
+    },
+    {
+      "id": "C008",
+      "name": "Sophia Wilson",
+      "phone": "(555) 678-9012",
+      "email": "rachel.w@email.com",
+      "preferredTech": "Jenny",
+      "notes": "Child - daughter of Rachel Wilson",
+      "visitCount": 12,
+      "lastVisit": "2024-12-29"
+    },
+    {
+      "id": "C009",
+      "name": "Kevin Green",
+      "phone": "(555) 789-0123",
+      "email": "kevin.g@email.com",
+      "preferredTech": "Mia",
+      "notes": "Men's services only",
+      "visitCount": 5,
+      "lastVisit": "2024-12-27"
+    },
+    {
+      "id": "C010",
+      "name": "Nancy Davis",
+      "phone": "(555) 890-1234",
+      "email": "nancy.d@email.com",
+      "preferredTech": "Any",
+      "notes": "Likes collagen treatments",
+      "visitCount": 19,
+      "lastVisit": "2024-12-24"
+    },
+    {
+      "id": "C011",
+      "name": "Patricia Moore",
+      "phone": "(555) 901-2345",
+      "email": "patricia.m@email.com",
+      "preferredTech": "Lynn",
+      "notes": "Regular appointment customer",
+      "visitCount": 36,
+      "lastVisit": "2024-12-23"
+    },
+    {
+      "id": "C012",
+      "name": "Jessica Taylor",
+      "phone": "(555) 012-3456",
+      "email": "jessica.t@email.com",
+      "preferredTech": "Any",
+      "notes": "New customer",
+      "visitCount": 2,
+      "lastVisit": "2024-12-21"
+    },
+    {
+      "id": "C013",
+      "name": "Mark Wilson",
+      "phone": "(555) 123-4567",
+      "email": "mark.w@email.com",
+      "preferredTech": "Mike",
+      "notes": "Prefers basic services",
+      "visitCount": 7,
+      "lastVisit": "2024-12-25"
+    },
+    {
+      "id": "C014",
+      "name": "Amanda Johnson",
+      "phone": "(555) 234-5678",
+      "email": "amanda.j@email.com",
+      "preferredTech": "Any",
+      "notes": "Walk-in customer",
+      "visitCount": 3,
+      "lastVisit": "2024-12-28"
+    },
+    {
+      "id": "C015",
+      "name": "Lily Johnson",
+      "phone": "(555) 234-5678",
+      "email": "amanda.j@email.com",
+      "preferredTech": "Any",
+      "notes": "Child - daughter of Amanda Johnson",
+      "visitCount": 3,
+      "lastVisit": "2024-12-28"
+    },
+    {
+      "id": "C016",
+      "name": "Maria Rodriguez",
+      "phone": "(555) 345-6789",
+      "email": "maria.r@email.com",
+      "preferredTech": "Kim",
+      "notes": "Appointment customer, likes acrylics",
+      "visitCount": 28,
+      "lastVisit": "2024-12-26"
+    },
+    {
+      "id": "C017",
+      "name": "Michelle Brown",
+      "phone": "(555) 456-7890",
+      "email": "michelle.b@email.com",
+      "preferredTech": "Jenny",
+      "notes": "Prefers CBD treatments",
+      "visitCount": 14,
+      "lastVisit": "2024-12-22"
+    },
+    {
+      "id": "C018",
+      "name": "David Lee",
+      "phone": "(555) 567-8901",
+      "email": "david.l@email.com",
+      "preferredTech": "Mike",
+      "notes": "Men's services",
+      "visitCount": 9,
+      "lastVisit": "2024-12-24"
+    },
+    {
+      "id": "C019",
+      "name": "Amanda Miller",
+      "phone": "(555) 678-9012",
+      "email": "amanda.m@email.com",
+      "preferredTech": "Rose",
+      "notes": "Family group appointments",
+      "visitCount": 21,
+      "lastVisit": "2024-12-27"
+    },
+    {
+      "id": "C020",
+      "name": "Chloe Miller",
+      "phone": "(555) 678-9012",
+      "email": "amanda.m@email.com",
+      "preferredTech": "Rose",
+      "notes": "Child - daughter of Amanda Miller",
+      "visitCount": 15,
+      "lastVisit": "2024-12-27"
+    },
+    {
+      "id": "C021",
+      "name": "Sophie Miller",
+      "phone": "(555) 678-9012",
+      "email": "amanda.m@email.com",
+      "preferredTech": "Rose",
+      "notes": "Child - daughter of Amanda Miller",
+      "visitCount": 15,
+      "lastVisit": "2024-12-27"
+    },
+    {
+      "id": "C022",
+      "name": "Lisa Wang",
+      "phone": "(555) 789-0123",
+      "email": "lisa.w@email.com",
+      "preferredTech": "Vinh",
+      "notes": "Prefers acrylic full sets",
+      "visitCount": 33,
+      "lastVisit": "2024-12-25"
+    },
+    {
+      "id": "C023",
+      "name": "Anna Kim",
+      "phone": "(555) 890-1234",
+      "email": "anna.k@email.com",
+      "preferredTech": "Chris",
+      "notes": "Gel manicure regular",
+      "visitCount": 26,
+      "lastVisit": "2024-12-23"
+    },
+    {
+      "id": "C024",
+      "name": "James Chen",
+      "phone": "(555) 901-2345",
+      "email": "james.c@email.com",
+      "preferredTech": "Lynn",
+      "notes": "Not confirmed appointments sometimes",
+      "visitCount": 11,
+      "lastVisit": "2024-12-21"
+    },
+    {
+      "id": "C025",
+      "name": "Rachel Green",
+      "phone": "(555) 012-3456",
+      "email": "rachel.g@email.com",
+      "preferredTech": "Olivia",
+      "notes": "Hot stone pedicure lover",
+      "visitCount": 18,
+      "lastVisit": "2024-12-26"
+    },
+    {
+      "id": "C026",
+      "name": "Susan Park",
+      "phone": "(555) 123-4567",
+      "email": "susan.p@email.com",
+      "preferredTech": "Isabella",
+      "notes": "Gel pedicure regular",
+      "visitCount": 29,
+      "lastVisit": "2024-12-28"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-1",
+      "name": "New Customer Special",
+      "description": "20% off first visit",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "validFrom": "2025-01-01",
+      "validUntil": "2025-03-31",
+      "conditions": [
+        "New customers only",
+        "Cannot combine with other offers"
+      ]
+    },
+    {
+      "id": "promo-2",
+      "name": "Happy Hour",
+      "description": "$5 off any service",
+      "discountType": "fixed",
+      "discountValue": 5,
+      "validFrom": "2025-01-01",
+      "validUntil": "2025-12-31",
+      "conditions": [
+        "Monday-Thursday 2PM-4PM only",
+        "Walk-ins only"
+      ]
+    },
+    {
+      "id": "promo-3",
+      "name": "Family Package",
+      "description": "10% off when 3+ family members get services",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "validFrom": "2025-01-01",
+      "validUntil": "2025-12-31",
+      "conditions": [
+        "Must be same family",
+        "Services must be on same day"
+      ]
+    }
+  ],
+  "businessInfo": {
+    "name": "Luxe Nails & Spa",
+    "address": "123 Main Street, Suite 100, Anytown, ST 12345",
+    "phone": "(555) 123-4567",
+    "email": "info@luxenails.com",
+    "hours": {
+      "monday": "9:00 AM - 7:00 PM",
+      "tuesday": "9:00 AM - 7:00 PM",
+      "wednesday": "9:00 AM - 7:00 PM",
+      "thursday": "9:00 AM - 7:00 PM",
+      "friday": "9:00 AM - 8:00 PM",
+      "saturday": "9:00 AM - 8:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "taxRate": 0.08,
+    "defaultAppointmentDuration": 60,
+    "appointmentBuffer": 15
+  },
+  "appointments": [
+    {
+      "id": "apt-v2-1",
+      "date": "2025-07-26",
+      "time": "09:00",
+      "customerId": "C027",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-2",
+      "date": "2025-07-27",
+      "time": "09:30",
+      "customerId": "C028",
+      "serviceIds": [],
+      "technicianId": "tech-2",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-3",
+      "date": "2025-07-28",
+      "time": "10:00",
+      "customerId": "C029",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-4",
+      "date": "2025-07-29",
+      "time": "10:30",
+      "customerId": "C030",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-5",
+      "date": "2025-07-30",
+      "time": "11:00",
+      "customerId": "C031",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-6",
+      "date": "2025-07-31",
+      "time": "11:30",
+      "customerId": "C032",
+      "serviceIds": [],
+      "technicianId": "tech-6",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-7",
+      "date": "2025-08-01",
+      "time": "13:00",
+      "customerId": "C001",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-8",
+      "date": "2025-08-02",
+      "time": "14:00",
+      "customerId": "C005",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-9",
+      "date": "2025-08-03",
+      "time": "14:30",
+      "customerId": "C006",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": true
+    },
+    {
+      "id": "apt-v2-10",
+      "date": "2025-08-04",
+      "time": "14:30",
+      "customerId": "C003",
+      "serviceIds": [],
+      "technicianId": "tech-7",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-11",
+      "date": "2025-08-05",
+      "time": "14:40",
+      "customerId": "C004",
+      "serviceIds": [],
+      "technicianId": "tech-9",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-12",
+      "date": "2025-07-26",
+      "time": "14:42",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-16",
+      "status": "in-progress",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-13",
+      "date": "2025-07-27",
+      "time": "15:00",
+      "customerId": "C011",
+      "serviceIds": [],
+      "technicianId": "tech-2",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-14",
+      "date": "2025-07-28",
+      "time": "15:30",
+      "customerId": "C017",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-15",
+      "date": "2025-07-29",
+      "time": "15:30",
+      "customerId": "C018",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-16",
+      "date": "2025-07-30",
+      "time": "16:00",
+      "customerId": "C016",
+      "serviceIds": [],
+      "technicianId": "tech-7",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-17",
+      "date": "2025-07-31",
+      "time": "16:00",
+      "customerId": "C019",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": true
+    },
+    {
+      "id": "apt-v2-18",
+      "date": "2025-08-01",
+      "time": "16:00",
+      "customerId": "C022",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-19",
+      "date": "2025-08-02",
+      "time": "16:30",
+      "customerId": "C023",
+      "serviceIds": [],
+      "technicianId": "tech-11",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-20",
+      "date": "2025-08-03",
+      "time": "17:00",
+      "customerId": "C024",
+      "serviceIds": [],
+      "technicianId": "tech-2",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-21",
+      "date": "2025-08-04",
+      "time": "17:30",
+      "customerId": "C025",
+      "serviceIds": [],
+      "technicianId": "tech-12",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-22",
+      "date": "2025-08-05",
+      "time": "18:00",
+      "customerId": "C026",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-23",
+      "date": "2025-07-27",
+      "time": "09:30",
+      "customerId": "C020",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-24",
+      "date": "2025-07-28",
+      "time": "09:45",
+      "customerId": "C005",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-25",
+      "date": "2025-07-28",
+      "time": "13:00",
+      "customerId": "C011",
+      "serviceIds": [],
+      "technicianId": "tech-2",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-26",
+      "date": "2025-07-28",
+      "time": "14:30",
+      "customerId": "C004",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-27",
+      "date": "2025-08-02",
+      "time": "09:45",
+      "customerId": "C024",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-28",
+      "date": "2025-08-04",
+      "time": "13:45",
+      "customerId": "C008",
+      "serviceIds": [],
+      "technicianId": "tech-2",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-29",
+      "date": "2025-08-04",
+      "time": "11:00",
+      "customerId": "C011",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-30",
+      "date": "2025-07-27",
+      "time": "12:45",
+      "customerId": "C014",
+      "serviceIds": [],
+      "technicianId": "tech-11",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-31",
+      "date": "2025-08-03",
+      "time": "09:15",
+      "customerId": "C017",
+      "serviceIds": [],
+      "technicianId": "tech-11",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-32",
+      "date": "2025-07-29",
+      "time": "15:30",
+      "customerId": "C008",
+      "serviceIds": [],
+      "technicianId": "tech-6",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-33",
+      "date": "2025-07-29",
+      "time": "12:00",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-7",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-34",
+      "date": "2025-07-26",
+      "time": "14:45",
+      "customerId": "C023",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-35",
+      "date": "2025-08-02",
+      "time": "10:15",
+      "customerId": "C001",
+      "serviceIds": [],
+      "technicianId": "tech-15",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-36",
+      "date": "2025-08-02",
+      "time": "10:15",
+      "customerId": "C017",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-37",
+      "date": "2025-07-29",
+      "time": "17:30",
+      "customerId": "C004",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-38",
+      "date": "2025-07-27",
+      "time": "12:00",
+      "customerId": "C008",
+      "serviceIds": [],
+      "technicianId": "tech-11",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-39",
+      "date": "2025-08-05",
+      "time": "10:45",
+      "customerId": "C013",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-40",
+      "date": "2025-07-28",
+      "time": "13:30",
+      "customerId": "C024",
+      "serviceIds": [],
+      "technicianId": "tech-12",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-41",
+      "date": "2025-07-29",
+      "time": "13:45",
+      "customerId": "C017",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-42",
+      "date": "2025-07-28",
+      "time": "13:15",
+      "customerId": "C008",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-43",
+      "date": "2025-07-31",
+      "time": "16:15",
+      "customerId": "C016",
+      "serviceIds": [],
+      "technicianId": "tech-11",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-44",
+      "date": "2025-08-01",
+      "time": "10:45",
+      "customerId": "C012",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-45",
+      "date": "2025-07-26",
+      "time": "15:15",
+      "customerId": "C015",
+      "serviceIds": [],
+      "technicianId": "tech-7",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-46",
+      "date": "2025-07-27",
+      "time": "16:45",
+      "customerId": "C018",
+      "serviceIds": [],
+      "technicianId": "tech-15",
+      "status": "completed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-47",
+      "date": "2025-07-28",
+      "time": "17:15",
+      "customerId": "C026",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-48",
+      "date": "2025-07-28",
+      "time": "10:30",
+      "customerId": "C022",
+      "serviceIds": [],
+      "technicianId": "tech-7",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-49",
+      "date": "2025-07-28",
+      "time": "17:30",
+      "customerId": "C006",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-50",
+      "date": "2025-07-27",
+      "time": "17:30",
+      "customerId": "C002",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-51",
+      "date": "2025-07-28",
+      "time": "17:00",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-16",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-52",
+      "date": "2025-07-28",
+      "time": "10:30",
+      "customerId": "C020",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-53",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C005",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-54",
+      "date": "2025-07-28",
+      "time": "15:30",
+      "customerId": "C019",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-55",
+      "date": "2025-07-27",
+      "time": "17:30",
+      "customerId": "C003",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-56",
+      "date": "2025-07-28",
+      "time": "17:15",
+      "customerId": "C018",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-57",
+      "date": "2025-07-28",
+      "time": "17:30",
+      "customerId": "C026",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-58",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C022",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-59",
+      "date": "2025-07-27",
+      "time": "17:45",
+      "customerId": "C006",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-60",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C002",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-61",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-16",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-62",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C020",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-63",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C005",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-64",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C019",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-65",
+      "date": "2025-07-27",
+      "time": "17:45",
+      "customerId": "C003",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-66",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C018",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-67",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C026",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-68",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C022",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-69",
+      "date": "2025-07-27",
+      "time": "17:45",
+      "customerId": "C006",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-70",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C002",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-71",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-16",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-72",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C020",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-73",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C005",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-74",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C019",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-75",
+      "date": "2025-07-27",
+      "time": "17:45",
+      "customerId": "C003",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-76",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C018",
+      "serviceIds": [],
+      "technicianId": "tech-8",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-77",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C026",
+      "serviceIds": [],
+      "technicianId": "tech-14",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-78",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C022",
+      "serviceIds": [],
+      "technicianId": "tech-3",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-79",
+      "date": "2025-07-27",
+      "time": "17:45",
+      "customerId": "C006",
+      "serviceIds": [],
+      "technicianId": "tech-1",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-80",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C002",
+      "serviceIds": [],
+      "technicianId": "tech-5",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-81",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C009",
+      "serviceIds": [],
+      "technicianId": "tech-16",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    },
+    {
+      "id": "apt-v2-82",
+      "date": "2025-07-28",
+      "time": "17:45",
+      "customerId": "C020",
+      "serviceIds": [],
+      "technicianId": "tech-13",
+      "status": "not-confirmed",
+      "notes": "",
+      "isGroup": false
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T-V2-1",
+      "type": "appointment",
+      "status": "completed",
+      "createdAt": "2025-07-25T10:16:14.005886",
+      "updatedAt": "2025-07-26T10:16:14.005926",
+      "primaryCustomerId": "C006",
+      "groupMembers": [
+        {
+          "customerId": "C006",
+          "name": "Rachel Wilson",
+          "type": "adult"
+        },
+        {
+          "customerId": "C007",
+          "name": "Emma Wilson",
+          "type": "child"
+        },
+        {
+          "isGuest": true,
+          "name": "Guest Child",
+          "type": "child"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-5",
+          "customerId": "C006",
+          "technicianId": "tech-1",
+          "status": "completed",
+          "addOn": false,
+          "price": 65.0
+        },
+        {
+          "serviceId": "srv-14",
+          "customerId": "C007",
+          "technicianId": "tech-2",
+          "status": "completed",
+          "addOn": false,
+          "price": 25.0
+        },
+        {
+          "serviceId": "srv-14",
+          "guestName": "Guest Child",
+          "technicianId": "tech-2",
+          "status": "completed",
+          "addOn": false,
+          "price": 25.0
+        }
+      ],
+      "payment": {
+        "status": "paid",
+        "subtotal": 115.0,
+        "tax": 9.2,
+        "total": 124.2,
+        "tip": 20.0,
+        "paymentDetails": [
+          {
+            "method": "credit",
+            "amount": 100.0
+          },
+          {
+            "method": "cash",
+            "amount": 44.2
+          }
+        ],
+        "tipAllocation": [
+          {
+            "technicianId": "tech-1",
+            "amount": 10.0
+          },
+          {
+            "technicianId": "tech-2",
+            "amount": 10.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-V2-2",
+      "type": "walk-in",
+      "status": "in-service",
+      "createdAt": "2025-07-26T10:16:14.005931",
+      "updatedAt": "2025-07-26T10:16:14.005932",
+      "primaryCustomerId": "C002",
+      "groupMembers": [
+        {
+          "customerId": "C002",
+          "name": "Sarah Johnson",
+          "type": "adult"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-3",
+          "customerId": "C002",
+          "technicianId": "tech-5",
+          "status": "in-progress",
+          "addOn": false,
+          "price": 40.0
+        },
+        {
+          "serviceId": "srv-21",
+          "customerId": "C002",
+          "technicianId": "tech-5",
+          "status": "pending",
+          "addOn": true,
+          "price": 15.0
+        }
+      ],
+      "payment": {
+        "status": "unpaid"
+      }
+    },
+    {
+      "id": "T-V2-3",
+      "type": "appointment",
+      "status": "assigned",
+      "createdAt": "2025-07-26T10:16:14.005938",
+      "updatedAt": "2025-07-26T10:16:14.005939",
+      "primaryCustomerId": "C016",
+      "groupMembers": [
+        {
+          "customerId": "C016",
+          "name": "Maria Rodriguez",
+          "type": "adult"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-18",
+          "customerId": "C016",
+          "technicianId": "tech-7",
+          "status": "pending",
+          "addOn": false,
+          "price": 50.0
+        }
+      ],
+      "payment": {
+        "status": "unpaid"
+      }
+    },
+    {
+      "id": "T-V2-4",
+      "type": "walk-in",
+      "status": "completed",
+      "createdAt": "2025-07-24T10:16:14.005941",
+      "updatedAt": "2025-07-24T10:16:14.005943",
+      "primaryCustomerId": "C010",
+      "groupMembers": [
+        {
+          "customerId": "C010",
+          "name": "Nancy Davis",
+          "type": "adult"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-8",
+          "customerId": "C010",
+          "technicianId": "tech-11",
+          "status": "completed",
+          "addOn": false,
+          "price": 38.0
+        }
+      ],
+      "payment": {
+        "status": "paid",
+        "subtotal": 38.0,
+        "tax": 3.04,
+        "total": 41.04,
+        "tip": 7.0,
+        "paymentDetails": [
+          {
+            "method": "gift-card",
+            "amount": 25.0
+          },
+          {
+            "method": "credit",
+            "amount": 23.04
+          }
+        ],
+        "tipAllocation": [
+          {
+            "technicianId": "tech-11",
+            "amount": 7.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-V2-5",
+      "type": "walk-in",
+      "status": "in-service",
+      "createdAt": "2025-07-26T11:30:00.000000",
+      "updatedAt": "2025-07-26T11:35:00.000000",
+      "primaryCustomerId": "C014",
+      "groupMembers": [
+        {
+          "customerId": "C014",
+          "name": "Amanda Johnson",
+          "type": "adult"
+        },
+        {
+          "customerId": "C015",
+          "name": "Lily Johnson",
+          "type": "child"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-1",
+          "customerId": "C014",
+          "technicianId": "tech-6",
+          "status": "in-progress",
+          "addOn": false,
+          "price": 37.0
+        },
+        {
+          "serviceId": "srv-13",
+          "customerId": "C015",
+          "technicianId": "tech-8",
+          "status": "pending",
+          "addOn": false,
+          "price": 20.0
+        }
+      ],
+      "payment": {
+        "status": "unpaid"
+      }
+    },
+    {
+      "id": "T-V2-6",
+      "type": "appointment",
+      "status": "completed",
+      "createdAt": "2025-07-25T14:00:00.000000",
+      "updatedAt": "2025-07-25T15:15:00.000000",
+      "primaryCustomerId": "C003",
+      "groupMembers": [
+        {
+          "customerId": "C003",
+          "name": "Emily Clark",
+          "type": "adult"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-18",
+          "customerId": "C003",
+          "technicianId": "tech-7",
+          "status": "completed",
+          "addOn": false,
+          "price": 50.0
+        }
+      ],
+      "payment": {
+        "status": "paid",
+        "subtotal": 50.0,
+        "tax": 4.0,
+        "total": 54.0,
+        "tip": 10.0,
+        "paymentDetails": [
+          {
+            "method": "credit",
+            "amount": 64.0
+          }
+        ],
+        "tipAllocation": [
+          {
+            "technicianId": "tech-7",
+            "amount": 10.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-V2-7",
+      "type": "walk-in",
+      "status": "assigned",
+      "createdAt": "2025-07-26T12:05:00.000000",
+      "updatedAt": "2025-07-26T12:05:00.000000",
+      "primaryCustomerId": "C012",
+      "groupMembers": [
+        {
+          "customerId": "C012",
+          "name": "Jessica Taylor",
+          "type": "adult"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-2",
+          "customerId": "C012",
+          "technicianId": "tech-12",
+          "status": "pending",
+          "addOn": false,
+          "price": 47.0
+        }
+      ],
+      "payment": {
+        "status": "unpaid"
+      }
+    },
+    {
+      "id": "T-V2-8",
+      "type": "appointment",
+      "status": "completed",
+      "createdAt": "2025-07-26T09:30:00.000000",
+      "updatedAt": "2025-07-26T10:45:00.000000",
+      "primaryCustomerId": "C019",
+      "groupMembers": [
+        {
+          "customerId": "C019",
+          "name": "Amanda Miller",
+          "type": "adult"
+        },
+        {
+          "customerId": "C020",
+          "name": "Chloe Miller",
+          "type": "child"
+        },
+        {
+          "customerId": "C021",
+          "name": "Sophie Miller",
+          "type": "child"
+        }
+      ],
+      "services": [
+        {
+          "serviceId": "srv-24",
+          "customerId": "C019",
+          "technicianId": "tech-5",
+          "status": "completed",
+          "addOn": false,
+          "price": 85.0
+        },
+        {
+          "serviceId": "srv-13",
+          "customerId": "C020",
+          "technicianId": "tech-14",
+          "status": "completed",
+          "addOn": false,
+          "price": 20.0
+        },
+        {
+          "serviceId": "srv-14",
+          "customerId": "C021",
+          "technicianId": "tech-14",
+          "status": "completed",
+          "addOn": false,
+          "price": 25.0
+        }
+      ],
+      "payment": {
+        "status": "paid",
+        "subtotal": 130.0,
+        "tax": 10.4,
+        "total": 140.4,
+        "tip": 25.0,
+        "paymentDetails": [
+          {
+            "method": "credit",
+            "amount": 165.4
+          }
+        ],
+        "tipAllocation": [
+          {
+            "technicianId": "tech-5",
+            "amount": 15.0
+          },
+          {
+            "technicianId": "tech-14",
+            "amount": 10.0
+          }
+        ]
+      }
+    }
+  ]
+}

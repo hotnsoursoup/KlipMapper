@@ -1,0 +1,79 @@
+{
+  "category": "Reports Widgets Feature",
+  "description": "User interface widgets for business reporting including report cards, detail views, and analytics visualization",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/widgets/report_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/models/report_data.dart"
+      ],
+      "components": [
+        {
+          "ReportCard": "Performance-optimized report preview card displaying summary metrics with RepaintBoundary isolation and UI Bible compliance."
+        }
+      ],
+      "rules": [
+        "UI Bible compliance with RepaintBoundary optimization isolating report cards from unnecessary rebuilds during list scrolling.",
+        "Comprehensive report type support: revenue, service performance, technician performance, customer analytics, appointment analytics, payment analytics.",
+        "ReportData union type integration using 'when' pattern for type-safe report data handling across different report types.",
+        "Color-coded report categories with distinct AppColors theming: green (revenue), blue (services), purple (staff), orange (customers), teal (appointments), warning (payments).",
+        "Professional card design with elevation, shadows, rounded corners, and proper Material Design touch feedback.",
+        "Loading state management with centered progress indicators and proper visual feedback.",
+        "Error state handling with user-friendly error messages and warning iconography.",
+        "Empty state management with appropriate messaging for reports with no data.",
+        "Business metrics display with formatted currency, percentages, and statistical trend indicators.",
+        "Trend visualization with positive/negative indicators using green/red color coding and trending icons.",
+        "Professional report categorization with descriptive titles and subtitles for each report type.",
+        "Summary content display showing key metrics: totals, averages, percentages, and comparative data.",
+        "Interactive tap handling with onTap callbacks for navigation to detailed report views.",
+        "Metric row builder with consistent label/value formatting and proper text styling.",
+        "Performance optimization with const constructors and RepaintBoundary widgets minimizing rebuild impact.",
+        "Icon integration with report type-specific iconography providing visual identification.",
+        "Professional business styling with consistent spacing, typography, and color schemes.",
+        "Revenue metrics display: total revenue, daily/weekly breakdowns, and period comparisons.",
+        "Service performance metrics: completion counts, average values, and trend analysis.",
+        "Staff performance tracking: appointment counts, ratings, and productivity indicators."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/reports/presentation/widgets/report_detail_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/models/report_data.dart"
+      ],
+      "components": [
+        {
+          "ReportDetailView": "Comprehensive detailed report view with full data visualization, metrics grids, and chart placeholders.",
+          "_MetricCard": "Performance-optimized metric card component for displaying key business indicators with color-coded theming."
+        }
+      ],
+      "rules": [
+        "Full-screen detailed report interface with header navigation, refresh functionality, and comprehensive content display.",
+        "ReportData union type integration using 'when' pattern for type-safe detailed report rendering across all report types.",
+        "Responsive metrics grid with LayoutBuilder calculating optimal column count based on available width (1-4 columns).",
+        "Professional scaffold layout with proper header styling, navigation, and content area organization.",
+        "Loading state management with descriptive text and proper visual feedback during data fetching.",
+        "Comprehensive error handling with retry functionality and user-friendly error messages.",
+        "Empty state management with appropriate iconography and messaging for reports with no data.",
+        "Chart placeholder system providing foundation for future data visualization integration.",
+        "Performance optimization with RepaintBoundary widgets isolating static content from dynamic updates.",
+        "Revenue report detailed metrics: total, daily, weekly, monthly revenue with trend analysis placeholders.",
+        "Service performance analytics: completion counts, average values, growth rates, and performance metrics.",
+        "Staff performance tracking: appointment metrics, ratings, productivity indicators, and individual analysis.",
+        "Customer analytics display: customer counts, acquisition metrics, retention data, and visit value analysis.",
+        "Appointment analytics overview: booking metrics, completion rates, cancellation tracking, and show-up rates.",
+        "Payment analytics breakdown: transaction totals, payment method distribution, tips tracking, and processing metrics.",
+        "Color-coded metric cards with distinct theming for each report type maintaining visual consistency.",
+        "Professional chart section design with titles, descriptions, and placeholder content for future visualization.",
+        "Back navigation integration with tooltip support and proper Material Design interaction patterns.",
+        "Refresh functionality with loading state management and disabled state during data operations.",
+        "Scrollable content layout supporting large amounts of report data with proper padding and spacing."
+      ]
+    }
+  }
+}

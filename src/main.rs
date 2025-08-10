@@ -7,8 +7,24 @@ mod logging;
 mod index;
 mod checker;
 mod watcher;
+mod config;
+mod query_pack;
+mod symbol_table;
+mod anchor;
+mod scope_tracker;
+mod symbol_resolver;
+mod wildcard_matcher;
+mod architecture_exporter;
+mod export_formats;
 
-fn main() -> anyhow::Result<()> {
+fn main() {
     logging::init();
-    cli::run()
+    if let Err(e) = cli::run() {
+        eprintln!("Error: {}", e);
+        std::process::exit(1);
+    }
 }
+
+// Include stress tests that generate synthetic code and run scan/check
+#[cfg(test)]
+mod generated_tests;

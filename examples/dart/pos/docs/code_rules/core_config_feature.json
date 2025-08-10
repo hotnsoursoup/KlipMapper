@@ -1,0 +1,132 @@
+{
+  "category": "Core Configuration Feature", 
+  "description": "Configuration management including service categories, API constants, and database seeding infrastructure",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/config/service_categories.dart": {
+      "file_type": "configuration",
+      "imports": [
+        "package:flutter/material.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryConfig": "Data class defining service category configuration with ID, display name, color, and icon properties."
+        },
+        {
+          "ServiceCategories": "Static configuration manager for service categories with database loading, defaults, and color/icon management."
+        }
+      ],
+      "rules": [
+        "Centralized service category configuration with color and icon management system.",
+        "Database-driven configuration loading with fallback to sensible defaults.",
+        "Default color mapping: nails (blue), gel (light blue), acrylic (purple), waxing (green), facials (amber), SNS (orange), massage (deep purple), hair (red), other (grey).",
+        "Material Design icon integration with category-appropriate icon selection.",
+        "Numeric ID to category name mapping for backward compatibility with database schema.",
+        "Dynamic category loading from database with proper color parsing from hex strings.",
+        "Icon name string to IconData mapping for database-stored icon configurations.",
+        "Category update functionality for runtime color customization and configuration changes.",
+        "Fallback 'other' category ensuring all services have valid category assignment.",
+        "Default initialization system preventing null reference errors during app startup.",
+        "Color parsing with error handling for malformed hex color values.",
+        "Category retrieval with case-insensitive matching and fallback behavior.",
+        "Database integration methods for loading categories from stored data.",
+        "Static utility methods for color retrieval by category ID or name.",
+        "Professional color palette with visually distinct category identification.",
+        "Icon mapping system supporting common Material Design icons for service categories.",
+        "Configuration update system supporting runtime theme and appearance changes."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/constants/api_constants.dart": {
+      "file_type": "constants",
+      "imports": [],
+      "components": [
+        {
+          "ApiConstants": "Static constants class defining REST API endpoints and URL construction methods for backend integration."
+        }
+      ],
+      "rules": [
+        "Centralized API endpoint definition for consistent backend communication.",
+        "localhost:8096 base URL configuration for development environment.",
+        "RESTful endpoint structure with proper resource naming and HTTP method alignment.",
+        "Authentication endpoints: login, logout, refresh token for session management.",
+        "Customer CRUD endpoints with search functionality and parameterized ID routing.",
+        "Employee management endpoints (updated from technicians) with status tracking.",
+        "Service and service category endpoints for menu and pricing management.",
+        "Ticket lifecycle endpoints: queue management, assignment, checkout operations.",
+        "Payment processing endpoints for transaction management and history.",
+        "Appointment management with availability checking and check-in functionality.",
+        "Location-based endpoints for multi-location business support.",
+        "Settings and business information endpoints for configuration management.",
+        "Comprehensive reporting endpoints: sales, customers, technicians analytics.",
+        "Synchronization endpoints for data consistency and offline support.",
+        "Parameterized endpoint methods using string interpolation for dynamic routing.",
+        "Private constructor preventing instantiation of constants class.",
+        "Environment-ready structure supporting development, staging, production configurations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/database/seeds/service_category_seeds.dart": {
+      "file_type": "database_seed",
+      "imports": [
+        "../drift_database.dart",
+        "package:drift/drift.dart",
+        "../../utils/logger.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategorySeeds": "Database seeding utility providing default service categories with colors, icons, and category mapping."
+        }
+      ],
+      "rules": [
+        "Comprehensive default service category seeding for new database installations.",
+        "Pre-configured service categories: Mani-Pedi, Gel Nails, Acrylics, Waxing, Facial, SNS with appropriate colors and icons.",
+        "Professional color scheme with visually distinct category identification: soft pink, teal, purple, orange, green, bright orange.",
+        "Material Design icon mapping: pan_tool (mani-pedi), brush (gel), format_paint (acrylics), spa (waxing), face (facial), layers (SNS).",
+        "Intelligent seeding logic checking for existing categories before insertion.",
+        "Batch insertion for optimal database performance during seeding operations.",
+        "Category color and icon update functionality for database maintenance.",
+        "Backward compatibility support with numeric ID to category name mapping.",
+        "Comprehensive logging integration for seeding status and error tracking.",
+        "Error handling with rethrow for proper exception propagation.",
+        "Database transaction safety with batch operations for consistency.",
+        "Category name variations mapping for flexible service assignment.",
+        "Default category assignment ensuring all services have valid categorization.",
+        "Professional salon service categorization matching industry standards.",
+        "Drift ORM integration with Companion objects for type-safe database operations.",
+        "Hex color storage format with '#' prefix for consistent color representation.",
+        "Icon name storage as strings with Material Design icon mapping."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/database/seeds/service_seeds.dart": {
+      "file_type": "database_seed",
+      "imports": [
+        "../drift_database.dart",
+        "package:drift/drift.dart",
+        "../../utils/logger.dart"
+      ],
+      "components": [
+        {
+          "ServiceSeeds": "Comprehensive service seeding utility providing default salon services with realistic pricing, durations, and categorization."
+        }
+      ],
+      "rules": [
+        "Professional salon service catalog with 40+ realistic services across 6 categories.",
+        "Industry-standard service categorization: Mani-Pedi (1), Gel Nails (2), Acrylics (3), Waxing (4), Facial (5), SNS (6).",
+        "Realistic pricing structure: $10-95 range matching current salon market rates.",
+        "Appropriate service durations: 10-90 minutes based on actual service complexity.",
+        "Complete service descriptions providing clear service value propositions.",
+        "Diverse service offerings: basic to luxury tiers including deluxe, hot stone, CBD options.",
+        "Demographic-specific services: men's services, children's services with appropriate pricing.",
+        "Comprehensive waxing menu: eyebrow, facial, body, bikini services with progressive pricing.",
+        "Advanced facial treatments: anti-aging, hydrating, acne treatment, brightening options.",
+        "SNS/dip powder services: full sets, fills, french, ombre with specialty pricing.",
+        "Batch insertion optimization for efficient database seeding operations.",
+        "Service category update functionality for database maintenance and corrections.",
+        "Existing service check to prevent duplicate seeding on multiple runs.",
+        "Comprehensive logging for seeding status, success counts, and error tracking.",
+        "Service-to-category mapping for automated category assignment corrections.",
+        "Error handling with rethrow for proper exception propagation and debugging.",
+        "Database transaction safety with batch operations for data consistency.",
+        "Professional service naming conventions matching salon industry standards."
+      ]
+    }
+  }
+}

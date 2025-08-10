@@ -1,0 +1,66 @@
+# AgentMap Configuration Example
+# Copy to config.yaml and customize
+
+# Language Selection
+languages: [dart, ts, js, py, rs, go, java]
+
+# File Patterns  
+include:
+  - "lib/**/*.dart"
+  - "src/**/*.ts" 
+  - "src/**/*.js"
+  - "**/*.py"
+  - "**/*.rs"
+  - "**/*.go"
+  - "**/*.java"
+
+exclude:
+  - "**/*.g.dart"        # Generated files
+  - "**/build/**"        # Build directories
+  - "**/target/**"       # Rust target
+  - "**/node_modules/**" # JS dependencies
+  - "**/.dart_tool/**"   # Dart tools
+
+# Capture → Tag Mapping
+tags:
+  use.id: ref
+  import.uri: import
+  class.name: def.class
+  def.fn: def.function
+  def.method: def.method
+
+# Preamble Configuration
+preamble:
+  line_budget: 12
+  sections:
+    - purpose
+    - io
+    - invariants
+    - imports
+    - hotspots
+
+# Analysis Granularity
+granularity:
+  track_calls: true
+  track_member_access: false
+  track_generics: true
+
+# Auto-Discovery Heuristics
+auto:
+  enable: true
+  min_refs: 3      # Minimum references to promote symbol
+  min_files: 2     # Must be used across multiple files
+
+# Custom Query Overrides
+query_overrides:
+  typescript.uses: "./custom_queries/ts_uses.scm"
+  python.defs: "./custom_queries/py_defs.scm"
+
+# Explicit Symbol Tracking
+track:
+  - Employee
+  - EmployeesProvider  
+  - AppointmentModel
+  - CustomerModel
+  - TicketModel
+  - TechnicianCard

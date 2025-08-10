@@ -1,0 +1,53 @@
+{
+  "category": "App Shell Feature",
+  "description": "Application shell providing fixed navigation rail with hover expansion, route-based selection, and manager PIN protection for sensitive areas",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/app/widgets/app_shell.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "package:go_router/go_router.dart",
+        "../../core/theme/app_colors.dart",
+        "../../core/theme/app_text_styles.dart",
+        "../../core/utils/privileged_operations.dart"
+      ],
+      "components": [
+        {
+          "AppShell": "Main application shell StatefulWidget providing fixed navigation rail with hover expansion and route-based navigation."
+        },
+        {
+          "_AppShellState": "State management for navigation rail expansion, hover effects, route selection, and PIN-protected navigation."
+        },
+        {
+          "NavigationItem": "Data class defining navigation item structure with icons, labels, and routes for navigation rail items."
+        }
+      ],
+      "rules": [
+        "Fixed 72px navigation rail positioned on the left side with main content area padding.",
+        "Hover-triggered expansion to 220px overlay with text labels and unified highlight coverage.",
+        "Navigation items: Dashboard, Calendar, Appointments, Checkout, Tickets, Customers, Employees, Services, Reports, Settings.",
+        "Icon-based navigation with selected/unselected icon states for visual feedback.",
+        "Route-based selection tracking using GoRouter current configuration URI.",
+        "Manager PIN protection for Settings route using PrivilegedOperations authorization system.",
+        "Mouse region hover effects with state management for expansion and individual item highlighting.",
+        "Overlay label system with proper positioning and background styling during expansion.",
+        "Exit button anchored at bottom with confirmation dialog and SystemNavigator.pop integration.",
+        "Dark theme navigation (Color(0xFF1A1D2E)) with white icons and text for contrast.",
+        "Unified highlight system covering both navigation rail and overlay areas when expanded.",
+        "Professional styling with rounded corners, shadows, and proper spacing throughout.",
+        "Responsive hover states with different colors for selection vs hover vs normal states.",
+        "Authorization failure feedback with SnackBar notifications for denied access attempts.",
+        "Logo area with spa icon and 'Luxe Nails' text overlay during expansion.",
+        "Material Design InkWell effects with proper touch targets and ripple animations.",
+        "Exit confirmation dialog with warning icon, descriptive text, and styled action buttons.",
+        "Stateful hover tracking for individual navigation items and exit button separately.",
+        "Navigation item data structure with icon pairs and route mapping for flexibility.",
+        "Consistent typography using AppTextStyles with proper color theming and font weights.",
+        "Transform.translate positioning for precise overlay alignment covering navigation rail area.",
+        "Security integration with privileged operations for manager-only access control.",
+        "Application-wide navigation shell pattern supporting all major feature routes."
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "category": "API Feature",
+  "description": "HTTP client infrastructure with Dio integration, request/response interceptors, and comprehensive error handling",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/api/api_client.dart": {
+      "file_type": "service",
+      "imports": [
+        "package:dio/dio.dart",
+        "package:flutter/foundation.dart",
+        "../constants/api_constants.dart"
+      ],
+      "components": [
+        {
+          "ApiClient": "Singleton HTTP client service providing comprehensive REST API functionality with Dio integration."
+        },
+        {
+          "ApiException": "Custom exception class for structured API error handling with status codes and data payload support."
+        }
+      ],
+      "rules": [
+        "Singleton pattern implementation ensuring single HTTP client instance across application.",
+        "Dio integration with comprehensive BaseOptions: 30-second timeouts, JSON headers, base URL configuration.",
+        "Request/response interceptor system with detailed logging for debug mode and production-safe operation.",
+        "Authentication token management with Bearer token support and automatic header injection.",
+        "Comprehensive HTTP methods support: GET, POST, PUT, DELETE with full parameter and options support.",
+        "Error handling with DioException transformation to custom ApiException for consistent error management.",
+        "Debug logging with request/response details including headers, data, and error information.",
+        "Unauthorized (401) handling hook for token refresh or logout scenarios.",
+        "Connection timeout, send timeout, receive timeout handling with appropriate error messages.",
+        "Cancel token support for request cancellation and cleanup.",
+        "Generic response type support with proper typing for API responses.",
+        "Query parameters support for GET requests with proper URL encoding.",
+        "Request body support for POST/PUT requests with JSON serialization.",
+        "Options parameter support for custom request configuration overrides.",
+        "Status code extraction and message parsing from error responses.",
+        "Network error categorization: timeout, bad response, cancellation, unknown errors.",
+        "Secure token storage integration hooks (TODO implementation placeholders).",
+        "Professional error transformation with meaningful messages and status codes.",
+        "Future-ready architecture with extensible interceptor and middleware support.",
+        "Production-ready configuration with debug mode conditional logging."
+      ]
+    }
+  }
+}

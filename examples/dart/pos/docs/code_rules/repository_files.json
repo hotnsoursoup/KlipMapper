@@ -1,0 +1,103 @@
+{
+  "category": "Repository Files",
+  "description": "Data access layer files using Drift ORM for database operations",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_ticket_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/ticket_model.dart",
+        "../models/customer_model.dart",
+        "../models/service_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftTicketRepository": "A repository that handles all database operations for tickets using the Drift library. It includes methods for creating, reading, updating, and deleting tickets, as well as more complex queries."
+        }
+      ],
+      "rules": [
+        "The repository uses a singleton pattern.",
+        "It must be initialized with a Drift database instance before use.",
+        "It includes a caching layer for converted tickets to avoid re-parsing JSON.",
+        "It includes de-duplication logic to prevent duplicate in-flight queries.",
+        "The `_convertToModel` method converts a Drift `Ticket` object to a `Ticket` model object.",
+        "The `_mapTicketStatus` method determines the ticket status based on the database fields.",
+        "The `getTickets` method supports pagination and filtering by status, type, and date.",
+        "The `getTicketsCount` method returns the total number of tickets for pagination.",
+        "The `_generateNextTicketNumber` method generates a new ticket number that resets daily.",
+        "The `insertTicket` method handles creating a new ticket in the database.",
+        "The `updateTicket` method updates an existing ticket.",
+        "The `assignTechnician`, `startService`, `completeService`, and `processPayment` methods update the ticket's status and other relevant fields.",
+        "The `voidTicket` method marks a ticket as voided.",
+        "The `getQueueTickets` method fetches tickets that are currently in the queue (queued or assigned).",
+        "The `getTodaysActiveTickets` method fetches all active tickets for the current day.",
+        "The repository provides streams (`watch...` methods) for reactive UI updates."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_employee_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:flutter/foundation.dart",
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/employee_model.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../employees/data/models/employee_capability.dart"
+      ],
+      "components": [
+        {
+          "DriftEmployeeRepository": "A repository that handles all database operations for employees using the Drift library. It includes methods for creating, reading, updating, and deleting employees, as well as managing their capabilities and clock-in/out status."
+        }
+      ],
+      "rules": [
+        "The repository uses a singleton pattern.",
+        "It must be initialized with a Drift database instance before use.",
+        "The `getEmployees` method fetches all active employees.",
+        "The `getEmployeesByRole` method fetches active employees with a specific role (e.g., 'technician').",
+        "The `getTechnicians` method is a convenience method for `getEmployeesByRole('technician')`.",
+        "The `insertEmployee`, `updateEmployee`, and `deleteEmployee` (soft delete) methods manage the employee lifecycle.",
+        "The `updateEmployeeCapabilities` method updates the services an employee is qualified to perform.",
+        "The `getEmployeesByCapability` method fetches all employees who can perform a specific service.",
+        "The `_convertToModel` method converts a Drift `Employee` object to an `Employee` model object, including their capabilities.",
+        "The `clockInEmployee` and `clockOutEmployee` methods update the employee's clock-in status in the database.",
+        "The repository provides streams (`watch...` methods) for reactive UI updates."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_customer_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../../../../core/database/drift_database.dart as db",
+        "../../../../utils/error_logger.dart",
+        "../models/customer_model.dart",
+        "package:drift/drift.dart as drift"
+      ],
+      "components": [
+        {
+          "DriftCustomerRepository": "A singleton repository handling all database operations for customers using the Drift library with comprehensive CRUD operations."
+        }
+      ],
+      "rules": [
+        "Uses singleton pattern for application-wide access to customer data operations.",
+        "Integrates with PosDatabase instance for database connectivity and operations.",
+        "Provides comprehensive CRUD operations: create, read, update, delete customers.",
+        "Customer retrieval methods: getCustomers() for all customers, getCustomerById() for specific lookup.",
+        "Customer creation with both legacy (createCustomerLegacy) and modern (createCustomer) methods.",
+        "Data conversion between Drift database models and application Customer models.",
+        "Search functionality with query-based customer filtering by name, phone, or email.",
+        "Customer update operations with full customer data modification support.",
+        "Soft delete functionality for customer records with data preservation.",
+        "Error handling with comprehensive logging for all database operations.",
+        "Initialization required before use to establish database connection.",
+        "Customer model conversion through _driftToMap helper for data transformation.",
+        "Database transaction support for complex customer operations.",
+        "Query optimization with indexed searches for performance.",
+        "Null safety handling for optional customer data fields.",
+        "Integration with ErrorLogger for debugging and monitoring database operations.",
+        "Support for customer data validation before database persistence.",
+        "Batch operations support for multiple customer records."
+      ]
+    }
+  }
+}

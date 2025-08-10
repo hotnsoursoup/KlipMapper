@@ -1,0 +1,14 @@
+Launching lib/main.dart on Linux in debug mode...
+Building Linux application...                                   
+✓ Built build/linux/x64/debug/bundle/luxe_pos
+Dropped Escape call with ulEscapeCode : 0x03007703
+Gdk-Message: 15:19:47.923: Unable to load  from the cursor theme
+
+
+#
+# Fatal error in: ../../src/media/engine/adm_helpers.cc, line 39
+# last system error: 0
+# Check failed: 0 == adm->Init() (0 vs. -1)
+# Failed to initialize the ADM.
+Error waiting for a debug connection: The log reader stopped unexpectedly, or never started.
+Error launching application on Linux.

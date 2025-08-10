@@ -1,0 +1,152 @@
+{
+  "category": "Core Utilities Feature",
+  "description": "Core utility classes and functions including debouncing, formatting, logging, validation, and text measurement",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/debouncer.dart": {
+      "file_type": "utility",
+      "imports": [
+        "dart:async",
+        "package:flutter/foundation.dart"
+      ],
+      "components": [
+        {
+          "Debouncer": "Timer-based debouncing utility for delaying function execution until inactivity period expires."
+        },
+        {
+          "ValueDebouncer<T>": "Generic debouncer extending ChangeNotifier for reactive value debouncing with listener support."
+        },
+        {
+          "DebouncerMixin": "Mixin providing debouncing functionality to any class with lifecycle management."
+        }
+      ],
+      "rules": [
+        "Debouncing utility preventing excessive function calls during rapid user input scenarios.",
+        "Timer-based implementation with configurable millisecond delay and automatic cancellation.",
+        "Search input optimization preventing API calls on every keystroke with 500ms default delay.",
+        "VoidCallback action execution with proper timer cleanup and resource management.",
+        "ValueDebouncer extends ChangeNotifier for reactive programming patterns with listener notifications.",
+        "Generic type support allowing debouncing of any value type with type safety.",
+        "Immediate value updates with delayed debounced value propagation for responsive UI.",
+        "ChangeNotifier integration enabling reactive UI updates when debounced values change.",
+        "DebouncerMixin providing reusable debouncing functionality for StatefulWidget classes.",
+        "Initialization requirement with setupDebouncer method and proper error handling.",
+        "Comprehensive lifecycle management with cancel and dispose methods for memory cleanup.",
+        "Documentation with practical examples showing search input and API call patterns.",
+        "Timer cancellation preventing memory leaks and ensuring only latest action executes.",
+        "State error handling with clear messaging for uninitialized debouncer usage.",
+        "Flexible delay configuration supporting different use cases across the application.",
+        "Resource disposal integration with Widget lifecycle for proper cleanup."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/formatter.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:intl/intl.dart"
+      ],
+      "components": [
+        {
+          "AppFormatter": "Centralized formatting utility class for currency, percentage, and number formatting consistency."
+        }
+      ],
+      "rules": [
+        "Private constructor preventing instantiation of static utility class.",
+        "Centralized formatting logic eliminating code duplication across multiple components.",
+        "Currency formatting with NumberFormat.currency using US locale and dollar symbol.",
+        "Configurable decimal digits for currency with 2-digit default for price display.",
+        "Percentage formatting with NumberFormat.percentPattern for proper decimal to percentage conversion.",
+        "Null-safe formatting with default 0.0 fallback preventing runtime errors.",
+        "Intl package integration for locale-aware formatting with proper internationalization support.",
+        "Code duplication prevention addressing manual string concatenation violations across tickets, checkout, and dashboard.",
+        "Consistent formatting across ticket list items, checkout dialogs, and customer details.",
+        "Manual formatting replacement eliminating '\$${value.toStringAsFixed(2)}' patterns.",
+        "Percentage calculation centralization replacing manual '(value * 100).toStringAsFixed(0)%' logic.",
+        "Employee commission rate formatting consistency across professional employee components.",
+        "Discount model formatting standardization for checkout and payment processing.",
+        "Decimal digit configuration supporting both currency (2 digits) and percentage (0 digits) requirements.",
+        "US locale standardization ensuring consistent number formatting across all monetary displays."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/logger.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/foundation.dart"
+      ],
+      "components": [
+        {
+          "Logger": "Debug-mode logging utility with categorized message types and emoji indicators for enhanced debugging."
+        }
+      ],
+      "rules": [
+        "Debug-only logging with kDebugMode check ensuring no production log overhead.",
+        "Static utility class with categorized logging methods for different message types.",
+        "Error logging with optional error object and stack trace for comprehensive debugging.",
+        "Emoji indicators for quick visual identification: ❌ errors, ✅ success, ⚠️ warnings, ℹ️ info.",
+        "debugPrint integration ensuring proper Flutter logging channel usage.",
+        "Stack trace logging for error scenarios with detailed debugging information.",
+        "Success logging for positive operation confirmations and completion notifications.",
+        "Warning logging for non-critical issues requiring developer attention.",
+        "Info logging for general operational messages and status updates.",
+        "Simple API design with consistent method signatures across all log levels.",
+        "Production performance optimization by completely removing log calls in release builds.",
+        "Comprehensive error context with separate error object and stack trace parameters.",
+        "Visual log differentiation enabling rapid identification of log message types in console.",
+        "Flutter foundation integration ensuring compatibility with Flutter's logging infrastructure."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/text_measurement_utils.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/material.dart",
+        "../theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "TextMeasurementUtils": "Utility class for measuring text dimensions and creating dynamic dropdown widgets based on content width."
+        }
+      ],
+      "rules": [
+        "TextPainter integration for accurate text width calculation with specified TextStyle.",
+        "Dynamic dropdown width calculation based on longest item content with configurable constraints.",
+        "AppTextStyles default integration for consistent text measurement across components.",
+        "Buffer padding support (60px default) accounting for dropdown icons, padding, and arrow space.",
+        "Width clamping with configurable minimum (120px) and maximum (300px) constraints.",
+        "Single-line text measurement with TextDirection.ltr for consistent measurement.",
+        "Widget factory method creating properly sized SizedBox containers for dropdowns.",
+        "Generic dropdown support with value change callbacks and custom child widgets.",
+        "Longest item detection algorithm for optimal dropdown sizing calculations.",
+        "Flexible styling support with optional TextStyle parameter overrides.",
+        "Layout optimization preventing dropdown overflow and ensuring proper fit.",
+        "Reusable dropdown creation reducing boilerplate code across filter components.",
+        "Empty list handling with fallback to minimum width for edge case protection.",
+        "Performance optimization with single layout pass per text measurement operation.",
+        "Consistent sizing across all dropdown components maintaining visual harmony."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/validators.dart": {
+      "file_type": "utility",
+      "imports": [],
+      "components": [
+        {
+          "AppValidators": "Centralized form validation utility class providing reusable validation rules for consistent form handling."
+        }
+      ],
+      "rules": [
+        "Private constructor preventing instantiation of static utility class.",
+        "Centralized validation logic eliminating duplication across service forms and customer dialogs.",
+        "Required field validation with customizable field name for personalized error messages.",
+        "Email format validation with regex pattern supporting standard email formats.",
+        "Optional field validation allowing empty values while validating non-empty entries.",
+        "US phone number validation supporting multiple formats with optional parentheses and separators.",
+        "Positive number validation ensuring values greater than zero for prices and durations.",
+        "Regex pattern validation with comprehensive email and phone number format support.",
+        "Null-safe validation with proper null and empty string handling.",
+        "Trimmed string validation removing whitespace for accurate empty field detection.",
+        "Double parsing validation for numeric inputs with proper error handling.",
+        "Customizable error messages with field name injection for context-specific feedback.",
+        "Code duplication prevention addressing validation logic scattered across multiple form components.",
+        "Consistent validation behavior across service form dialogs and customer creation forms.",
+        "Form field validation standardization ensuring uniform user experience across all forms."
+      ]
+    }
+  }
+}

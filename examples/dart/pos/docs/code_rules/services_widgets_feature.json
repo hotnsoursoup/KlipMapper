@@ -1,0 +1,106 @@
+{
+  "category": "Services Widgets Feature",
+  "description": "Service management UI widgets including form dialogs, category management, and optimized service displays",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/presentation/widgets/dynamic_service_form_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../shared/domain/models/service_domain.dart",
+        "../../../shared/data/repositories/drift_service_repository.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "DynamicServiceFormDialog": "Comprehensive service creation/editing form dialog with category selection, validation, and professional UI design."
+        }
+      ],
+      "rules": [
+        "Dual-mode form dialog supporting both service creation and editing with proper initialization.",
+        "Category preselection support for streamlined service creation within specific categories.",
+        "Comprehensive form validation ensuring required fields and business rule compliance.",
+        "Professional Material Design dialog with proper spacing, styling, and user feedback.",
+        "Category dropdown integration with ServiceCategoryWithCount display and selection.",
+        "Price and duration input formatting with decimal validation and numeric restrictions.",
+        "Form controller management with proper initialization from existing service data.",
+        "Callback pattern integration with parent components for service save operations.",
+        "Input validation with user-friendly error messages and real-time feedback.",
+        "Memory management with TextEditingController disposal in widget lifecycle."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/presentation/widgets/optimized_service_category_section.dart": {
+      "file_type": "widget",
+      "imports": [],
+      "components": [
+        {
+          "OptimizedServiceCategorySection": "Performance-optimized service category display widget with RepaintBoundary isolation and efficient rendering."
+        }
+      ],
+      "rules": [
+        "Performance optimization with RepaintBoundary widgets isolating category sections from unnecessary rebuilds.",
+        "Service category grouping with efficient list rendering and minimal widget tree depth.",
+        "Optimized Observer placement minimizing reactive scope for better performance.",
+        "Professional category card design with consistent styling and proper spacing.",
+        "Service pill integration with category-based organization and visual hierarchy.",
+        "Memory efficiency with const constructors and static widget optimization."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/presentation/widgets/service_category_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryDialog": "Service category creation dialog with name input, color selection, and icon picker for comprehensive category management."
+        }
+      ],
+      "rules": [
+        "Professional category creation interface with form validation and user feedback.",
+        "Color picker integration allowing custom category color selection for visual organization.",
+        "Icon selection system supporting various category icons for visual identification.",
+        "Form validation ensuring category name requirements and preventing duplicate categories.",
+        "Material Design dialog layout with proper spacing and professional styling.",
+        "Callback pattern integration for category save operations with parent component coordination.",
+        "Color preview functionality showing selected color in real-time for user feedback.",
+        "Memory management with proper form controller disposal in widget lifecycle."
+      ]
+    }
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/presentation/widgets/service_form_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "ServiceFormDialog": "Legacy service creation/editing form dialog with category configuration integration and dual-mode operation."
+        }
+      ],
+      "rules": [
+        "Legacy form dialog supporting both service creation and editing with existing service data initialization.",
+        "ServiceCategoryConfig integration with color preview and dropdown category selection.",
+        "Category ID mapping system converting between integer IDs and string keys for backward compatibility.",
+        "Comprehensive form validation with real-time feedback for name, price, and duration inputs.",
+        "Decimal price input formatting with regex validation preventing invalid currency formats.",
+        "Duration input with integer-only validation ensuring valid time values.",
+        "Professional Material Design dialog layout with consistent styling and spacing.",
+        "Form controller management with proper initialization from existing service data and memory disposal.",
+        "Callback pattern integration with parent components for service save operations.",
+        "Category mapping logic handling conversion between database integer IDs and configuration string keys.",
+        "Input formatter integration preventing invalid characters in price and duration fields.",
+        "Error handling with user-friendly validation messages for form completion feedback."
+      ]
+    }
+  }
+}

@@ -1,0 +1,226 @@
+// Archived: moved from lib/features/dashboard/presentation/widgets/sections/upcoming_appointments_section.dart
+// Not compiled. Kept for reference during migration.
+// ---- BEGIN ORIGINAL CONTENT ----
+// lib/features/dashboard/presentation/widgets/sections/upcoming_appointments_section.dart
+// Upcoming appointments section showing scheduled appointments for current and next days. Features appointment cards with customer info, services, and timing details.
+// Usage: ACTIVE - Dashboard section for displaying future appointment overview
+
+import 'package:flutter/material.dart';
+// MobX import removed - needs Riverpod conversion
+import 'package:provider/provider.dart';
+import '../../../../../core/theme/app_colors.dart';
+import '../../../../../core/theme/app_text_styles.dart';
+import '../../../data/dashboard_store.dart';
+import '../../../../appointments/presentation/widgets/appointment_card.dart';
+import '../../../../shared/data/models/customer_model.dart';
+import '../../../../shared/data/models/ticket_model.dart';
+import '../ticket_details/ticket_details_dialog.dart';
+
+/// Upcoming Appointments Section with focused Observer and ListView.builder
+/// Optimized for performance with efficient list rendering
+class UpcomingAppointmentsSection extends StatelessWidget {
+  const UpcomingAppointmentsSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final dashboardStore = Provider.of<DashboardStore>(context, listen: false);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Header
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              // Title with count
+              Observer(
+                builder: (_) => Row(
+                  children: [
+                    Text(
+                      'Upcoming Appointments',
+                      style: AppTextStyles.headline2.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    if (dashboardStore.upcomingAppointmentsCount > 0)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 2,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.servicePurple,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          '${dashboardStore.upcomingAppointmentsCount}',
+                          style: AppTextStyles.labelSmall.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+              // View all button
+              TextButton.icon(
+                onPressed: () {
+                  // Navigate to appointments screen
+                  Navigator.of(context).pushNamed('/appointments');
+                },
+                icon: const Icon(Icons.arrow_forward, size: 16),
+                label: const Text('View All'),
+                style: TextButton.styleFrom(
+                  foregroundColor: AppColors.primaryBlue,
+                ),
+              ),
+            ],
+          ),
+        ),
+        
+        // Appointments list with focused Observer and ListView.builder
+        Expanded(
+          child: Observer(
+            builder: (_) {
+              final appointments = dashboardStore.upcomingAppointments;
+              
+              if (appointments.isEmpty) {
+                return Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.event_available,
+                        size: 64,
+                        color: AppColors.textSecondary.withValues(alpha: 0.3),
+                      ),
+                      const SizedBox(height: 16),
+                      Text(
+                        'No upcoming appointments',
+                        style: AppTextStyles.bodyLarge.copyWith(
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'Appointments will appear here',
+                        style: AppTextStyles.bodyMedium.copyWith(
+                          color: AppColors.textSecondary.withValues(alpha: 0.7),
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              }
+
+              // OPTIMIZATION: Use ListView.builder instead of map().toList()
+              // This creates widgets on-demand rather than all at once
+              return ListView.builder(
+                key: const PageStorageKey('appointments_list'),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                itemCount: appointments.length,
+                itemBuilder: (context, index) {
+                  final appointment = appointments[index];
+                  
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 8),
+                    child: AppointmentCard(
+                      key: ValueKey(appointment.id), // Key optimization
+                      appointment: appointment,
+                      onCheckIn: () => _handleCheckIn(
+                        context,
+                        dashboardStore,
+                        appointment.id,
+                      ),
+                      onContact: () => _handleContactCustomer(
+                        context,
+                        appointment,
+                      ),
+                    ),
+                  );
+                },
+              );
+            },
+          ),
+        ),
+      ],
+    );
+  }
+
+  void _handleContactCustomer(
+    BuildContext context,
+    dynamic appointment,
+  ) {
+    // TODO: Implement contact customer dialog
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Contact customer feature coming soon'),
+        backgroundColor: Colors.blue,
+      ),
+    );
+  }
+
+  void _handleCheckIn(
+    BuildContext context,
+    DashboardStore store,
+    String appointmentId,
+  ) {
+    // Find the appointment
+    final appointment = store.upcomingAppointments.firstWhere(
+      (a) => a.id == appointmentId,
+      orElse: () => throw Exception('Appointment not found'),
+    );
+    
+    // Show the check-in dialog for this appointment
+    // We need to call the private method, so we'll use the same approach as the main screen
+    _showCheckInDialog(context, store, appointment);
+  }
+  
+  Future<void> _showCheckInDialog(BuildContext context, DashboardStore store, Appointment appointment) async {
+    // Create a ticket from the appointment
+    final ticket = Ticket(
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      ticketNumber: (store.queueTickets.length + 1001).toString(),
+      customer: Customer.withName(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        name: appointment.customerName,
+      ),
+      services: appointment.services ?? [],
+      type: 'appointment',
+      status: 'queued',
+      checkInTime: DateTime.now(),
+      assignedTechnicianId: appointment.requestedTechnicianId,
+      requestedTechnicianName: appointment.requestedTechnicianName,
+      appointmentTime: appointment.scheduledStartTime,
+      isGroupService: appointment.isGroupBooking,
+      groupSize: appointment.groupSize,
+      appointmentId: appointment.id, // Link to the original appointment
+    );
+    
+    showDialog(
+      context: context,
+      builder: (BuildContext dialogContext) {
+        return TicketDetailsDialog(
+          ticket: ticket,
+          availableServices: store.availableServicesForDialog,
+          availableTechnicians: store.allTechnicians,
+          isNewCheckIn: true,
+          onConfirm: (confirmedTicket) async {
+            // Mark appointment as checked in (status: arrived)
+            await store.checkInAppointment(appointment.id);
+            
+            // Add ticket to queue
+            await store.addTicketToQueue(confirmedTicket);
+            // Dialog is already closed by the TicketDetailsDialog's confirm button
+          },
+        );
+      },
+    );
+  }
+
+}
+// ---- END ORIGINAL CONTENT ----

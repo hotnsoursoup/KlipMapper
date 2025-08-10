@@ -1,0 +1,118 @@
+{
+  "category": "Customers Feature",
+  "description": "Customer management functionality including customer data, search, and ticket history",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/customers/data/customers_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/data/models/customer_model.dart",
+        "../../shared/data/models/ticket_model.dart",
+        "../../shared/data/repositories/drift_customer_repository.dart",
+        "../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../shared/data/repositories/drift_service_repository.dart",
+        "../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "CustomersStore": "A MobX store managing customer data with caching, ticket history, and search functionality."
+        }
+      ],
+      "rules": [
+        "Implements 10-minute cache TTL for customer data (customers don't change frequently).",
+        "Manages customer list with reactive observables for UI updates.",
+        "Tracks customer ticket history with per-customer ticket caching.",
+        "Provides search functionality with query-based filtering.",
+        "Automatic repository initialization on store creation.",
+        "Error handling with comprehensive logging for all operations.",
+        "Customer-ticket relationship management through observable maps.",
+        "Loading states for both customers and individual customer operations.",
+        "Customer data validation and error state management.",
+        "Integration with DriftCustomerRepository and DriftTicketRepository.",
+        "Support for customer creation, updates, and deletion operations.",
+        "Reactive search query management with real-time filtering.",
+        "Ticket history loading per customer with caching to avoid repeated queries.",
+        "Memory-efficient observable collections for large customer datasets.",
+        "Cache invalidation support for data consistency after modifications."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/customers/presentation/screens/customers_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/services/settings_manager.dart",
+        "../../../../core/utils/text_measurement_utils.dart",
+        "../../../../core/widgets/loading_skeletons.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../widgets/customer_list_item.dart",
+        "../widgets/customer_details_dialog.dart",
+        "../widgets/new_customer_dialog.dart",
+        "../../data/customers_store.dart"
+      ],
+      "components": [
+        {
+          "CustomersScreen": "A comprehensive StatefulWidget for customer management with search, filtering, and pagination."
+        }
+      ],
+      "rules": [
+        "Uses StandardAppHeader with new customer creation functionality.",
+        "Integrates CustomersStore for reactive customer data management.",
+        "Pagination support with configurable items per page from SettingsManager.",
+        "Advanced filtering: name type selection (First Name/Last Name) and A-Z letter filtering.",
+        "Search functionality with text input for customer name filtering.",
+        "Customer list display using CustomerListItem components.",
+        "New customer creation through NewCustomerDialog with callback handling.",
+        "Customer editing through CustomerDetailsDialog integration.",
+        "Loading skeletons for better UX during data loading.",
+        "Observer pattern for reactive UI updates based on store changes.",
+        "Text measurement utilities for responsive layout calculations.",
+        "Alphabetical filtering with clickable letter buttons (A-Z).",
+        "Search controller management with proper disposal on widget cleanup.",
+        "Current page state management for pagination navigation.",
+        "Customer selection and detail viewing with dialog-based editing interface."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/customer_search_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/models/customer_model.dart",
+        "../../data/repositories/drift_customer_repository.dart",
+        "../../../customers/presentation/widgets/new_customer_dialog.dart"
+      ],
+      "components": [
+        {
+          "CustomerSearchWidget": "A comprehensive reusable StatefulWidget for customer search with autocomplete, selection, and new customer creation capabilities."
+        }
+      ],
+      "rules": [
+        "Provides real-time customer search with autocomplete functionality.",
+        "Integrates with DriftCustomerRepository for customer data retrieval.",
+        "Supports search by customer name, phone number, or email address.",
+        "Configurable generic customer option for walk-ins who prefer anonymity.",
+        "New customer creation integration through NewCustomerDialog.",
+        "Selected customer display with clear selection indicators.",
+        "Customer search results dropdown with selectable customer cards.",
+        "Customizable search hint text and labels for different use cases.",
+        "Focus management for smooth user experience and keyboard navigation.",
+        "Loading states during search operations with visual feedback.",
+        "Error handling for search operations with graceful fallbacks.",
+        "Customer selection callbacks with selected customer data.",
+        "Customer clearing functionality with callback notifications.",
+        "Initial search query support for pre-populated searches.",
+        "Responsive design with proper spacing and visual hierarchy.",
+        "Search debouncing to reduce database queries during typing.",
+        "Customer card display with name, phone, and selection actions.",
+        "Integration with customer creation workflow for seamless UX."
+      ]
+    }
+  }
+}

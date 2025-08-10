@@ -1,0 +1,32 @@
+{
+  "category": "Utils Feature",
+  "description": "Application utilities including enhanced error logging, debugging, and support functionality",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/utils/error_logger.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/foundation.dart",
+        "dart:io",
+        "dart:async",
+        "dart:developer"
+      ],
+      "components": [
+        {
+          "ErrorLogger": "Enhanced error logging system providing file-based logging, console output, and comprehensive error tracking for debugging and monitoring."
+        }
+      ],
+      "rules": [
+        "File-based logging system creating timestamped log files in logs directory for persistent debug information.",
+        "Console output integration with developer tools for real-time debugging during development.",
+        "Automatic log file creation with timestamped filenames preventing log file conflicts.",
+        "debugPrint override ensuring all debug output is captured both in console and log files.",
+        "Error categorization with different log levels (error, info, warning, success, debug) for organized logging.",
+        "Stack trace capture and logging for comprehensive error analysis and debugging.",
+        "Production-safe logging with kDebugMode checks ensuring performance in release builds.",
+        "Flush functionality ensuring all log data is written to disk before application termination.",
+        "Silent failure handling preventing logging recursion and ensuring application stability.",
+        "Log file path access for debugging tools and log file management utilities."
+      ]
+    }
+  }
+}

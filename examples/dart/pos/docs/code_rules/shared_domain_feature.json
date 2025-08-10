@@ -1,0 +1,111 @@
+{
+  "category": "Shared Domain Feature",
+  "description": "Domain layer components including converters, models, and repository interfaces following clean architecture principles",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/domain/converters/service_category_converter.dart": {
+      "file_type": "converter",
+      "imports": [
+        "../../../../core/database/drift_database.dart",
+        "../models/service_category_domain.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryConverter": "Clean architecture converter translating between Drift database models and ServiceCategory domain models."
+        }
+      ],
+      "rules": [
+        "Clean architecture converter decoupling database implementation from business logic layer.",
+        "Bidirectional conversion supporting both fromDrift and toDrift transformations for complete data flow.",
+        "List conversion utilities supporting bulk operations and efficient batch processing.",
+        "Domain model factory methods with ID generation for new service category creation.",
+        "Default color handling ensuring consistent visual representation when colors are not specified.",
+        "Error handling with fallback values ensuring application stability during data conversion.",
+        "Timestamp management bridging database and domain model temporal concerns."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/domain/converters/service_converter.dart": {
+      "file_type": "converter",
+      "imports": [
+        "../../data/models/service_model.dart",
+        "../models/service_domain.dart"
+      ],
+      "components": [
+        {
+          "ServiceConverter": "Clean architecture converter translating between Service data models and Service domain models."
+        }
+      ],
+      "rules": [
+        "Clean architecture converter decoupling data layer from business logic layer through model translation.",
+        "Bidirectional conversion supporting both fromDataModel and toDataModel transformations.",
+        "List conversion utilities supporting bulk operations and efficient batch processing.",
+        "Domain model factory methods with ID generation for new service creation.",
+        "Complete field mapping ensuring no data loss during model conversion.",
+        "Timestamp preservation maintaining data integrity across layer boundaries."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/domain/models/service_category_domain.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:freezed_annotation/freezed_annotation.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryDomain": "Immutable domain model for service categories with business logic methods and UI integration utilities."
+        }
+      ],
+      "rules": [
+        "Immutable domain model using Freezed for complete decoupling from database implementation details.",
+        "JSON serialization support enabling data persistence and API integration.",
+        "Color conversion utilities transforming hex color strings to Flutter Color objects.",
+        "Icon mapping system providing appropriate icons based on service category names.",
+        "Search functionality with case-insensitive matching for category filtering.",
+        "Business logic methods including timestamp management and update tracking.",
+        "Default values ensuring consistent behavior with fallback color and active status.",
+        "Error handling in color parsing with graceful fallback to default colors."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/domain/models/service_domain.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart"
+      ],
+      "components": [
+        {
+          "ServiceDomain": "Immutable domain model for services with business logic methods and formatting utilities."
+        }
+      ],
+      "rules": [
+        "Immutable domain model using Freezed decoupled from database implementation details.",
+        "JSON serialization support enabling data persistence and API integration.",
+        "Duration formatting utilities converting minutes to human-readable time formats.",
+        "Price formatting utilities providing consistent currency display formatting.",
+        "Search functionality with case-insensitive matching across name and description fields.",
+        "Business logic methods including timestamp management and update tracking.",
+        "Convenience methods for price and duration updates with automatic timestamp management.",
+        "Integer category ID support matching database schema requirements."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/domain/repositories/service_repository.dart": {
+      "file_type": "interface",
+      "imports": [
+        "../models/service_category_domain.dart",
+        "../models/service_domain.dart"
+      ],
+      "components": [
+        {
+          "ServiceRepository": "Abstract repository interface defining service data operations contract for clean architecture implementation."
+        }
+      ],
+      "rules": [
+        "Abstract repository interface following clean architecture principles by abstracting data access concerns.",
+        "Domain model contracts ensuring implementations work with domain entities rather than database models.",
+        "Comprehensive CRUD operations supporting full service and service category lifecycle management.",
+        "Category-based service filtering enabling organized service management and display.",
+        "Soft delete operations preserving data integrity while supporting logical deletion.",
+        "Future-based async operations supporting both local database and remote API implementations.",
+        "Clean separation between service and service category operations enabling focused implementations."
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "Appointments Repository Feature",
+  "description": "Repository layer for appointment data management with comprehensive CRUD operations and business logic",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/data/repositories/appointments_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "AppointmentsRepository": "Deprecated wrapper repository delegating to DriftAppointmentRepository with error handling and logging."
+        }
+      ],
+      "rules": [
+        "Deprecated repository wrapper maintaining backward compatibility during migration to direct Drift usage.",
+        "Singleton pattern ensuring single instance across application for consistent data access.",
+        "Comprehensive error logging with stack traces for all appointment operations.",
+        "Delegation pattern forwarding all operations to DriftAppointmentRepository.instance.",
+        "Today's appointments retrieval with calendar-specific filtering for different view contexts.",
+        "Upcoming appointments with configurable limit for dashboard and preview displays.",
+        "Appointment CRUD operations: get by ID, create, update status, reschedule, cancel.",
+        "Check-in functionality specifically for appointment arrival workflow.",
+        "Time slot availability checking with conflict detection and exclusion support.",
+        "Appointment statistics aggregation with date and employee filtering for reporting.",
+        "Notes management with dedicated update method for appointment annotations.",
+        "Technician reassignment functionality for appointment management flexibility.",
+        "Duration updates supporting appointment time modifications and extensions.",
+        "Deprecated method implementation with clear guidance toward specific replacement methods.",
+        "Consistent error handling pattern returning empty results rather than throwing exceptions for read operations.",
+        "Rethrow pattern for write operations ensuring proper error propagation to calling code.",
+        "Comprehensive appointment lifecycle management from creation to completion.",
+        "Business logic abstraction layer providing clean API for presentation layer consumption."
+      ]
+    }
+  }
+}

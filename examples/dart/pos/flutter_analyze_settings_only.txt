@@ -1,0 +1,42 @@
+Analyzing settings...                                           
+
+warning • Don't invoke 'print' in production code • lib/features/settings/data/models/background_option.dart:70:7 • avoid_print
+warning • Unused import: '../../../../core/theme/app_text_styles.dart' • lib/features/settings/presentation/screens/settings_screen.dart:7:8 • unused_import
+warning • Unused import: '../../../shared/data/models/setting_model.dart' • lib/features/settings/presentation/screens/settings_screen.dart:8:8 • unused_import
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:334:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:392:24 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/features/settings/presentation/widgets/settings_background_section.dart:450:24 • avoid_redundant_argument_values
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_coming_soon_tile.dart:20:47 • deprecated_member_use
+  error • The name 'StoreSetting' isn't a type, so it can't be used as a type argument • lib/features/settings/presentation/widgets/settings_dashboard_section.dart:8:21 • non_type_as_type_argument
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_general.dart:36:11 • deprecated_member_use
+warning • Unused import: '../../../../core/utils/privileged_operations.dart' • lib/features/settings/presentation/widgets/settings_manager_pin_tile.dart:7:8 • unused_import
+  error • The name 'StoreSetting' isn't a type, so it can't be used as a type argument • lib/features/settings/presentation/widgets/settings_security_section.dart:8:21 • non_type_as_type_argument
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_store_section.dart:32:11 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/settings_switch_setting_title.dart:21:9 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:233:31 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:269:31 • deprecated_member_use
+  error • 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:390:13 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:401:17 • deprecated_member_use
+  error • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/settings/presentation/widgets/store_hours_tile.dart:429:17 • deprecated_member_use
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/settings/providers/settings_provider.dart:86:19 • unnecessary_null_comparison
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:102:18 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:156:20 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:234:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:257:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:287:16 • unnecessary_underscores
+  error • Missing concrete implementations of 'getter mixin _$DashboardSettings on Object.backgroundOpacity', 'getter mixin _$DashboardSettings on Object.containerOpacity', 'getter mixin _$DashboardSettings on Object.dashboardBackground', 'getter mixin _$DashboardSettings on Object.enableCheckoutNotifications', and 7 more • lib/features/settings/providers/settings_provider.dart:348:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$StoreSettings on Object.appointmentBuffer', 'getter mixin _$StoreSettings on Object.location', 'getter mixin _$StoreSettings on Object.maxDailyAppointments', 'getter mixin _$StoreSettings on Object.onlineBooking', and 3 more • lib/features/settings/providers/settings_provider.dart:366:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$GeneralSettings on Object.animations', 'getter mixin _$GeneralSettings on Object.currency', 'getter mixin _$GeneralSettings on Object.dateFormat', 'getter mixin _$GeneralSettings on Object.defaultItemsPerPage', and 4 more • lib/features/settings/providers/settings_provider.dart:379:7 • non_abstract_class_inherits_abstract_member
+  error • Missing concrete implementations of 'getter mixin _$SalonSettings on Object.autoCheckoutCompleted', 'getter mixin _$SalonSettings on Object.collectCustomerAddress', 'getter mixin _$SalonSettings on Object.collectCustomerAllergies', 'getter mixin _$SalonSettings on Object.collectCustomerDateOfBirth', and 10 more • lib/features/settings/providers/settings_provider.dart:393:7 • non_abstract_class_inherits_abstract_member
+warning • The value of the local variable 'dashboardNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:466:13 • unused_local_variable
+warning • The value of the local variable 'masterNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:467:13 • unused_local_variable
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:65:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:72:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:79:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:86:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:93:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:99:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:105:25 • creation_with_non_type
+  error • The name 'SectionHeader' isn't a class • lib/features/settings/settings_screen.dart:140:25 • creation_with_non_type
+  error • The name 'RemoteSection' isn't a class • lib/features/settings/settings_screen.dart:142:25 • creation_with_non_type
+

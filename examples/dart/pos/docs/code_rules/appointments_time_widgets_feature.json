@@ -1,0 +1,115 @@
+{
+  "category": "Appointments Time Widgets Feature",
+  "description": "Time-related widgets for appointment calendar display including current time indicators and time column components",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/current_time_line.dart": {
+      "file_type": "widget",
+      "imports": [
+        "dart:async",
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "appointment_calendar_grid.dart show TimeSlot"
+      ],
+      "components": [
+        {
+          "CurrentTimeLine": "Isolated current time indicator widget with independent timer to prevent full calendar rebuilds.",
+          "_TimeIndicatorCircle": "Const widget providing circular indicator at the start of the current time line.",
+          "_TimeLine": "Const widget providing horizontal line extending across calendar columns."
+        }
+      ],
+      "rules": [
+        "Isolated time line widget with independent rebuild cycle preventing unnecessary calendar redraws.",
+        "Timer-based updates every minute using Timer.periodic for real-time current time tracking.",
+        "Business hours constraint showing time line only between 9 AM and 9 PM for relevant visibility.",
+        "Mathematical positioning calculation using time offset and slot height for precise placement.",
+        "RepaintBoundary optimization isolating time line redraws from parent calendar widget.",
+        "Error red color scheme with shadow effects providing high visibility time line indicator.",
+        "Const widget composition with _TimeIndicatorCircle and _TimeLine for performance optimization.",
+        "Memory management with timer cancellation in dispose method preventing memory leaks.",
+        "Mounted check in timer callback ensuring safe state updates when widget is active.",
+        "Professional styling with circular indicator, shadow effects, and consistent red color scheme.",
+        "Positioned widget placement allowing absolute positioning within calendar grid layout.",
+        "TimeSlot integration for consistent time calculation with calendar grid time slots.",
+        "Performance-optimized design minimizing impact on overall calendar rendering performance.",
+        "Business logic separation isolating time display concerns from calendar appointment logic.",
+        "Visual feedback providing clear current time indication across all calendar columns."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/technician_column.dart": {
+      "file_type": "widget",
+      "imports": [
+        "dart:math as math",
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../data/stores/appointments_store.dart",
+        "current_time_line.dart",
+        "appointment_calendar_grid.dart show TimeSlot"
+      ],
+      "components": [
+        {
+          "TechnicianColumn": "Individual technician calendar column with granular MobX observer placement and service capability filtering.",
+          "OverlapZone": "Data class representing time periods with overlapping appointments for conflict visualization.",
+          "_OverlapPatternPainter": "Custom painter rendering diagonal warning lines for appointment overlap indicators."
+        }
+      ],
+      "rules": [
+        "Individual technician column with granular MobX Observer placement minimizing rebuild scope to single technician.",
+        "Service capability filtering system graying out technicians who cannot perform selected service categories.",
+        "Advanced overlap detection system identifying appointment conflicts and creating visual warning zones.",
+        "Alternating appointment color system with 8 distinct pastel colors preventing adjacent color duplication.",
+        "Responsive appointment content display adapting text based on available height from very short to full details.",
+        "Professional hover effects with time slot highlighting and blue accent borders for user feedback.",
+        "Current time line integration using isolated CurrentTimeLine widget for performance optimization.",
+        "Mathematical positioning calculations using 15-minute time slot precision for accurate appointment placement.",
+        "Service capability mapping system supporting gel, acrylic, SNS, waxing, facials, massage with everyone-can-do basic nails.",
+        "Overlap zone visualization with color-coded warning indicators: orange for 2 overlaps, red for 3+ overlaps.",
+        "Custom painter integration rendering diagonal warning patterns for overlap zone visual feedback.",
+        "Status icon system displaying check circles for confirmed/completed, cancel icons for no-shows.",
+        "Professional appointment styling with soft pastel backgrounds, darker borders, and subtle shadows.",
+        "Time slot interaction system with precise DateTime construction for appointment creation callbacks.",
+        "Technician opacity control reducing visibility for filtered-out technicians based on service capabilities.",
+        "Appointment minimum height enforcement ensuring 30px minimum for readability and interaction.",
+        "Border styling with hour line emphasis using thicker borders and stronger opacity for visual hierarchy.",
+        "Service display integration showing up to 2 services in appointment blocks when height permits.",
+        "Provider pattern accessing AppointmentsStore with technician-specific appointment filtering.",
+        "Memory management with proper hover state handling and interaction cleanup."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/time_column.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:intl/intl.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../data/models/calendar_theme.dart"
+      ],
+      "components": [
+        {
+          "TimeColumn": "Calendar time column widget displaying time slots with configurable intervals and current time highlighting.",
+          "TimeSlotInfo": "Data class containing time slot information including display text and hour mark indicators."
+        }
+      ],
+      "rules": [
+        "Configurable time column with customizable start/end hours and interval minutes for flexible calendar layouts.",
+        "CalendarTheme integration for consistent width, height, and styling with calendar grid components.",
+        "Current time detection and highlighting with rounded time matching based on configured intervals.",
+        "Smart time formatting: full time display for hour marks, minute-only display for quarter/half hours.",
+        "Interactive time slot selection with onTimeSlotTap callback for appointment creation workflows.",
+        "Hour mark emphasis with bold font weight for visual hierarchy in time column display.",
+        "Current time visual indicators: background highlight and circular dot for precise time identification.",
+        "Time slot generation algorithm calculating intervals across configurable hour ranges.",
+        "Professional styling using AppColors surfaceLight background and CalendarTheme text styles.",
+        "InkWell integration providing proper Material Design touch feedback for time slot interactions.",
+        "DateTime construction with current date for accurate time slot representation and comparison.",
+        "Flexible interval support with default 15-minute intervals adaptable to different scheduling needs.",
+        "Time slot height calculation based on CalendarTheme hourRowHeight and interval division.",
+        "Text alignment with right-aligned time labels for clean column appearance.",
+        "TimeSlotInfo data structure encapsulating time slot properties for clean component architecture."
+      ]
+    }
+  }
+}

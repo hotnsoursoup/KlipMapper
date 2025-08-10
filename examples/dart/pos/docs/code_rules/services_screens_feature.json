@@ -1,0 +1,52 @@
+{
+  "category": "Services Screens Feature",
+  "description": "Service management screens with comprehensive CRUD operations, category management, and modern responsive UI design",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/presentation/screens/services_screen.dart": {
+      "file_type": "screen",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../data/service_management_store.dart",
+        "../../../shared/domain/models/service_domain.dart",
+        "../../../shared/domain/models/service_category_domain.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../widgets/dynamic_service_form_dialog.dart",
+        "../widgets/service_category_dialog.dart",
+        "../../data/service_category_store.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart"
+      ],
+      "components": [
+        {
+          "ServicesScreen": "Comprehensive service management screen with category filtering, responsive design, and privileged operations integration.",
+          "_EnhancedDeleteDialog": "Security-enhanced delete confirmation dialog requiring exact service name typing for deletion confirmation."
+        }
+      ],
+      "rules": [
+        "Comprehensive service management interface with dual-store architecture: ServiceManagementStore and ServiceCategoryStore integration.",
+        "Privileged operations integration requiring manager PIN authorization for all service modification operations.",
+        "Responsive grid layout with adaptive column count: 1 column (mobile), 2 columns (tablet), 3 columns (desktop).",
+        "Category pill filtering system with service count badges and visual selection feedback.",
+        "Modern Material Design card layout with professional styling, shadows, and rounded corners.",
+        "Advanced search functionality with real-time filtering across service names and category names.",
+        "Category-based service organization with expandable category cards and empty state handling.",
+        "Service CRUD operations with proper error handling, loading states, and user feedback.",
+        "Enhanced security delete dialog requiring exact service name typing for deletion confirmation.",
+        "StandardAppHeader integration with search capabilities and dual action buttons (Add Category, Add Service).",
+        "MobX Observer optimization with granular reactive scope for efficient UI updates.",
+        "Service card design with price badges, duration indicators, and context menu actions.",
+        "Professional empty state handling for categories without services with call-to-action buttons.",
+        "Color-coded category system with icon integration and consistent visual theming.",
+        "Service form dialog integration with category preselection and validation workflows.",
+        "Memory management with proper TextEditingController disposal in widget lifecycle.",
+        "Professional service management workflow supporting creation, modification, and deletion operations.",
+        "Responsive layout calculations with LayoutBuilder for optimal display across device sizes.",
+        "Service count tracking and display with real-time updates reflecting current service inventory.",
+        "Business security model requiring manager authorization for inventory modifications preventing unauthorized changes."
+      ]
+    }
+  }
+}

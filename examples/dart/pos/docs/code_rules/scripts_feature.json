@@ -1,0 +1,191 @@
+{
+  "category": "Scripts Feature",
+  "description": "Development and data generation scripts for testing and database population",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/scripts/simple_sales_generator.dart": {
+      "file_type": "script",
+      "imports": [
+        "dart:io",
+        "dart:math"
+      ],
+      "components": [
+        {
+          "main": "Main function generating realistic sales data with 300 transactions for previous month."
+        },
+        {
+          "_generateCompatibleServices": "Service combination generator ensuring category compatibility and realistic service bundling."
+        },
+        {
+          "_calculateRealisticDuration": "Duration calculator with realistic time overruns and service time variations."
+        },
+        {
+          "_generateBusinessHourTime": "Business hours time generator creating realistic appointment scheduling patterns."
+        },
+        {
+          "_weightedServiceCount": "Weighted random service count selection favoring single services over multiple."
+        },
+        {
+          "_selectWeightedPaymentMethod": "Payment method selection with realistic distribution (40% credit, 30% debit, 30% cash)."
+        },
+        {
+          "_areIncompatibleCategories": "Service category compatibility checker preventing conflicting service combinations."
+        }
+      ],
+      "rules": [
+        "Generates 300 realistic ticket transactions for previous month with comprehensive service data.",
+        "Realistic service combinations based on nail salon service categories and compatibility rules.",
+        "Service compatibility logic prevents incompatible combinations (Gel vs Acrylic, SNS vs Gel/Acrylic).",
+        "Weighted service selection: 50% single service, 30% two services, 20% three services.",
+        "Business hours scheduling: 9 AM - 7 PM with peak hour weighting (10 AM-1 PM, 2 PM-4 PM).",
+        "Realistic duration calculations with tendency to run over: 70% within ±10%, 20% +10-30% over, 10% significantly over.",
+        "Payment method distribution reflecting real-world usage patterns.",
+        "Sample services include typical nail salon offerings: manicures, pedicures, acrylics, gel, nail art, eyebrow services.",
+        "Employee rotation with 4 sample technicians for realistic workload distribution.",
+        "Customer name rotation with 20 diverse sample names for realistic customer base.",
+        "SQL generation with proper INSERT statements for tickets and payments tables.",
+        "Transaction-based SQL output with BEGIN/COMMIT for data integrity.",
+        "Timestamp-based unique ID generation for tickets and payments.",
+        "Service JSON formatting with proper escaping for database storage.",
+        "Business date tracking aligned with check-in times for reporting accuracy.",
+        "Comprehensive ticket status management: all generated tickets marked as 'completed' and 'paid'.",
+        "Payment record creation matching ticket totals with realistic processing times.",
+        "File output generation creating executable SQL scripts for database population.",
+        "Summary reporting with transaction counts and date range information.",
+        "Error-resistant design with proper JSON escaping and SQL injection prevention.",
+        "15-minute appointment intervals reflecting typical salon scheduling practices.",
+        "Category-based service pricing with realistic price ranges for different service types.",
+        "Duration-based scheduling with realistic appointment time calculations.",
+        "Development utility designed for database testing and report validation purposes."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/scripts/improved_add_sales.dart": {
+      "file_type": "script",
+      "imports": [
+        "dart:io",
+        "dart:math",
+        "package:sqlite3/sqlite3.dart",
+        "package:sqlite3/open.dart",
+        "package:path/path.dart as p"
+      ],
+      "components": [
+        {
+          "Service": "Data class representing salon services with price, duration, and category information."
+        },
+        {
+          "ServiceCategory": "Data class representing service categories with incompatibility rules for realistic service combinations."
+        },
+        {
+          "Employee": "Data class representing technicians/employees for service assignment."
+        },
+        {
+          "Customer": "Data class representing customers from existing database records."
+        },
+        {
+          "main": "Main function generating 300 realistic transactions with advanced service compatibility and business logic."
+        },
+        {
+          "_generateCompatibleServices": "Advanced service combination generator with category-based compatibility checking."
+        },
+        {
+          "_calculateRealisticDuration": "Sophisticated duration calculator with realistic time distribution and service overruns."
+        },
+        {
+          "_generateBusinessHourTime": "Business hours time generator with peak hour weighting for realistic scheduling."
+        },
+        {
+          "_weightedServiceCount": "Weighted service count selection favoring realistic service combinations."
+        },
+        {
+          "_selectWeightedPaymentMethod": "Payment method selection with realistic distribution patterns."
+        },
+        {
+          "_getIncompatibleCategories": "Business logic defining service category incompatibilities."
+        },
+        {
+          "_areIncompatibleCategories": "Compatibility checker preventing conflicting service combinations."
+        },
+        {
+          "_openOnLinux": "SQLite3 library loader for Linux platform compatibility."
+        }
+      ],
+      "rules": [
+        "Advanced sales data generator with 300 realistic transactions using actual database integration.",
+        "SQLite3 direct database integration with prepared statements for performance and safety.",
+        "Service category compatibility system preventing incompatible service combinations (Gel vs Acrylic, SNS vs others).",
+        "Realistic service selection: 50% single service, 30% two services, 20% three services for natural distribution.",
+        "Business hours scheduling with peak hour weighting: 30% peak morning (10 AM-1 PM), 30% peak afternoon (2 PM-4 PM).",
+        "Advanced duration modeling with realistic overruns: 70% within ±10%, 20% +10-30% over, 10% significantly over.",
+        "Database-driven data sourcing: loads actual services, employees, and customers from existing database.",
+        "Service compatibility rules based on nail salon business logic: gel/acrylic/SNS incompatibilities.",
+        "Payment method distribution reflecting real usage: 40% credit card, 30% debit card, 30% cash.",
+        "Comprehensive error handling with database validation and graceful failure recovery.",
+        "Platform-specific SQLite3 loading with Linux compatibility support.",
+        "Prepared statement usage for SQL injection prevention and performance optimization.",
+        "Previous month data generation for historical reporting and analytics testing.",
+        "Transaction integrity with proper ticket and payment record creation.",
+        "Service JSON serialization matching application data structure requirements.",
+        "Realistic pricing and duration calculations based on actual service combinations.",
+        "Employee assignment with proper technician ID tracking for service attribution.",
+        "Customer assignment using existing customer records for data consistency.",
+        "Business date tracking aligned with check-in times for accurate reporting.",
+        "Completion and payment status management for realistic transaction states.",
+        "Duration variation modeling reflecting real-world service time variability.",
+        "15-minute interval scheduling for professional appointment management.",
+        "Category-based service organization for realistic salon service groupings.",
+        "Comprehensive data validation ensuring database integrity and consistency."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/scripts/add_sales.dart": {
+      "file_type": "script",
+      "imports": [
+        "dart:io",
+        "dart:math",
+        "package:sqlite3/sqlite3.dart",
+        "package:sqlite3/open.dart",
+        "package:path/path.dart as p"
+      ],
+      "components": [
+        {
+          "Service": "Basic data class for salon services with core pricing and duration information."
+        },
+        {
+          "Employee": "Simple employee data class for technician assignment."
+        },
+        {
+          "Customer": "Basic customer data class using existing database records."
+        },
+        {
+          "main": "Main function generating 300 basic sales transactions with simple randomization."
+        },
+        {
+          "_openOnLinux": "SQLite3 library loader for Linux platform support."
+        }
+      ],
+      "rules": [
+        "Basic sales data generator creating 300 simple transactions for database testing.",
+        "SQLite3 direct database integration with prepared statements for data insertion.",
+        "Simple service selection with random combinations (1-3 services per transaction).",
+        "Business hours generation: 9 AM to 8 PM with random minute/second precision.",
+        "Basic duration variation using ±50% randomization for service time modeling.",
+        "Previous month data generation for historical data testing purposes.",
+        "Random payment method selection: cash, credit_card, debit_card with equal distribution.",
+        "Database-driven data loading: services, employees, customers from existing records.",
+        "Essential validation: checks for missing services, employees, or customers before generation.",
+        "Prepared statement usage for SQL safety and performance optimization.",
+        "Service JSON serialization with basic structure for application compatibility.",
+        "Transaction completion: all generated tickets marked as 'completed' and 'paid'.",
+        "Business date alignment with check-in times for consistent reporting.",
+        "Employee assignment as both employee_id and assigned_technician_id for service tracking.",
+        "Total amount calculation based on service pricing without additional fees.",
+        "Duration calculation with random variation reflecting service time flexibility.",
+        "Ticket numbering using timestamp-based unique identifiers.",
+        "Payment record creation matching ticket amounts for financial consistency.",
+        "Database cleanup with proper statement disposal and connection closing.",
+        "Platform compatibility with Linux-specific SQLite3 library loading.",
+        "Simple error handling with database connection validation.",
+        "Basic randomization suitable for development and testing scenarios.",
+        "Straightforward implementation for quick database population needs."
+      ]
+    }
+  }
+}

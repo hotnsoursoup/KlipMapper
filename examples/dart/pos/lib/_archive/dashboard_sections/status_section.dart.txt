@@ -1,0 +1,180 @@
+// Archived: moved from lib/features/dashboard/presentation/widgets/sections/status_section.dart
+// Not compiled. Kept for reference during migration.
+// ---- BEGIN ORIGINAL CONTENT ----
+// lib/features/dashboard/presentation/widgets/sections/status_section.dart
+// Dashboard status section widget displaying technician availability and system status. Shows active technicians in a responsive grid layout with status indicators and capabilities.
+// Usage: ACTIVE - Core dashboard component for displaying real-time technician status and availability
+
+import 'package:flutter/material.dart';
+// MobX import removed - needs Riverpod conversion
+import 'package:provider/provider.dart';
+import '../../../../../core/theme/app_colors.dart';
+import '../../../../../core/theme/app_text_styles.dart';
+import '../../../data/dashboard_store.dart';
+import '../../../data/technician_card_store.dart';
+import '../../../../settings/data/settings_store.dart';
+import '../technician_card.dart';
+
+/// Status Section - Technician Grid with focused Observer
+/// Only rebuilds when technician-related data changes
+class StatusSection extends StatelessWidget {
+  const StatusSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final dashboardStore = Provider.of<DashboardStore>(context, listen: false);
+    final settingsStore = Provider.of<SettingsStore>(context, listen: false);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        // Header with filters
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                'Technician Status',
+                style: AppTextStyles.headline2.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              // Filter controls with Observer only for filter state
+              Observer(
+                builder: (_) => Row(
+                  children: [
+                    _buildFilterChip(
+                      context,
+                      'All',
+                      dashboardStore.technicianFilter == 'All',
+                      () => dashboardStore.setTechnicianFilter('All'),
+                    ),
+                    const SizedBox(width: 8),
+                    _buildFilterChip(
+                      context,
+                      'Available',
+                      dashboardStore.technicianFilter == 'Available',
+                      () => dashboardStore.setTechnicianFilter('Available'),
+                    ),
+                    const SizedBox(width: 8),
+                    _buildFilterChip(
+                      context,
+                      'Busy',
+                      dashboardStore.technicianFilter == 'Busy',
+                      () => dashboardStore.setTechnicianFilter('Busy'),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        
+        // Technician grid with focused Observer
+        Expanded(
+          child: Observer(
+            builder: (_) {
+              // Get filtered technicians
+              final technicians = dashboardStore.filteredTechnicians;
+              
+              if (technicians.isEmpty) {
+                return Center(
+                  child: Text(
+                    'No technicians available',
+                    style: AppTextStyles.bodyLarge.copyWith(
+                      color: AppColors.textSecondary,
+                    ),
+                  ),
+                );
+              }
+
+              // Create or update technician card stores if needed
+              if (dashboardStore.technicianCardStores.isEmpty ||
+                  dashboardStore.technicianCardStores.length != technicians.length) {
+                dashboardStore.createTechnicianCardStores();
+              }
+
+              // Get service display mode once
+              final serviceDisplayMode = settingsStore.serviceDisplayMode;
+              
+              // Determine grid layout
+              final crossAxisCount = _getGridCrossAxisCount(
+                dashboardStore.statusQueueLayout,
+              );
+              
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: GridView.builder(
+                  key: const PageStorageKey('technician_grid'),
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: crossAxisCount,
+                    childAspectRatio: 1.8,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                  ),
+                  itemCount: dashboardStore.technicianCardStores.length,
+                  itemBuilder: (context, index) {
+                    final store = dashboardStore.technicianCardStores[index];
+                    final technician = store.technician;
+                    final assignedTicket = dashboardStore.findTicketForTechnician(
+                      technician.id,
+                    );
+                    
+                    return TechnicianCard(
+                      key: ValueKey(technician.id), // Key optimization for list
+                      store: store,
+                      assignedTicket: assignedTicket,
+                      serviceDisplayMode: serviceDisplayMode,
+                      onAssignCustomer: () {
+                        // Handle customer assignment
+                        _showAssignCustomerDialog(context, technician.id);
+                      },
+                    );
+                  },
+                ),
+              );
+            },
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildFilterChip(
+    BuildContext context,
+    String label,
+    bool isSelected,
+    VoidCallback onTap,
+  ) {
+    return FilterChip(
+      label: Text(label),
+      selected: isSelected,
+      onSelected: (_) => onTap(),
+      selectedColor: AppColors.primaryBlue.withValues(alpha: 0.2),
+      checkmarkColor: AppColors.primaryBlue,
+      labelStyle: TextStyle(
+        color: isSelected ? AppColors.primaryBlue : AppColors.textSecondary,
+        fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+      ),
+    );
+  }
+
+  int _getGridCrossAxisCount(String layout) {
+    switch (layout) {
+      case 'grid3':
+        return 3;
+      case 'grid2':
+        return 2;
+      case 'single':
+      default:
+        return 1;
+    }
+  }
+
+  void _showAssignCustomerDialog(BuildContext context, String technicianId) {
+    // TODO: Implement customer assignment dialog
+    // This should use DashboardStore methods
+  }
+}
+// ---- END ORIGINAL CONTENT ----

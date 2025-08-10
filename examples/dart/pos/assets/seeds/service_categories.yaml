@@ -1,0 +1,50 @@
+# Service Categories Seed Data
+# Schema Version 1.0 - Compatible with POS Database v7+
+schema_version: "1.0"
+created_date: "2025-01-09T10:00:00.000Z"
+description: "Default service categories for salon operations with visual styling"
+
+categories:
+  - id: 1
+    name: "Mani-Pedi"
+    color: "#FF6B9D"  # Soft pink
+    icon: "pan_tool"   # Hand icon for manicure/pedicure
+    description: "Manicure and pedicure services"
+    
+  - id: 2
+    name: "Gel Nails"
+    color: "#4ECDC4"   # Teal
+    icon: "brush"      # Brush icon for gel application
+    description: "Gel nail services and treatments"
+    
+  - id: 3
+    name: "Acrylics"
+    color: "#9B59B6"   # Purple
+    icon: "format_paint" # Paint icon for acrylics
+    description: "Acrylic nail extensions and services"
+    
+  - id: 4
+    name: "Waxing"
+    color: "#F39C12"   # Orange
+    icon: "spa"        # Spa icon for waxing services
+    description: "Hair removal and waxing services"
+    
+  - id: 5
+    name: "Facial"
+    color: "#52B788"   # Green
+    icon: "face_retouching_natural" # Face icon for facials
+    description: "Facial treatments and skin care"
+    
+  - id: 6
+    name: "SNS"
+    color: "#FF9F1C"   # Bright orange
+    icon: "layers"     # Layers icon for SNS/Dip powder
+    description: "SNS and dip powder nail services"
+
+# Validation Rules
+validation:
+  required_fields: ["id", "name", "color", "icon"]
+  color_format: "hex"  # Must be valid hex color like #FF6B9D
+  name_max_length: 50
+  description_max_length: 200
+  unique_constraints: ["id", "name"]

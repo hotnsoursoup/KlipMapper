@@ -1,0 +1,78 @@
+{
+  "category": "Shared Models",
+  "description": "Common data models used across features",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/ticket_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "service_model.dart",
+        "customer_model.dart",
+        "payment_model.dart"
+      ],
+      "components": [
+        {
+          "GroupMember": "Represents a member of a group in a ticket, who can be a registered customer or a guest."
+        },
+        {
+          "TicketService": "Represents a single service within a ticket, linking a service to a customer/guest and a technician."
+        },
+        {
+          "Ticket": "The central data model for a ticket, containing all information about a customer's visit, including services, technicians, status, and payment."
+        }
+      ],
+      "rules": [
+        "A Ticket can be for a 'walk-in' or an 'appointment'.",
+        "A Ticket can be for a single customer or a group.",
+        "The wait time for a ticket is calculated from its check-in time.",
+        "The Ticket model can be serialized to and from JSON.",
+        "The fromJson factory is designed to handle both legacy and enhanced ticket formats for backward compatibility.",
+        "The Ticket model includes computed properties like `isGroup`, `subtotal`, `involvedTechnicianIds`, and `allServicesCompleted`.",
+        "The `copyWith` method allows for creating a new Ticket instance with updated values."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/employee_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart",
+        "../../../employees/data/models/employee_capability.dart"
+      ],
+      "components": [
+        {
+          "Employee": "A comprehensive Freezed data model representing an employee with all their attributes, capabilities, and work-related information."
+        },
+        {
+          "EmployeeRole": "An enum defining the different roles an employee can have (admin, manager, technician, receptionist, staff)."
+        },
+        {
+          "EmployeeStatus": "An enum defining the different statuses an employee can have (active, inactive, onBreak, vacation, terminated)."
+        },
+        {
+          "EmployeeRoleX": "Extension on EmployeeRole providing string conversion methods."
+        },
+        {
+          "EmployeeTechnicianCompat": "Extension on Employee providing Technician-like properties for backward compatibility."
+        }
+      ],
+      "rules": [
+        "Uses Freezed for immutable data model with automatic JSON serialization.",
+        "Supports secure social security number field (encrypted/protected).",
+        "Tracks clock-in/clock-out state and timing information.",
+        "Includes work-related metrics: hours this week/month, commission rate.",
+        "Supports department assignment and location-based organization.",
+        "Includes service preferences: can accept walk-ins/appointments flags.",
+        "Integrates with employee capabilities system for service assignments.",
+        "Provides profile image URL support for avatar display.",
+        "Includes flexible permissions system via Map<String, dynamic>.",
+        "PIN authentication support through pinHash field.",
+        "Status and role enums provide type-safe employee classification.",
+        "EmployeeTechnicianCompat extension provides compatibility with legacy Technician interface.",
+        "Computed properties: isAvailable (clocked in + active), fullName, displayNameOrFullName.",
+        "Compact display properties: compactName (FirstName L.), initials (FL).",
+        "Default values ensure consistent initialization: active status, zero commission, etc.",
+        "Required fields enforce data integrity: id, names, contact info, role, location.",
+        "Created/updated timestamps for audit tracking.",
+        "JSON serialization support for API communication and data persistence."
+      ]
+    }
+  }
+}

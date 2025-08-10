@@ -1,0 +1,79 @@
+{
+  "category": "Core Widgets Feature",
+  "description": "Core reusable UI widgets including loading skeletons and pagination controls for consistent user experience",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/widgets/loading_skeletons.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../theme/app_colors.dart"
+      ],
+      "components": [
+        {
+          "LoadingSkeletons": "Static factory class providing animated loading skeleton widgets for various UI components."
+        },
+        {
+          "_TicketItemSkeleton": "Private widget creating realistic ticket list item skeleton with proper spacing and dimensions."
+        },
+        {
+          "_AppointmentItemSkeleton": "Private widget creating appointment list item skeleton with time section and content layout."
+        },
+        {
+          "_ShimmerBox": "Private animated shimmer widget using SingleTickerProviderStateMixin for smooth loading animations."
+        }
+      ],
+      "rules": [
+        "Static factory class providing instant UI feedback during data loading operations.",
+        "Specialized skeleton widgets for tickets, appointments, data grids, and generic cards.",
+        "Realistic skeleton dimensions matching actual UI component layouts for seamless transitions.",
+        "AnimationController integration with 1500ms duration and smooth easeInOutSine curve.",
+        "LinearGradient shimmer animation with moving light effect from -1.0 to 2.0 range.",
+        "AppColors integration maintaining consistent theme colors in loading states.",
+        "Configurable item counts for different skeleton types with sensible defaults.",
+        "Data grid skeleton supporting variable row and column counts for flexible layouts.",
+        "Card skeleton with customizable height and margin for different content types.",
+        "Ticket skeleton with proper spacing for ticket number, customer name, service info, and status.",
+        "Appointment skeleton with time section and expandable content area layout.",
+        "Shimmer box animation with configurable width, height, and border radius.",
+        "SingleTickerProviderStateMixin for optimal animation performance and resource management.",
+        "Proper animation disposal preventing memory leaks in skeleton components.",
+        "Visual placeholder consistency matching real component structure and spacing.",
+        "Border and shadow styling matching actual UI components for realistic loading experience.",
+        "AppColors.surfaceLight integration for consistent skeleton background colors.",
+        "Repeating animation loop creating continuous shimmer effect during loading states."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/widgets/pagination_controls.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../theme/app_colors.dart",
+        "../theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "PaginationControls": "Reusable pagination widget with navigation controls, page info, and items per page selector."
+        }
+      ],
+      "rules": [
+        "Comprehensive pagination controls with first, previous, next, and last page navigation.",
+        "Items per page dropdown with configurable options (10, 25, 50, 100) and default 25.",
+        "Dynamic pagination state management with current page, total pages, and navigation capabilities.",
+        "AppColors and AppTextStyles integration for consistent theming and typography.",
+        "Disabled state handling with visual feedback for unavailable navigation actions.",
+        "Pagination info display showing current page and total page count with proper formatting.",
+        "Icon button controls with tooltips for improved accessibility and user experience.",
+        "Dropdown items per page selector with callback for handling selection changes.",
+        "Border top styling creating visual separation from main content area.",
+        "Responsive layout with spacer ensuring proper alignment of pagination elements.",
+        "Color state management showing enabled/disabled states with AppColors.primaryBlue and AppColors.textLight.",
+        "Page indicator container with border and background highlighting current position.",
+        "Callback functions for all navigation actions supporting external state management.",
+        "StatelessWidget design with external state management for optimal performance.",
+        "Professional pagination styling suitable for data tables and list views.",
+        "Configurable items per page options allowing customization for different data sets.",
+        "Null-safe callback handling preventing errors when navigation actions are unavailable."
+      ]
+    }
+  }
+}

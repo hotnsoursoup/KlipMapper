@@ -1,0 +1,149 @@
+# Services Seed Data
+# Schema Version 1.0 - Compatible with POS Database v7+
+schema_version: "1.0"
+created_date: "2025-01-09T10:00:00.000Z"
+description: "Default services for salon operations with pricing and scheduling"
+
+services:
+  # Mani-Pedi Services (Category ID: 1)
+  - name: "Manicure"
+    description: "Classic nail shaping, cuticle care, and polish application"
+    category_id: 1
+    duration_minutes: 30
+    base_price_cents: 3700  # $37.00
+    is_active: true
+    
+  - name: "Pedicure"
+    description: "Foot soak, nail care, callus removal, and polish"
+    category_id: 1
+    duration_minutes: 45
+    base_price_cents: 4700  # $47.00
+    is_active: true
+    
+  - name: "Deluxe Pedicure"
+    description: "Extended pedicure with exfoliation and massage"
+    category_id: 1
+    duration_minutes: 60
+    base_price_cents: 6500  # $65.00
+    is_active: true
+    
+  - name: "Hot Stone Pedicure"
+    description: "Luxury pedicure with hot stone massage"
+    category_id: 1
+    duration_minutes: 60
+    base_price_cents: 7000  # $70.00
+    is_active: true
+    
+  - name: "CBD Pedicure"
+    description: "Therapeutic pedicure with CBD-infused products"
+    category_id: 1
+    duration_minutes: 60
+    base_price_cents: 7500  # $75.00
+    is_active: true
+
+  # Gel Nails Services (Category ID: 2)
+  - name: "Gel Manicure"
+    description: "Long-lasting gel polish manicure"
+    category_id: 2
+    duration_minutes: 45
+    base_price_cents: 4500  # $45.00
+    is_active: true
+    
+  - name: "Gel Pedicure"
+    description: "Durable gel polish pedicure"
+    category_id: 2
+    duration_minutes: 60
+    base_price_cents: 5500  # $55.00
+    is_active: true
+    
+  - name: "Gel Extensions"
+    description: "Nail extensions with gel overlay"
+    category_id: 2
+    duration_minutes: 90
+    base_price_cents: 6500  # $65.00
+    is_active: true
+
+  # Acrylic Services (Category ID: 3)
+  - name: "Acrylic Full Set"
+    description: "Complete acrylic nail extensions"
+    category_id: 3
+    duration_minutes: 120
+    base_price_cents: 5500  # $55.00
+    is_active: true
+    
+  - name: "Acrylic Fill"
+    description: "Acrylic nail maintenance and fill"
+    category_id: 3
+    duration_minutes: 75
+    base_price_cents: 3500  # $35.00
+    is_active: true
+
+  # Waxing Services (Category ID: 4)
+  - name: "Eyebrow Wax"
+    description: "Professional eyebrow shaping"
+    category_id: 4
+    duration_minutes: 15
+    base_price_cents: 2000  # $20.00
+    is_active: true
+    
+  - name: "Upper Lip Wax"
+    description: "Upper lip hair removal"
+    category_id: 4
+    duration_minutes: 10
+    base_price_cents: 1500  # $15.00
+    is_active: true
+    
+  - name: "Brazilian Wax"
+    description: "Complete bikini area waxing"
+    category_id: 4
+    duration_minutes: 30
+    base_price_cents: 5500  # $55.00
+    is_active: true
+
+  # Facial Services (Category ID: 5)
+  - name: "Basic Facial"
+    description: "Deep cleansing facial treatment"
+    category_id: 5
+    duration_minutes: 45
+    base_price_cents: 6000  # $60.00
+    is_active: true
+    
+  - name: "Anti-Aging Facial"
+    description: "Advanced anti-aging treatment"
+    category_id: 5
+    duration_minutes: 60
+    base_price_cents: 8500  # $85.00
+    is_active: true
+    
+  - name: "Hydrating Facial"
+    description: "Moisturizing facial for dry skin"
+    category_id: 5
+    duration_minutes: 50
+    base_price_cents: 7000  # $70.00
+    is_active: true
+
+  # SNS Services (Category ID: 6)
+  - name: "SNS Manicure"
+    description: "Dip powder manicure system"
+    category_id: 6
+    duration_minutes: 60
+    base_price_cents: 4000  # $40.00
+    is_active: true
+    
+  - name: "SNS Pedicure"
+    description: "Dip powder pedicure system"
+    category_id: 6
+    duration_minutes: 75
+    base_price_cents: 5000  # $50.00
+    is_active: true
+
+# Validation Rules
+validation:
+  required_fields: ["name", "category_id", "duration_minutes", "base_price_cents"]
+  name_max_length: 100
+  description_max_length: 500
+  duration_range: [5, 300]  # 5 minutes to 5 hours
+  price_range: [500, 50000]  # $5.00 to $500.00 in cents
+  unique_constraints: ["name"]
+  foreign_keys:
+    category_id: "service_categories.id"

@@ -1,0 +1,27 @@
+{
+  "category": "Employees Models Feature",
+  "description": "Data models for employee management including capabilities, specializations, and employee-related data structures",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/data/models/employee_capability.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "EmployeeCapability": "Employee specialization capability model defining service types employees can perform beyond basic nail services."
+        }
+      ],
+      "rules": [
+        "Immutable capability model defining specialized service types employees can perform beyond basic mani-pedi services.",
+        "Standard capabilities list defining salon service specializations: gels, acrylics, dip powder, waxing, facials, massage, nail art.",
+        "Color-coded capability system with distinct hex colors for visual identification in scheduling and assignment interfaces.",
+        "Display name separation from internal name allowing user-friendly labels while maintaining consistent internal identifiers.",
+        "JSON serialization support for capability data persistence and API communication with proper fallback handling.",
+        "Business rule implementation: basic mani-pedi services excluded as all employees can perform these standard services.",
+        "Capability identification system using string IDs for consistent reference across scheduling and service assignment logic.",
+        "Professional capability categorization covering comprehensive salon service types from nail enhancements to spa services.",
+        "Extensible design pattern allowing addition of new capabilities without breaking existing functionality.",
+        "Color consistency supporting UI theming and visual capability identification throughout employee management interfaces."
+      ]
+    }
+  }
+}

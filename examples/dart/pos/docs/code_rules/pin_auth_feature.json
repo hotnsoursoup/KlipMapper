@@ -1,0 +1,217 @@
+{
+  "category": "PIN Authentication Feature",
+  "description": "Comprehensive PIN management system with multi-step dialogs, authentication modes, and security validation",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/pin_management_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../theme/app_colors.dart",
+        "../../theme/app_text_styles.dart",
+        "../pin_auth_service.dart",
+        "../../../utils/error_logger.dart",
+        "pin_input_widget.dart"
+      ],
+      "components": [
+        {
+          "PinManagementDialog": "Comprehensive StatefulWidget for PIN management with multiple operation modes and multi-step workflow."
+        },
+        {
+          "_PinManagementDialogState": "State management for PIN dialog workflow, authentication steps, validation, and error handling."
+        },
+        {
+          "PinManagementMode": "Enum defining PIN operation types: setNew, changeExisting, managerReset for different authentication flows."
+        },
+        {
+          "PinManagementStep": "Enum defining workflow steps: initial, currentPin, managerAuth, newPin, confirmPin for step tracking."
+        }
+      ],
+      "rules": [
+        "Multi-mode PIN management: Set new PIN, Change existing PIN, Manager reset PIN with distinct workflows.",
+        "Factory constructors for different modes: setNew(), changeExisting(), managerReset() with appropriate parameters.",
+        "Multi-step authentication workflow with step indicators and progress tracking.",
+        "Manager authentication bypass support for pre-verified manager operations.",
+        "PinAuthService integration for PIN verification, setup, and validation operations.",
+        "Comprehensive error handling with ErrorLogger integration and user-friendly error messages.",
+        "Text controller and focus node management for multiple PIN input fields with proper disposal.",
+        "PIN validation rules: 4-6 digits, numeric only, with regex pattern validation.",
+        "Step-by-step authentication: current PIN → manager auth (if needed) → new PIN → confirm PIN.",
+        "Dynamic UI based on current step: different titles, descriptions, and input widgets per step.",
+        "Controller replacement strategy for confirm PIN step to prevent text persistence issues.",
+        "Visual step indicator with circular progress icons and connecting lines.",
+        "Color-coded dialog theming: green (setNew), blue (changeExisting), orange (managerReset).",
+        "Loading states with circular progress indicators during authentication operations.",
+        "Success feedback with SnackBar notifications and appropriate success messages.",
+        "Dialog constraints: 480px width, 400-650px height with proper content scrolling.",
+        "Action button state management: enabled/disabled based on input validation and step requirements.",
+        "Focus management with automatic focus transitions between input fields during workflow.",
+        "PIN confirmation matching with automatic field clearing on mismatch for better UX.",
+        "Database operation validation with detailed error logging and debugging information.",
+        "Manager employee ID handling with fallback to default employee 1 for manager operations.",
+        "Completion callback pattern for parent component notification of success/failure.",
+        "Professional styling with rounded corners, proper padding, and visual hierarchy.",
+        "Responsive design with proper layout constraints and content organization."
+      ]
+    }
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/pin_input_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../theme/app_colors.dart",
+        "../../theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "PinInputWidget": "Comprehensive PIN input StatefulWidget with masking, validation, strength indicator, and modern design."
+        },
+        {
+          "_PinInputWidgetState": "State management for PIN input with visibility toggle, strength calculation, focus handling, and validation."
+        },
+        {
+          "PinVerificationWidget": "Specialized StatelessWidget for PIN verification scenarios with lock icon and verification-specific styling."
+        },
+        {
+          "PinSetupWidget": "Specialized StatelessWidget for PIN setup scenarios with strength indicator and setup-specific styling."
+        }
+      ],
+      "rules": [
+        "Comprehensive PIN input widget with configurable obscuring, validation, and visual feedback.",
+        "Visibility toggle functionality with eye icon for showing/hiding PIN characters.",
+        "PIN strength indicator with real-time calculation: Too short, Weak, Good, Strong levels.",
+        "Strength calculation algorithms: detects consecutive numbers and repeating patterns.",
+        "Color-coded strength feedback: red (too short), orange (weak), green (good), blue (strong).",
+        "Focus management with proper focus node handling and automatic disposal.",
+        "Numeric-only input enforcement with FilteringTextInputFormatter.digitsOnly.",
+        "Configurable maximum length (default 6) with LengthLimitingTextInputFormatter.",
+        "Modern Material Design with rounded borders, proper padding, and focus states.",
+        "Dynamic border coloring: default, focused, and error states with proper theming.",
+        "Letter spacing adjustments: increased spacing for masked PIN display (4px) vs unmasked (2px).",
+        "Input validation support with custom validator functions and error text display.",
+        "Auto-focus capability with post-frame callback for proper focus timing.",
+        "Text controller management with optional external controller or internal management.",
+        "Prefix and suffix icon support with customizable icons and positioning.",
+        "Specialized verification widget with lock icon for authentication scenarios.",
+        "Specialized setup widget with strength indicator for PIN creation scenarios.",
+        "Event handling: onChanged, onSubmitted callbacks for parent component integration.",
+        "Accessibility support with proper tooltips and focus management.",
+        "Professional styling with consistent theming and visual hierarchy.",
+        "State preservation during widget rebuilds with proper mounted checks.",
+        "Input decoration customization with override capability for specialized use cases.",
+        "Error state management with visual feedback and validation integration.",
+        "Performance optimizations with conditional rebuilds and efficient state updates."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/pin_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../theme/app_colors.dart",
+        "../../theme/app_text_styles.dart",
+        "../pin_auth_service.dart",
+        "pin_input_widget.dart"
+      ],
+      "components": [
+        {
+          "PinDialog": "Comprehensive PIN dialog StatefulWidget supporting verification, setup, and change operations with factory constructors."
+        },
+        {
+          "_PinDialogState": "State management for PIN dialog with step-based flow, validation, confirmation, and service integration."
+        }
+      ],
+      "rules": [
+        "Multi-purpose PIN dialog supporting verification, setup, and change operations through factory constructors.",
+        "Factory constructors: verify(), setup(), change() with appropriate defaults and configuration.",
+        "Two-step PIN setup flow: initial PIN entry followed by confirmation step.",
+        "PIN confirmation validation with mismatch detection and user feedback.",
+        "PinAuthService integration for secure PIN operations and validation.",
+        "Auto-focus management with proper focus transitions between input fields.",
+        "Loading states with circular progress indicators during async operations.",
+        "Error handling with visual error messages and user-friendly feedback.",
+        "Professional dialog styling with rounded corners, proper padding, and visual hierarchy.",
+        "Header section with lock icon, title, subtitle, and branded color scheme.",
+        "Specialized PIN input widgets: PinSetupWidget for creation, PinVerificationWidget for authentication.",
+        "Action button management: Cancel and primary action with loading state handling.",
+        "Dynamic action button text: 'Next' for setup flow, custom action labels for operations.",
+        "PIN validation: 4-6 digit requirement with real-time validation feedback.",
+        "Error state visualization with red-themed containers, icons, and border styling.",
+        "Confirmation step with focus management and automatic field progression.",
+        "PIN change support with current PIN validation and new PIN setup.",
+        "Callback pattern for completion handling with success/failure and PIN data.",
+        "Text controller and focus node lifecycle management with proper disposal.",
+        "Professional Material Design with consistent theming and accessibility support.",
+        "Field clearing on error for security and better user experience.",
+        "Mounted checks for safe state updates during async operations.",
+        "Responsive layout with proper constraints and visual spacing.",
+        "Integration with PinInputWidget components for consistent PIN entry experience."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/pin_management_example.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "pin_management_dialog.dart"
+      ],
+      "components": [
+        {
+          "PinManagementExample": "Example demonstration StatelessWidget showcasing PIN management dialog usage patterns and testing scenarios."
+        }
+      ],
+      "rules": [
+        "Comprehensive demonstration screen for PIN management dialog testing and development.",
+        "Three main PIN operation examples: Set New PIN, Change Existing PIN, Manager Reset PIN.",
+        "Color-coded buttons with distinct styling: green (new), blue (change), orange (manager reset).",
+        "Test employee IDs and realistic employee names for development and testing scenarios.",
+        "SnackBar result feedback showing success/failure messages with appropriate colors.",
+        "Complete usage instructions and documentation for developers and testers.",
+        "Factory constructor examples for each PIN management operation mode.",
+        "Professional UI with proper spacing, button styling, and instructional content.",
+        "Barrierless dialogs for PIN operations ensuring user completes workflow.",
+        "Result callback handling with success/failure feedback and user notifications.",
+        "Development testing support with predefined test data and realistic scenarios.",
+        "Professional scaffold with app bar and structured layout for easy testing."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/pin_protected_wrapper.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../pin_auth_service.dart",
+        "pin_dialog.dart",
+        "../../utils/logger.dart"
+      ],
+      "components": [
+        {
+          "PinProtectedWrapper": "Widget wrapper providing PIN protection for sensitive UI components with tap-based authentication."
+        },
+        {
+          "PinProtection": "Static utility class providing function-based PIN protection methods for programmatic access control."
+        },
+        {
+          "PinProtectedWidget": "Extension on Widget providing convenient PIN protection methods with fluent API design."
+        }
+      ],
+      "rules": [
+        "Comprehensive PIN protection system supporting both widget wrapping and programmatic protection.",
+        "Automatic PIN setup detection with conditional authentication flow based on PIN existence.",
+        "Configurable PIN setup requirement with callback handling for setup completion/denial.",
+        "Session timeout support with duration-based authentication validity (placeholder for future implementation).",
+        "Context safety with mounted checks preventing operations on disposed widgets.",
+        "Error handling with user-friendly error dialogs and comprehensive logging integration.",
+        "Multiple protection modes: widget wrapper, static protect method, verify method, setup method, change method.",
+        "PIN verification workflow with automatic dialog presentation and result handling.",
+        "PIN setup workflow for employees without existing PINs with guided setup process.",
+        "PIN change workflow with current PIN verification followed by new PIN setup.",
+        "Access callback system: onAccessGranted, onAccessDenied, onPinSetupRequired for flexible flow control.",
+        "Extension method support for fluent API usage with widget chaining.",
+        "Logger integration for security auditing and debugging PIN protection operations.",
+        "Professional error handling with graceful fallbacks and user-friendly error messages.",
+        "Service integration with PinAuthService for consistent authentication across application.",
+        "Barrierless setup dialogs ensuring proper PIN configuration before access.",
+        "Quick verification method for existing PIN validation without full protection flow.",
+        "Employee PIN status checking without UI interaction for programmatic validation."
+      ]
+    }
+  }
+}

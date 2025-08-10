@@ -1,0 +1,19 @@
+Analyzing providers...                                          
+
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/settings/providers/settings_provider.dart:86:19 • unnecessary_null_comparison
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:102:18 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:156:20 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:234:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:257:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:287:16 • unnecessary_underscores
+  error • Missing concrete implementations of 'getter mixin _$DashboardSettings on Object.backgroundOpacity', 'getter mixin _$DashboardSettings on Object.containerOpacity', 'getter mixin _$DashboardSettings on Object.dashboardBackground', 'getter mixin _$DashboardSettings on Object.enableCheckoutNotifications', and 7 more • lib/features/settings/providers/settings_provider.dart:348:7 • non_abstract_class_inherits_abstract_member
+warning • The declaration 'DashboardSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:349:27 • unused_element
+  error • Missing concrete implementations of 'getter mixin _$StoreSettings on Object.appointmentBuffer', 'getter mixin _$StoreSettings on Object.location', 'getter mixin _$StoreSettings on Object.maxDailyAppointments', 'getter mixin _$StoreSettings on Object.onlineBooking', and 3 more • lib/features/settings/providers/settings_provider.dart:367:7 • non_abstract_class_inherits_abstract_member
+warning • The declaration 'StoreSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:368:23 • unused_element
+  error • Missing concrete implementations of 'getter mixin _$GeneralSettings on Object.animations', 'getter mixin _$GeneralSettings on Object.currency', 'getter mixin _$GeneralSettings on Object.dateFormat', 'getter mixin _$GeneralSettings on Object.defaultItemsPerPage', and 4 more • lib/features/settings/providers/settings_provider.dart:381:7 • non_abstract_class_inherits_abstract_member
+warning • The declaration 'GeneralSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:382:25 • unused_element
+  error • Missing concrete implementations of 'getter mixin _$SalonSettings on Object.autoCheckoutCompleted', 'getter mixin _$SalonSettings on Object.collectCustomerAddress', 'getter mixin _$SalonSettings on Object.collectCustomerAllergies', 'getter mixin _$SalonSettings on Object.collectCustomerDateOfBirth', and 10 more • lib/features/settings/providers/settings_provider.dart:396:7 • non_abstract_class_inherits_abstract_member
+warning • The declaration 'SalonSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:397:23 • unused_element
+warning • The value of the local variable 'dashboardNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:470:13 • unused_local_variable
+warning • The value of the local variable 'masterNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:471:13 • unused_local_variable
+

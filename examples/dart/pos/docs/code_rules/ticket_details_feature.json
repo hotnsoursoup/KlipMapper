@@ -1,0 +1,259 @@
+{
+  "category": "Ticket Details Feature",
+  "description": "Ticket dialog components and views for customer selection, service management, and ticket actions",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_details/components/customer_selection_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:luxe_pos/features/tickets/data/ticket_details_store.dart",
+        "package:luxe_pos/core/theme/app_colors.dart",
+        "package:luxe_pos/core/theme/app_text_styles.dart",
+        "package:luxe_pos/features/shared/presentation/widgets/customer_search_widget.dart",
+        "package:luxe_pos/features/shared/presentation/widgets/service_pill.dart"
+      ],
+      "components": [
+        {
+          "CustomerSelectionView": "A StatelessWidget providing customer selection interface for walk-ins and appointments within ticket details dialog."
+        }
+      ],
+      "rules": [
+        "Reactive UI using MobX Observer pattern for real-time state updates.",
+        "Loading state management with centered progress indicators.",
+        "Error state handling with styled error messages.",
+        "Conditional rendering based on check-in type (walk-in vs appointment).",
+        "Walk-in mode integrates CustomerSearchWidget for customer search and selection.",
+        "Appointment mode provides dual functionality: customer search AND appointment selection.",
+        "Today's appointments list with time display, customer info, and service pills.",
+        "Appointment selection with visual indicators (selected vs unselected states).",
+        "Real-time search functionality with loading indicators and debouncing.",
+        "Customer search supports name, phone, and email queries.",
+        "Service pills display for appointment services with small form factor.",
+        "Selection state management through TicketDetailsStore integration.",
+        "Material Design text fields with proper styling and focus states.",
+        "Responsive layout with proper spacing and visual hierarchy.",
+        "Empty state handling for appointments with appropriate messaging.",
+        "Color-coded selection states using primary blue theme colors.",
+        "Time formatting for appointment display (HH:mm format).",
+        "Scrollable lists for appointment selection with proper item builders.",
+        "Error handling for search operations with graceful fallbacks.",
+        "Integration with provider pattern for store access and state management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_details/components/ticket_actions_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:luxe_pos/features/tickets/data/ticket_details_store.dart",
+        "package:luxe_pos/core/theme/app_colors.dart",
+        "package:luxe_pos/core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "TicketActionsView": "A StatelessWidget providing ticket action controls and payment summary in a right sidebar layout."
+        }
+      ],
+      "rules": [
+        "Fixed-width sidebar (300px) with surface background and left border.",
+        "Ticket management actions including void ticket and conditional delete ticket options.",
+        "Manager unlock requirement for delete ticket functionality with Observer pattern.",
+        "Void ticket dialog with optional reason input and confirmation workflow.",
+        "Delete ticket dialog with warning styling and permanent deletion confirmation.",
+        "Payment summary section with subtotal, tax, and total calculations.",
+        "Real-time payment calculations using MobX computed properties.",
+        "Primary action button (Check In Customer vs Save Changes) based on dialog mode.",
+        "Conditional button enablement based on form validation state.",
+        "Error-styled action buttons (red outline) for destructive operations.",
+        "Confirmation dialogs with appropriate styling and warning indicators.",
+        "Success-styled primary action button (green background) for main operations.",
+        "Scrollable content area for action controls with fixed footer for primary action.",
+        "Material Design dialog patterns with proper button layouts and spacing.",
+        "Navigation management: closing dialogs and returning to previous screens.",
+        "Store integration for ticket operations: void, delete, and confirmation actions.",
+        "Visual hierarchy with proper headings, spacing, and section organization.",
+        "Currency formatting for payment display with two decimal places.",
+        "Responsive layout with appropriate padding and margin specifications.",
+        "Manager authorization integration for privileged operations access control."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_details/components/ticket_details_header.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:luxe_pos/features/tickets/data/ticket_details_store.dart",
+        "package:luxe_pos/core/theme/app_colors.dart",
+        "package:luxe_pos/core/theme/app_text_styles.dart",
+        "package:luxe_pos/core/utils/privileged_operations.dart"
+      ],
+      "components": [
+        {
+          "TicketDetailsHeader": "A StatelessWidget providing the header section for ticket details dialog with mode selection and status management."
+        }
+      ],
+      "rules": [
+        "Dynamic header styling: primary blue for new check-ins, dark navy for existing tickets.",
+        "Check-in type toggle pills (Walk-in vs Appointment) for new check-in mode.",
+        "Customer information display with name and phone number when available.",
+        "Ticket number display for existing tickets with proper formatting.",
+        "Status management with read-only badges for locked mode and dropdown for unlocked mode.",
+        "Manager lock/unlock toggle with privileged operations authorization.",
+        "Visual status indicators with color coding: completed (green), in-service (orange), queued (blue), cancelled (red).",
+        "Responsive header layout with proper spacing and text hierarchy.",
+        "Interactive type selection pills with hover states and visual feedback.",
+        "Close button integration for dialog dismissal functionality.",
+        "Conditional rendering based on dialog mode (new check-in vs existing ticket).",
+        "Authorization integration for manager operations with proper permission handling.",
+        "Status dropdown functionality for manager-unlocked tickets with all available statuses.",
+        "Lock/unlock visual indicators: amber for unlocked, white for locked states.",
+        "Customer selection state handling with placeholder text for empty states.",
+        "MobX Observer integration for reactive UI updates based on store changes.",
+        "Material Design header with rounded top corners and appropriate elevation.",
+        "Text styling with appropriate weights, colors, and sizes for information hierarchy.",
+        "Tooltip integration for manager action buttons with descriptive text.",
+        "Proper color contrast for text on colored backgrounds (white text on dark backgrounds)."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_details/ticket_details_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../shared/data/models/service_model.dart",
+        "../../../../shared/data/models/technician_model.dart",
+        "../../../../shared/data/models/ticket_model.dart",
+        "../../../../shared/data/models/customer_model.dart",
+        "../../../../tickets/data/ticket_details_store.dart",
+        "components/ticket_details_header.dart",
+        "components/customer_selection_view.dart",
+        "components/service_selection_view.dart",
+        "components/ticket_actions_view.dart"
+      ],
+      "components": [
+        {
+          "TicketDetailsDialog": "A comprehensive StatelessWidget providing the main ticket management dialog with MobX store integration and modular component architecture."
+        }
+      ],
+      "rules": [
+        "Provider pattern integration for TicketDetailsStore with Consumer for reactive updates.",
+        "Fixed dialog dimensions (800x910) with proper sizing for desktop application.",
+        "Modular component architecture with separate header, customer selection, service selection, and actions views.",
+        "Three-column layout: header spanning full width, left column (75%) for content, right column (25%) for actions.",
+        "Conditional content display based on customer confirmation state using Observer pattern.",
+        "Customer selection view shown first, then service selection after customer confirmation.",
+        "Store initialization with all required parameters: ticket, customer, services, technicians, and callbacks.",
+        "Clean separation of concerns with individual components handling specific functionality.",
+        "Material Design dialog with rounded corners (12px border radius) for modern appearance.",
+        "Proper padding and spacing throughout the dialog for consistent user experience.",
+        "Support for both new check-in and existing ticket editing workflows.",
+        "Integration with ticket confirmation callbacks for parent component communication.",
+        "Error handling and loading states managed through the store pattern.",
+        "Responsive design with flexible layout that adapts to content size.",
+        "Consumer pattern ensures dialog rebuilds when store state changes.",
+        "Provider disposal handled automatically by Flutter's widget lifecycle.",
+        "Type-safe parameter passing with required and optional parameters clearly defined.",
+        "Store pattern enables complex state management across multiple dialog components.",
+        "Component isolation allows for individual testing and maintenance of dialog sections."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/simplified_ticket_details_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "appointment_selection_widget.dart",
+        "ticket_actions_widget.dart",
+        "../../../shared/data/repositories/drift_customer_repository.dart"
+      ],
+      "components": [
+        {
+          "ServiceSelection": "Helper class tracking service and technician assignment pairs for dialog state management."
+        },
+        {
+          "_DialogState": "Comprehensive dialog state management class with validation, calculations, and business logic."
+        },
+        {
+          "SimplifiedTicketDetailsDialog": "Complex StatefulWidget providing full ticket creation and editing functionality with comprehensive customer and service management."
+        },
+        {
+          "_SimplifiedTicketDetailsDialogState": "Dialog state implementation with extensive customer search, service management, and group booking capabilities."
+        }
+      ],
+      "rules": [
+        "Comprehensive ticket creation and editing with support for both walk-in and appointment workflows.",
+        "Dual-mode operation: new check-in creation and existing ticket modification.",
+        "Customer search integration with DriftCustomerRepository for real-time database queries.",
+        "Service selection with technician assignment and group service support.",
+        "Real-time payment calculations: subtotal, tax (8.75%), and total with automatic updates.",
+        "Group service functionality with individual member service selections and management.",
+        "Adult customer option for walk-ins who prefer anonymous service.",
+        "Advanced validation logic: services required, customer required for walk-ins, appointment selection for appointments.",
+        "Responsive layout: 85% screen width, 85% screen height with dual-column design.",
+        "Customer confirmation workflow with detailed customer information display.",
+        "Service assignment interface with visual status indicators (assigned/unassigned technicians).",
+        "Technician selection dialog with availability status, turn numbers, and grid layout.",
+        "Group member management: add adults and children with individual service selections.",
+        "Customer search with autocomplete, results display, and new customer creation options.",
+        "State persistence throughout dialog lifecycle with proper controller management.",
+        "Header with check-in type toggle (walk-in vs appointment) and dynamic styling.",
+        "Primary technician assignment functionality with comprehensive technician selection.",
+        "Service category filtering and selection with price and duration display.",
+        "Appointment integration for pre-populated service and customer information.",
+        "Error handling for customer search, service assignment, and validation failures.",
+        "Material Design components with consistent theming and visual hierarchy.",
+        "Complex business logic for ticket creation with all required fields and relationships.",
+        "Integration with multiple repository layers for data persistence and retrieval.",
+        "Extensive UI states: loading, empty, error, and success with appropriate visual feedback."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/customer_selection_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/customer_model.dart"
+      ],
+      "components": [
+        {
+          "CustomerSelectionWidget": "A StatefulWidget providing customer selection and confirmation interface for walk-in check-ins with adult customer quick selection."
+        },
+        {
+          "_CustomerSelectionWidgetState": "State management for customer selection with conditional rendering based on confirmation status and check-in type."
+        }
+      ],
+      "rules": [
+        "Conditional display based on customer confirmation status and check-in type.",
+        "Confirmed customer display with success styling (green theme) and customer details.",
+        "Walk-in customer search interface with prominent adult customer quick selection.",
+        "Customer avatar generation using first letter of customer name with proper styling.",
+        "Success confirmation styling with green background, border, and success indicators.",
+        "Adult customer creation for anonymous walk-in services with timestamp-based ID generation.",
+        "Customer information display: name, phone, email with proper text styling and hierarchy.",
+        "Callback integration for customer selection and confirmation events.",
+        "Material Design card layout with rounded corners and proper elevation.",
+        "Primary action button for adult customer selection with full-width styling.",
+        "Icon integration for visual appeal: person_add for new customers, check for confirmed status.",
+        "Responsive design with proper padding, margins, and spacing throughout interface.",
+        "Text styling with consistent use of app colors and typography scales.",
+        "Clean separation between confirmed and selection states with distinct visual treatment.",
+        "Customer model integration with proper field access and null safety handling.",
+        "Callback pattern for parent component communication and state management.",
+        "Anonymous customer support for privacy-conscious walk-in customers.",
+        "Professional styling with success indicators and confirmation badges.",
+        "Widget lifecycle management with proper state updates and rebuilds."
+      ]
+    }
+  }
+}

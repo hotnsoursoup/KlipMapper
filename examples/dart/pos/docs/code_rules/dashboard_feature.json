@@ -1,0 +1,622 @@
+{
+  "category": "Dashboard Feature",
+  "description": "Main dashboard functionality including technician management, customer queue, and dashboard state",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/data/dashboard_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/foundation.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/data/models/ticket_model.dart",
+        "../../shared/data/models/technician_model.dart",
+        "../../shared/data/models/customer_model.dart",
+        "../../shared/data/models/service_model.dart",
+        "../../shared/data/models/appointment_model.dart",
+        "../../shared/data/repositories/drift_employee_repository.dart",
+        "../../shared/data/repositories/drift_ticket_repository.dart",
+        "../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../core/services/settings_service.dart",
+        "../../../core/services/settings_manager.dart",
+        "../../../core/services/cache_coordination_service.dart",
+        "../../../utils/error_logger.dart",
+        "dashboard_store.g.dart"
+      ],
+      "components": [
+        {
+          "DashboardStore": "The abstract class with the MobX store logic. It manages the state for technicians, tickets in the queue, upcoming appointments, and various UI settings."
+        }
+      ],
+      "rules": [
+        "loadDashboardData is the main entry point for loading all dashboard data.",
+        "It loads settings from SettingsManager first.",
+        "It initializes and uses DriftEmployeeRepository, DriftTicketRepository, and DriftAppointmentRepository to fetch data from the database.",
+        "loadDataFromDatabase fetches technicians, queue tickets, and today's appointments.",
+        "Technician status (available, busy, assigned) is calculated based on the tickets assigned to them.",
+        "A technician is considered 'off' based on their isClockedIn status from the employee table.",
+        "Uses MobX observables (@observable) for reactive state.",
+        "Uses computed properties (@computed) to derive state, like filteredTechnicians and filteredQueueTickets.",
+        "Uses actions (@action) to modify the state.",
+        "The technician list can be filtered by status (All, Available, Busy).",
+        "The technician list can be sorted by Turn, Name, or Status.",
+        "The customer queue can be filtered by All, Walk In, Appointment, or Completed.",
+        "assignTechnician: Assigns a technician to a ticket in the database and reloads the data.",
+        "checkInCustomer: Changes a ticket's status to 'in-service'.",
+        "addTicketToQueue: Adds a new ticket to the database.",
+        "updateTicket: Updates an existing ticket.",
+        "checkInAppointment: Checks in a customer from an appointment, which should ideally create a new ticket.",
+        "checkAutoAssignments is a key business logic feature.",
+        "It finds eligible technicians (available or assigned but just clocked in).",
+        "For each eligible technician, it finds the highest priority ticket for them.",
+        "A walk-in who has waited 15+ minutes takes priority over an appointment.",
+        "Appointments take priority over walk-ins (if the walk-in hasn't waited long).",
+        "If the type is the same, the oldest ticket (by check-in time) has priority.",
+        "startAutoAssignmentMonitoring sets up a MobX reaction to automatically trigger the check when relevant data (like the queue or technician status) changes.",
+        "Manages settings like font size, layout modes, and whether to show certain panels (schedule, appointments). These settings are persisted via SettingsService and SettingsManager."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/technician_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:provider/provider.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../../core/services/time_tracking_service.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/presentation/widgets/service_category_icon.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../data/dashboard_store.dart",
+        "../../../employees/presentation/widgets/self_service_pin_dialog.dart",
+        "./ticket_details/ticket_details_dialog.dart"
+      ],
+      "components": [
+        {
+          "TechnicianCard": "A StatefulWidget that displays information about a technician, including their name, clock-in status, and assigned ticket. It allows for clocking in/out and changing PIN."
+        },
+        {
+          "_TechnicianCardState": "The state for TechnicianCard. It handles loading the technician's clock-in status, toggling clock-in/out, showing snack bars, and displaying a PIN change menu."
+        }
+      ],
+      "rules": [
+        "A technician's clock-in status is loaded when the card is initialized.",
+        "Clocking in or out requires a PIN, handled by TimeTrackingService.",
+        "After clocking in/out, the dashboard data is refreshed to reflect the change in technician availability.",
+        "After clocking in, an auto-assignment check is triggered.",
+        "A long press on the technician's avatar opens a menu for changing their PIN.",
+        "The technician's status color changes based on their availability and clock-in status (`available`, `busy`, `break`, `clocked-out`).",
+        "The display of technician specializations (icons or pills) is controlled by a setting from SettingsStore.",
+        "Tapping the card opens the TicketDetailsDialog if a ticket is assigned, otherwise it triggers the onAssignCustomer callback if the technician is available.",
+        "Technician specializations are currently hardcoded based on name, but intended to be loaded from the employee_service_categories table."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/customer_queue_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/presentation/widgets/service_category_icon.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../../settings/data/settings_store.dart"
+      ],
+      "components": [
+        {
+          "CustomerQueueCard": "A StatelessWidget that displays a customer ticket in the queue as a card with relevant information including wait time, services, and technician assignment."
+        }
+      ],
+      "rules": [
+        "The card displays a colored left border that changes based on ticket type and wait time using AppColors.getQueueBorderColor.",
+        "Shows customer name with a circle indicator (blue for walk-ins, purple for appointments).",
+        "Displays group size indicator if it's a group service.",
+        "Shows wait time in minutes with color coding: red for >40min, orange for >20min, normal for <20min.",
+        "Shows check-in time in 12-hour format with am/pm.",
+        "Services are displayed as either pills or icons based on SettingsStore.serviceDisplayMode setting.",
+        "Only shows first 3 services with a '+X more' indicator if there are additional services.",
+        "For group services, shows '+X more' indicator for additional group members.",
+        "Bottom section shows technician assignment and ticket type (Walk-in/Appt) with appropriate icons.",
+        "Technician display logic: shows 'Tech: Multiple technicians' for groups, requested technician name if available, looks up assigned technician by ID, shows 'Tech: Assigned' if ID exists but technician not found, or 'Tech: Any' if no assignment.",
+        "Card is tappable with onTap callback.",
+        "Uses Material design with InkWell for tap effects and box shadow for elevation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_details/components/service_selection_view.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:luxe_pos/features/tickets/data/ticket_details_store.dart",
+        "package:luxe_pos/core/theme/app_colors.dart",
+        "package:luxe_pos/core/theme/app_text_styles.dart",
+        "package:luxe_pos/features/shared/presentation/widgets/service_pill.dart",
+        "package:luxe_pos/features/shared/data/repositories/drift_service_repository.dart show ServiceCategoryWithCount",
+        "package:luxe_pos/core/config/service_categories.dart"
+      ],
+      "components": [
+        {
+          "ServiceSelectionView": "A StatelessWidget that provides the UI for selecting services and managing ticket status when editing existing tickets."
+        }
+      ],
+      "rules": [
+        "Shows status selection chips (queued, in-service, completed, cancelled) only when editing existing tickets (not for new check-ins).",
+        "Provides a toggle switch for enabling/disabling group service mode.",
+        "Displays service selection for the primary customer and additional group members if group service is enabled.",
+        "Each member section shows their type (adult/child) and allows adding/removing services.",
+        "Services are displayed with price, duration, and technician assignment status.",
+        "Technician assignment shows green indicator when assigned, orange when unassigned.",
+        "Provides buttons to add adult or child group members.",
+        "Service selection dialog includes search functionality and category filtering.",
+        "Service categories are displayed with color coding and service counts.",
+        "Technician selection dialog shows available technicians first, with availability status indicators.",
+        "Uses MobX Observer pattern for reactive UI updates.",
+        "Status chips are color-coded: completed (green), in-service (orange), queued (blue), cancelled (red)."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/check_in_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../shared/data/repositories/drift_service_repository.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../appointments/data/stores/appointments_store.dart",
+        "../../../shared/presentation/widgets/customer_search_widget.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "ticket_details/ticket_details_dialog.dart"
+      ],
+      "components": [
+        {
+          "CheckInDialog": "A StatefulWidget that provides the initial check-in interface for both walk-ins and appointments."
+        },
+        {
+          "CheckInType": "An enum defining the two types of check-ins: walkIn and appointment."
+        }
+      ],
+      "rules": [
+        "Supports two check-in types: Walk In and Appointment, selected via toggle pills.",
+        "Can be pre-populated with an appointment for direct appointment check-in.",
+        "For walk-ins, uses CustomerSearchWidget to select or search for customers.",
+        "For appointments, loads and displays today's available appointments from AppointmentsStore.",
+        "Converts appointments to ticket format for compatibility with the ticket system.",
+        "Loads available technicians from DriftEmployeeRepository and converts them to Technician objects.",
+        "Loads available services from DriftServiceRepository for the ticket details dialog.",
+        "Upon successful check-in selection, opens TicketDetailsDialog with the appropriate data.",
+        "Validates that technicians are loaded before allowing check-in to proceed.",
+        "Handles loading states for appointments and technicians with appropriate UI indicators.",
+        "Shows appointment time, customer info, and status for appointment selections.",
+        "Check-in button is disabled until valid selection is made and technicians are loaded.",
+        "Uses AppointmentsStore to get filtered available appointments (not already checked in).",
+        "Error handling with ErrorLogger for failed data loading operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/group_member_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "service_selection_widget.dart"
+      ],
+      "components": [
+        {
+          "GroupMember": "A helper class to represent a group member with name and type (adult/child)."
+        },
+        {
+          "GroupMemberWidget": "A StatefulWidget for managing group service members and their individual service selections."
+        },
+        {
+          "_AddGroupMemberDialog": "A dialog for adding new group members with custom names."
+        }
+      ],
+      "rules": [
+        "Supports adding both adult and child group members to service tickets.",
+        "Auto-generates member names (Adult 1, Adult 2, Child 1, etc.) when using quick add buttons.",
+        "Each group member has their own ServiceSelectionWidget for individual service management.",
+        "Member cards display type indicators with color coding: blue for adults, green for children.",
+        "Provides remove member functionality with confirmation.",
+        "Services are managed per member through separate service selection interfaces.",
+        "Group member names can be customized through the add dialog.",
+        "Visual hierarchy shows member type badges and member-specific service selections.",
+        "Integrates with parent widget callbacks for member and service management.",
+        "Uses Material Design cards with shadows and proper spacing for member display."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/service_selection_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/presentation/widgets/service_pill.dart"
+      ],
+      "components": [
+        {
+          "ServiceSelection": "A helper class to track service and technician assignment pairs."
+        },
+        {
+          "ServiceSelectionWidget": "A StatefulWidget for selecting services and assigning technicians with category filtering."
+        }
+      ],
+      "rules": [
+        "Provides category-based filtering with color-coded filter chips showing service counts.",
+        "Services are displayed in a responsive grid layout with availability indicators.",
+        "Supports automatic technician assignment when first technician is selected.",
+        "Smart technician assignment: first selected technician is auto-assigned to compatible services.",
+        "Selected services show technician assignment status with visual indicators (green=assigned, orange=unassigned).",
+        "Technician selection dialog shows availability status and sorted by availability/turn number.",
+        "Prevents duplicate service selection for the same member.",
+        "Service buttons are disabled once selected and show check marks.",
+        "Category filtering includes 'All' option and individual category chips with service counts.",
+        "Reassign technician functionality available for all selected services.",
+        "Service items display price, duration, category pills, and assignment status.",
+        "Technician selection shows avatar, name, availability status, and turn information.",
+        "Auto-assignment logic checks technician capability compatibility (simplified for now).",
+        "Service grid adapts based on available services and category filters.",
+        "Provides remove service functionality with confirmation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/simplified_ticket_details_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "appointment_selection_widget.dart",
+        "ticket_actions_widget.dart",
+        "../../../shared/data/repositories/drift_customer_repository.dart"
+      ],
+      "components": [
+        {
+          "ServiceSelection": "A helper class to track service and technician assignment pairs within the dialog."
+        },
+        {
+          "_DialogState": "Enhanced dialog state management class with full ticket creation/editing functionality."
+        },
+        {
+          "SimplifiedTicketDetailsDialog": "A comprehensive StatefulWidget for creating and editing tickets with full functionality."
+        }
+      ],
+      "rules": [
+        "Supports both new check-in creation and existing ticket editing modes.",
+        "Dual-column layout: left for customer/services (75%), right for assignment/payment (25%).",
+        "Walk-in vs Appointment toggle in header with different workflows for each type.",
+        "Customer search functionality with autocomplete and creation of new customers.",
+        "Adult customer option for walk-ins who prefer not to provide personal information.",
+        "Service selection with category filtering and technician assignment per service.",
+        "Group service support with individual member service selections.",
+        "Primary technician assignment functionality in right sidebar.",
+        "Real-time payment calculation with subtotal, tax (8.75%), and total display.",
+        "Validation rules: services required, customer required for walk-ins, appointment required for appointments.",
+        "Customer search integrates with DriftCustomerRepository for database searches.",
+        "Service assignment shows visual status indicators (assigned/unassigned technicians).",
+        "Group members can be added as adults or children with individual service selections.",
+        "Technician selection dialog shows availability, turn numbers, and compatibility.",
+        "Appointment integration loads today's appointments for check-in.",
+        "State management preserves all selections during dialog lifecycle.",
+        "Confirmation flow creates complete ticket with all services and assignments.",
+        "Error handling for customer search and data loading operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/screens/dashboard_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:go_router/go_router.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/dashboard_store.dart",
+        "../../../appointments/presentation/widgets/appointments_timeline.dart",
+        "../widgets/technician_card.dart",
+        "../widgets/customer_queue_card.dart",
+        "../../../appointments/presentation/widgets/appointment_card.dart",
+        "../widgets/ticket_details/ticket_details_dialog.dart",
+        "../widgets/contact_customer_dialog.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/appointment_model.dart",
+        "../../../shared/data/models/customer_model.dart",
+        "../../../shared/presentation/widgets/service_pill.dart",
+        "../../../shared/presentation/widgets/service_category_icon.dart",
+        "../../../shared/data/repositories/drift_service_repository.dart",
+        "../../../shared/data/repositories/drift_appointment_repository.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../../core/services/cache_coordination_service.dart"
+      ],
+      "components": [
+        {
+          "DashboardScreen": "Main dashboard StatefulWidget providing operations dashboard with technician status, customer queue, and appointment management."
+        },
+        {
+          "_DashboardScreenState": "Dashboard state managing auto-assignment monitoring, ticket dialogs, and check-in workflows."
+        },
+        {
+          "_TechnicianListItem": "Compact list item widget for technicians in single column mode with avatar, status, and assignment details."
+        },
+        {
+          "_CustomerQueueListItem": "Compact list item widget for customer queue tickets in single column mode with wait time and service display."
+        }
+      ],
+      "rules": [
+        "Main operations dashboard with header containing navigation buttons: Calendar, New Check-in, Checkout, and Register.",
+        "Dynamic layout supports different grid configurations (single, grid2, grid3) based on settings.",
+        "Technician section with filtering (All, Available, Busy) and sorting (Turn, Name, Status) capabilities.",
+        "Customer queue section with filtering (All, Walk In, Appointment) and dynamic display modes.",
+        "Optional Today's Schedule timeline section that can be toggled and expanded/collapsed.",
+        "Optional Upcoming Appointments section showing next appointments with check-in and contact actions.",
+        "Auto-assignment monitoring starts on widget initialization for automatic technician assignment.",
+        "Check-in dialog integration supporting both walk-in and appointment check-ins.",
+        "Appointment check-in converts appointments to tickets and updates appointment status.",
+        "Auto-assignment logic attempts to assign tickets to available requested technicians.",
+        "Technician grid supports 1, 2, or 3 column layouts with different aspect ratios.",
+        "Customer queue grid supports same layout flexibility with appropriate card sizing.",
+        "Real-time filtering and sorting of technicians based on status and turn numbers.",
+        "Queue filtering supports type-based filtering (walk-in vs appointment).",
+        "Ticket details dialog integration for editing existing tickets and assigning technicians.",
+        "Service display modes support both service pills and category icons based on settings.",
+        "Wait time color coding: normal (<20min), orange (>20min), red (>40min).",
+        "Cache coordination notifications for cross-screen data updates.",
+        "Success notifications for completed check-ins and appointments.",
+        "Responsive layout adjusts column flex ratios based on upcoming appointments visibility.",
+        "Debug logging for auto-assignment operations and technician status tracking.",
+        "Error handling for repository operations and dialog workflows.",
+        "Time formatting utilities for appointment and check-in time display.",
+        "Status-based color coding for technician avatars and customer queue borders.",
+        "Turn number display and management for technician rotation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/service_selection_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/config/service_categories.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "../../../shared/presentation/widgets/service_pill.dart"
+      ],
+      "components": [
+        {
+          "ServiceSelection": "Helper class tracking service and technician assignment pairs for dialog state management."
+        },
+        {
+          "ServiceSelectionWidget": "Comprehensive StatefulWidget for service selection with category filtering, technician assignment, and service management."
+        },
+        {
+          "_ServiceSelectionWidgetState": "State management for service selection with auto-assignment logic and technician compatibility checking."
+        }
+      ],
+      "rules": [
+        "Service selection with category-based filtering using ServiceCategories configuration.",
+        "Technician assignment with compatibility checking and auto-assignment logic.",
+        "Category filter chips with count display and color-coded visual indicators.",
+        "Service grid layout with 2-column responsive design and proper aspect ratios.",
+        "Selected services display with technician assignment status and reassignment options.",
+        "First technician assignment tracking for automatic assignment to compatible services.",
+        "Technician selection dialog with availability status, turn numbers, and visual indicators.",
+        "Service button styling with selection states, check marks, and category pills.",
+        "Auto-assignment workflow: first service requires technician selection, subsequent services auto-assign when compatible.",
+        "Technician compatibility checking with fallback to manual selection for incompatible services.",
+        "Category grouping with service count display and proper empty state handling.",
+        "Service removal functionality with callback integration for parent state management.",
+        "Visual feedback for assigned vs unassigned technicians with proper color coding.",
+        "Dialog-based technician selection with avatar display, availability status, and turn indicators.",
+        "Service item display with category pills, pricing, duration, and technician assignment status.",
+        "Reassignment functionality with dialog integration for changing technician assignments.",
+        "Professional service cards with pricing display, category indicators, and selection states.",
+        "Filter chip interface with selected states, count badges, and category color theming.",
+        "Grid-based service layout with proper spacing, borders, and hover states.",
+        "Callback pattern for service addition, removal, and technician assignment events.",
+        "Material Design components with consistent theming and accessibility support.",
+        "Error handling for technician availability and service compatibility edge cases.",
+        "Snackbar notifications for user feedback on assignment failures and conflicts.",
+        "State synchronization between selected services and technician assignments across dialog lifecycle."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_actions_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "service_selection_widget.dart"
+      ],
+      "components": [
+        {
+          "TicketActionsWidget": "StatelessWidget providing context-aware action buttons for ticket operations based on ticket status and dialog mode."
+        },
+        {
+          "EmbeddedTicketSummaryWidget": "StatelessWidget displaying payment summary with service breakdown, tax calculations, and group service information."
+        }
+      ],
+      "rules": [
+        "Context-aware action buttons based on ticket status: in-service, completed, paid states.",
+        "Primary action button with dynamic text and color based on current ticket state.",
+        "Secondary actions for existing tickets: mark complete, begin checkout based on status.",
+        "Confirmation dialogs for critical actions: mark complete, begin checkout with proper styling.",
+        "Checkout prompt workflow: automatic prompt after marking service complete.",
+        "Button state management with proper enabled/disabled states based on form validation.",
+        "Color-coded action buttons: success green for completion, primary blue for checkout and check-in.",
+        "Payment summary integration with subtotal, tax (8.75%), and total calculations.",
+        "Group service support with member count display and multi-member service totals.",
+        "Service count aggregation across primary customer and all group members.",
+        "Responsive button layout with proper flex ratios and spacing.",
+        "Dialog integration for action confirmations with cancel and proceed options.",
+        "Embedded ticket summary with service breakdown, tax display, and total highlighting.",
+        "Group size information display with member count and service distribution.",
+        "Professional styling with proper padding, borders, and visual hierarchy.",
+        "Callback pattern for action handling: onConfirm, onMarkComplete, onBeginCheckout, onShowCheckout.",
+        "Status-based button text: Check In Customer, Mark Complete, Begin Checkout, View Receipt, Save Changes.",
+        "Auto-checkout prompt after service completion with delayed dialog presentation.",
+        "Tax calculation integration with configurable tax rate (8.75% default).",
+        "Service summary display with proper formatting and member service aggregation.",
+        "Material Design dialog components with consistent button styling and layout.",
+        "Error prevention with confirmation dialogs for irreversible actions.",
+        "Professional color theming with status-appropriate button colors.",
+        "Future-delayed interactions for smooth UX flow between action confirmations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/ticket_summary_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/service_model.dart",
+        "service_selection_widget.dart"
+      ],
+      "components": [
+        {
+          "TicketSummaryWidget": "StatelessWidget providing comprehensive payment summary display with service breakdown, tax calculations, and group service support."
+        }
+      ],
+      "rules": [
+        "Comprehensive payment summary with subtotal, tax (8.75%), and total calculations.",
+        "Service breakdown display for primary services and group member services.",
+        "Group service support with member-specific service listings and totals.",
+        "Real-time calculation properties: subtotal, tax, and total as computed getters.",
+        "Empty state handling with appropriate messaging for no selected services.",
+        "Service list organization by member with clear section headers and service details.",
+        "Technician assignment display with small badge integration for assigned services.",
+        "Professional payment summary styling with receipt icon and clear typography.",
+        "Tax calculation with configurable rate (8.75%) and proper decimal formatting.",
+        "Total highlighting with primary blue theming and emphasized styling.",
+        "Group size information display with person/people pluralization logic.",
+        "Service pricing display with consistent currency formatting to two decimal places.",
+        "Member service sections with conditional rendering based on service availability.",
+        "Divider integration for visual separation between service breakdown and totals.",
+        "Responsive container design with proper padding, borders, and background colors.",
+        "Service name display with overflow handling and technician badge integration.",
+        "Primary blue accent for total amount with enhanced visual prominence.",
+        "Consistent spacing and typography throughout payment summary sections.",
+        "Professional styling with card-based layout and proper visual hierarchy.",
+        "Service count aggregation across all members for comprehensive summary display.",
+        "Clean section organization with proper headers for different service categories.",
+        "Badge-style technician display with color coding and compact formatting.",
+        "Conditional content rendering based on service selection state and group configuration.",
+        "Material Design principles with consistent theming and accessibility considerations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/appointment_selection_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/date_formatter.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../../shared/data/models/service_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentSelectionWidget": "A comprehensive StatefulWidget for selecting check-in type and managing appointment-based check-ins with service pre-population."
+        },
+        {
+          "_AppointmentSelectionWidgetState": "State management for appointment selection with check-in type toggling and appointment filtering."
+        }
+      ],
+      "rules": [
+        "Dual check-in type support: Walk-in and Appointment with visual toggle pills.",
+        "Check-in type pills with color coding: success green for walk-in, primary blue for appointment.",
+        "Today's appointments list with customer information, timing, and service details.",
+        "Appointment selection with visual selection states and toggle functionality.",
+        "Service pre-population: automatically loads appointment services when selected.",
+        "Customer avatar generation using first letter of customer name with status color coding.",
+        "Appointment status display with color-coded badges: scheduled, arrived, in-service, completed.",
+        "Status color mapping: primary blue (scheduled), success green (arrived/completed), warning orange (in-service).",
+        "Service count display with pluralization logic for proper grammar.",
+        "Requested technician display with primary blue highlighting for visibility.",
+        "Price calculation and display for appointment services with proper currency formatting.",
+        "Empty state handling with helpful messaging for days without appointments.",
+        "Selection state management with null toggle support for deselection.",
+        "Appointment time formatting using AppDateFormatter for consistent time display.",
+        "ListTile integration with proper padding and visual hierarchy.",
+        "Material Design card styling with borders and selection highlighting.",
+        "Customer information display: name, scheduled time, service count, technician preference.",
+        "Trailing section with status badge and price information for quick reference.",
+        "Callback integration for check-in type changes, appointment selection, and service pre-population.",
+        "Professional styling with consistent spacing, colors, and typography.",
+        "Responsive design with proper touch targets and accessibility support.",
+        "Error-resistant design with null safety and graceful handling of missing data."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/dashboard/presentation/widgets/group_member_widget.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/service_model.dart",
+        "../../../shared/data/models/technician_model.dart",
+        "service_selection_widget.dart"
+      ],
+      "components": [
+        {
+          "GroupMember": "Helper class representing a group member with name and type (adult/child) properties."
+        },
+        {
+          "GroupMemberWidget": "A comprehensive StatefulWidget for managing group service members with individual service selections."
+        },
+        {
+          "_GroupMemberWidgetState": "State management for group member operations with automatic naming and service integration."
+        },
+        {
+          "_AddGroupMemberDialog": "Dialog widget for adding new group members with name input and type-based styling."
+        },
+        {
+          "_AddGroupMemberDialogState": "State management for member creation dialog with validation and submission handling."
+        }
+      ],
+      "rules": [
+        "Group member management with support for both adult and child member types.",
+        "Individual service selection for each group member using ServiceSelectionWidget integration.",
+        "Auto-generated member names with incremental numbering: Adult 1, Adult 2, Child 1, Child 2.",
+        "Member type color coding: primary blue for adults, success green for children.",
+        "Group member cards with elevated styling, shadows, and professional appearance.",
+        "Service selection integration: each member gets full service selection capabilities.",
+        "Member removal functionality with close button integration.",
+        "Add member buttons with type-specific styling and icons: person_add for adults, child_care for children.",
+        "Callback pattern for member operations: onMemberAdded, onMemberRemoved, onServiceAdded, onServiceRemoved, onTechnicianAssigned.",
+        "ServiceSelection integration for technician assignment and service management per member.",
+        "Professional card design with proper padding, borders, and visual hierarchy.",
+        "Member header with type badge and name display for clear identification.",
+        "Dynamic service management: each member maintains their own service list.",
+        "Member name generation logic with type-based counting for unique identification.",
+        "Dialog-based member addition with name input, validation, and type-specific theming.",
+        "Material Design principles with consistent button styling and layout.",
+        "Group service aggregation support for comprehensive service and pricing calculations.",
+        "Visual distinction between member types with appropriate color schemes.",
+        "Responsive design with proper spacing and touch-friendly interface elements.",
+        "Error handling and validation for member creation and service assignment operations."
+      ]
+    }
+  }
+}
+]

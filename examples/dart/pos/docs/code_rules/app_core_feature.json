@@ -1,0 +1,136 @@
+{
+  "category": "App Core Feature",
+  "description": "Main application structure with dependency injection, routing configuration, and keyboard shortcuts integration",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/app/app.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "package:provider/provider.dart",
+        "../core/theme/app_theme.dart",
+        "../core/services/window_service.dart",
+        "../features/dashboard/data/dashboard_store.dart",
+        "../features/tickets/data/tickets_store.dart",
+        "../features/employees/data/employees_store.dart",
+        "../features/services/data/service_management_store.dart",
+        "../features/customers/data/customers_store.dart",
+        "../features/appointments/data/stores/appointments_store.dart",
+        "../features/settings/data/settings_store.dart",
+        "../utils/error_logger.dart",
+        "router/app_router.dart"
+      ],
+      "components": [
+        {
+          "LuxeNailsApp": "Root application StatelessWidget providing dependency injection, keyboard shortcuts, and Material App configuration."
+        },
+        {
+          "ToggleFullscreenIntent": "Intent class for F11 and Alt+Enter fullscreen toggle keyboard shortcuts."
+        },
+        {
+          "ExitAppIntent": "Intent class for ESC key application exit keyboard shortcut."
+        }
+      ],
+      "rules": [
+        "Root application widget with comprehensive dependency injection using Provider pattern.",
+        "MultiProvider setup with all major MobX stores: Dashboard, Tickets, Employees, Services, Customers, Appointments, Settings.",
+        "Post-frame callback initialization for stores requiring Flutter services (DashboardStore, SettingsStore).",
+        "Comprehensive keyboard shortcuts: F11/Alt+Enter (fullscreen), ESC (exit app).",
+        "WindowService integration for fullscreen toggle and application exit functionality.",
+        "MaterialApp.router configuration with GoRouter integration for declarative routing.",
+        "App theme integration with centralized light theme configuration.",
+        "ErrorLogger integration with detailed logging for store creation and app lifecycle.",
+        "Debug banner disabled for production-ready appearance.",
+        "Store lifecycle management with proper initialization timing and dependencies.",
+        "Actions and Shortcuts widgets for keyboard shortcut handling with Intent pattern.",
+        "Callback actions for fullscreen and exit intents with async operation support.",
+        "Provider-based dependency injection ensuring single store instances across app.",
+        "Post-frame initialization strategy preventing premature store operations before Flutter readiness.",
+        "Centralized error handling and logging for debugging and monitoring.",
+        "Professional app structure following Flutter best practices and patterns.",
+        "Keyboard accessibility with common desktop application shortcuts."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/app/router/app_router.dart": {
+      "file_type": "router",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:go_router/go_router.dart",
+        "../../features/dashboard/presentation/screens/dashboard_screen.dart",
+        "../../features/tickets/presentation/screens/tickets_screen.dart",
+        "../../features/employees/presentation/screens/employees_screen.dart",
+        "../../features/services/presentation/screens/services_screen.dart",
+        "../../features/customers/presentation/screens/customers_screen.dart",
+        "../../features/appointments/presentation/screens/appointments_screen.dart",
+        "../../features/appointments/presentation/screens/simple_calendar_screen.dart",
+        "../../features/settings/presentation/screens/settings_screen.dart",
+        "../../features/checkout/presentation/screens/checkout_screen.dart",
+        "../../features/reports/presentation/screens/reports_screen.dart",
+        "../widgets/app_shell.dart"
+      ],
+      "components": [
+        {
+          "AppRouter": "Static router configuration class providing GoRouter setup with shell routes and error handling."
+        }
+      ],
+      "rules": [
+        "Declarative routing configuration using GoRouter with shell route pattern.",
+        "Initial location set to /dashboard as main entry point for POS application.",
+        "Root redirect from '/' to '/dashboard' for consistent user experience.",
+        "ShellRoute integration with AppShell for consistent navigation across all screens.",
+        "Comprehensive route definitions: dashboard, tickets, appointments, calendar, customers, employees, services, reports, settings, checkout.",
+        "Nested route support with ticket detail routes using path parameters (:ticketId).",
+        "Debug logging enabled for development with debugLogDiagnostics.",
+        "Error builder with professional error screen showing error icon and message.",
+        "Coming soon placeholder screens for features under development.",
+        "Route names for programmatic navigation and deep linking support.",
+        "Path parameter extraction for dynamic routes (ticket detail screen).",
+        "Professional error handling with user-friendly error screens.",
+        "Consistent screen structure with proper Material Design error states.",
+        "Static helper methods for reusable UI components (error, coming soon screens).",
+        "Scalable routing architecture supporting future route additions.",
+        "Navigation integration with app shell for persistent navigation rail.",
+        "Error state management with graceful degradation for route failures."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/app/screens/startup_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:go_router/go_router.dart",
+        "../../core/theme/app_colors.dart",
+        "../../core/theme/app_text_styles.dart",
+        "../../core/utils/logger.dart"
+      ],
+      "components": [
+        {
+          "StartupScreen": "Startup StatefulWidget handling initial app setup with professional loading UI and error handling."
+        },
+        {
+          "_StartupScreenState": "State management for app initialization with loading states, error recovery, and navigation flow."
+        }
+      ],
+      "rules": [
+        "Professional startup screen with branded gradient background and loading animations.",
+        "App initialization workflow with automatic navigation to dashboard on completion.",
+        "Error handling with retry functionality and graceful failure recovery options.",
+        "Loading states with circular progress indicator and status message updates.",
+        "Professional branding with app logo, gradient styling, and spa icon integration.",
+        "Error dialog with retry and continue anyway options for user choice.",
+        "Logger integration for debugging app initialization flow and error tracking.",
+        "Status message updates during initialization process for user feedback.",
+        "Gradient background with primary blue theming and professional visual design.",
+        "Container constraints (max width 400px) for consistent dialog-style appearance.",
+        "Version information display for app identification and support purposes.",
+        "Loading animation with white background container and shadow effects.",
+        "Error state visualization with red-themed error container and icon.",
+        "GoRouter integration for declarative navigation to dashboard.",
+        "Mounted checks for safe state updates during async initialization.",
+        "Post-frame callback usage for proper initialization timing.",
+        "Professional typography with headline and body text styling.",
+        "Responsive design with center alignment and proper spacing.",
+        "App title and subtitle with consistent branding and professional appearance."
+      ]
+    }
+  }
+}

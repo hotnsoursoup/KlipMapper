@@ -1,0 +1,42 @@
+{
+  "category": "Employees Stores Feature",
+  "description": "MobX store classes managing employee status, clock-in/out tracking, and PIN management with optimized caching",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/data/stores/employee_status_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../../../core/services/time_tracking_service.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "EmployeeStatusStore": "High-performance MobX store managing employee clock-in/out status and PIN setup tracking with 1-minute cache TTL."
+        }
+      ],
+      "rules": [
+        "Ultra-short 1-minute cache TTL optimized for real-time employee clock status accuracy and workforce management.",
+        "Batch loading optimization using Future.wait for parallel employee status loading reducing database query overhead.",
+        "ObservableMap integration for clock statuses and PIN statuses enabling reactive UI updates across employee interfaces.",
+        "Clock-in order tracking with ClockInEntry list maintaining chronological employee arrival order for shift management.",
+        "TimeTrackingService integration for centralized time tracking operations and clock-in/out workflow management.",
+        "Error handling with fallback to safe states (clocked out, no PIN) preventing UI inconsistencies during service failures.",
+        "Smart caching system checking cache TTL before performing expensive batch loading operations.",
+        "Force refresh capability bypassing cache for immediate status updates when data accuracy is critical.",
+        "Individual employee status refresh for targeted updates without reloading entire employee workforce.",
+        "Today's clock-in order computation filtering entries to current day with proper date comparison logic.",
+        "PIN status tracking based on employee PIN hash existence for authentication and security management.",
+        "Parallel status loading with error isolation ensuring single employee failures don't affect batch operations.",
+        "Real-time status updates through updateEmployeeClockStatus maintaining UI synchronization with backend state.",
+        "Clock-in order management with automatic sorting by arrival time for proper shift scheduling display.",
+        "Professional error logging with structured information for debugging and operational monitoring.",
+        "Cache invalidation methods supporting manual data refresh and forced status synchronization.",
+        "MobX reactive patterns with computed properties for derived state calculations like today's clock-in order.",
+        "Batch update patterns minimizing reactive notifications and improving performance with large employee lists.",
+        "Date utility methods for same-day comparison supporting clock-in order filtering and time-based operations.",
+        "Comprehensive workforce management supporting real-time employee availability and scheduling coordination."
+      ]
+    }
+  }
+}

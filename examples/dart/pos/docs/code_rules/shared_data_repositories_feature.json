@@ -1,0 +1,379 @@
+{
+  "category": "Shared Data Repositories Feature",
+  "description": "Core data access layer repositories using Drift ORM for database operations and business logic implementation",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/base_drift_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../../../../core/database/drift_database.dart",
+        "../../../../core/utils/logger.dart"
+      ],
+      "components": [
+        {
+          "BaseDriftRepository": "Base repository class with cached database initialization and performance optimization for all Drift-based repositories."
+        }
+      ],
+      "rules": [
+        "Abstract base class providing cached database initialization for optimal performance across all repositories.",
+        "Singleton database instance caching preventing multiple database connections and initialization overhead.",
+        "Static initialization state tracking ensuring single initialization across repository instances.",
+        "Error handling with logging integration for database initialization failures and connection issues.",
+        "Cache reset functionality supporting testing scenarios and database reinitialization requirements.",
+        "Database readiness checking without initialization for performance optimization and conditional operations.",
+        "Shared database instance management reducing memory footprint and connection overhead."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/customer_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../models/customer_model.dart",
+        "drift_customer_repository.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "CustomerRepository": "Legacy customer repository providing backward compatibility wrapper for DriftCustomerRepository with deprecation warnings."
+        }
+      ],
+      "rules": [
+        "DEPRECATED legacy repository providing backward compatibility for older Customer model usage.",
+        "Wrapper around DriftCustomerRepository maintaining existing API while encouraging migration to newer CustomerV3 model.",
+        "Legacy Customer model conversion supporting existing code while providing migration path.",
+        "Error handling with graceful degradation returning empty lists/null values on database failures.",
+        "Deprecation warnings and migration guidance for methods requiring CustomerV3 features.",
+        "Singleton pattern maintaining compatibility with existing dependency injection patterns.",
+        "Customer statistics conversion bridging legacy stats API with modern Customer model capabilities.",
+        "Search functionality delegation to modern repository while converting results to legacy format.",
+        "CRUD operations supporting basic customer management while encouraging migration to DriftCustomerRepository."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_appointment_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/appointment_model.dart",
+        "../models/customer_model.dart",
+        "../models/service_model.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../../core/services/time_service.dart"
+      ],
+      "components": [
+        {
+          "DriftAppointmentRepository": "Comprehensive appointment management repository with advanced querying, conflict detection, and batch operations."
+        }
+      ],
+      "rules": [
+        "Comprehensive appointment repository with Drift ORM integration supporting complex appointment management workflows.",
+        "Singleton pattern with lazy initialization ensuring single repository instance and optimal database connection management.",
+        "Performance optimization with batch customer fetching preventing N+1 query issues in appointment listings.",
+        "Service JSON conversion supporting complex service data storage and retrieval in appointment context.",
+        "De-duplication system preventing duplicate queries using in-flight request tracking for improved performance.",
+        "Date-based filtering with proper string formatting supporting appointment calendar views and day-specific queries.",
+        "Status filtering supporting different appointment views (check-in eligible, calendar display, completed appointments).",
+        "Pagination support with offset/limit parameters enabling efficient large dataset handling.",
+        "Appointment conflict detection identifying overlapping appointments for technician scheduling validation.",
+        "Time slot availability checking preventing double-booking and scheduling conflicts.",
+        "Complex datetime handling converting between database storage format and model representation.",
+        "Customer and technician data population reducing additional queries through joined data retrieval.",
+        "Comprehensive CRUD operations supporting appointment creation, updates, rescheduling, and status management.",
+        "Transaction support ensuring data consistency across multi-table appointment operations.",
+        "Statistics and reporting functionality providing appointment analytics and operational metrics."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_invoice_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "dart:convert",
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/invoice_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftInvoiceRepository": "Invoice management repository with comprehensive billing operations, search capabilities, and financial reporting."
+        }
+      ],
+      "rules": [
+        "Comprehensive invoice repository with Drift ORM integration supporting complete billing and financial management.",
+        "Singleton pattern ensuring single repository instance and optimal database connection management.",
+        "JSON ticket ID serialization supporting multiple tickets per invoice and complex billing scenarios.",
+        "Date range filtering enabling financial reporting and period-based invoice analysis.",
+        "Search functionality supporting customer name, invoice number, and notes for efficient invoice retrieval.",
+        "Soft delete implementation preserving invoice data while marking records as deleted for audit compliance.",
+        "Financial statistics calculation providing revenue, tax, tips, and discount analytics for business reporting.",
+        "Invoice number uniqueness support enabling invoice lookup by business-friendly identifiers.",
+        "Ticket association tracking supporting invoice-to-ticket relationships for detailed billing analysis.",
+        "Reactive data streams using Drift watch functionality for real-time invoice updates in UI.",
+        "Error handling with graceful degradation ensuring application stability during database failures.",
+        "Transaction support ensuring data consistency across invoice creation and update operations.",
+        "Comprehensive CRUD operations supporting full invoice lifecycle management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_schedule_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftScheduleRepository": "Technician schedule management repository with weekly scheduling, time format conversion, and schedule conflict prevention."
+        },
+        {
+          "WeeklySchedule": "Weekly schedule data model with time conversion utilities and schedule validation."
+        }
+      ],
+      "rules": [
+        "Comprehensive technician schedule repository managing weekly work schedules with time-based operations.",
+        "Singleton pattern ensuring single repository instance and optimal database connection management.",
+        "Transaction-based schedule updates ensuring atomicity when replacing employee weekly schedules.",
+        "Time conversion utilities supporting minutes-since-midnight storage with 12-hour display format.",
+        "Schedule deactivation pattern supporting schedule updates without data loss and audit trail preservation.",
+        "Day-of-week ordering utilities providing consistent schedule display and sorting functionality.",
+        "Schedule off-day support accommodating employee time-off and non-working day configurations.",
+        "Database initialization with proper error handling ensuring repository availability during application startup.",
+        "WeeklySchedule model providing factory constructors for common schedule patterns (default working day, day off).",
+        "Schedule ID generation ensuring unique schedule records across employees and time periods.",
+        "Schedule validation supporting both scheduled work days and scheduled off days.",
+        "Comprehensive time formatting and parsing supporting user-friendly time display and database storage."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_service_repository_impl.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../../domain/models/service_category_domain.dart",
+        "../../domain/models/service_domain.dart",
+        "../../domain/repositories/service_repository.dart",
+        "../../domain/converters/service_category_converter.dart",
+        "../../domain/converters/service_converter.dart",
+        "../models/service_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftServiceRepositoryImpl": "Clean architecture implementation of ServiceRepository using Drift ORM with domain model conversion and comprehensive service management."
+        }
+      ],
+      "rules": [
+        "Clean architecture implementation separating database concerns from domain logic through repository interface.",
+        "Singleton pattern ensuring single repository instance and optimal database connection management.",
+        "Domain model conversion supporting ServiceDomain and ServiceCategoryDomain business entities.",
+        "Service category management with automatic ID generation and comprehensive CRUD operations.",
+        "Service filtering with active status support and category-based organization.",
+        "Soft delete implementation preserving service data while marking records as inactive for business continuity.",
+        "Category name ordering providing consistent service listing and user-friendly display.",
+        "Data model compatibility layer bridging between Drift entities and domain models.",
+        "Error handling with graceful degradation ensuring application stability during database failures.",
+        "Comprehensive service lifecycle management supporting creation, updates, and deactivation operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_service_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/service_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftServiceRepository": "Service repository with category caching, service counts, and comprehensive service management operations."
+        },
+        {
+          "ServiceCategory": "Simple service category model for legacy compatibility."
+        },
+        {
+          "ServiceCategoryWithCount": "Service category model with service count information for analytics and display."
+        }
+      ],
+      "rules": [
+        "Comprehensive service repository with category management and caching optimization for improved performance.",
+        "Category name caching system reducing database queries and improving response times for category lookups.",
+        "Service count tracking providing analytics and insights for business category performance.",
+        "Legacy compatibility methods maintaining backward compatibility while encouraging modern patterns.",
+        "Category-based service filtering supporting organized service displays and management workflows.",
+        "Automatic category ID assignment ensuring unique category identification across service management.",
+        "Active service filtering supporting service lifecycle management and hiding inactive services.",
+        "Service model conversion bridging between Drift database entities and application service models.",
+        "Cache invalidation strategies ensuring data consistency when categories or services are modified.",
+        "Comprehensive CRUD operations supporting full service and category lifecycle management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_settings_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "dart:convert",
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../models/setting_model.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DriftSettingsRepository": "Comprehensive application settings repository with type-safe operations, bulk updates, and reactive data streams."
+        }
+      ],
+      "rules": [
+        "Comprehensive settings repository with type-safe value management and category-based organization.",
+        "Singleton pattern ensuring single repository instance and optimal database connection management.",
+        "Type-safe setting retrieval with generic type parameters and default value support.",
+        "Category-based settings organization supporting dashboard, store, general, and salon configuration groups.",
+        "Store hours configuration with format migration supporting legacy string formats and modern numeric formats.",
+        "Bulk settings operations with transaction support ensuring data consistency across multiple setting changes.",
+        "Reactive settings streams using Drift watch functionality for real-time settings updates in UI components.",
+        "Settings import/export functionality supporting backup and restore operations for configuration management.",
+        "Convenience methods for common settings providing type-safe access to frequently used configuration values.",
+        "Settings validation and default value handling ensuring application stability with missing or invalid configurations.",
+        "Time format migration utilities converting between user-friendly display formats and database storage formats.",
+        "Error handling with graceful degradation returning default values when database operations fail."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/drift_time_entry_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../../core/database/drift_database.dart",
+        "../../../../utils/error_logger.dart",
+        "../models/time_entry_model.dart"
+      ],
+      "components": [
+        {
+          "DriftTimeEntryRepository": "Time clock management repository with comprehensive time tracking, break management, and payroll reporting."
+        }
+      ],
+      "rules": [
+        "Comprehensive time clock repository managing employee time tracking with clock in/out operations and break time management.",
+        "Factory constructor pattern providing default database instance while supporting dependency injection for testing.",
+        "Active time entry tracking preventing duplicate clock-ins and ensuring proper time tracking workflow.",
+        "Break time management with additive break tracking supporting multiple break periods per shift.",
+        "Payroll reporting functionality generating comprehensive hours summaries and gross pay calculations.",
+        "Time entry editing with audit trail tracking manager edits with reasons and authorization.",
+        "Date-based filtering supporting daily, weekly, and custom date range time entry queries.",
+        "Automatic hours calculation considering break time deduction for accurate payroll processing.",
+        "Employee hours summary with statistics including total hours, break time, and average hours per day.",
+        "Multi-employee payroll report generation with hourly rate integration and gross pay calculations.",
+        "Database model conversion bridging between Drift entities and TimeEntry domain models.",
+        "Error handling with comprehensive logging ensuring time tracking reliability and audit compliance."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/gift_card_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../models/gift_card_model.dart"
+      ],
+      "components": [
+        {
+          "GiftCardRepository": "Deprecated gift card repository requiring full Drift migration with all methods throwing UnimplementedError."
+        }
+      ],
+      "rules": [
+        "DEPRECATED repository requiring full migration to Drift ORM due to deprecated DatabaseService dependency.",
+        "All methods throw UnimplementedError with clear migration guidance preventing runtime crashes.",
+        "Singleton pattern maintained for API compatibility during migration period.",
+        "Comprehensive deprecation warnings guiding developers to create DriftGiftCardRepository replacement.",
+        "Gift card functionality stub preserving method signatures while preventing execution with deprecated dependencies.",
+        "Migration guidance indicating need for full Drift implementation to replace DatabaseService usage.",
+        "Placeholder for future gift card features including creation, redemption, refunds, and transaction tracking."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/payment_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../../../../core/database/drift_database.dart",
+        "../../../../core/utils/logger.dart",
+        "../models/ticket_model.dart",
+        "../../../checkout/data/models/payment_result.dart",
+        "../../../checkout/presentation/widgets/checkout_dialog.dart",
+        "package:drift/drift.dart"
+      ],
+      "components": [
+        {
+          "PaymentRepository": "Comprehensive payment processing repository with transaction management, refunds, quick sales, and financial reporting."
+        }
+      ],
+      "rules": [
+        "Comprehensive payment processing repository managing transactions, refunds, quick sales, and financial analytics.",
+        "Singleton pattern ensuring single repository instance and optimal database connection management.",
+        "Transaction atomicity with proper rollback handling ensuring payment data consistency.",
+        "Multi-ticket payment support allowing single payments to cover multiple service tickets.",
+        "Quick sale processing for items sold without ticket association and point-of-sale flexibility.",
+        "Refund processing with authorization tracking and partial refund support for customer service.",
+        "Payment method breakdown analytics providing insights into payment preferences and trends.",
+        "Ticket status integration automatically updating ticket payment status upon payment completion.",
+        "Date range reporting supporting financial analysis and business reporting requirements.",
+        "Payment validation ensuring refund amounts don't exceed original payment amounts.",
+        "Void functionality for pre-payment ticket cancellation with authorization tracking.",
+        "Error handling with graceful fallback ensuring payment processing reliability."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/service_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../models/service_model.dart",
+        "drift_service_repository.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "ServiceRepository": "Legacy service repository wrapper providing backward compatibility while encouraging migration to DriftServiceRepository."
+        }
+      ],
+      "rules": [
+        "DEPRECATED legacy repository providing backward compatibility wrapper around DriftServiceRepository.",
+        "Migration bridge maintaining existing API while encouraging adoption of modern Drift-based patterns.",
+        "Service CRUD operations delegation to DriftServiceRepository with error handling and logging.",
+        "Category management methods converting between legacy and modern service category representations.",
+        "Deprecation warnings guiding developers toward DriftServiceRepository for new development.",
+        "Error handling with comprehensive logging ensuring service operation reliability during migration.",
+        "Singleton pattern maintaining API compatibility with existing dependency injection patterns."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/ticket_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../models/ticket_model.dart",
+        "drift_ticket_repository.dart",
+        "../../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "TicketRepository": "Legacy ticket repository wrapper with category ID parsing utilities and backward compatibility support."
+        }
+      ],
+      "rules": [
+        "DEPRECATED legacy repository providing backward compatibility wrapper around DriftTicketRepository.",
+        "Category ID parsing utilities supporting both string and integer category representations.",
+        "Ticket CRUD operations delegation to DriftTicketRepository with error handling and logging.",
+        "Technician assignment functionality maintaining existing API while using modern repository patterns.",
+        "Legacy method deprecation with clear migration guidance for developers.",
+        "Error handling with graceful degradation ensuring ticket operation reliability during migration.",
+        "Singleton pattern maintaining API compatibility with existing dependency injection patterns."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/repositories/time_entry_repository.dart": {
+      "file_type": "repository",
+      "imports": [
+        "../models/time_entry_model.dart"
+      ],
+      "components": [
+        {
+          "TimeEntryRepository": "Deprecated time entry repository requiring full Drift migration with all methods throwing UnimplementedError."
+        }
+      ],
+      "rules": [
+        "DEPRECATED repository requiring full migration to Drift ORM due to deprecated DatabaseService dependency.",
+        "All methods throw UnimplementedError with clear migration guidance preventing runtime crashes.",
+        "Singleton pattern maintained for API compatibility during migration period.",
+        "Comprehensive deprecation warnings guiding developers to create DriftTimeEntryRepository replacement.",
+        "Time tracking functionality stub preserving method signatures while preventing execution with deprecated dependencies.",
+        "Migration guidance indicating need for full Drift implementation to replace DatabaseService usage.",
+        "Placeholder for future time tracking features including clock in/out, breaks, and payroll reporting."
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "category": "Checkout Data Models Feature",
+  "description": "Data models for checkout calculations, payment processing, and transaction state management",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/checkout_calculation.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "CheckoutCalculation": "Immutable calculation model for checkout totals with comprehensive financial formatting and validation."
+        }
+      ],
+      "rules": [
+        "Immutable calculation model ensuring financial data consistency throughout checkout process.",
+        "Comprehensive financial components: subtotal, tip, tax, discount, and total calculations.",
+        "Item count tracking for transaction summary and receipt generation.",
+        "Empty factory constructor providing zero-state initialization for new checkout sessions.",
+        "Formatted currency getters with consistent \$XX.XX formatting for UI display.",
+        "Negative discount formatting with proper minus sign prefix for visual clarity.",
+        "Tax rate calculation and percentage formatting for receipt and compliance reporting.",
+        "Boolean state getters: hasTip, hasDiscount, hasItems for conditional UI rendering.",
+        "CopyWith pattern for immutable updates during checkout calculation progression.",
+        "Professional toString method providing concise calculation summary for debugging.",
+        "Value-based equality implementation ensuring calculation comparisons work correctly.",
+        "Comprehensive hashCode implementation supporting Set and Map operations with calculations.",
+        "Zero-safe division in tax rate calculation preventing runtime errors.",
+        "Financial precision with toStringAsFixed(2) for proper monetary display formatting.",
+        "Validation logic through boolean getters enabling checkout flow control.",
+        "Immutable design pattern preventing accidental financial calculation modifications."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/checkout_state.dart": {
+      "file_type": "model",
+      "imports": [
+        "../../../shared/data/models/ticket_model.dart",
+        "quick_sale_item.dart",
+        "discount_model.dart",
+        "../../presentation/widgets/checkout_dialog.dart"
+      ],
+      "components": [
+        {
+          "CheckoutState": "Comprehensive checkout state model managing both ticket-based and quick sale checkout workflows."
+        }
+      ],
+      "rules": [
+        "Dual checkout mode support: ticket-based checkout and quick sale workflow in single state model.",
+        "Comprehensive payment state management: tip percentage, custom tip amount, discount application.",
+        "Payment method selection with validation ensuring proper payment processing workflow.",
+        "Service assignment validation ensuring all services have assigned technicians before checkout.",
+        "Error handling with errorMessage field for user feedback and debugging support.",
+        "Processing state management preventing multiple concurrent payment operations.",
+        "Customer association for both ticket and quick sale modes with optional customer assignment.",
+        "Validation logic through computed properties: allServicesAssigned, hasItems, canProcessPayment.",
+        "Quick sale item management with quantity tracking and service type differentiation.",
+        "Unassigned services identification for workflow validation and technician assignment.",
+        "Tip display formatting supporting both percentage and custom amount presentations.",
+        "JSON serialization support for state persistence and data exchange with backend systems.",
+        "CopyWith pattern for immutable state updates throughout checkout process.",
+        "Professional toString method providing checkout state summary for debugging and logging.",
+        "Value-based equality implementation focusing on key checkout state properties.",
+        "Comprehensive business logic validation ensuring checkout process integrity and compliance.",
+        "Service type enumeration integration for different item types in quick sale workflow.",
+        "Payment method enumeration support for various payment processing options.",
+        "State management optimized for reactive UI updates using MobX or similar state management."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/discount_data.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "DiscountData": "Comprehensive discount data model supporting percentage and fixed discounts with audit trail.",
+          "DiscountType": "Enumeration defining discount calculation methods: percentage or fixed amount."
+        }
+      ],
+      "rules": [
+        "Dual discount type support: percentage-based and fixed amount discounts with proper calculation methods.",
+        "Audit trail integration capturing technician PIN, ID, and application timestamp for compliance tracking.",
+        "Discount amount calculation with subtotal clamping preventing fixed discounts from exceeding order total.",
+        "Display value formatting with appropriate symbols: percentage (%) and currency ($) notation.",
+        "Validation logic ensuring required fields: reason, positive value, technician PIN, and technician ID.",
+        "JSON serialization support for data persistence and API communication with proper type handling.",
+        "CopyWith pattern for immutable updates during discount modification workflows.",
+        "Professional toString method providing discount summary for debugging and logging purposes.",
+        "Value-based equality implementation for discount comparison and deduplication logic.",
+        "Comprehensive hashCode implementation supporting Set and Map operations with discount objects.",
+        "DiscountType enumeration with string name mapping for JSON serialization compatibility.",
+        "Factory constructor for JSON deserialization with fallback handling for invalid discount types.",
+        "DateTime integration for timestamp tracking supporting audit requirements and reporting.",
+        "Subtotal calculation protection preventing negative discounts and over-discounting scenarios.",
+        "Immutable design pattern ensuring discount data integrity throughout application lifecycle."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/discount_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:json_annotation/json_annotation.dart"
+      ],
+      "components": [
+        {
+          "Discount": "Comprehensive discount model supporting percentage, fixed, and employee discounts with business rules and validation."
+        }
+      ],
+      "rules": [
+        "Multi-type discount support: percentage, fixed amount, and employee discounts with specialized calculation logic.",
+        "Business rules enforcement: minimum order amounts, maximum discount limits, and expiration date validation.",
+        "Authorization tracking with employee ID for audit trail and compliance requirements.",
+        "Discount code support enabling promotional campaigns and tracking discount usage.",
+        "Comprehensive discount calculation with subtotal validation and limit enforcement.",
+        "Expiration date handling with automatic validity checking for time-limited promotions.",
+        "Display name generation with user-friendly formatting: percentage symbols and currency notation.",
+        "Description builder creating detailed discount information with conditions and limits.",
+        "Factory constructors for common discount types: percentage(), fixed(), and employee() with appropriate defaults.",
+        "Predefined common discounts list providing typical salon discount options for quick selection.",
+        "JSON serialization with JsonSerializable annotation for data persistence and API communication.",
+        "CopyWith pattern for immutable updates during discount modification and application workflows.",
+        "Professional toString method providing discount summary for debugging and logging purposes.",
+        "Value-based equality implementation for discount comparison and deduplication in checkout systems.",
+        "Comprehensive business logic ensuring discount amounts never exceed subtotals or specified maximums."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/payment_result.dart": {
+      "file_type": "model",
+      "imports": [
+        "../../../checkout/presentation/widgets/checkout_dialog.dart",
+        "quick_sale_item.dart"
+      ],
+      "components": [
+        {
+          "PaymentResult": "Comprehensive payment result model supporting both ticket-based and quick sale transactions with complete financial breakdown."
+        }
+      ],
+      "rules": [
+        "Dual transaction mode support: ticket-based checkout and quick sale workflow with appropriate data structures.",
+        "Complete financial breakdown: subtotal, tip, discount, tax, and total amounts for comprehensive transaction records.",
+        "Payment method integration with enumeration support for cash, card, and other payment types.",
+        "Transaction timestamp tracking with processedAt for audit trails and reporting requirements.",
+        "Technician PIN capture for authorization tracking and compliance with discount application workflows.",
+        "Customer association support with optional customer ID for both ticket and quick sale modes.",
+        "Quick sale item integration with list of QuickSaleItem objects for itemized quick sale transactions.",
+        "Ticket ID collection supporting multiple ticket checkout scenarios in single payment transaction.",
+        "JSON serialization support for payment processing, data persistence, and API communication.",
+        "CopyWith pattern for immutable updates during payment processing and result modification workflows.",
+        "PaymentMethod enumeration integration with string serialization for consistent payment method handling.",
+        "Professional toString method providing payment summary for debugging and logging purposes.",
+        "Value-based equality implementation focusing on core payment identification and amount validation.",
+        "Comprehensive hashCode implementation supporting payment result operations in collections.",
+        "Transaction mode differentiation through isQuickSale flag enabling appropriate business logic routing."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/data/models/quick_sale_item.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "QuickSaleItem": "Quick sale item model supporting services, products, and gift cards with technician assignment and quantity management.",
+          "ServiceType": "Enumeration defining item types: service, product, and giftCard for quick sale categorization."
+        }
+      ],
+      "rules": [
+        "Multi-type item support: service, product, and gift card items with appropriate business logic differentiation.",
+        "Quantity management with total price calculation supporting multiple unit purchases.",
+        "Technician assignment system with validation ensuring services have assigned technicians.",
+        "Service type enumeration with string serialization for consistent item categorization.",
+        "Business rule validation: services require technician assignment, products and gift cards do not.",
+        "Total price calculation with quantity multiplication for accurate financial calculations.",
+        "Item validation logic ensuring all required fields are populated based on service type.",
+        "JSON serialization support for quick sale data persistence and API communication.",
+        "CopyWith pattern for immutable updates during item modification and checkout workflows.",
+        "Professional toString method providing item summary for debugging and transaction logging.",
+        "Value-based equality implementation ensuring accurate item comparison and deduplication.",
+        "Comprehensive hashCode implementation supporting quick sale item operations in collections.",
+        "ServiceType fallback handling with default service type for data integrity.",
+        "Optional technician assignment supporting both service and non-service item types.",
+        "Immutable design pattern ensuring data consistency throughout quick sale transaction lifecycle."
+      ]
+    }
+  }
+}

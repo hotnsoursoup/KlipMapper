@@ -1,0 +1,320 @@
+{
+  "category": "Employees Feature",
+  "description": "Employee management functionality including clock-in services and employee data",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/data/clock_in_order_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "package:drift/drift.dart",
+        "../../../core/services/time_tracking_service.dart",
+        "../../../core/database/drift_database.dart",
+        "../../../utils/error_logger.dart",
+        "../../shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "ClockInOrderEntry": "A model class to hold the employee, their clock-in time, and a formatted time string."
+        },
+        {
+          "ClockInOrderService": "A service that provides the clock-in order for the current day."
+        }
+      ],
+      "rules": [
+        "The service uses a singleton pattern.",
+        "It fetches all time entries for the current day, ordered by clock-in time.",
+        "It fetches all active employees to map the time entries to employee data.",
+        "It only includes each employee's first clock-in of the day in the result.",
+        "It provides a method to get a list of currently clocked-in employee IDs from the `TimeTrackingService`."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/employee_details_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/auth/pin_auth_service.dart",
+        "../../../../core/auth/widgets/pin_management_dialog.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../data/models/employee_capability.dart",
+        "../../../shared/data/repositories/drift_service_repository.dart",
+        "../../../../core/database/drift_database.dart as db",
+        "pin_setup_card.dart",
+        "employee_schedule_editor.dart"
+      ],
+      "components": [
+        {
+          "EmployeeDetailsDialog": "A StatefulWidget that provides a comprehensive form for creating and editing employees with capabilities, PIN management, and schedule editing."
+        },
+        {
+          "_PhoneNumberFormatter": "A custom TextInputFormatter that formats phone numbers as XXX-XXX-XXXX automatically."
+        }
+      ],
+      "rules": [
+        "Supports both creating new employees and editing existing ones based on whether employee parameter is provided.",
+        "Form includes validation for required fields: first name, last name, phone number.",
+        "Phone number formatting is automatic with XXX-XXX-XXXX pattern and 10-digit validation.",
+        "Email validation is optional but requires proper email format when provided.",
+        "Role selection from predefined roles: technician, manager, receptionist, admin.",
+        "Commission rate is optional, entered as percentage (0-100) and stored as decimal (0.0-1.0).",
+        "Service capabilities are loaded from database service categories and displayed as filter chips.",
+        "Technicians automatically get 'Nails' (mani-pedi) capability selected and cannot deselect it (marked as required).",
+        "Capability chips use service category colors with proper contrast calculation for text color.",
+        "PIN status section shows current PIN state for existing employees with manage/setup buttons.",
+        "PIN management integrates with PinAuthService for secure PIN operations.",
+        "Employee schedule editor is embedded for existing employees.",
+        "Active/inactive status toggle for existing employees controls service assignment eligibility.",
+        "Delete functionality available for existing employees with confirmation dialog.",
+        "New employees get automatic PIN setup suggestion after successful creation.",
+        "Service capability mapping from legacy capability names to service category IDs.",
+        "Color adjustment logic ensures readable contrast for capability chip colors.",
+        "Form validation prevents saving without required fields and proper formats.",
+        "PIN status loading states and error handling with ErrorLogger integration."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/employee_list_item.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "EmployeeListItem": "A comprehensive StatelessWidget for displaying employee information in list format with action buttons."
+        }
+      ],
+      "rules": [
+        "Displays employee information with avatar, name, role, contact info, and capabilities.",
+        "Visual status indication: active employees have full opacity, inactive have 60% opacity.",
+        "Color-coded avatar based on employee name hash for consistent visual identification.",
+        "Capability chips show service categories with appropriate colors from capability.color field.",
+        "Commission rate display when greater than 0, shown as percentage.",
+        "Action buttons: toggle active/inactive, edit, and delete with appropriate icons.",
+        "Inactive status badge displayed when employee status is not 'active'.",
+        "Information chips for role (blue), email (secondary), and phone (secondary).",
+        "Tappable card opens edit functionality via onEdit callback.",
+        "Material Design with InkWell interaction and subtle shadow.",
+        "Avatar uses initials with color generation based on name length.",
+        "Capability color parsing from hex color strings with alpha transparency.",
+        "Rate chip styling for commission information with green success color.",
+        "Responsive layout with proper spacing and alignment.",
+        "Accessibility support with tooltips on action buttons."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/employee_grid_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/services/time_tracking_service.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../data/stores/employee_status_store.dart",
+        "self_service_pin_dialog.dart"
+      ],
+      "components": [
+        {
+          "EmployeeGridCard": "A professional, compact employee grid card with clock-in/out functionality and PIN management."
+        }
+      ],
+      "rules": [
+        "Professional design with minimal colors and gradient backgrounds.",
+        "Clock-in status integration with EmployeeStatusStore using Observer pattern.",
+        "Clock-in/out functionality with PIN verification through TimeTrackingService.",
+        "Visual status indication: clocked-in employees have colored avatars, clocked-out have gray.",
+        "Service capability icons displayed in top-right corner (first 4 capabilities).",
+        "Long-press PIN change menu with self-service PIN dialog integration.",
+        "Clock operation with loading states and comprehensive error handling.",
+        "Phone number privacy: shows only last 4 digits (***-1234 format).",
+        "Role-based avatar coloring: admin (red), manager (blue), technician (green), etc.",
+        "Capability icons mapped to service types: nails, gels, acrylics, waxing, facials, dip powder.",
+        "Snack bar notifications for clock operations and PIN changes.",
+        "PIN management menu in bottom sheet with material design handle.",
+        "Clock button styling: green for clock-in, orange for clock-out.",
+        "Employee status refresh after clock operations for real-time updates.",
+        "Comprehensive logging for all clock operations and errors.",
+        "Compact 28px height clock button with loading indicator during operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/self_service_pin_dialog.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/auth/pin_auth_service.dart",
+        "../../../../core/auth/widgets/pin_input_widget.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "SelfServicePinDialog": "A multi-step StatefulWidget for employees to securely change their own PIN."
+        }
+      ],
+      "rules": [
+        "Three-step PIN change process: verify current PIN, enter new PIN, confirm new PIN.",
+        "Progress indicator shows current step with visual feedback.",
+        "Step-by-step validation: current PIN verification, new PIN requirements, confirmation matching.",
+        "PIN requirements: 4-6 digits, must be different from current PIN.",
+        "Auto-focus management for smooth user experience between steps.",
+        "Comprehensive error handling with clear error messages for each step.",
+        "Back navigation available from steps 1 and 2 with proper focus management.",
+        "Success dialog with celebration UI and completion callback.",
+        "Loading states during PIN verification and change operations.",
+        "PIN authentication through PinAuthService with proper error logging.",
+        "Non-dismissible during operations to ensure security compliance.",
+        "Clear visual hierarchy with icons, progress indicators, and step descriptions.",
+        "Action buttons adapt based on current step (Verify, Continue, Change PIN).",
+        "PIN input widgets handle secure input with proper masking.",
+        "Employee name display for context and security verification."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/pin_setup_card.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/auth/pin_auth_service.dart",
+        "../../../../core/auth/widgets/pin_management_dialog.dart",
+        "../../../../utils/error_logger.dart",
+        "../../../shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "PinSetupCard": "A professional PIN management card for employee profiles with comprehensive PIN operations."
+        }
+      ],
+      "rules": [
+        "Displays PIN status with visual indicators: secured (green) or not set (orange).",
+        "Dynamic card background with subtle gradient based on PIN status.",
+        "Loading state during PIN status verification on initialization.",
+        "Action sheet with PIN management options: set new, change existing, manager reset.",
+        "Manager reset option available when showManagerActions is enabled.",
+        "Integration with PinManagementDialog for all PIN operations.",
+        "Callback system for PIN change notifications via onPinChanged.",
+        "Visual status indicators: lock icon, status badges, and color coding.",
+        "Scrollable content to prevent overflow on smaller screens.",
+        "Action tile design with icons, descriptions, and forward arrows.",
+        "Delayed dialog opening to ensure bottom sheet dismissal before new dialogs.",
+        "Error handling with ErrorLogger for PIN status loading failures.",
+        "Manager authorization support with employee ID and verification status.",
+        "Card elevation and border radius for professional appearance.",
+        "Responsive button text: 'Set Up PIN' vs 'Manage PIN' based on status."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/widgets/professional_employee_list_item.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "ProfessionalEmployeeListItem": "A professional employee list item widget with enhanced design and privacy features."
+        }
+      ],
+      "rules": [
+        "Professional design with subtle shadows and gradient borders.",
+        "Enhanced privacy: phone numbers masked by default (***-***-1234), controlled by showFullPhone parameter.",
+        "Role-based color coding for avatars and badges: admin (red), manager (blue), technician (green), receptionist (purple).",
+        "Status-dependent styling: active employees have full colors, inactive are muted with reduced opacity.",
+        "Clock-in status indicator with green dot and 'Clocked In' badge for currently clocked-in employees.",
+        "Commission rate display when greater than 0, shown as percentage with proper formatting.",
+        "Employee ID display in monospace font for technical reference.",
+        "Professional avatar with role-based background colors and border styling.",
+        "Action buttons in compact grid layout: edit (blue), toggle status (green/orange), delete (red).",
+        "Inactive employees have disabled tap functionality and muted visual treatment.",
+        "Contact information layout with email and masked phone number.",
+        "Responsive design with proper text overflow handling.",
+        "Material Design interactions with InkWell and proper border radius.",
+        "Status badge with clear active/inactive indication and appropriate colors.",
+        "Monospace font for technical information (phone, employee ID) for better readability."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/presentation/screens/employees_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart",
+        "../../../shared/data/models/employee_model.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../../data/employees_store.dart",
+        "../../data/stores/employee_status_store.dart",
+        "../../data/clock_in_order_service.dart",
+        "../widgets/employee_details_dialog.dart",
+        "../widgets/employee_grid_card.dart"
+      ],
+      "components": [
+        {
+          "EmployeesScreen": "A comprehensive StatefulWidget for managing employees with filtering, search, and clock-in order tracking."
+        }
+      ],
+      "rules": [
+        "Uses StandardAppHeader with new employee creation functionality.",
+        "Integrates EmployeesStore and EmployeeStatusStore for comprehensive employee management.",
+        "Real-time clock-in order tracking with 30-second refresh intervals.",
+        "Employee filtering by role (All, Admin, Manager, Technician, Receptionist) and status (Active, Inactive, All).",
+        "Search functionality with text input for employee name filtering.",
+        "Grid layout display using EmployeeGridCard components.",
+        "Clock-in order sidebar showing daily clock-in sequence with timestamps.",
+        "Privileged operations integration for secure employee management actions.",
+        "Timer-based automatic refresh for real-time clock-in status updates.",
+        "Employee creation through EmployeeDetailsDialog with callback handling.",
+        "Observer pattern for reactive UI updates based on store changes.",
+        "Loading states and error handling for all employee operations.",
+        "Employee status loading on initialization for accurate display.",
+        "Proper cleanup of timers and controllers on widget disposal.",
+        "Integration with ClockInOrderService for daily attendance tracking."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/employees/data/employees_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/data/models/employee_model.dart",
+        "../../shared/data/repositories/drift_employee_repository.dart",
+        "../../../utils/error_logger.dart",
+        "employees_store.g.dart"
+      ],
+      "components": [
+        {
+          "EmployeesStore": "A comprehensive MobX store for employee management with caching, filtering, and search functionality."
+        }
+      ],
+      "rules": [
+        "Implements 15-minute cache TTL for employee data (employees are relatively static).",
+        "Manages employee list with reactive observables for UI updates.",
+        "Provides search functionality with query-based employee filtering.",
+        "Role-based filtering with support for All/Admin/Manager/Technician/Receptionist/Staff roles.",
+        "Toggle for showing/hiding inactive employees.",
+        "Automatic repository initialization on store creation.",
+        "Error handling with comprehensive logging and user-friendly error messages.",
+        "Loading states for async operations with UI feedback.",
+        "Cache management with TTL-based data freshness validation.",
+        "Employee CRUD operations: create, read, update, delete with database persistence.",
+        "Integration with DriftEmployeeRepository for data operations.",
+        "Search query management with real-time filtering capabilities.",
+        "Employee status management (active/inactive) with filtering support.",
+        "Memory-efficient observable collections for large employee datasets.",
+        "Cache invalidation support for data consistency after modifications.",
+        "Background error logging for debugging and monitoring employee operations."
+      ]
+    }
+  }
+}

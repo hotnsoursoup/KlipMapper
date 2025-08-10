@@ -1,0 +1,80 @@
+{
+  "category": "Settings Feature",
+  "description": "Application settings management including user preferences, system configuration, and PIN-protected administrative settings",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/settings/presentation/screens/settings_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/privileged_operations.dart",
+        "../../../../core/utils/manager_pin_bootstrap.dart",
+        "../../../shared/presentation/widgets/standard_app_header.dart",
+        "../../data/settings_store.dart",
+        "../../../shared/data/models/setting_model.dart",
+        "../widgets/remote_view_settings.dart"
+      ],
+      "components": [
+        {
+          "SettingsScreen": "A comprehensive StatefulWidget for managing application settings with PIN protection for sensitive configurations."
+        }
+      ],
+      "rules": [
+        "Uses StandardAppHeader for consistent navigation and header design.",
+        "Integrates SettingsStore for reactive settings management.",
+        "PIN protection for sensitive settings using PrivilegedOperations system.",
+        "Manager PIN bootstrap integration for ensuring admin access.",
+        "Loading states during settings initialization and updates.",
+        "Observer pattern for reactive UI updates based on settings changes.",
+        "Settings categorization: dashboard, store, general, and salon configurations.",
+        "Remote view settings integration through RemoteViewSettings widget.",
+        "Error handling for settings operations with user feedback.",
+        "Current employee ID tracking for audit and authorization purposes.",
+        "PIN-protected settings wrapper for secure configuration changes.",
+        "Settings validation and persistence through SettingsStore.",
+        "Manager authorization required for critical system settings.",
+        "Integration with manager PIN bootstrap for security compliance.",
+        "Structured settings organization with clear categorization.",
+        "Real-time settings updates with immediate UI reflection."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/settings/data/settings_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../shared/data/repositories/drift_settings_repository.dart",
+        "../../shared/data/models/setting_model.dart",
+        "../../../core/services/settings_manager.dart",
+        "../../../utils/error_logger.dart",
+        "settings_store.g.dart"
+      ],
+      "components": [
+        {
+          "SettingsStore": "A comprehensive MobX store for managing application settings across dashboard, store, general, and salon categories."
+        }
+      ],
+      "rules": [
+        "Manages four main categories of settings: dashboard, store, general, and salon configurations.",
+        "Dashboard settings: customer phone display, checkout notifications, service display mode (Pills/Icons).",
+        "Store settings: hours configuration, online booking, location selection, timezone, appointment buffer.",
+        "General settings: theme selection, sound effects, animations, language, currency formats.",
+        "Salon settings: service duration buffer, technician specialization requirements, auto-checkout.",
+        "Integrates with DriftSettingsRepository for persistent settings storage.",
+        "Reactive observables for real-time UI updates when settings change.",
+        "Error handling with user-friendly error messages and logging.",
+        "Loading states for async operations with UI feedback.",
+        "Settings initialization from repository on store creation.",
+        "StoreHours model integration for complex scheduling configuration.",
+        "Settings validation and type safety through strongly-typed properties.",
+        "Integration with SettingsManager for system-wide settings coordination.",
+        "Batch settings updates with transaction support.",
+        "Settings persistence immediately upon change for data consistency.",
+        "Default value management for new installations and missing settings.",
+        "Category-based settings organization for better maintainability.",
+        "Setting change notifications for dependent system components."
+      ]
+    }
+  }
+}

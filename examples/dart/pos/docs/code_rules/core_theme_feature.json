@@ -1,0 +1,100 @@
+{
+  "category": "Core Theme Feature",
+  "description": "Application theming system including color palette and text styles for consistent UI design",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/theme/app_colors.dart": {
+      "file_type": "theme",
+      "imports": [
+        "package:flutter/material.dart"
+      ],
+      "components": [
+        {
+          "AppColors": "Static color palette class defining comprehensive color scheme for Luxe Nails POS application."
+        }
+      ],
+      "rules": [
+        "Private constructor preventing instantiation of static utility class.",
+        "Comprehensive color palette based on dashboard.png design specifications.",
+        "Primary color scheme with blue (#3B82F6) and dark navy (#1F2937) for headers.",
+        "Status color system: success green, warning orange, error red for semantic UI elements.",
+        "Service category colors: purple, orange, teal, blue, yellow, pink for visual differentiation.",
+        "Text color hierarchy: primary, secondary, light, and on-dark variations for readability.",
+        "Background color system: main background, surface, and light surface variants.",
+        "Border and divider color consistency with light gray (#E5E7EB) for subtle separations.",
+        "Queue-specific border colors indicating wait times and appointment status.",
+        "Technician avatar color variations for team member identification.",
+        "Color alias system with semantic naming: primary, secondary, success, warning, error.",
+        "Queue border color helper method calculating color based on status and wait time.",
+        "Professional color palette matching salon industry standards and branding.",
+        "Consistent color application across all UI components and features.",
+        "Accessibility considerations with sufficient contrast ratios for text readability.",
+        "Material Design color integration with Flutter's color system compatibility."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/theme/app_text_styles.dart": {
+      "file_type": "theme",
+      "imports": [
+        "package:flutter/material.dart",
+        "app_colors.dart"
+      ],
+      "components": [
+        {
+          "AppTextStyles": "Static text styles class providing comprehensive typography system for consistent text presentation."
+        }
+      ],
+      "rules": [
+        "Private constructor preventing instantiation of static utility class.",
+        "Hierarchical headline system with three levels (28px, 24px, 20px) for content structure.",
+        "Body text variations (large 18px, medium 16px, small 14px) for different content contexts.",
+        "Label text styles with weight variations for form labels and UI element identification.",
+        "Specialized text styles for specific POS components: technician names, customer names, wait times.",
+        "Service pill text styling with white color for contrast on colored backgrounds.",
+        "Caption and subtitle styles for supplementary information and metadata display.",
+        "Status badge styling with uppercase, bold formatting and letter spacing for visibility.",
+        "Button text styling with medium weight for consistent interactive element appearance.",
+        "Color integration with AppColors for consistent theming throughout the application.",
+        "Font weight hierarchy from regular (400) to bold (700) for visual emphasis.",
+        "Semantic text styling matching industry standards for point-of-sale applications.",
+        "Consistent font sizing system preventing arbitrary size usage across components.",
+        "Professional typography choices enhancing readability in commercial POS environment.",
+        "Text style reusability across all application features and components.",
+        "Accessibility compliance with appropriate font sizes and weight combinations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/theme/app_theme.dart": {
+      "file_type": "theme",
+      "imports": [
+        "package:flutter/material.dart",
+        "app_colors.dart",
+        "app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "AppTheme": "Static theme configuration class providing multiple theme variants (light, dark, blue, purple) with comprehensive Material Design 3 styling."
+        }
+      ],
+      "rules": [
+        "Private constructor preventing instantiation of static utility class.",
+        "Theme selection system with string-based theme names for settings integration.",
+        "Available themes list for settings dropdown with Light, Dark, Blue, Purple options.",
+        "Material Design 3 implementation with useMaterial3: true across all themes.",
+        "ColorScheme.fromSeed integration for automatic color palette generation.",
+        "Comprehensive component theming: AppBar, buttons, inputs, cards, dividers.",
+        "Light theme with AppColors integration and standard Material Design patterns.",
+        "Dark theme with custom dark color palette and appropriate contrast ratios.",
+        "Blue theme variant with darker blue primary color and slate background.",
+        "Purple theme variant with purple primary colors and lavender background.",
+        "Button theming consistency across ElevatedButton, OutlinedButton, TextButton.",
+        "Input decoration theming with consistent borders, focus states, and error handling.",
+        "Card theming with elevation 0 and custom border styling for modern appearance.",
+        "AppBar theming with custom colors, typography, and icon configurations.",
+        "Scaffold background color coordination with theme-appropriate backgrounds.",
+        "Border radius consistency at 6-8px across all components for unified appearance.",
+        "Text style integration with AppTextStyles for typography consistency.",
+        "Color alias support maintaining semantic color meanings across all themes.",
+        "Theme-appropriate surface and background color selections for optimal contrast.",
+        "Professional theming suitable for point-of-sale commercial applications."
+      ]
+    }
+  }
+}

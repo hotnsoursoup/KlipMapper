@@ -1,0 +1,240 @@
+{
+  "category": "Core Services Feature",
+  "description": "Core application services including authentication, cache coordination, settings management, and remote viewing infrastructure",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/auth_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../features/shared/data/repositories/drift_employee_repository.dart",
+        "../database/drift_database.dart",
+        "../../utils/error_logger.dart",
+        "../../features/employees/presentation/widgets/pin_management_dialog.dart"
+      ],
+      "components": [
+        {
+          "AuthService": "Singleton authentication and authorization service with PIN-based security and employee management."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized authentication and authorization management.",
+        "Employee tracking with current user session management for operation auditing.",
+        "PIN-based authentication system with secure employee verification workflows.",
+        "Role-based authorization with customizable capability and role requirements.",
+        "PIN management integration with PinManagementDialog for secure PIN operations.",
+        "Employee PIN verification against stored hash values with error handling.",
+        "Authorization request dialogs with contextual titles and operation-specific messages.",
+        "PIN setting, changing, and removal operations with comprehensive error logging.",
+        "Employee PIN status checking for UI state management and security validation.",
+        "Placeholder implementations with TODO markers for future PIN service integration.",
+        "Error logging integration for all authentication operations and security events.",
+        "Employee repository integration for PIN hash storage and retrieval.",
+        "Context-aware authorization dialogs with Flutter BuildContext integration.",
+        "PIN length validation and display formatting for consistent UI presentation.",
+        "Security-first design with proper error handling and operation logging.",
+        "Future expansion support for PinService and PinEntryDialog integration.",
+        "Operation-specific authorization with customizable required capabilities.",
+        "Employee session management with clear logging for audit trail purposes."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/cache_coordination_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "../../features/tickets/data/tickets_store.dart",
+        "../../features/appointments/data/stores/appointments_store.dart",
+        "../../features/customers/data/customers_store.dart",
+        "../../features/employees/data/employees_store.dart",
+        "../../features/services/data/service_category_store.dart",
+        "../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "CacheCoordinationService": "Singleton service orchestrating cache invalidation across multiple MobX stores for cross-screen data consistency."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized cache coordination across all application stores.",
+        "Multi-store registration system supporting tickets, appointments, customers, employees, and service categories.",
+        "Event-driven cache invalidation with specific notification methods for each data operation.",
+        "Cross-screen data consistency ensuring cache updates when data changes from other screens.",
+        "Ticket lifecycle cache management: creation, modification, check-in, and payment processing.",
+        "Appointment lifecycle cache coordination: creation, modification, check-in workflow integration.",
+        "Customer data synchronization across customer management and ticket creation workflows.",
+        "Employee data cache invalidation for personnel management and assignment updates.",
+        "Service category cache coordination for menu updates and service assignment changes.",
+        "Batch cache refresh functionality with Future.wait for optimal performance.",
+        "Comprehensive error logging for all cache operations with stack trace capture.",
+        "Null-safe store registration and operation handling preventing cache corruption.",
+        "Appointment check-in coordination invalidating both ticket and appointment caches simultaneously.",
+        "Payment processing cache updates ensuring ticket status consistency across screens.",
+        "Service modification cascade invalidation affecting service category displays.",
+        "Nuclear option full cache refresh for system maintenance and data recovery scenarios.",
+        "Error handling with rethrow behavior preserving original exception context for debugging.",
+        "Logging integration with operation-specific messages for cache invalidation tracking."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/remote_view_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "dart:async",
+        "dart:convert",
+        "dart:io",
+        "dart:math",
+        "package:shelf/shelf.dart",
+        "package:shelf/shelf_io.dart as io",
+        "../utils/logger.dart"
+      ],
+      "components": [
+        {
+          "RemoteViewService": "Singleton WebRTC remote viewing service with LiveKit integration for real-time screen sharing like RustDesk/TeamViewer."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized remote viewing service management across application.",
+        "LiveKit WebRTC integration with placeholder implementation for future screen sharing functionality.",
+        "HTTP server implementation using Shelf framework for viewer interface and API endpoints.",
+        "Real-time screen sharing architecture designed for professional remote assistance workflows.",
+        "Comprehensive viewer web interface with HTML5/JavaScript LiveKit client integration.",
+        "Room-based screen sharing with unique room ID generation and access token management.",
+        "Production-ready placeholder JWT token generation with detailed implementation guidance.",
+        "Multi-endpoint API supporting status, room info, and viewer token requests.",
+        "Professional viewer interface with connection status, quality monitoring, and control buttons.",
+        "Error handling with graceful degradation for missing LiveKit dependencies and configuration.",
+        "WSL/headless environment compatibility with appropriate warning messages for connectivity limitations.",
+        "Configurable LiveKit server support for both cloud and self-hosted deployments.",
+        "Screen capture optimization with 15fps frame rate for optimal bandwidth usage.",
+        "WebRTC track management with proper attachment/detachment for viewer video elements.",
+        "Connection quality monitoring with detailed statistics display for bitrate, resolution, and framerate.",
+        "Full-screen support, mute controls, and reconnection functionality in viewer interface.",
+        "Comprehensive logging integration for service lifecycle, connections, and streaming status.",
+        "Security-first token generation with proper HMAC-SHA256 JWT implementation guidance.",
+        "Port configuration with default 8080 and viewer URL generation for easy access.",
+        "Professional UI design with dark theme, responsive layout, and modern web standards.",
+        "LiveKit client library integration with namespace detection and error handling.",
+        "Participant management with viewer counting and connection status tracking.",
+        "Room event handling with proper listener management and cleanup procedures.",
+        "Service lifecycle management with proper resource cleanup and connection termination.",
+        "Placeholder implementation allowing HTTP interface operation without full WebRTC functionality."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/settings_manager.dart": {
+      "file_type": "service",
+      "imports": [
+        "../../features/shared/data/repositories/drift_settings_repository.dart",
+        "../../features/shared/data/models/setting_model.dart",
+        "../../utils/error_logger.dart",
+        "settings_service.dart"
+      ],
+      "components": [
+        {
+          "SettingsManager": "Singleton global settings manager with memory caching, dual repository support, and comprehensive settings categorization."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized settings management with memory caching for optimal performance.",
+        "Pre-app initialization design ensuring settings availability before first render and widget tree creation.",
+        "Dual repository architecture supporting both Drift database and legacy settings service integration.",
+        "Memory cache system with Map-based storage for fast settings access without database queries.",
+        "Comprehensive settings categorization: dashboard, store, general settings with type-safe getters.",
+        "Dashboard settings: customer phone display, checkout notifications, service display mode, schedule visibility.",
+        "Store settings: hours configuration with StoreHours model, online booking toggle, operational parameters.",
+        "General settings: theme selection, sound effects, animations, language with sensible defaults.",
+        "Settings initialization with error handling and graceful fallback to default values on failure.",
+        "Per-setting persistence routing based on setting type and repository capabilities.",
+        "Cache invalidation and reload functionality for settings synchronization across app instances.",
+        "Type-safe setting retrieval with null coalescing to default values preventing runtime errors.",
+        "Comprehensive error logging for initialization, loading, and persistence operations.",
+        "Settings update workflow with immediate cache update and asynchronous persistence.",
+        "Legacy settings service integration maintaining backward compatibility during migration.",
+        "Pagination settings management for consistent list display across application features.",
+        "Settings cache clearing functionality for testing and debugging scenarios.",
+        "All settings export functionality for backup and configuration management purposes.",
+        "Repository initialization coordination ensuring proper startup sequence and dependency resolution.",
+        "Error handling with graceful degradation allowing app functionality even with settings failures."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/settings_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "package:shared_preferences/shared_preferences.dart"
+      ],
+      "components": [
+        {
+          "SettingsService": "Singleton SharedPreferences-based settings service for dashboard configuration persistence across app sessions."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized SharedPreferences-based settings management.",
+        "Dashboard-specific settings persistence: font size, layout, schedule visibility, timeline state.",
+        "SharedPreferences initialization with proper error handling and null checking.",
+        "Type-safe settings getters with default value fallbacks preventing null reference errors.",
+        "Asynchronous settings persistence with Future-based setter methods for reliable storage.",
+        "Settings key constants preventing magic string usage and ensuring consistency.",
+        "Dashboard font size management with medium default and string-based storage.",
+        "Status queue layout configuration with grid2 default for optimal dashboard presentation.",
+        "Schedule visibility toggles for today's schedule and upcoming appointments display.",
+        "Timeline expansion state persistence for user interface consistency across sessions.",
+        "Batch settings retrieval with getAllDashboardSettings for efficient loading.",
+        "Settings clearing functionality for testing scenarios and user preference reset.",
+        "Initialization requirement with explicit error messaging for proper service lifecycle.",
+        "Legacy settings service integration maintaining compatibility during settings system migration.",
+        "Boolean, string, and composite setting types with appropriate SharedPreferences methods.",
+        "Default value strategy ensuring application functionality even with missing settings.",
+        "Settings service initialization coordination with SettingsManager for dual-repository architecture."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/time_service.dart": {
+      "file_type": "service",
+      "imports": [],
+      "components": [
+        {
+          "TimeService": "Singleton time utility service providing current time, date formatting, and date comparison operations."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for consistent time operations across the application.",
+        "Current time and date accessors with DateTime.now() integration.",
+        "Formatted date string generation with MM/dd/yyyy format for consistent display.",
+        "Formatted time string generation with HH:mm 24-hour format.",
+        "Combined datetime formatting for comprehensive timestamp display.",
+        "Date comparison utilities with isToday method for business logic filtering.",
+        "Day boundary calculation with startOfDay and endOfDay methods for date range operations.",
+        "Current day boundary getters for today's date range filtering and queries.",
+        "Zero-padding string formatting for consistent date and time display.",
+        "Date normalization utilities removing time components for date-only comparisons.",
+        "Comprehensive date manipulation support for dashboard and reporting features.",
+        "Simple, focused API design with single responsibility for time operations.",
+        "No external dependencies ensuring reliable operation in all environments."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/window_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "package:flutter/services.dart",
+        "../utils/logger.dart"
+      ],
+      "components": [
+        {
+          "WindowService": "Singleton window management service with platform channel integration for fullscreen, maximize, and application exit operations."
+        }
+      ],
+      "rules": [
+        "Singleton pattern for centralized window state management across the application.",
+        "Platform channel integration with MethodChannel for native window operations.",
+        "Fullscreen mode toggle functionality with state tracking and error handling.",
+        "Window maximization with proper state management and fullscreen conflict resolution.",
+        "Application initialization with maximized window mode for optimal POS display.",
+        "Application exit functionality with SystemNavigator fallback for reliable termination.",
+        "Window state tracking with boolean flags for fullscreen and maximized states.",
+        "Error handling with PlatformException catching and logging for platform operations.",
+        "Kiosk mode support with application exit functionality for controlled environments.",
+        "Native platform integration with custom method channel for Windows-specific operations.",
+        "State consistency management preventing conflicting window states.",
+        "Comprehensive logging integration for window operations and error tracking.",
+        "Graceful fallback handling for platform channel failures and missing implementations.",
+        "Window initialization sequence ensuring proper startup display configuration.",
+        "Platform exception handling with detailed error logging for debugging support."
+      ]
+    }
+  }
+}

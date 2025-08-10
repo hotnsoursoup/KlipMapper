@@ -1,0 +1,19 @@
+Analyzing logging...                                            
+
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:206:15 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:207:14 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:208:11 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:211:29 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:219:14 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:220:11 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:231:14 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/log_config.dart:232:11 • avoid_redundant_argument_values
+   info • The import of 'package:flutter/foundation.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/widgets.dart' • lib/core/logging/logging_service.dart:3:8 • unnecessary_import
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/logging_service.dart:128:94 • avoid_redundant_argument_values
+   info • The value of the argument is redundant because it matches the default value • lib/core/logging/logging_service.dart:169:68 • avoid_redundant_argument_values
+   info • Statements in an if should be enclosed in a block • lib/core/logging/pos_logger.dart:242:15 • curly_braces_in_flow_control_structures
+  error • 'TracingObserver.didUpdateProvider' ('void Function(InvalidType, Object?, Object?, ProviderContainer)') isn't a valid override of 'ProviderObserver.didUpdateProvider' ('void Function(ProviderObserverContext, Object?, Object?)') • lib/core/logging/riverpod_observer.dart:11:8 • invalid_override
+   info • The parameter name 'provider' doesn't match the name 'context' in the overridden method • lib/core/logging/riverpod_observer.dart:12:18 • avoid_renaming_method_parameters
+   info • The parameter name 'prev' doesn't match the name 'previousValue' in the overridden method • lib/core/logging/riverpod_observer.dart:13:13 • avoid_renaming_method_parameters
+   info • The parameter name 'next' doesn't match the name 'newValue' in the overridden method • lib/core/logging/riverpod_observer.dart:14:13 • avoid_renaming_method_parameters
+

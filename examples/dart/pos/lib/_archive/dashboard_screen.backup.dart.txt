@@ -1,0 +1,155 @@
+// Archived legacy file: moved from lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart
+// Kept for reference during migration. Not compiled.
+// ---- BEGIN ORIGINAL CONTENT ----
+// lib/features/dashboard/presentation/screens/dashboard_screen.backup.dart
+// Legacy dashboard implementation using MobX and Provider for state management with comprehensive feature set. Backup version of the main dashboard with full functionality including technician cards, schedule management, and queue operations before Riverpod migration.
+// Usage: ORPHANED - Backup version kept for reference, replaced by dashboard_screen.dart with Riverpod
+
+import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
+import '../../../../core/theme/app_colors.dart';
+import '../../../../core/theme/app_text_styles.dart';
+import '../../../../utils/error_logger.dart';
+import '../../../appointments/presentation/widgets/appointment_card.dart';
+import '../widgets/todays_schedule_widget.dart';
+import '../../../settings/data/settings_store.dart';
+import '../../../shared/data/models/appointment_model.dart';
+import '../../../shared/data/models/customer_model.dart';
+import '../../../shared/data/models/ticket_model.dart';
+import '../../../shared/presentation/widgets/standard_app_header.dart';
+import '../../data/dashboard_store.dart';
+import '../widgets/contact_customer_dialog.dart';
+import '../widgets/customer_queue_card.dart';
+import '../widgets/technician_card.dart';
+import '../widgets/ticket_details/ticket_details_dialog.dart';
+
+class DashboardScreen extends StatefulWidget {
+  const DashboardScreen({super.key});
+
+  @override
+  State<DashboardScreen> createState() => _DashboardScreenState();
+}
+
+class _DashboardScreenState extends State<DashboardScreen> {
+  late DashboardStore _store;
+  bool _monitoringStarted = false;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _store = Provider.of<DashboardStore>(context, listen: false);
+    if (!_monitoringStarted) {
+      _monitoringStarted = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _store.loadDashboardData().then((_) {
+          _store.createTechnicianCardStores();
+          _store.startAutoAssignmentMonitoring();
+        });
+      });
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: AppColors.background,
+      extendBodyBehindAppBar: false, // Keep app bar solid
+      appBar: StandardAppHeader(
+        title: 'Operations Dashboard',
+        secondaryActions: [
+          HeaderActionStyles.calendarButton(() => context.go('/calendar')),
+          const SizedBox(width: 8),
+          HeaderActionStyles.checkInButton(() => _showCheckInDialog(context, _store)),
+          const SizedBox(width: 8),
+          HeaderActionStyles.checkoutButton(() => context.go('/checkout')),
+          const SizedBox(width: 8),
+          HeaderActionStyles.registerButton(() {}), // TODO: Implement cash register
+          const SizedBox(width: 8), // Add spacing after to prevent cutoff
+        ],
+      ),
+      body: Stack(
+        children: [
+          // Background based on settings
+          Consumer<SettingsStore>(
+            builder: (context, settingsStore, child) {
+              final backgroundKey = settingsStore.dashboardBackground;
+              final backgroundOption = backgroundOptions[backgroundKey];
+              
+              if (backgroundOption == null || backgroundOption.type == BackgroundType.none) {
+                return Container(color: AppColors.background);
+              }
+              
+              // Handle gradient backgrounds
+              if (backgroundOption.type == BackgroundType.gradient) {
+                return Positioned.fill(
+                  child: Opacity(
+                    opacity: settingsStore.backgroundOpacity,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearLinearGradient(
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                          colors: backgroundOption.colors?.map((color) => 
+                            Color(color)
+                          ).toList() ?? [
+                            AppColors.primaryBlue,
+                            AppColors.primaryBlue.withValues(alpha: 0.5),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              }
+              
+              // Handle image backgrounds
+              if (backgroundOption.type == BackgroundType.image) {
+                // Build the image path with the correct extension
+                String imagePath = 'assets/backgrounds/$backgroundKey';
+                
+                // Use the file extension from the BackgroundOption
+                if (backgroundOption.fileExtension != null) {
+                  imagePath += backgroundOption.fileExtension!;
+                } else {
+                  imagePath += '.jpg'; // Default to JPG
+                }
+                
+                return Positioned.fill(
+                  child: Opacity(
+                    opacity: settingsStore.backgroundOpacity,
+                    child: Image.asset(
+                      imagePath,
+                      fit: BoxFit.cover,
+                      cacheWidth: backgroundOption.qualitySettings['cacheWidth'] as int?,
+                      cacheHeight: backgroundOption.qualitySettings['cacheHeight'] as int?,
+                      errorBuilder: (context, error, stackTrace) {
+                        print('Error loading background image: $error');
+                        return Container(color: AppColors.background);
+                      },
+                    ),
+                  ),
+                );
+              }
+              
+              return Container(color: AppColors.background);
+            },
+          ),
+          // Content with padding
+          Padding(
+            padding: const EdgeInsets.fromLTRB(24.0, 24.0, 24.0, 0),
+            child: Observer(
+              builder: (_) => _buildMainContent(),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // ... truncated for archive ...
+
+}
+// ---- END ORIGINAL CONTENT ----

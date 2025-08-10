@@ -1,0 +1,349 @@
+{
+  "category": "Core Files",
+  "description": "Core application files including database, services, utilities, and main entry point",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/database/drift_database.dart": {
+      "file_type": "database",
+      "imports": [
+        "dart:io",
+        "dart:convert",
+        "package:drift/drift.dart",
+        "package:drift/native.dart",
+        "package:path_provider/path_provider.dart",
+        "package:path/path.dart",
+        "package:sqlite3_flutter_libs/sqlite3_flutter_libs.dart",
+        "package:flutter/services.dart",
+        "../utils/logger.dart",
+        "../utils/date_formatter.dart",
+        "seeds/service_category_seeds.dart",
+        "seeds/service_seeds.dart",
+        "drift_database.g.dart"
+      ],
+      "components": [
+        {
+          "ServicesJsonConverter": "A Drift TypeConverter to convert a JSON string from the database into a List of Maps for services."
+        },
+        {
+          "SettingsJsonConverter": "A Drift TypeConverter to convert a JSON string from the database into a Map for settings."
+        },
+        {
+          "Employees": "The Drift table definition for employees."
+        },
+        {
+          "Customers": "The Drift table definition for customers."
+        },
+        {
+          "Tickets": "The Drift table definition for tickets."
+        },
+        {
+          "Services": "The Drift table definition for services."
+        },
+        {
+          "Invoices": "The Drift table definition for invoices."
+        },
+        {
+          "Payments": "The Drift table definition for payments."
+        },
+        {
+          "Appointments": "The Drift table definition for appointments."
+        },
+        {
+          "ServiceCategories": "The Drift table definition for service categories."
+        },
+        {
+          "EmployeeServiceCategories": "The Drift table definition for the join table between employees and service categories."
+        },
+        {
+          "Settings": "The Drift table definition for application settings."
+        },
+        {
+          "TechnicianSchedules": "The Drift table definition for technician schedules."
+        },
+        {
+          "TimeEntries": "The Drift table definition for employee time entries (clock-in/out)."
+        },
+        {
+          "PosDatabase": "The main Drift database class that defines the schema version, migrations, and provides access to the database tables."
+        }
+      ],
+      "rules": [
+        "The database uses a singleton pattern.",
+        "The database file is named 'pos.db' and is stored in the application's documents directory.",
+        "If the database file doesn't exist, it's copied from a seeded database in the assets.",
+        "The database schema version is 13.",
+        "The `migration` strategy handles database creation and upgrades.",
+        "On creation, it creates all tables, sets up performance indexes, and seeds default service categories and services.",
+        "On upgrade, it applies a series of migrations to update the schema to the latest version.",
+        "Before opening, it enables foreign key constraints and Write-Ahead Logging (WAL) for better performance and data integrity.",
+        "It includes a number of performance-critical indexes on various tables.",
+        "It includes migrations for adding new tables, adding new columns, and modifying existing columns."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/services/time_tracking_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "../../features/shared/data/repositories/drift_time_entry_repository.dart",
+        "../../features/shared/data/repositories/drift_employee_repository.dart",
+        "../../features/shared/data/models/time_entry_model.dart",
+        "../../utils/error_logger.dart",
+        "../utils/privileged_operations.dart",
+        "package:flutter/material.dart"
+      ],
+      "components": [
+        {
+          "ClockInEntry": "A model class to hold an employee's ID and their clock-in time."
+        },
+        {
+          "TimeTrackingService": "A service for managing employee time tracking, including clock-in, clock-out, breaks, and reporting."
+        }
+      ],
+      "rules": [
+        "The service uses a singleton pattern.",
+        "Clock-in and clock-out operations are protected by PIN authorization using the `PrivilegedOperations` helper.",
+        "An employee cannot clock in if they are already clocked in.",
+        "An employee cannot clock out if they are not currently clocked in.",
+        "The service updates both the `time_entries` and `employees` tables to keep the clock-in status consistent.",
+        "It can calculate the total hours worked for an employee for the current day, including active (not yet clocked-out) sessions.",
+        "It can provide a list of all currently clocked-in employees.",
+        "It can start and end breaks for an employee.",
+        "It can generate a payroll report for a given date range."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/pin_auth_service.dart": {
+      "file_type": "service",
+      "imports": [
+        "dart:convert",
+        "dart:math",
+        "package:crypto/crypto.dart",
+        "../database/drift_database.dart",
+        "../utils/logger.dart",
+        "package:drift/drift.dart"
+      ],
+      "components": [
+        {
+          "PinAuthService": "A service for managing PIN authentication for employees."
+        }
+      ],
+      "rules": [
+        "The service uses a singleton pattern.",
+        "PINs are stored as a SHA-256 hash with a random salt.",
+        "A valid PIN must be 4-6 digits.",
+        "A strong PIN cannot have all the same digits or be a sequence of ascending or descending numbers.",
+        "The `setupPin` method sets up a new PIN for an employee.",
+        "The `verifyPin` method verifies a PIN for an employee.",
+        "The `changePin` method allows an employee to change their PIN after verifying their old one.",
+        "The `removePin` method removes an employee's PIN after verifying it.",
+        "The service tracks when a PIN was created and when it was last used."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/privileged_operations.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/material.dart",
+        "../auth/widgets/pin_protected_wrapper.dart",
+        "../database/drift_database.dart",
+        "../../utils/error_logger.dart",
+        "../../features/shared/data/models/employee_model.dart"
+      ],
+      "components": [
+        {
+          "PrivilegedOperation": "An enum that defines a list of operations that require special authorization, such as voiding a ticket or accessing settings."
+        },
+        {
+          "PrivilegedOperationConfig": "A class to configure the requirements for a privileged operation, such as whether it requires a PIN and/or a manager's PIN."
+        },
+        {
+          "PrivilegedOperations": "A helper class that provides static methods for requesting authorization and executing actions that require it."
+        }
+      ],
+      "rules": [
+        "Operations are defined in the `PrivilegedOperation` enum.",
+        "Each operation has a default configuration in the `_defaultConfigs` map.",
+        "The `requestAuthorization` method is the main entry point for checking if an operation is allowed.",
+        "If an operation requires a manager's PIN, the system first checks if the current user is a manager. If not, it requests a PIN from any available manager.",
+        "The `executeWithAuthorization` method wraps an action, ensuring it only runs after successful authorization.",
+        "An extension method on `BuildContext` is provided for easier access to these functions from the UI."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/pin_bootstrap.dart": {
+      "file_type": "utility",
+      "imports": [
+        "../database/drift_database.dart",
+        "../auth/pin_auth_service.dart",
+        "../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "PinBootstrap": "A utility class to set default PINs for all employees."
+        }
+      ],
+      "rules": [
+        "The default PIN is '1234'.",
+        "It only sets a PIN for an employee if they don't already have one.",
+        "The `runBootstrapIfNeeded` method should be called on app startup to ensure all employees have a PIN."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/main.dart": {
+      "file_type": "entry_point",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter/services.dart",
+        "app/app.dart",
+        "core/services/settings_manager.dart",
+        "core/services/window_service.dart",
+        "core/utils/pin_bootstrap.dart",
+        "utils/error_logger.dart"
+      ],
+      "components": [],
+      "rules": [
+        "This is the main entry point of the application.",
+        "Initializes Flutter bindings before any other operations.",
+        "First initializes ErrorLogger for comprehensive file-based logging with startup messages.",
+        "Initializes SettingsManager to load all user preferences before first render.",
+        "Sets preferred screen orientation to landscape (left and right) for desktop POS use.",
+        "Initializes WindowService to set window to maximized state on startup.",
+        "Runs PinBootstrap utility to ensure all employees have default PIN '1234' for development.",
+        "Comprehensive error handling with logging for each initialization step.",
+        "Application continues with defaults if any initialization step fails.",
+        "Logs detailed startup sequence for debugging and monitoring.",
+        "All initialization is async and properly awaited before starting the app.",
+        "Runs the main LuxeNailsApp widget after all setup is complete."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/debug_appointment_overlaps.dart": {
+      "file_type": "utility",
+      "imports": [
+        "dart:io",
+        "package:flutter/material.dart",
+        "features/shared/data/repositories/drift_appointment_repository.dart",
+        "features/shared/data/repositories/drift_employee_repository.dart",
+        "utils/error_logger.dart"
+      ],
+      "components": [],
+      "rules": [
+        "Debug utility for analyzing appointment scheduling conflicts.",
+        "Checks for overlapping appointments across all technicians for next 7 days.",
+        "Initializes required repositories: DriftAppointmentRepository and DriftEmployeeRepository.",
+        "Iterates through all technicians and checks each day for scheduling conflicts.",
+        "Uses findOverlappingAppointments method to detect conflicts by technician and date.",
+        "Provides detailed output showing specific overlapping appointments with times.",
+        "Calculates end times by adding duration to start time for overlap detection.",
+        "Displays comprehensive summary with total overlap count.",
+        "Exits with status code 0 after analysis completion.",
+        "Includes error handling with logging for repository operations.",
+        "Console output uses emojis and formatting for clear readability.",
+        "Standalone script that can be run independently for scheduling analysis."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/auth/widgets/manager_auth_wrapper.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../theme/app_colors.dart",
+        "../../theme/app_text_styles.dart",
+        "../pin_auth_service.dart",
+        "../../../features/shared/data/repositories/drift_employee_repository.dart",
+        "../../../utils/error_logger.dart",
+        "pin_input_widget.dart"
+      ],
+      "components": [
+        {
+          "ManagerAuthWrapper": "A StatefulWidget that wraps sensitive operations requiring manager authentication before access."
+        },
+        {
+          "ManagerAuthDialog": "A comprehensive dialog for manager authentication with role-based selection."
+        },
+        {
+          "ManagerInfo": "A data class representing manager information (id, name, role)."
+        }
+      ],
+      "rules": [
+        "Provides static methods for authentication: authenticate() and protect() for wrapping widgets.",
+        "Shows placeholder UI with authentication prompt when not authenticated.",
+        "Loads active managers/admins from employee repository dynamically.",
+        "Supports role hierarchy: admin/owner (red), manager (blue) with appropriate icons.",
+        "Manager selection dropdown with role indicators and visual styling.",
+        "PIN verification integrates with PinAuthService for secure authentication.",
+        "Auto-focus on PIN input field for better UX.",
+        "Error handling with clear error messages and retry functionality.",
+        "Loading states during authentication process.",
+        "Tracks requester employee ID for audit purposes.",
+        "Authentication success/failure callbacks with manager ID tracking.",
+        "Dialog is non-dismissible to ensure security compliance.",
+        "Handles cases where no managers are available in the system.",
+        "Role-based UI styling: different colors and icons for admin vs manager roles.",
+        "PIN field clears on authentication failure for security.",
+        "Comprehensive error logging for audit and debugging."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/manager_pin_bootstrap.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/material.dart",
+        "../auth/pin_auth_service.dart",
+        "../auth/widgets/pin_management_dialog.dart",
+        "../utils/logger.dart",
+        "../../features/shared/data/repositories/drift_employee_repository.dart",
+        "../../features/shared/data/models/employee_model.dart as model"
+      ],
+      "components": [
+        {
+          "ManagerPinBootstrap": "A singleton service for ensuring at least one manager has a PIN configured for system security."
+        },
+        {
+          "_ManagerSelectionDialog": "A dialog widget for selecting which manager should set up the initial PIN."
+        }
+      ],
+      "rules": [
+        "Uses singleton pattern for application-wide access.",
+        "Performs silent security checks without UI interference.",
+        "Ensures at least one manager-level employee (manager/admin/owner) has a PIN configured.",
+        "Provides both silent checking and interactive setup modes.",
+        "Manager selection dialog appears when multiple managers exist without PINs.",
+        "Integrates with PinManagementDialog for actual PIN setup process.",
+        "Role validation: manager, admin, and owner roles are considered manager-level.",
+        "Comprehensive logging for security audit purposes.",
+        "Handles edge cases: no managers found, PIN setup failures.",
+        "Bootstrap process is non-dismissible to ensure security compliance.",
+        "Provides force setup option for manual triggering from settings.",
+        "Manager selection shows role-based visual indicators (colors, initials).",
+        "Error handling with graceful fallbacks and detailed logging.",
+        "Context-aware operations with proper mounted widget checking.",
+        "Initial setup is required before normal system operations can proceed.",
+        "System security validation occurs at application startup."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/field_validators.dart": {
+      "file_type": "utility",
+      "imports": [],
+      "components": [
+        {
+          "FieldValidators": "A comprehensive validation utility class providing consistent field validation across the entire application."
+        },
+        {
+          "StringValidation": "Extension methods on String? to provide convenient validation methods through property access."
+        }
+      ],
+      "rules": [
+        "Provides validation for common field types: names, phone numbers, email addresses, addresses.",
+        "Name validation: 2-50 characters, letters/spaces/hyphens/apostrophes only, required by default.",
+        "Phone validation: 10-digit US phone numbers with area code validation (no 0xx area codes).",
+        "Email validation: RFC-compliant email regex with 254 character limit, optional by default.",
+        "Address validation: 5-100 characters with numbers, letters, and common punctuation.",
+        "City validation: 2-50 characters, letters/spaces/hyphens/apostrophes/periods only.",
+        "State validation: 2-letter codes (uppercase) or full state names up to 20 characters.",
+        "Zip code validation: US format (12345 or 12345-6789).",
+        "Date of birth validation: age between 1-150 years with reasonable date checks.",
+        "Gender validation: predefined options (Male, Female, Other, Prefer not to say).",
+        "Notes/allergies validation: configurable maximum length (default 500/300 characters).",
+        "Formatting utilities: phone number ((123) 456-7890), zip code (12345-6789), capitalize words.",
+        "Multiple validation support: validates array of validators and returns first error.",
+        "Extension methods provide convenient property-based validation (text.validateAsName).",
+        "All validations handle null/empty values appropriately with required/optional flags.",
+        "Consistent error messages across the application for better UX.",
+        "Trimming of input values before validation to handle whitespace consistently.",
+        "RegExp patterns for robust validation of complex formats like email and phone."
+      ]
+    }
+  }
+}

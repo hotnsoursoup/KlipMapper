@@ -1,0 +1,101 @@
+{
+  "category": "Services Stores Feature",
+  "description": "MobX store classes managing service categories, service data, and business logic with optimized caching and domain models",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/data/models/service_category_wrapper.dart": {
+      "file_type": "model",
+      "imports": [
+        "../../../../core/database/drift_database.dart as db"
+      ],
+      "components": [
+        {
+          "ServiceCategoryWrapper": "MobX-compatible wrapper for Drift ServiceCategory avoiding code generation issues with database types."
+        }
+      ],
+      "rules": [
+        "Database type wrapper pattern solving MobX code generation issues with Drift-generated types.",
+        "Property delegation pattern exposing ServiceCategory properties through wrapper interface.",
+        "Static factory method for database type conversion with fromDb constructor pattern.",
+        "Database conversion method with toDb for seamless integration with repository layer.",
+        "Aliased import pattern using 'as db' to prevent type conflicts in MobX stores.",
+        "Minimal overhead wrapper maintaining direct reference to wrapped database object."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/data/service_category_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:mobx/mobx.dart",
+        "../../shared/domain/models/service_category_domain.dart",
+        "../../shared/domain/models/service_domain.dart",
+        "../../shared/domain/repositories/service_repository.dart",
+        "../../shared/data/repositories/drift_service_repository_impl.dart",
+        "../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "ServiceCategoryStore": "Centralized MobX store for service category management with 30-minute cache TTL and domain model integration."
+        }
+      ],
+      "rules": [
+        "Extended 30-minute cache TTL optimized for service categories which are relatively static reference data.",
+        "Domain model integration using ServiceCategoryDomain and ServiceDomain for MobX compatibility.",
+        "Comprehensive service category CRUD operations: create, update, delete with cache management.",
+        "ObservableMap integration for services-by-category organization with reactive category grouping.",
+        "Advanced search functionality with computed properties filtering categories and services by query.",
+        "Category expansion state management with expandedCategories ObservableMap for UI state persistence.",
+        "Color management system with categoryColors map maintaining visual consistency across categories.",
+        "Repository pattern integration with DriftServiceRepositoryImpl for data persistence operations.",
+        "Cache invalidation and force refresh capabilities for immediate data synchronization.",
+        "Error handling with ErrorLogger integration and user-friendly error message management.",
+        "Computed property optimization: visibleCategories, filteredServices, totalServiceCount for efficient reactive access.",
+        "Service creation workflow with category association and proper state management.",
+        "Service update operations with immutable list replacement ensuring MobX reactions trigger properly.",
+        "Service deletion with category-specific optimization and fallback search across all categories.",
+        "Category expansion utilities: expandAll, collapseAll for bulk UI state management.",
+        "Icon management integration with domain model icon mapping supporting category visual identification.",
+        "Search query management with trim handling and reactive filtering across categories and services.",
+        "Professional cache management preventing unnecessary database calls while ensuring data freshness.",
+        "Category color fallback system with default gray color for categories without specified colors.",
+        "Comprehensive state synchronization ensuring UI consistency after all CRUD operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/services/data/service_management_store.dart": {
+      "file_type": "store",
+      "imports": [
+        "package:mobx/mobx.dart",
+        "../../../core/services/lookup_service.dart",
+        "../../shared/data/models/service_model.dart",
+        "../../shared/data/repositories/drift_service_repository.dart",
+        "../../../utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "ServiceManagementStore": "Legacy MobX store for service management with hardcoded category mapping and LookupService integration."
+        }
+      ],
+      "rules": [
+        "Legacy service management store with hardcoded category mapping for salon service types.",
+        "Comprehensive service CRUD operations: create, update, delete with full lifecycle management.",
+        "DriftServiceRepository integration for data persistence with proper error handling and logging.",
+        "LookupService synchronization ensuring global service lookup cache stays updated after modifications.",
+        "Search and filtering capabilities with computed properties for efficient service discovery.",
+        "Category-based service organization with servicesByCategory computed property for UI grouping.",
+        "Hardcoded category mapping system: Nails (1), Gel (2), Acrylic (3), Waxing (4), Facials (5), SNS/Dip (6).",
+        "Service editing state management with editingService observable for form handling.",
+        "Advanced filtering system combining search queries and category filters for precise service selection.",
+        "Service status management with toggle functionality for activate/deactivate operations.",
+        "Category revenue calculation with computed property for business analytics and reporting.",
+        "Service count tracking with activeServicesCount and inactiveServicesCount for inventory management.",
+        "Service category creation with color management and automatic sorting by name.",
+        "Error handling with user-friendly error messages and comprehensive logging for debugging.",
+        "Automatic service list updates with ObservableList ensuring reactive UI updates.",
+        "Service repository initialization with automatic loading of services and categories on startup.",
+        "Professional service management workflow supporting both creation and modification operations.",
+        "Category filter integration with dropdown-based category selection for service organization.",
+        "Service validation and data consistency checks ensuring proper service data integrity.",
+        "Legacy architecture pattern requiring migration to domain model approach for better maintainability."
+      ]
+    }
+  }
+}

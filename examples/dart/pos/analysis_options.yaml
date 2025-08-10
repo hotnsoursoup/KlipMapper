@@ -1,0 +1,96 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  plugins:
+    - custom_lint
+
+  # Enforce the strictest type safety.
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    - 'test/**.mocks.dart'
+    - 'lib/**/*.g.dart'
+    - 'lib/**/*.freezed.dart'
+    # Exclude test directories from analysis
+    - 'test/**'
+    - 'tests/**'
+    - '**/test/**'
+    - '**/tests/**'
+
+  # Customize the severity of specific issues.
+  errors:
+    # Make forgotten 'const' an error to enforce performance optimizations.
+    prefer_const_constructors: error
+    # Make print statements a warning instead of the default 'info'.
+    avoid_print: warning
+    # We decided we don't care about this lint for our project.
+    sized_box_for_whitespace: ignore
+    # Treat deprecated member use as errors - fail the build
+    deprecated_member_use: error
+    deprecated_member_use_from_same_package: error
+    # Ignore MobX pattern warnings
+    library_private_types_in_public_api: ignore
+    
+    # Ignore common generated code issues
+    uri_does_not_exist: ignore
+    undefined_identifier: ignore
+    undefined_class: ignore
+    undefined_getter: ignore
+    undefined_setter: ignore
+    undefined_method: ignore
+    undefined_function: ignore
+    undefined_operator: ignore
+    undefined_prefixed_name: ignore
+    
+    # Ignore build runner generated part file issues
+    part_of_non_part: ignore
+    invalid_annotation_target: ignore
+    
+    # Ignore import/export issues for generated files
+    invalid_use_of_internal_member: ignore
+    invalid_use_of_protected_member: ignore
+    invalid_use_of_visible_for_testing_member: ignore
+    
+    # Additional generated code issues (only for generated files)
+    missing_required_param: ignore
+
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+    - always_declare_return_types
+    - prefer_final_locals
+    - unnecessary_parenthesis
+    - prefer_const_declarations
+    - prefer_const_constructors_in_immutables
+    - use_key_in_widget_constructors
+    - avoid_unnecessary_containers
+    - prefer_single_quotes
+    - avoid_redundant_argument_values
+    - require_trailing_commas
+    - avoid_unused_constructor_parameters
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

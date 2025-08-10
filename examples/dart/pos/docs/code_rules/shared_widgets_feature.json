@@ -1,0 +1,46 @@
+{
+  "category": "Shared Widgets Feature",
+  "description": "Reusable UI components providing date range selection functionality with predefined quick selectors and custom range support",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/presentation/widgets/date_range_picker.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart"
+      ],
+      "components": [
+        {
+          "DateRangePicker": "Comprehensive date range picker StatefulWidget with quick selectors and custom range dialog support."
+        },
+        {
+          "_DateRangePickerState": "State management for date selection, controller handling, and dialog presentation with validation logic."
+        }
+      ],
+      "rules": [
+        "Configurable date range picker with optional quick selectors and custom width support.",
+        "DateTimeRange integration with proper start/end date validation and cross-date dependency handling.",
+        "Quick range presets: Today, Last 7/30/90 days with automatic date calculation and range setting.",
+        "Custom date range dialog with Material Design theming and primary blue color scheme.",
+        "Date format display: MM/dd/yyyy format for user-friendly date representation.",
+        "Text controller management with proper disposal and content updates during date selection.",
+        "Date validation logic: end date clearing when before start date, automatic start date setting.",
+        "Modal dialog presentation with StatefulBuilder for reactive content updates.",
+        "Date picker theming with app colors integration and consistent visual styling.",
+        "Display text generation: shows selected range or placeholder text based on current state.",
+        "Range clearing functionality with null callback and controller reset.",
+        "Input field styling with calendar icons, border radius, and proper padding.",
+        "Dialog layout: header with close button, quick selectors section, custom range inputs, action buttons.",
+        "Action button state management: Apply button disabled until valid range selected.",
+        "ValueChanged callback pattern for parent component communication with selected range.",
+        "InkWell tap handling with border radius for proper material ripple effects.",
+        "Container styling with background color, border, and consistent height (36px).",
+        "Responsive width handling through optional width parameter with flexible expansion.",
+        "Dialog width constraint (400px) with proper padding and content organization.",
+        "Quick selector button styling with outlined button design and proper spacing.",
+        "Error handling and edge cases: null safety, empty selections, and date boundary validation.",
+        "Integration with reports time range selector and other date-dependent features."
+      ]
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "category": "Shared Data Models Feature",
+  "description": "Core business domain models used across multiple features including payments, services, settings, technicians, and time tracking",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/payment_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart"
+      ],
+      "components": [
+        {
+          "Payment": "Payment transaction model with comprehensive payment details including refund support and transaction tracking."
+        },
+        {
+          "PaymentMethod": "Payment method enumeration (cash, card, check, gift card, other) with display names and value conversion."
+        },
+        {
+          "PaymentStatus": "Payment status enumeration (pending, completed, failed, refunded) for transaction state management."
+        },
+        {
+          "PaymentMethodX": "Extension methods for PaymentMethod enum providing display names, string values, and parsing utilities."
+        }
+      ],
+      "rules": [
+        "Freezed immutable payment model with JSON serialization for transaction data persistence.",
+        "Comprehensive payment tracking including amount, tips, card details, and transaction identifiers.",
+        "Refund support with refund amount, reason, and timestamp tracking for financial reconciliation.",
+        "Payment method enumeration with display name conversion and string parsing for UI integration.",
+        "Payment status lifecycle management supporting pending, completed, failed, and refunded states.",
+        "Card payment details including card type, last four digits, and transaction authorization codes.",
+        "Default values for optional fields ensuring consistent data structure across payment transactions.",
+        "Extension methods providing convenient access to formatted display names and value conversion utilities."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/service_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "../repositories/drift_service_repository.dart"
+      ],
+      "components": [
+        {
+          "Service": "Core service model with integer category IDs, pricing, duration, and technician assignment support."
+        }
+      ],
+      "rules": [
+        "Core service model with integer categoryId matching database schema and domain model consistency.",
+        "Base price renamed from 'price' for consistency with business domain terminology.",
+        "Technician assignment via technicianId instead of technician name for referential integrity.",
+        "Comprehensive service metadata including description, active status, and timestamps.",
+        "JSON serialization support with null handling for optional fields like updatedAt and technicianId.",
+        "Category name resolution through DriftServiceRepository integration for display purposes.",
+        "Backward compatibility getters (price, categoryIdString) supporting legacy code integration.",
+        "DateTime handling for createdAt and updatedAt fields with ISO8601 string conversion.",
+        "Active status flag supporting service lifecycle management and filtering operations."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/setting_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart",
+        "../../../../core/database/drift_database.dart",
+        "package:drift/drift.dart"
+      ],
+      "components": [
+        {
+          "StoreSetting": "Application configuration model with typed value support and Drift database integration."
+        },
+        {
+          "StoreHours": "Store operating hours configuration with support for different hours per day."
+        },
+        {
+          "DayHours": "Individual day operating hours with time conversion utilities and display formatting."
+        },
+        {
+          "SettingCategories": "Predefined setting categories (dashboard, store, general, salon) for configuration organization."
+        },
+        {
+          "SettingKeys": "Type-safe setting key constants preventing configuration key errors and typos."
+        }
+      ],
+      "rules": [
+        "Comprehensive application settings management with typed value support and category organization.",
+        "Drift database integration with conversion utilities for seamless ORM operations.",
+        "Type-safe value conversion supporting boolean, integer, double, and string data types.",
+        "Store hours configuration with time-based operations using minutes since midnight format.",
+        "Default store hours factory (9 AM - 6 PM, Monday-Saturday, closed Sunday) for initial setup.",
+        "Time conversion utilities supporting 12-hour format display and minutes since midnight storage.",
+        "Setting update methods preserving data types while updating values and timestamps.",
+        "Category-based organization (dashboard, store, general, salon) for settings management UI.",
+        "Predefined setting keys as constants ensuring consistency across application configuration.",
+        "JSON serialization support for complex settings like store hours with nested day configurations.",
+        "System setting flag distinguishing between user-configurable and system-managed settings.",
+        "Comprehensive time display formatting with AM/PM format and proper minute padding."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/technician_model.dart": {
+      "file_type": "model",
+      "imports": [],
+      "components": [
+        {
+          "Technician": "Technician model with status management, turn assignment, specializations, and avatar support."
+        }
+      ],
+      "rules": [
+        "Technician model supporting turn-based assignment system with availability status tracking.",
+        "Status management (available, busy, break, off) with computed properties for workflow logic.",
+        "Ticket assignment tracking with current and assigned ticket IDs for workload management.",
+        "Capability and specialization tracking for service category expertise and skill management.",
+        "Avatar support with color and initial generation for professional UI representation.",
+        "Display name formatting showing first name with last name initial (e.g., 'Isabella N.').",
+        "Availability computation considering status and off-duty flags for scheduling logic.",
+        "JSON serialization with backward compatibility for 'turn' and 'turnNumber' field mapping.",
+        "Default avatar generation based on name length for consistent visual representation.",
+        "Comprehensive copyWith method supporting partial updates while preserving existing data."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/shared/data/models/time_entry_model.dart": {
+      "file_type": "model",
+      "imports": [
+        "package:freezed_annotation/freezed_annotation.dart"
+      ],
+      "components": [
+        {
+          "TimeEntry": "Time clock tracking model with clock in/out, break time, and hours calculation."
+        },
+        {
+          "TimeEntryX": "Extension methods for TimeEntry providing calculated hours and formatting utilities."
+        }
+      ],
+      "rules": [
+        "Freezed immutable time entry model for technician time clock management and payroll tracking.",
+        "Clock in/out tracking with optional clock out for active time entries and shift management.",
+        "Break time tracking in minutes for accurate hours calculation and labor compliance.",
+        "Automatic hours calculation considering break time deduction for payroll accuracy.",
+        "Status tracking (active) with computed properties for determining active time entries.",
+        "Edit tracking with editedBy and editReason fields for audit trail and time correction management.",
+        "Extension methods providing calculated hours, active status, and formatted duration display.",
+        "Duration formatting showing hours and minutes (e.g., '8h 30m') for user-friendly display.",
+        "JSON serialization support for data persistence and time tracking report generation."
+      ]
+    }
+  }
+}

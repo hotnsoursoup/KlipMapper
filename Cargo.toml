@@ -33,5 +33,18 @@ console = "0.15"
 tokio = { version = "1.0", features = ["full"] }
 futures = "0.3"
 dashmap = "6.0"
+glob = "0.3"
+flate2 = "1.0"
+base64 = "0.22"
+chrono = { version = "0.4", features = ["serde"] }
 
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.0"
+tempfile = "3.8"
+
+
+[[bin]]
+name = "gen-fixtures"
+path = "tools/gen_fixtures.rs"
 

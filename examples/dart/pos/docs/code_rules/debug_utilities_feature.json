@@ -1,0 +1,70 @@
+{
+  "category": "Debug Utilities Feature",
+  "description": "Debug and testing utilities for appointment colors, database tickets, and development testing",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/debug_appointment_colors.dart": {
+      "file_type": "debug_tool",
+      "imports": [
+        "package:flutter/material.dart",
+        "features/shared/data/models/appointment_model.dart"
+      ],
+      "components": [
+        {
+          "AppointmentColorTestApp": "Debug MaterialApp for testing appointment status colors and visual appearance."
+        },
+        {
+          "AppointmentColorDemo": "Demo widget displaying color swatches for different appointment statuses."
+        }
+      ],
+      "rules": [
+        "Debug utility for testing appointment color schemes and visual consistency.",
+        "Comprehensive status testing: scheduled, confirmed, arrived, in-service, completed.",
+        "Pastel color palette with soft backgrounds and appropriate contrast ratios.",
+        "Border color system using alpha transparency (0.3) for subtle visual separation.",
+        "Text color coordination with darker variants for optimal readability.",
+        "Sample appointment generation with realistic duration and service data.",
+        "Visual color swatch display showing background, border, and text color combinations.",
+        "Color functions mirroring actual calendar grid implementation for accuracy.",
+        "Status-based color mapping ensuring consistent visual identification.",
+        "Duration display integration showing appointment length with color coding.",
+        "Professional color scheme suitable for business appointment scheduling.",
+        "Main function integration allowing standalone execution for color testing.",
+        "Rounded container styling with 6px border radius for modern appearance.",
+        "Center-aligned text display with bold weight for clear status identification.",
+        "Color testing workflow enabling rapid visual verification of appointment themes.",
+        "Development tool for validating color accessibility and visual hierarchy."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/debug_database_tickets.dart": {
+      "file_type": "debug_tool",
+      "imports": [
+        "core/database/drift_database.dart as db",
+        "features/shared/data/repositories/drift_ticket_repository.dart",
+        "utils/error_logger.dart"
+      ],
+      "components": [
+        {
+          "DatabaseTicketsDebugger": "Static debug utility for comprehensive tickets database analysis and troubleshooting."
+        }
+      ],
+      "rules": [
+        "Comprehensive database debugging tool for ticket data analysis and troubleshooting.",
+        "Table structure inspection using PRAGMA table_info for column verification.",
+        "Total ticket count verification with direct SQL queries for data validation.",
+        "Raw database data examination comparing direct SQL access with repository methods.",
+        "Repository testing with DriftTicketRepository.instance initialization and method calls.",
+        "Status-based filtering tests for queued, assigned, in-service, completed, and paid tickets.",
+        "Error logging integration with detailed debugging information and stack traces.",
+        "Database initialization verification ensuring proper PosDatabase setup.",
+        "Data discrepancy detection comparing direct database queries with repository results.",
+        "Column metadata analysis showing data types and nullable constraints.",
+        "First 10 tickets raw data inspection for manual data verification.",
+        "Repository method testing with various filter combinations and limits.",
+        "Success/error reporting with clear emoji indicators for quick status identification.",
+        "Debugging workflow supporting systematic database troubleshooting processes.",
+        "ignore_for_file directive allowing print statements for debug output.",
+        "Static method design enabling easy integration into debugging workflows."
+      ]
+    }
+  }
+}

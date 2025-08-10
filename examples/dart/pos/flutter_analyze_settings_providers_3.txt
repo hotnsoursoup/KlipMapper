@@ -1,0 +1,15 @@
+Analyzing providers...                                          
+
+warning • The operand can't be 'null', so the condition is always 'false' • lib/features/settings/providers/settings_provider.dart:86:19 • unnecessary_null_comparison
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:102:18 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:156:20 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:234:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:257:16 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/settings/providers/settings_provider.dart:287:16 • unnecessary_underscores
+warning • The declaration 'DashboardSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:349:27 • unused_element
+warning • The declaration 'StoreSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:368:23 • unused_element
+warning • The declaration 'GeneralSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:382:25 • unused_element
+warning • The declaration 'SalonSettings._' isn't referenced • lib/features/settings/providers/settings_provider.dart:397:23 • unused_element
+warning • The value of the local variable 'dashboardNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:470:13 • unused_local_variable
+warning • The value of the local variable 'masterNotifier' isn't used • lib/features/settings/providers/settings_provider.dart:471:13 • unused_local_variable
+

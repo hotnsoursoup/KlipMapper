@@ -1,0 +1,106 @@
+{
+  "category": "Core Utilities Feature",
+  "description": "Core utility classes providing helper methods for technician management, ticket operations, and application-wide functionality",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/technician_utils.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:flutter/material.dart",
+        "../theme/app_colors.dart",
+        "../../features/shared/data/models/technician_model.dart"
+      ],
+      "components": [
+        {
+          "TechnicianUtils": "Static utility class providing helper methods for technician-related operations, status management, and display formatting."
+        }
+      ],
+      "rules": [
+        "Static utility class with private constructor to prevent instantiation.",
+        "Technician initials generation: 'John Doe' -> 'JD', 'Mia' -> 'M', empty -> '?'.",
+        "Clock-in status checking using inverse isOff logic as temporary implementation.",
+        "Status determination: 'Not clocked in', 'Available', 'Currently busy' based on clock and availability.",
+        "Color-coded status indicators: textSecondary (not clocked), successGreen (available), warningOrange (busy).",
+        "Avatar color generation using consistent hash-based color assignment from predefined palette.",
+        "Display name formatting: 'John Doe' -> 'John D.' for compact representation.",
+        "Technician assignment eligibility checking: must be clocked in AND available.",
+        "List filtering methods: getAvailableTechnicians, getClockedInTechnicians for operational needs.",
+        "Availability-based sorting: available first, then busy, then clocked out, with name fallback.",
+        "Workload description generation for UI display: availability status with context.",
+        "Recommended technician selection with preferred technician priority and fallback logic.",
+        "Comprehensive helper methods supporting dashboard technician cards and assignment logic.",
+        "Future-ready design with notes for proper clock tracking enhancement.",
+        "Integration with app colors for consistent visual theming across technician UI elements.",
+        "Null safety implementation with proper error handling for empty names and missing data.",
+        "Functional programming approach with immutable operations and pure functions.",
+        "Business logic separation: utility methods handle display and calculation logic only."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/ticket_utils.dart": {
+      "file_type": "utility", 
+      "imports": [
+        "package:flutter/material.dart",
+        "../theme/app_colors.dart",
+        "../../features/shared/data/models/ticket_model.dart"
+      ],
+      "components": [
+        {
+          "TicketUtils": "Static utility class providing helper methods for ticket operations, status management, calculations, and formatting."
+        }
+      ],
+      "rules": [
+        "Static utility class with private constructor following singleton utility pattern.",
+        "Currency formatting with dollar sign and two decimal places for price display.",
+        "Status color mapping: completed/paid (successGreen), in-service (warningOrange), queued/assigned (primaryBlue).",
+        "Readable status label conversion: 'in-service' -> 'In Service' with proper capitalization.",
+        "Total service time calculation by summing all service durations in minutes.",
+        "Total ticket value calculation by summing all service base prices.",
+        "Priority system with record types: High (1), Medium (2), Low (3), Normal (default).",
+        "Checkout readiness validation: tickets with 'completed' or 'in-service' status eligible.",
+        "Overdue calculation with 15-minute buffer beyond expected service duration.",
+        "Services list formatting with truncation: shows max N services, '+X more' for overflow.",
+        "Color-coded priority indicators using app color scheme for consistency.",
+        "Business logic encapsulation for ticket-related calculations and validations.",
+        "Integration with Ticket model for accessing services, status, and timing data.",
+        "Helper methods supporting checkout screen, dashboard queue, and ticket management UI.",
+        "Time-based calculations with DateTime operations for overdue detection.",
+        "Flexible service list display with configurable truncation limits.",
+        "Status-driven UI logic supporting different ticket workflow states.",
+        "Currency and formatting utilities for consistent financial data presentation."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/core/utils/date_formatter.dart": {
+      "file_type": "utility",
+      "imports": [
+        "package:intl/intl.dart"
+      ],
+      "components": [
+        {
+          "AppDateFormatter": "Static utility class providing comprehensive date and time formatting methods for database storage and UI display."
+        },
+        {
+          "_DateRange": "Private helper class for internal date range representation with start and end DateTime values."
+        }
+      ],
+      "rules": [
+        "Static utility class with private constructor following singleton utility pattern.",
+        "ISO8601 database storage methods: toIso8601String() and fromIso8601String() for consistent database operations.",
+        "UTC conversion for database storage: all stored dates converted to UTC format for consistency.",
+        "Date-only string handling: supports both 'yyyy-MM-dd' and full timestamp formats during parsing.",
+        "Date range filtering methods: getStartOfDayIso8601() and getEndOfDayIso8601() for precise database queries.",
+        "Predefined date range generators: getToday(), getYesterday(), getThisWeek(), getLastWeek(), getThisMonth(), getLastMonth().",
+        "Week calculation using Monday-to-Sunday format with proper weekday offset calculations.",
+        "Month boundary handling: proper first/last day calculations including leap years and varying month lengths.",
+        "Time range formatting: smart AM/PM consolidation for ranges within same period (e.g., '9:00 - 10:30 AM').",
+        "Display date formatting: formatDisplayDate() shows year only when different from current year.",
+        "Date range display formatting: intelligent consolidation for same month/year ranges.",
+        "Full date formatting: 'EEEE, MMMM d, y' pattern for complete date representation.",
+        "Short date formatting: 'MMM d, y' pattern for compact date display.",
+        "Time formatting using DateFormat.jm() for locale-aware 12-hour time display.",
+        "Error handling with graceful fallbacks for malformed date strings.",
+        "Intl package integration for proper internationalization support.",
+        "Business logic separation: utility handles formatting only, no data persistence.",
+        "Used throughout app for consistent date handling in stores, widgets, and database operations."
+      ]
+    }
+  }
+}

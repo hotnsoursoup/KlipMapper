@@ -1,0 +1,68 @@
+{
+  "category": "Checkout Feature",
+  "description": "Payment processing and checkout functionality",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/presentation/screens/checkout_screen.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "package:go_router/go_router.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../../../core/utils/ticket_utils.dart",
+        "../../../../core/utils/date_formatter.dart",
+        "../../../tickets/data/tickets_store.dart",
+        "../../../shared/data/models/ticket_model.dart",
+        "../../data/stores/multi_checkout_store.dart",
+        "../widgets/order_summary_panel.dart"
+      ],
+      "components": [
+        {
+          "CheckoutScreen": "A StatefulWidget that provides the UI for the checkout process."
+        },
+        {
+          "_CheckoutScreenState": "The state for the CheckoutScreen. It manages the `TicketsStore` and `MultiCheckoutStore`, and builds the UI for selecting tickets and processing payments."
+        }
+      ],
+      "rules": [
+        "The screen is divided into two panels: ticket selection on the left and order summary on the right.",
+        "It uses a `TicketsStore` to load the list of available tickets.",
+        "It uses a `MultiCheckoutStore` to manage the state of the checkout process, including which tickets are selected.",
+        "The list of tickets can be searched and filtered by status.",
+        "The list of tickets can be sorted by status, check-in time, amount, or customer name.",
+        "Only tickets with a status of 'completed' or 'in-service' are considered ready for checkout and highlighted.",
+        "Multiple tickets can be selected for checkout at the same time.",
+        "The `OrderSummaryPanel` displays the details of the selected tickets and allows for processing the payment.",
+        "After a payment is successfully processed, the list of tickets is refreshed."
+      ]
+    },
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/checkout/presentation/widgets/order_summary_panel.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/multi_checkout_store.dart"
+      ],
+      "components": [
+        {
+          "OrderSummaryPanel": "A StatefulWidget that displays the order summary and payment controls in the checkout screen."
+        },
+        {
+          "_OrderSummaryPanelState": "The state for the OrderSummaryPanel. It manages the UI for the tip and payment method selection, and displays the totals from the `MultiCheckoutStore`."
+        }
+      ],
+      "rules": [
+        "The panel displays a summary of the selected tickets.",
+        "It shows the subtotal, tip, tax, discount, and total amount.",
+        "It provides options for adding a tip as a percentage or a custom amount.",
+        "It provides options for selecting a payment method (Cash, Card, Split).",
+        "The 'Proceed to Payment' button is only enabled when tickets are selected and a payment method is chosen.",
+        "The button is disabled while a payment is being processed."
+      ]
+    }
+  }
+}

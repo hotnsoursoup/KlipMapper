@@ -1,0 +1,50 @@
+{
+  "category": "Calendar Grid Feature",
+  "description": "Main calendar grid widget with multiple view modes, technician pagination, and interactive appointment management",
+  "files": {
+    "/mnt/d/ClaudeProjects/POSflutter/pos/lib/features/appointments/presentation/widgets/calendar_grid.dart": {
+      "file_type": "widget",
+      "imports": [
+        "package:flutter/material.dart",
+        "package:flutter_mobx/flutter_mobx.dart",
+        "package:provider/provider.dart",
+        "../../../../core/theme/app_colors.dart",
+        "../../../../core/theme/app_text_styles.dart",
+        "../../data/stores/calendar_store.dart",
+        "../../data/models/calendar_view_mode.dart",
+        "../../data/models/calendar_theme.dart",
+        "../../../settings/data/settings_store.dart",
+        "../../../shared/data/models/setting_model.dart",
+        "time_column.dart",
+        "appointment_block.dart"
+      ],
+      "components": [
+        {
+          "CalendarGrid": "Comprehensive calendar grid widget supporting multiple view modes with technician pagination and interactive appointment management."
+        }
+      ],
+      "rules": [
+        "MobX Observer integration for reactive calendar updates when appointment or settings data changes.",
+        "Multiple view mode support: day, week, month, agenda with mode-specific rendering strategies.",
+        "Technician pagination system with 5 technicians per page to handle large staff teams.",
+        "Store hours integration from SettingsStore for dynamic business hour display and scheduling.",
+        "Dynamic hour calculation based on store settings with fallback to 8 AM - 8 PM default hours.",
+        "Interactive time slot selection with technician assignment for new appointment creation.",
+        "Appointment block positioning with precise time-based calculations and visual overlap handling.",
+        "Current time line display with red indicator showing real-time progress through the day.",
+        "Professional technician headers with avatars, names, and availability status indicators.",
+        "Responsive column width calculation based on screen size using CalendarTheme breakpoints.",
+        "Scrollable calendar body with synchronized time column for large calendar navigation.",
+        "Appointment drag-and-drop support through callback functions for rescheduling operations.",
+        "Empty state handling for month and agenda views with 'Coming soon' placeholders.",
+        "CalendarTheme integration for consistent colors, dimensions, and styling across components.",
+        "Provider pattern for accessing CalendarStore and SettingsStore with proper dependency injection.",
+        "Pagination controls in both header and body sections for consistent technician navigation.",
+        "Time slot background grid with 15-minute intervals for precise appointment scheduling.",
+        "Appointment selection state management with visual feedback through block highlighting.",
+        "Memory management with proper ScrollController disposal in widget lifecycle.",
+        "Professional UI design with proper spacing, borders, and visual hierarchy for business use."
+      ]
+    }
+  }
+}
