@@ -1,0 +1,1754 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/dashboard/presentation/widgets/customer_selection_widget.dart
+source_hash: 45422d34f1e0eb37
+regions: []
+symbols:
+- kind: function
+  name: CustomerSelectionWidget
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: onCustomerSelected
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: onCustomerConfirmed
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: checkInType
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: CustomerSelectionWidget
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: onCustomerSelected
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: onCustomerConfirmed
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: checkInType
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: createState
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _CustomerSelectionWidgetState
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _CustomerSelectionWidgetState
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: _buildConfirmedCustomer
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: checkInType
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: _buildCustomerSearch
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: shrink
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _buildConfirmedCustomer
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: BoxShape
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: circle
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: bold
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: Expanded
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: crossAxisAlignment
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: CrossAxisAlignment
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: bodyLarge
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: bodySmall
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: mainAxisSize
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: MainAxisSize
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: check
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: labelSmall
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: w500
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: _buildCustomerSearch
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: background
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: crossAxisAlignment
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: CrossAxisAlignment
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: center
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: BoxShape
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: circle
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: person_add
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: headline3
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: SizedBox
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: adultCustomer
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: onCustomerSelected
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: adultCustomer
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: onCustomerConfirmed
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: adultCustomer
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: arrow_forward
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: RoundedRectangleBorder
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

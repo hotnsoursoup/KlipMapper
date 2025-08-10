@@ -1,0 +1,206 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/data/tables/invoice_tickets.dart
+source_hash: e5295a5155e7ae91
+regions: []
+symbols:
+- kind: function
+  name: DataClassName
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: InvoiceTickets
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: Invoices
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: cascade
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: cascade
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: allocatedAmountCents
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: addedAt
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: customConstraints
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

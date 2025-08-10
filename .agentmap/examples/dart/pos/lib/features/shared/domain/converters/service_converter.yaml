@@ -1,0 +1,620 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/domain/converters/service_converter.dart
+source_hash: 873ebcb076772477
+regions: []
+symbols:
+- kind: function
+  name: ServiceConverter
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: fromDataModel
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: ServiceDomain
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: dataModel
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: toDataModel
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Service
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: domainModel
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: fromDataModelList
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: dataModels
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: dataModels
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: fromDataModel
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: toDataModelList
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: domainModels
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: domainModels
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: toDataModel
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: createNew
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ServiceDomain
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

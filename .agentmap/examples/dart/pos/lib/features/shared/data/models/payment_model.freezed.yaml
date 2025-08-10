@@ -1,0 +1,4526 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/payment_model.freezed.dart
+source_hash: a21f07742001f687
+regions: []
+symbols:
+- kind: function
+  name: _$identity
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _$Payment
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$PaymentCopyWithImpl
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: $PaymentCopyWith
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: $PaymentCopyWith
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: _$PaymentCopyWithImpl
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _$PaymentCopyWithImpl
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: PaymentPatterns
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: JsonSerializable
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _Payment
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _Payment
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: _Payment
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: _$PaymentFromJson
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: __$PaymentCopyWithImpl
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _$PaymentToJson
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: _$PaymentCopyWith
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _$PaymentCopyWith
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: __$PaymentCopyWithImpl
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: __$PaymentCopyWithImpl
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: _Payment
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,1016 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/reports/presentation/widgets/report_time_range_selector.dart
+source_hash: 611b7a7e5fb735f6
+regions: []
+symbols:
+- kind: function
+  name: ReportTimeRangeSelector
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: onRangeChanged
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: onCustomRangeSelected
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRangeSelector
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: onRangeChanged
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: onCustomRangeSelected
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _availableRanges
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: yesterday
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: thisWeek
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: lastWeek
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: thisMonth
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: lastMonth
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: thisYear
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: RepaintBoundary
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: Wrap
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: spacing
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: runSpacing
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: _availableRanges
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _TimeRangeChip
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _handleRangeSelection
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: _handleRangeSelection
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRange
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: DateRangePicker
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: onRangeSelected
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Navigator
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: pop
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: onCustomRangeSelected
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: onRangeChanged
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _TimeRangeChip
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _TimeRangeChip
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: RepaintBoundary
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: Material
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: surface
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: elevation
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: shadowColor
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: black
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: InkWell
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: _getRangeLabel
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: bodySmall
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: normal
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: _getRangeLabel
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: yesterday
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: thisWeek
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: lastWeek
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: thisMonth
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: lastMonth
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: thisYear
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

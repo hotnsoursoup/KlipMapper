@@ -1,0 +1,530 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/presentation/widgets/compact_services_display.dart
+source_hash: 0f3e5874a90713f2
+regions: []
+symbols:
+- kind: function
+  name: CompactServicesDisplay
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: maxPillsToShow
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: useExtraSmallPills
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: CompactServicesDisplay
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: maxPillsToShow
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: useExtraSmallPills
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: shrink
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: pillsToShow
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: take
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: maxPillsToShow
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: iconsToShow
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: maxPillsToShow
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Wrap
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: spacing
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: runSpacing
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: crossAxisAlignment
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: WrapCrossAlignment
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: center
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: pillsToShow
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ServicePill
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: isSmall
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: useExtraSmallPills
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isExtraSmall
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: useExtraSmallPills
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: iconsToShow
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryIcon
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: UltraCompactServicesDisplay
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: iconSize
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: UltraCompactServicesDisplay
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: iconSize
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: shrink
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: Wrap
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: spacing
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: runSpacing
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryIcon
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: iconSize
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

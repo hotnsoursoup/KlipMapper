@@ -1,0 +1,2228 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/calendar/rendering/week_view/calendar_day_column.dart
+source_hash: 64f799ad93a8617b
+regions: []
+symbols:
+- kind: function
+  name: DayColumn
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: isLastDay
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: isFirstColumn
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: showOverlapCount
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: DayColumn
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isLastDay
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: isFirstColumn
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: showOverlapCount
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: createState
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _DayColumnState
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _DayColumnState
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: _hoverKey
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: _isOpen
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: SizedBox
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Stack
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: Positioned
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: fill
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _GridCell
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: isHour
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: showRight
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: isLastDay
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: StoreHoursLines
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: isFirstColumn
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: isFirstColumn
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: AppointmentBlock
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: Positioned
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: fill
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _HoverTapCell
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: hoverKey
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _hoverKey
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: onEnter
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _hoverKey
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: onExit
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: _hoverKey
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: showOverlapCount
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: OverlapOverlay
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: open
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: Positioned
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: fill
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: labelLarge
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: black54
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: letterSpacing
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: _isOpen
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: d
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: getDayKey
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: d
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _GridCell
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: isHour
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: showRight
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _GridCell
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: isHour
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: showRight
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: bottom
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: isHour
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: isHour
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: right
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: showRight
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: none
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _HoverTapCell
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: hoverKey
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: onEnter
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: onExit
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: _HoverTapCell
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: hoverKey
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: onEnter
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: onExit
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: hovered
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: hoverKey
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: MouseRegion
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: onEnter
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: onEnter
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: onExit
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: onExit
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: InkWell
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: hoverColor
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: transparent
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: hovered
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: transparent
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: left
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: hovered
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: none
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: hovered
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: boxShadow
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: BoxShadow
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: black
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: blurRadius
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: offset
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: slot
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: labelSmall
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: expand
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

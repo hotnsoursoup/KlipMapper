@@ -1,0 +1,4664 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/presentation/screens/calendar_screen.dart
+source_hash: e6a5aa25d2b2c30c
+regions: []
+symbols:
+- kind: function
+  name: CalendarScreen
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: CalendarScreen
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: createState
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _CalendarScreenState
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _CalendarScreenState
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _showOverlapCount
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _currentTechnicianPage
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: initState
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: initState
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: appointmentViewModeProvider
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: Scaffold
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: background
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: body
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _buildViewModeSelector
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _goToToday
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: chevron_left
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _previousWeek
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _previousDay
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: EdgeInsets
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: zero
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: constraints
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: minWidth
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: minHeight
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: chevron_right
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _nextWeek
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _nextDay
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: EdgeInsets
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: zero
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: constraints
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: minWidth
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: minHeight
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: InkWell
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: picked
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: showDatePicker
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: initialDate
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: firstDate
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: lastDate
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: Theme
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Theme
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: dialogTheme
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: RoundedRectangleBorder
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: Radius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: Transform
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: scale
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: scale
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: picked
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: picked
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: Padding
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: _formatDate
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: bodyLarge
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: _buildWeekViewModeButton
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: bar_chart
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: _buildWeekViewModeButton
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: calendar_view_week
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: getAllCategories
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: take
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: expand
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: _buildServiceFilterChip
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: Checkbox
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: onChanged
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: materialTapTargetSize
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: MaterialTapTargetSize
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: shrinkWrap
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: Checkbox
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: _showOverlapCount
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: onChanged
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: _showOverlapCount
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: materialTapTargetSize
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: MaterialTapTargetSize
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: shrinkWrap
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _showNewAppointmentDialog
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: Expanded
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: _buildCalendarContent
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: _buildCalendarContent
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: AsyncValueWidget
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: fromProvider
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: provider
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsStreamProvider
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: isRefreshing
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: AppointmentWeekView
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _showAppointmentDetails
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: _showNewAppointmentDialog
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: selectedServiceCategories
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: showOverlapCount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: _showOverlapCount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: anchorToToday
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: weekChart
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: AppointmentWeekChartView
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: _showAppointmentDetails
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: anchorToToday
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: AppointmentCalendarGrid
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: currentPage
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: _currentTechnicianPage
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: onAppointmentTap
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: _showAppointmentDetails
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: _showNewAppointmentDialog
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: onPageChanged
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: newPage
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: _currentTechnicianPage
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: newPage
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: selectedServiceCategories
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: mainAxisAlignment
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: MainAxisAlignment
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: center
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: error_outline
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: headline3
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsStreamProvider
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: _buildViewModeSelector
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: appointmentViewModeProvider
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: SegmentedButton
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: segments
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: ButtonSegment
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: calendar_view_day
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: ButtonSegment
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: week
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: calendar_view_week
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: selected
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: viewMode
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: onSelectionChanged
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: appointmentViewModeProvider
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: setViewMode
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: _buildWeekViewModeButton
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: targetMode
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: appointmentViewModeProvider
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: setViewMode
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: targetMode
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _goToToday
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _previousDay
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: _nextDay
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: _previousWeek
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: _nextWeek
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: setDate
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: currentDate
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: _anchorToToday
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: _buildServiceFilterChip
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: categoryColor
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: FilterChip
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: TextStyle
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: categoryColor
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: w500
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: selected
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: isSelected
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: onSelected
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: selected
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: selected
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: _selectedServiceCategories
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: categoryColor
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: selectedColor
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: categoryColor
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: checkmarkColor
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: side
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: categoryColor
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: _formatDate
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: weekdays
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: months
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: weekdays
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: months
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: _showAppointmentDetails
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: AppointmentDialog
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: edit
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: onSave
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: _saveUpdatedAppointment
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: onCancel
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: _cancelAppointment
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: _showNewAppointmentDialog
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: AppointmentDialog
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: fromCalendar
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: selectedDate
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: TimeOfDay
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: fromDateTime
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: selectedTime
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: onSave
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: _saveNewAppointment
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: _saveNewAppointment
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: appointmentRepositoryProvider
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: createAppointment
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: _saveUpdatedAppointment
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: appointmentRepositoryProvider
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: updateAppointment
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: _cancelAppointment
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: appointmentRepositoryProvider
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: updateAppointment
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: warningOrange
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

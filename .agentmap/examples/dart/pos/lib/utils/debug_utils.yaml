@@ -1,0 +1,1346 @@
+agentmap: v1
+source: examples/dart/pos/lib/utils/debug_utils.dart
+source_hash: bb1d91eb028eb374
+regions: []
+symbols:
+- kind: function
+  name: AppLogger
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: LogLevel
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: DebugUtils
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: logWidgetBuild
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: widgetName
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: logPerformance
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: inMilliseconds
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: logMemoryUsage
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: assertAndLog
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: condition
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: condition
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: condition
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: logProviderStateChange
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: providerName
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: oldState
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: newState
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: debugWrap
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: Stack
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: Positioned
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: right
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: red
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: logWidgetTree
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: depth
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: kDebugMode
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: treeInfo
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _buildWidgetTreeString
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: depth
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _buildWidgetTreeString
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: depth
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: StringBuffer
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: visitElement
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: currentDepth
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: prefix
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: currentDepth
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: depth
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: writeln
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: widget
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: currentDepth
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: depth
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: visitChildren
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: visitElement
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: currentDepth
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: visitElement
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: measureExecution
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: Stopwatch
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: stop
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: logPerformance
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: elapsed
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: stop
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: logPerformance
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: elapsed
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: measureAsyncExecution
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: Stopwatch
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: stop
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: logPerformance
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: elapsed
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: stop
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: logPerformance
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: operationName
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: stopwatch
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: elapsed
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: debug
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: debug
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: critical
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: critical
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: printAndLog
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: tag
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: printAndLog
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: setLogLevel
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: setLogLevel
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: setFileLogging
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: setFileLogging
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: setConsoleLogging
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: setConsoleLogging
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,3878 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/drift_settings_repository.dart
+source_hash: ab57197062d5a78d
+regions: []
+symbols:
+- kind: function
+  name: dart_convert
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: DriftSettingsRepository
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: DriftSettingsRepository
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: DriftSettingsRepository
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ensureInitialized
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: createTyped
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: insertOnConflictUpdate
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: SettingsCompanion
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: getSettingsByCategory
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: getSettingsModelsByCategory
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: asc
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: setSettingsBulk
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: getAllSettings
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: resetCategoryToDefaults
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: watchSettingsByCategory
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: storeSetting
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: Stream
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: settingExists
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: deleteSetting
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: importSettings
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: settingsData
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: settingsData
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: settingsData
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: getDashboardShowCustomerPhone
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: dashboardShowCustomerPhone
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: setDashboardShowCustomerPhone
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: dashboardShowCustomerPhone
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: getDashboardEnableCheckoutNotifications
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: dashboardEnableCheckoutNotifications
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: setDashboardEnableCheckoutNotifications
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: dashboardEnableCheckoutNotifications
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: getDashboardServiceDisplayMode
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: dashboardServiceDisplayMode
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: setDashboardServiceDisplayMode
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: dashboardServiceDisplayMode
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: getStoreHoursConfiguration
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: storeHoursConfiguration
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: defaultHours
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: dart_convert
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: jsonDecode
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: _migrateHoursFormat
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: debugJson
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: storeHoursConfiguration
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: defaultHours
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: _migrateHoursFormat
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: hoursJson
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: hoursJson
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: migratedHours
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: hoursJson
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: dayHours
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: dayHours
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: dayHours
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: dayHours
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: dayHours
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: displayToMinutes
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: displayToMinutes
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: migratedHours
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: migratedDayHours
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: migratedHours
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: setStoreHoursConfiguration
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: dart_convert
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: storeHoursConfiguration
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: store
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: StackTrace
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: current
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: getStoreOnlineBooking
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: storeOnlineBooking
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: setStoreOnlineBooking
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: storeOnlineBooking
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: store
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: getGeneralTheme
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: generalTheme
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: setGeneralTheme
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: generalTheme
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: getGeneralSoundEffects
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: generalSoundEffects
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: setGeneralSoundEffects
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: generalSoundEffects
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: getGeneralAnimations
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: generalAnimations
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: setGeneralAnimations
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: generalAnimations
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: getGeneralLanguage
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: generalLanguage
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: setGeneralLanguage
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: generalLanguage
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: setGeneralDefaultItemsPerPage
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: setSetting
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: generalDefaultItemsPerPage
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: models
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

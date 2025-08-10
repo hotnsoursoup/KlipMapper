@@ -1,0 +1,1208 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/calendar/rendering/time_column.dart
+source_hash: 89b9e81ff339a2d0
+regions: []
+symbols:
+- kind: function
+  name: TimeColumn
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: endHour
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: TimeColumn
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: endHour
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _generateTimeSlots
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: timeColumnWidth
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: surfaceLight
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _buildTimeSlot
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _buildTimeSlot
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isCurrentTime
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: _isCurrentTime
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: hourRowHeight
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: isCurrentTime
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: currentTimeLineColor
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: transparent
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: InkWell
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: onTimeSlotTap
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Padding
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Expanded
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: timeSlot
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: timeColumnTextStyle
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: isCurrentTime
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: currentTimeLineColor
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: timeColumnTextStyle
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: isCurrentTime
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: w500
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: textAlign
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: TextAlign
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: right
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: isCurrentTime
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: margin
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: only
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: left
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: CalendarTheme
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: currentTimeLineColor
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: BoxShape
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: circle
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _generateTimeSlots
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: endHour
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _formatTime
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: TimeSlotInfo
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _formatTime
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: DateFormat
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: jm
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: format
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: _isCurrentTime
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: currentRoundedTime
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: intervalMinutes
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: isAtSameMomentAs
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: currentRoundedTime
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: TimeSlotInfo
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: TimeSlotInfo
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: displayText
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: isHourMark
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

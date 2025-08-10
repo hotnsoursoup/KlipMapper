@@ -1,0 +1,410 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/payment_model.g.dart
+source_hash: b469d752d465ed9e
+regions: []
+symbols:
+- kind: function
+  name: _$PaymentFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _Payment
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _$PaymentToJson
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cardLastFour
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: refundAmount
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: refundReason
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: refundedAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

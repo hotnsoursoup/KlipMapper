@@ -1,0 +1,140 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/domain/repositories/service_repository.dart
+source_hash: 72fe4bfc86930ddc
+regions: []
+symbols:
+- kind: function
+  name: ServiceRepository
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: getServiceCategories
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: getServices
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: getServicesByCategory
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: createServiceCategory
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: colorHex
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: createService
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: updateService
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: updateServiceCategory
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: deleteService
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: deleteServiceCategory
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

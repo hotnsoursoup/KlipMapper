@@ -1,0 +1,5048 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/providers/checkout_providers.freezed.dart
+source_hash: 53d8ba98a568aa31
+regions: []
+symbols:
+- kind: function
+  name: _$identity
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutState
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutStateCopyWithImpl
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: $CheckoutStateCopyWith
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: $CheckoutStateCopyWith
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutStateCopyWithImpl
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutStateCopyWithImpl
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: CheckoutStatePatterns
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _CheckoutState
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: _CheckoutState
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: EqualUnmodifiableSetView
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: __$CheckoutStateCopyWithImpl
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutStateCopyWith
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: _$CheckoutStateCopyWith
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: __$CheckoutStateCopyWithImpl
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: __$CheckoutStateCopyWithImpl
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: _CheckoutState
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _selectedTicketIds
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

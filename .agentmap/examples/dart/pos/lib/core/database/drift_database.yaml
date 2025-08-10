@@ -1,0 +1,6692 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/database/drift_database.dart
+source_hash: d00a698b7d2c599a
+regions: []
+symbols:
+- kind: function
+  name: p
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: ServicesJsonConverter
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: ServicesJsonConverter
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: fromSql
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: decode
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: whereType
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: toSql
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: SettingsJsonConverter
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: SettingsJsonConverter
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: fromSql
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: decode
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: decoded
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: toSql
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: autoIncrement
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: socialSecurityNumber
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: hourlyRate
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: hireDate
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: boolean
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: clockedInAt
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: clockedOutAt
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: boolean
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: pinCreatedAt
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: pinLastUsedAt
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: Customers
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: Services
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: autoIncrement
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: Invoices
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: invoiceNumber
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: Payments
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: Appointments
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: appointmentStartDateTime
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: appointmentEndDateTime
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: lastModifiedBy
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: lastModifiedDevice
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: confirmationType
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: EmployeeServiceCategories
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: Settings
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: TechnicianSchedules
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: effectiveDate
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: DataClassName
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: TimeEntries
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: DriftDatabase
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: tables
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: Customers
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: Services
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: Invoices
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: Payments
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: Appointments
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: EmployeeServiceCategories
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: Settings
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: TechnicianSchedules
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: TimeEntries
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: _openConnection
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: withConnection
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: connection
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: _isInitialized
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: ensureInitialized
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: _isInitialized
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: _isInitialized
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: migration
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: MigrationStrategy
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: onCreate
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: createAll
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: _createPerformanceIndexes
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 472
+  - 472
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 472
+  - 472
+  doc_capsule: null
+- kind: function
+  name: onUpgrade
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: to
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: _createPerformanceIndexes
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: _migrateAppointmentColumns
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: _addEmployeeSsnField
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 490
+  - 490
+  doc_capsule: null
+- kind: function
+  name: _addSettingsTable
+  range:
+  - 492
+  - 492
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 492
+  - 492
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: _updateSettingsForStoreSettings
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: _addTicketStatusColumn
+  range:
+  - 500
+  - 500
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 500
+  - 500
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: _addAppointmentConfirmationFields
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 506
+  - 506
+  doc_capsule: null
+- kind: function
+  name: _changeAssignedTechnicianIdToInteger
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: _addTechnicianSchedulesTable
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: _addTimeEntriesTable
+  range:
+  - 516
+  - 516
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 516
+  - 516
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: _addEmployeePinFields
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 522
+  - 522
+  doc_capsule: null
+- kind: function
+  name: _addInvoicesTable
+  range:
+  - 524
+  - 524
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 524
+  - 524
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: _addIconColumnToServiceCategories
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: _addAppointmentIdToTickets
+  range:
+  - 532
+  - 532
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 532
+  - 532
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: _ensureTimeEntriesTableExists
+  range:
+  - 536
+  - 536
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 536
+  - 536
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: beforeOpen
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: details
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: versionNow
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: _createPerformanceIndexes
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 560
+  - 560
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 566
+  - 566
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 569
+  - 569
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 574
+  - 574
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 577
+  - 577
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 583
+  - 583
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 586
+  - 586
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 589
+  - 589
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 592
+  - 592
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 595
+  - 595
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 603
+  - 603
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 609
+  - 609
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 624
+  - 624
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 629
+  - 629
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 632
+  - 632
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 636
+  - 636
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 636
+  - 636
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 637
+  - 637
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: _migrateAppointmentColumns
+  range:
+  - 643
+  - 643
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 643
+  - 643
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: customSelect
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 648
+  - 648
+  doc_capsule: null
+- kind: function
+  name: columns
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: columns
+  range:
+  - 651
+  - 651
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 651
+  - 651
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 652
+  - 652
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 652
+  - 652
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 655
+  - 655
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 658
+  - 658
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 662
+  - 662
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 662
+  - 662
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 664
+  - 664
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 664
+  - 664
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 666
+  - 666
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 667
+  - 667
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 667
+  - 667
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 667
+  - 667
+  doc_capsule: null
+- kind: function
+  name: _addEmployeeSsnField
+  range:
+  - 672
+  - 672
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 672
+  - 672
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 674
+  - 674
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 674
+  - 674
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 677
+  - 677
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 681
+  - 681
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 681
+  - 681
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 682
+  - 682
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 683
+  - 683
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 683
+  - 683
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 683
+  - 683
+  doc_capsule: null
+- kind: function
+  name: _addSettingsTable
+  range:
+  - 689
+  - 689
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 689
+  - 689
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 691
+  - 691
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 691
+  - 691
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: createTable
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: _insertDefaultSettings
+  range:
+  - 697
+  - 697
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 699
+  - 699
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 699
+  - 699
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 700
+  - 700
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: _insertDefaultSettings
+  range:
+  - 707
+  - 707
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: AppDateFormatter
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: dashboardSettings
+  range:
+  - 711
+  - 711
+  doc_capsule: null
+- kind: function
+  name: defaultStoreHours
+  range:
+  - 721
+  - 721
+  doc_capsule: null
+- kind: function
+  name: storeSettings
+  range:
+  - 723
+  - 723
+  doc_capsule: null
+- kind: function
+  name: generalSettings
+  range:
+  - 734
+  - 734
+  doc_capsule: null
+- kind: function
+  name: salonSettings
+  range:
+  - 745
+  - 745
+  doc_capsule: null
+- kind: function
+  name: allSettings
+  range:
+  - 763
+  - 763
+  doc_capsule: null
+- kind: function
+  name: dashboardSettings
+  range:
+  - 764
+  - 764
+  doc_capsule: null
+- kind: function
+  name: storeSettings
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: generalSettings
+  range:
+  - 766
+  - 766
+  doc_capsule: null
+- kind: function
+  name: salonSettings
+  range:
+  - 767
+  - 767
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 770
+  - 770
+  doc_capsule: null
+- kind: function
+  name: allSettings
+  range:
+  - 770
+  - 770
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 772
+  - 772
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 775
+  - 775
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 776
+  - 776
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 776
+  - 776
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 776
+  - 776
+  doc_capsule: null
+- kind: function
+  name: _updateSettingsForStoreSettings
+  range:
+  - 782
+  - 782
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 782
+  - 782
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 784
+  - 784
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 784
+  - 784
+  doc_capsule: null
+- kind: function
+  name: oldSettings
+  range:
+  - 787
+  - 787
+  doc_capsule: null
+- kind: function
+  name: settingKey
+  range:
+  - 795
+  - 795
+  doc_capsule: null
+- kind: function
+  name: oldSettings
+  range:
+  - 795
+  - 795
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 796
+  - 796
+  doc_capsule: null
+- kind: function
+  name: settingKey
+  range:
+  - 797
+  - 797
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: AppDateFormatter
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 805
+  - 805
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 814
+  - 814
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 815
+  - 815
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 820
+  - 820
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 829
+  - 829
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 830
+  - 830
+  doc_capsule: null
+- kind: function
+  name: defaultStoreHours
+  range:
+  - 836
+  - 836
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 839
+  - 839
+  doc_capsule: null
+- kind: function
+  name: defaultStoreHours
+  range:
+  - 843
+  - 843
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 848
+  - 848
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 849
+  - 849
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 853
+  - 853
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 853
+  - 853
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 854
+  - 854
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 855
+  - 855
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 855
+  - 855
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 855
+  - 855
+  doc_capsule: null
+- kind: function
+  name: _addTicketStatusColumn
+  range:
+  - 861
+  - 861
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 861
+  - 861
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 863
+  - 863
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 863
+  - 863
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 866
+  - 866
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 871
+  - 871
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 883
+  - 883
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 883
+  - 883
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 884
+  - 884
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 886
+  - 886
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 886
+  - 886
+  doc_capsule: null
+- kind: function
+  name: _addAppointmentConfirmationFields
+  range:
+  - 891
+  - 891
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 891
+  - 891
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 893
+  - 893
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 893
+  - 893
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 898
+  - 898
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 901
+  - 901
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 906
+  - 906
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 913
+  - 913
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 916
+  - 916
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 920
+  - 920
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 920
+  - 920
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 923
+  - 923
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 925
+  - 925
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 925
+  - 925
+  doc_capsule: null
+- kind: function
+  name: _changeAssignedTechnicianIdToInteger
+  range:
+  - 932
+  - 932
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 932
+  - 932
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 934
+  - 934
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 934
+  - 934
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 943
+  - 943
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 948
+  - 948
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 958
+  - 958
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 982
+  - 982
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 993
+  - 993
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 994
+  - 994
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 997
+  - 997
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1000
+  - 1000
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1003
+  - 1003
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1006
+  - 1006
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1009
+  - 1009
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1013
+  - 1013
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1013
+  - 1013
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1014
+  - 1014
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1015
+  - 1015
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1015
+  - 1015
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1015
+  - 1015
+  doc_capsule: null
+- kind: function
+  name: _addTechnicianSchedulesTable
+  range:
+  - 1021
+  - 1021
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1021
+  - 1021
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1023
+  - 1023
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1023
+  - 1023
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1026
+  - 1026
+  doc_capsule: null
+- kind: function
+  name: createTable
+  range:
+  - 1026
+  - 1026
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 1026
+  - 1026
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1029
+  - 1029
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1032
+  - 1032
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1035
+  - 1035
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1039
+  - 1039
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1039
+  - 1039
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1040
+  - 1040
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1041
+  - 1041
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1041
+  - 1041
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1041
+  - 1041
+  doc_capsule: null
+- kind: function
+  name: _addTimeEntriesTable
+  range:
+  - 1047
+  - 1047
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1047
+  - 1047
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1052
+  - 1052
+  doc_capsule: null
+- kind: function
+  name: createTable
+  range:
+  - 1052
+  - 1052
+  doc_capsule: null
+- kind: function
+  name: timeEntries
+  range:
+  - 1052
+  - 1052
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1055
+  - 1055
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1058
+  - 1058
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1061
+  - 1061
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1064
+  - 1064
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1068
+  - 1068
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1068
+  - 1068
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1069
+  - 1069
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1070
+  - 1070
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1070
+  - 1070
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1070
+  - 1070
+  doc_capsule: null
+- kind: function
+  name: _ensureTimeEntriesTableExists
+  range:
+  - 1076
+  - 1076
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1076
+  - 1076
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1078
+  - 1078
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1078
+  - 1078
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 1081
+  - 1081
+  doc_capsule: null
+- kind: function
+  name: customSelect
+  range:
+  - 1081
+  - 1081
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 1083
+  - 1083
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 1085
+  - 1085
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 1085
+  - 1085
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1086
+  - 1086
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1086
+  - 1086
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1089
+  - 1089
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1106
+  - 1106
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1109
+  - 1109
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1112
+  - 1112
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1115
+  - 1115
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1119
+  - 1119
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1119
+  - 1119
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1121
+  - 1121
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1121
+  - 1121
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1123
+  - 1123
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1124
+  - 1124
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1124
+  - 1124
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1124
+  - 1124
+  doc_capsule: null
+- kind: function
+  name: _addEmployeePinFields
+  range:
+  - 1129
+  - 1129
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1129
+  - 1129
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1131
+  - 1131
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1131
+  - 1131
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1134
+  - 1134
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1135
+  - 1135
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1136
+  - 1136
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1139
+  - 1139
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1143
+  - 1143
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1143
+  - 1143
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1146
+  - 1146
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1147
+  - 1147
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1147
+  - 1147
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1147
+  - 1147
+  doc_capsule: null
+- kind: function
+  name: _addInvoicesTable
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1155
+  - 1155
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1155
+  - 1155
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1158
+  - 1158
+  doc_capsule: null
+- kind: function
+  name: createTable
+  range:
+  - 1158
+  - 1158
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 1158
+  - 1158
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1161
+  - 1161
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1163
+  - 1163
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1163
+  - 1163
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1166
+  - 1166
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1167
+  - 1167
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1167
+  - 1167
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1167
+  - 1167
+  doc_capsule: null
+- kind: function
+  name: _addIconColumnToServiceCategories
+  range:
+  - 1172
+  - 1172
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1172
+  - 1172
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1174
+  - 1174
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1174
+  - 1174
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1177
+  - 1177
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1181
+  - 1181
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1181
+  - 1181
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1182
+  - 1182
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1183
+  - 1183
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1183
+  - 1183
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1183
+  - 1183
+  doc_capsule: null
+- kind: function
+  name: _addAppointmentIdToTickets
+  range:
+  - 1188
+  - 1188
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 1188
+  - 1188
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1190
+  - 1190
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1190
+  - 1190
+  doc_capsule: null
+- kind: function
+  name: customStatement
+  range:
+  - 1193
+  - 1193
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1197
+  - 1197
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1197
+  - 1197
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1198
+  - 1198
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1199
+  - 1199
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1199
+  - 1199
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1199
+  - 1199
+  doc_capsule: null
+- kind: function
+  name: _openConnection
+  range:
+  - 1206
+  - 1206
+  doc_capsule: null
+- kind: function
+  name: LazyDatabase
+  range:
+  - 1207
+  - 1207
+  doc_capsule: null
+- kind: function
+  name: dbFolder
+  range:
+  - 1209
+  - 1209
+  doc_capsule: null
+- kind: function
+  name: getApplicationDocumentsDirectory
+  range:
+  - 1209
+  - 1209
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: dbFolder
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 1210
+  - 1210
+  doc_capsule: null
+- kind: function
+  name: dbPath
+  range:
+  - 1211
+  - 1211
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 1211
+  - 1211
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 1211
+  - 1211
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1213
+  - 1213
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1213
+  - 1213
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 1216
+  - 1216
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 1216
+  - 1216
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 1219
+  - 1219
+  doc_capsule: null
+- kind: function
+  name: rootBundle
+  range:
+  - 1219
+  - 1219
+  doc_capsule: null
+- kind: function
+  name: load
+  range:
+  - 1219
+  - 1219
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 1220
+  - 1220
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 1220
+  - 1220
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 1220
+  - 1220
+  doc_capsule: null
+- kind: function
+  name: asUint8List
+  range:
+  - 1220
+  - 1220
+  doc_capsule: null
+- kind: function
+  name: dbFolder
+  range:
+  - 1223
+  - 1223
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1223
+  - 1223
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 1223
+  - 1223
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 1226
+  - 1226
+  doc_capsule: null
+- kind: function
+  name: writeAsBytes
+  range:
+  - 1226
+  - 1226
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 1226
+  - 1226
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1227
+  - 1227
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 1227
+  - 1227
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1228
+  - 1228
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1229
+  - 1229
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 1229
+  - 1229
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 1229
+  - 1229
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 1233
+  - 1233
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 1233
+  - 1233
+  doc_capsule: null
+- kind: function
+  name: Platform
+  range:
+  - 1237
+  - 1237
+  doc_capsule: null
+- kind: function
+  name: isAndroid
+  range:
+  - 1237
+  - 1237
+  doc_capsule: null
+- kind: function
+  name: applyWorkaroundToOpenSqlite3OnOldAndroidVersions
+  range:
+  - 1238
+  - 1238
+  doc_capsule: null
+- kind: function
+  name: NativeDatabase
+  range:
+  - 1241
+  - 1241
+  doc_capsule: null
+- kind: function
+  name: createInBackground
+  range:
+  - 1241
+  - 1241
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 1241
+  - 1241
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

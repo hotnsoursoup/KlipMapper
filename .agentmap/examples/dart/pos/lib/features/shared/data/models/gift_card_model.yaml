@@ -1,0 +1,278 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/gift_card_model.dart
+source_hash: ab19d6e934110f61
+regions: []
+symbols:
+- kind: function
+  name: freezed
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: GiftCard
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: GiftCard
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: initialBalance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: currentBalance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: purchasedByCustomerId
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: GiftCard
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _$GiftCardFromJson
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: GiftCardTransaction
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: GiftCardTransaction
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: giftCardId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: transactionType
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: balanceAfter
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: GiftCardTransaction
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _$GiftCardTransactionFromJson
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: GiftCardStatus
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: active
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: depleted
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: expired
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: voided
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: GiftCardTransactionType
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: purchase
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: redeem
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: refund
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: voided
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

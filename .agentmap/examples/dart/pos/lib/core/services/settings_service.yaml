@@ -1,0 +1,554 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/settings_service.dart
+source_hash: 90db02479461136a
+regions: []
+symbols:
+- kind: function
+  name: SettingsService
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: _fontSizeKey
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _statusQueueLayoutKey
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _showTodaysScheduleKey
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _showUpcomingAppointmentsKey
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _isTimelineExpandedKey
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: SettingsService
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: SettingsService
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _prefs
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _prefs
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: SharedPreferences
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: getInstance
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _prefs
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _prefs
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: setFontSize
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: setString
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: _fontSizeKey
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: getFontSize
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: getString
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: _fontSizeKey
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: setStatusQueueLayout
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: layout
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: setString
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _statusQueueLayoutKey
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: layout
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: getStatusQueueLayout
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: getString
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: _statusQueueLayoutKey
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: setShowTodaysSchedule
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: show
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: setBool
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _showTodaysScheduleKey
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: show
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: getShowTodaysSchedule
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: setShowUpcomingAppointments
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: show
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: setBool
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _showUpcomingAppointmentsKey
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: show
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: getShowUpcomingAppointments
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: getBool
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _showUpcomingAppointmentsKey
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: setIsTimelineExpanded
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: expanded
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: setBool
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _isTimelineExpandedKey
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: expanded
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: getIsTimelineExpanded
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: getBool
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _isTimelineExpandedKey
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: getAllDashboardSettings
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: getFontSize
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: getStatusQueueLayout
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: getShowTodaysSchedule
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: getShowUpcomingAppointments
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: getIsTimelineExpanded
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: clearAllSettings
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _fontSizeKey
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _statusQueueLayoutKey
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _showTodaysScheduleKey
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _showUpcomingAppointmentsKey
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _preferences
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: _isTimelineExpandedKey
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,554 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/tickets/data/tables/tickets.dart
+source_hash: 1aaa3130c29c04e7
+regions: []
+symbols:
+- kind: function
+  name: DataClassName
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: Customers
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: setNull
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: setNull
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: boolean
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: Appointments
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: setNull
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: customConstraints
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

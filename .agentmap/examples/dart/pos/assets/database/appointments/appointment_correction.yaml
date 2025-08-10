@@ -1,0 +1,104 @@
+agentmap: v1
+source: examples/dart/pos/assets/database/appointments/appointment_correction.py
+source_hash: a89a143566884468
+regions: []
+symbols:
+- kind: class
+  name: AppointmentCorrector
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: __init__
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _load_services
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: _load_employees
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: _load_employee_categories
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _load_service_categories
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: find_compatible_technician
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: find_compatible_services
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: find_replacement_service
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: correct_appointments
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: apply_corrections
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: generate_correction_report
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: main
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+imports:
+- name: sqlite3
+  from: null
+  path: null
+- name: json
+  from: null
+  path: null
+- name: random
+  from: null
+  path: null
+- name: datetime
+  from: null
+  path: null
+- name: typing
+  from: null
+  path: null
+- name: json
+  from: null
+  path: null
+usage_slices: []
+call_graph: []

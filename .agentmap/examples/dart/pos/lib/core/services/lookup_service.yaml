@@ -1,0 +1,1646 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/lookup_service.dart
+source_hash: 68d968551f14f8c6
+regions: []
+symbols:
+- kind: function
+  name: LookupService
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: LookupService
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: LookupService
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: LookupService
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToCategoryId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: updateTechnicians
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: _formatDisplayName
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: tech
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: notifyListeners
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: updateTechniciansFromEmployees
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: _formatDisplayName
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: notifyListeners
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: updateServices
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToCategoryId
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToCategoryId
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: notifyListeners
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: getTechnicianName
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: getTechnicianDisplayName
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: keys
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: formatted
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: _formatDisplayName
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: formatted
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: getService
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: getServiceCategoryId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToCategoryId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: getCategoryColor
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: getCategoryColorById
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: getCategory
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: getCategoryIcon
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: spa
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: getCategory
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: getCategory
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: getCategoryDisplayName
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: numId
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: getCategory
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: categoryKey
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: ServiceCategories
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: getCategory
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _formatDisplayName
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: lastInitial
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: last
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToCategoryId
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: notifyListeners
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: printDebugInfo
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToName
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: _serviceIdToService
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: _technicianIdToDisplayName
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: forEach
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

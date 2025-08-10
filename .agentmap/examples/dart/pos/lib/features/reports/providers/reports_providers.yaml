@@ -1,0 +1,4544 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/reports/providers/reports_providers.dart
+source_hash: 8d0a718512d43bb6
+regions: []
+symbols:
+- kind: function
+  name: Riverpod
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: reportsTicketRepository
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: reportsCustomerRepository
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: reportsPaymentRepository
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: DriftPaymentRepository
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: reportsAppointmentRepository
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: DriftAppointmentRepository
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: reportsEmployeeRepository
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRange
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: startOfToday
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: endOfToday
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: startOfToday
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeState
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: startOfToday
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: endOfToday
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeType
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: selectRange
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: thisWeek
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: thisMonth
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: thisYear
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeState
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: selectCustomRange
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeState
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeType
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: revenueReport
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: reportsPaymentRepositoryProvider
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: getPaymentsByDateRange
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: dailyData
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: dayEnd
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: dayPayments
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: dayEnd
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: dayRevenue
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: dayPayments
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: dailyData
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: DailyRevenue
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: revenue
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: dayRevenue
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: dayPayments
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: todayPayments
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: todayRevenue
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: todayPayments
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: yesterday
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: yesterdayPayments
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: yesterday
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: yesterdayRevenue
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: yesterdayPayments
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: weekStart
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: weekPayments
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: weekStart
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: weekRevenue
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: weekPayments
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: monthStart
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: monthPayments
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: monthStart
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: monthRevenue
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: monthPayments
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: RevenueReportData
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: todayRevenue
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: todayRevenue
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: yesterdayRevenue
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: yesterdayRevenue
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: weekRevenue
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: weekRevenue
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: monthRevenue
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: monthRevenue
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: dailyData
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: dailyData
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: topServices
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalytics
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: appointmentRepo
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: reportsAppointmentRepositoryProvider
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: appointmentRepo
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: appointmentRepo
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: getAppointmentsByDateRange
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: completedAppointments
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: cancelledAppointments
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: noShowAppointments
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: showUpRate
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: noShowAppointments
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: cancelledAppointments
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: completionRate
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: completedAppointments
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: cancellationRate
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: cancelledAppointments
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: showUpRate
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: AppointmentAnalyticsReportData
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: completedAppointments
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: completedAppointments
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: cancelledAppointments
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: cancelledAppointments
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: showUpRate
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: showUpRate
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: bookingPatterns
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: typeDistribution
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: customerAnalytics
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: reportsCustomerRepositoryProvider
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: getAllCustomers
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: totalCustomers
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: monthStart
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: newCustomersThisMonth
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: monthStart
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: returningCustomers
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: totalCustomers
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: round
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: CustomerAnalyticsReportData
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: totalCustomers
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: totalCustomers
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: newCustomersThisMonth
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: newCustomersThisMonth
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: returningCustomers
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: returningCustomers
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: averageVisitValue
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: segments
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: retentionData
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: technicianPerformance
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: employeeRepo
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: reportsEmployeeRepositoryProvider
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: employeeRepo
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: employeeRepo
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: getAllEmployees
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: TechnicianPerformanceReportData
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: technicianMetrics
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: totalAppointments
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: averageRating
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: revenueByTechnician
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: paymentAnalytics
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: reportsPaymentRepositoryProvider
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: paymentRepo
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: getPaymentsByDateRange
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: totalTransactions
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: averageTransactionAmount
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: totalTransactions
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: totalTransactions
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: paymentMethods
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: paymentMethods
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: paymentMethods
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: averageTransactionAmount
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: paymentMethodAmounts
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: paymentMethods
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: methodPayments
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: methodTotal
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: methodPayments
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: paymentMethodAmounts
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: methodTotal
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: PaymentAnalyticsReportData
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: totalPayments
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: paymentMethodBreakdown
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: paymentMethodAmounts
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: averageTransactionAmount
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: averageTransactionAmount
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: trends
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: tipsTotal
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: timeRangeDisplayText
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: timeRange
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: thisWeek
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: thisMonth
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: thisYear
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: reportDataCache
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: Future
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: wait
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: revenueReportProvider
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalyticsProvider
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: customerAnalyticsProvider
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: technicianPerformanceProvider
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: paymentAnalyticsProvider
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: revenue
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalytics
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: customerAnalytics
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: technicianPerformance
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: paymentAnalytics
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: results
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: SelectedReportType
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: selectReport
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: reportType
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: reportType
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: clearSelection
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 454
+  - 454
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: reportData
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: reportType
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: reportType
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: revenue
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: revenueReportProvider
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalytics
+  range:
+  - 464
+  - 464
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalyticsProvider
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: customerAnalytics
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: customerAnalyticsProvider
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: technicianPerformance
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: technicianPerformanceProvider
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: paymentAnalytics
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: paymentAnalyticsProvider
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: ReportTimeRangeNotifier
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: setTimeRange
+  range:
+  - 483
+  - 483
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 483
+  - 483
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: selectRange
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: setCustomRange
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: reportsTimeRangeProvider
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: selectCustomRange
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeState
+  range:
+  - 495
+  - 495
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeState
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: selectedRange
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: ReportsTimeRangeType
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: thisWeek
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: thisMonth
+  range:
+  - 506
+  - 506
+  doc_capsule: null
+- kind: function
+  name: thisYear
+  range:
+  - 507
+  - 507
+  doc_capsule: null
+- kind: function
+  name: custom
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: ReportType
+  range:
+  - 511
+  - 511
+  doc_capsule: null
+- kind: function
+  name: revenue
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: appointmentAnalytics
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: customerAnalytics
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: technicianPerformance
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: paymentAnalytics
+  range:
+  - 516
+  - 516
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

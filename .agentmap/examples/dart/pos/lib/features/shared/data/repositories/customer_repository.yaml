@@ -1,0 +1,1550 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/customer_repository.dart
+source_hash: 07ab9887b80aafa5
+regions: []
+symbols:
+- kind: function
+  name: CustomerRepository
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: CustomerRepository
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: CustomerRepository
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: getAllCustomers
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: customersV3
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: getCustomers
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: customersV3
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _convertToLegacy
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _convertToLegacy
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: searchCustomers
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: customersV3
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: searchCustomers
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: customersV3
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _convertToLegacy
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: createCustomer
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: createCustomerLegacy
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _convertToLegacy
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: currentV3
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: currentV3
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: currentV3
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: updateLoyaltyPoints
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: points
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: addLoyaltyPoints
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: points
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: updateCustomerStats
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: floor
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: updateLastVisit
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: addLoyaltyPoints
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: updatedCustomer
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: getCustomerStats
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: membershipLevel
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _convertToLegacy
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: customerV3
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

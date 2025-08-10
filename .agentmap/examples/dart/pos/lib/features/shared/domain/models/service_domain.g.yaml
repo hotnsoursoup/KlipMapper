@@ -1,0 +1,314 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/domain/models/service_domain.g.dart
+source_hash: 4fb12415c17ccb64
+regions: []
+symbols:
+- kind: function
+  name: _$ServiceDomainFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _ServiceDomain
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _$ServiceDomainToJson
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

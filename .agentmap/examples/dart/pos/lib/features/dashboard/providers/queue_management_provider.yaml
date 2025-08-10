@@ -1,0 +1,2366 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/dashboard/providers/queue_management_provider.dart
+source_hash: c3eb6b8964764765
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: QueueManagement
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: live
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: live
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: allTickets
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: todaysQueuedTickets
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: allTickets
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: todaysQueuedTickets
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: QueueManagementState
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: todaysQueuedTickets
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: lastUpdated
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: QueueManagementState
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: lastUpdated
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: QueueManagementState
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: lastUpdated
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: setFilter
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: currentFilter
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: removeTicketFromQueue
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: removeAssignedTickets
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: addTicketToQueue
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: updatedTickets
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: refreshQueue
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: ticketRepository
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTickets
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: queueManagementProvider
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: currentFilter
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: walkIn
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: queueLength
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: waitingCustomersCount
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: queueManagementProvider
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: nextTicket
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: priorityTickets
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: walkInTickets
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: appointmentTickets
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: ticketsByServiceCategory
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: grouped
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: grouped
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: grouped
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: grouped
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: hasUnassignedTickets
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: any
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: estimatedWaitTime
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: queueLen
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: queueLengthProvider
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: queueLen
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: zero
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: avgServiceTime
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: avgServiceTime
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: queueLen
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: getTicketById
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: queueManagementProvider
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: getQueuePosition
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: indexWhere
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: getTicketsForTechnicianCategories
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: technicianCategories
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: any
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: technicianCategories
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: technicianCategories
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: QueueManagementState
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: QueueManagementState
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: queueTickets
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: currentFilter
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: lastUpdated
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: walkIn
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: QueueFilter
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

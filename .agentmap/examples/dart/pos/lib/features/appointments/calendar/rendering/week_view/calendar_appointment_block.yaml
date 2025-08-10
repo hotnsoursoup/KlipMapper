@@ -1,0 +1,572 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/calendar/rendering/week_view/calendar_appointment_block.dart
+source_hash: 3a3fbeb1cc4c2585
+regions: []
+symbols:
+- kind: function
+  name: AppointmentBlock
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: AppointmentBlock
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: appointment
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: firstMin
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: endMin
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: firstMin
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: rawH
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: endMin
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: rawH
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: appointmentColor
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: Positioned
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: left
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: right
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: RepaintBoundary
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: GestureDetector
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: shrink
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

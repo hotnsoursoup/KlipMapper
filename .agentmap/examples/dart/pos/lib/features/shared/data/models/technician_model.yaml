@@ -1,0 +1,914 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/technician_model.dart
+source_hash: e6ef0357eea00cee
+regions: []
+symbols:
+- kind: function
+  name: Technician
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: Technician
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: isAvailable
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: canAcceptNewTicket
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: isAvailable
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: hasAssignedTicket
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: isWorking
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: lastNameInitial
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: last
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: Technician
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: Technician
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _getDefaultAvatarColor
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _getInitial
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _getDefaultAvatarColor
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _getInitial
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: Technician
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: turnNumber
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: currentTicketId
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: assignedTicketId
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: isOff
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: avatarColor
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: avatarInitial
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

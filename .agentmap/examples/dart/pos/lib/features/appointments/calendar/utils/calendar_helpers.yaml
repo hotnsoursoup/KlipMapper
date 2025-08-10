@@ -1,0 +1,1274 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/calendar/utils/calendar_helpers.dart
+source_hash: 880e996964e2a86c
+regions: []
+symbols:
+- kind: function
+  name: TimeSlot
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: kTimeColWidth
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: kSlotHeight
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: kHeaderHeight
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: buildQuarterHourSlots
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: endHour
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: startHour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: endHour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: h
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: slots
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: endHourFromSettings
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: todayName
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: getDayKey
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: todayName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: ext
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: ext
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: ext
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: getWeekStart
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: daysFromMonday
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: daysFromMonday
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: getDayKey
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: weekday
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: dayAppointments
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: appointments
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: sameDay
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: formatClock
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: hr
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: mm
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: appointmentColor
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: capacityLevel
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: base
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: hsl
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: HSLColor
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: fromColor
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: base
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: lightness
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: capacityLevel
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: hsl
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: withLightness
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: lightness
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: toColor
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: capacityLevel
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: AppointmentPosition
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: AppointmentPosition
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: calculateAppointmentPosition
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: appointmentStart
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: appointmentStart
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: timeSlots
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: firstMin
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: appointmentStart
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: appointmentStart
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: endMin
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: firstMin
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: rawHeight
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: endMin
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: startMin
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: slotHeight
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: rawHeight
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: AppointmentPosition
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

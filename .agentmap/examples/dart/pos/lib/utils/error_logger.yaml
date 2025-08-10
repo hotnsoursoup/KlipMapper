@@ -1,0 +1,326 @@
+agentmap: v1
+source: examples/dart/pos/lib/utils/error_logger.dart
+source_hash: 40617c33fb1a1a2e
+regions: []
+symbols:
+- kind: function
+  name: AppLogger
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: LogLevel
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: location
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: location
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: logWarning
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: logWarning
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: logSuccess
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: logSuccess
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: logDebug
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: print
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: object
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: print
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: object
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: writeToFile
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: log
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: LogLevel
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: currentLogFile
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: currentLogFile
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: flush
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: flush
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

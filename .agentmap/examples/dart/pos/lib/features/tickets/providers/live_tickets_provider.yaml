@@ -1,0 +1,434 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/tickets/providers/live_tickets_provider.dart
+source_hash: 110cfbb9c172ef4c
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: liveTicketRepository
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: timeEntryRepository
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: DriftTimeEntryRepository
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: liveTicketsToday
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: liveTicketRepositoryProvider
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: watchTicketsForTodayActive
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: clockedInTechnicianIds
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: timeRepo
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: timeEntryRepositoryProvider
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: timeRepo
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: watchTimeEntries
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: set
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: set
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: ticketsByTechnician
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: clocked
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: clockedInTechnicianIdsProvider
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: clocked
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

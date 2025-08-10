@@ -1,0 +1,3314 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/data/sources/payment_dao.dart
+source_hash: 7b0f0bd28a5fb6f2
+regions: []
+symbols:
+- kind: function
+  name: DriftAccessor
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: tables
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Payments
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Invoices
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: PaymentDao
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: PaymentDao
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: createPayment
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: taxAmountCents
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: discountAmountCents
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: paymentId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: PaymentsCompanion
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: paymentId
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: taxAmountCents
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: taxAmountCents
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: discountAmountCents
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: discountAmountCents
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: paymentId
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: getPaymentsForTicket
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: getPaymentsByDateRange
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: isBiggerOrEqualValue
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: isSmallerOrEqualValue
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: getPaymentMethodSummary
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: getPaymentsByDateRange
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: summary
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: existing
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: summary
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: existing
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: summary
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: PaymentMethodSummary
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: summary
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: PaymentMethodSummary
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: existing
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: existing
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: existing
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: summary
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: getDailyPaymentTotals
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: startOfDay
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: endOfDay
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: startOfDay
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: paymentsOfDay
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: getPaymentsByDateRange
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: startOfDay
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: endOfDay
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: paymentDetail
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: paymentsOfDay
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: paymentDetail
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: tipAmountCents
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: taxAmountCents
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: discountAmountCents
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: DailyPaymentTotals
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: getRefundedPayments
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: isBiggerOrEqualValue
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: startDate
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: isSmallerOrEqualValue
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: endDate
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: isSmallerThanValue
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: createRefund
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: originalPaymentId
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: refundAmountCents
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: originalPayment
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: originalPaymentId
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: getSingle
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: refundId
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: PaymentsCompanion
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: refundId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: originalPayment
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: originalPayment
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: amountCents
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: refundAmountCents
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: refundId
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: searchPayments
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: Future
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: searchPattern
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: invoiceId
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: lower
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: searchPattern
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: lower
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: searchPattern
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: payments
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: invoices
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: PaymentWithDetails
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: PaymentMethodSummary
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: PaymentMethodSummary
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: DailyPaymentTotals
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: DailyPaymentTotals
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: transactionCount
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: totalTipsCents
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: totalTaxCents
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: totalDiscountsCents
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

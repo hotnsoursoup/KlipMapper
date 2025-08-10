@@ -1,0 +1,4076 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/settings/providers/settings_provider.dart
+source_hash: 8a300df966659213
+regions: []
+symbols:
+- kind: function
+  name: Riverpod
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: settingsRepository
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: DriftSettingsRepository
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: SettingsMaster
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _loadAllSettings
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _loadAllSettings
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: settingsRepositoryProvider
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: rawSettings
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: getAllSettings
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: settingsMap
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: rawSettings
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _getCategoryFromKey
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _inferDataType
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: settingsMap
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: settingsMap
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: settingsMap
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: settingsRepositoryProvider
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: getSetting
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: T
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: T
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: T
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: T
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: String
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: resetToDefaults
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: settingsRepositoryProvider
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: resetToDefaults
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: DashboardSettingsNotifier
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: _loadDashboardSettings
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _loadDashboardSettings
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: SettingsManager
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: DashboardSettings
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: showCustomerPhone
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: showCustomerPhone
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: enableCheckoutNotifications
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: enableCheckoutNotifications
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: technicianLayout
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: serviceDisplayMode
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: serviceDisplayMode
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: showTodaysSchedule
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: showTodaysSchedule
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: showUpcomingAppointments
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: dashboardBackground
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: dashboardBackground
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: backgroundOpacity
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _getDoubleSetting
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: backgroundOpacity
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: containerOpacity
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: _getDoubleSetting
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: containerOpacity
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: widgetOpacity
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: _getDoubleSetting
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: widgetOpacity
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: Future
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: Future
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: masterNotifier
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: masterNotifier
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: SettingsManager
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: cache
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: replaceFirst
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: setShowCustomerPhone
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: setEnableCheckoutNotifications
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: setServiceDisplayMode
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: setDashboardBackground
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: setBackgroundOpacity
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: setContainerOpacity
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: setWidgetOpacity
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: setShowTodaysSchedule
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: storeSettings
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: StoreSettings
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: _getJsonSetting
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: onlineBooking
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: location
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: timezone
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: appointmentBuffer
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: walkInsEnabled
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: maxDailyAppointments
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: generalSettings
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: GeneralSettings
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: theme
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: soundEffects
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: animations
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: language
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: currency
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: dateFormat
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: timeFormat
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: defaultItemsPerPage
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: salonSettings
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: SalonSettings
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: serviceDurationBuffer
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: requireTechnicianSpecialization
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: autoCheckoutCompleted
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: loyaltyPointsEnabled
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: loyaltyPointsRatio
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: _getDoubleSetting
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: requireAppointmentConfirmation
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: reminderHoursBefore
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: groupBookingEnabled
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: maxGroupSize
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: priceDisplayMode
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: collectCustomerAddress
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: collectCustomerDateOfBirth
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: collectCustomerGender
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: collectCustomerAllergies
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: _getBoolSetting
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: setting
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _getStringSetting
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _getIntSetting
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: _getDoubleSetting
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: _getJsonSetting
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: defaultValue
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: _getCategoryFromKey
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: _inferDataType
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: DashboardSettings
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: DashboardSettings
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: DashboardSettings
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: showCustomerPhone
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: enableCheckoutNotifications
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: technicianLayout
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: serviceDisplayMode
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: showTodaysSchedule
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: showUpcomingAppointments
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: dashboardBackground
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: backgroundOpacity
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: containerOpacity
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: widgetOpacity
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: StoreSettings
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: StoreSettings
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: StoreSettings
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: storeHours
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: onlineBooking
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: location
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: timezone
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: appointmentBuffer
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: walkInsEnabled
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: maxDailyAppointments
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: GeneralSettings
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: GeneralSettings
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: GeneralSettings
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: theme
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: soundEffects
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: animations
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: language
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: currency
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: dateFormat
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: timeFormat
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: defaultItemsPerPage
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: SalonSettings
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: SalonSettings
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: SalonSettings
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: serviceDurationBuffer
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: requireTechnicianSpecialization
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: autoCheckoutCompleted
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: loyaltyPointsEnabled
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: loyaltyPointsRatio
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: requireAppointmentConfirmation
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: reminderHoursBefore
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: groupBookingEnabled
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: maxGroupSize
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: priceDisplayMode
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: collectCustomerAddress
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: collectCustomerDateOfBirth
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: collectCustomerGender
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: collectCustomerAllergies
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: backgroundOptions
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: BackgroundOption
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: BackgroundType
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: none
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: BackgroundOption
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: BackgroundType
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: fileExtension
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: maxSizeKB
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: BackgroundOption
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: BackgroundType
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: gradient
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: BackgroundOption
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: BackgroundType
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: gradient
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: availableBackgroundOptions
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: backgroundOptions
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: getBackgroundOption
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: backgroundOptions
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: SettingsSaveState
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: saveAllSettings
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: dashboardNotifier
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: dashboardSettingsNotifierProvider
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: masterNotifier
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: Future
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: delayed
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

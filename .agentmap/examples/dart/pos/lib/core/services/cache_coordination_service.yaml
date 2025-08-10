@@ -1,0 +1,794 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/cache_coordination_service.dart
+source_hash: da0a35e22b7a406d
+regions: []
+symbols:
+- kind: function
+  name: Riverpod
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: CacheCoordinator
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ticketCreated
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: ticketModified
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: appointmentCreated
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: todaysAppointmentsProvider
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsProvider
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: appointmentModified
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: todaysAppointmentsProvider
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsProvider
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: appointmentCheckIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: todaysAppointmentsProvider
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsProvider
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: paymentProcessed
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customerCreated
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: customerModified
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: employeeCreated
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: employeeModified
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: serviceCategoryCreated
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: serviceCategoriesMasterProvider
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: serviceCategoryModified
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: serviceCategoriesMasterProvider
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: serviceModified
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: serviceCategoriesMasterProvider
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: refreshAll
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: liveTicketsTodayProvider
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: todaysAppointmentsProvider
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsProvider
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: invalidate
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: serviceCategoriesMasterProvider
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _invalidate
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: log
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

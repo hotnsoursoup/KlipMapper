@@ -1,0 +1,1064 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/domain/providers/technician_providers.g.dart
+source_hash: 8de3a01bac65b296
+regions: []
+symbols:
+- kind: function
+  name: ProviderFor
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: activeTechnicians
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: activeTechniciansProvider
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: ActiveTechniciansProvider
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: ActiveTechniciansProvider
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: ActiveTechniciansProvider
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _$activeTechniciansHash
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: activeTechnicians
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _$activeTechniciansHash
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: technicianById
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: technicianByIdProvider
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdFamily
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdProvider
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdProvider
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _$technicianByIdHash
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: technicianById
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: _$technicianByIdHash
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdFamily
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdFamily
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: TechnicianByIdProvider
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: technicianDisplayName
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: technicianDisplayNameProvider
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameFamily
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameProvider
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameProvider
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: _$technicianDisplayNameHash
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: technicianDisplayName
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: String
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _$technicianDisplayNameHash
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameFamily
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameFamily
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: TechnicianDisplayNameProvider
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

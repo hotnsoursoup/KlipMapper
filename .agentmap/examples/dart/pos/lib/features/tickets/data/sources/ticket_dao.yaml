@@ -1,0 +1,2750 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/tickets/data/sources/ticket_dao.dart
+source_hash: 4bba68f15e91f989
+regions: []
+symbols:
+- kind: function
+  name: DriftAccessor
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: tables
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Tickets
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Customers
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: TicketServices
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Services
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: TicketDao
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: TicketDao
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: byBusinessDate
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: TicketWithRelations
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: byStatus
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: desc
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: TicketWithRelations
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: getFullTicketDetails
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ticketQuery
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: leftOuterJoin
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: ticketResult
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: ticketQuery
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: ticketResult
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ticketServicesQuery
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ticketServicesList
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: ticketServicesQuery
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: TicketServiceWithService
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: ticketService
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: TicketWithFullDetails
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: ticketResult
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: readTable
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: ticketResult
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: ticketResult
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: readTableOrNull
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: ticketServicesList
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: setStatus
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: TicketsCompanion
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: assignTechnician
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: TicketsCompanion
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: addServiceToTicket
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: TicketServicesCompanion
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: totalPriceCents
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: _recalculateTicketTotal
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: removeServiceFromTicket
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _recalculateTicketTotal
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: _recalculateTicketTotal
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: totalResult
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: selectOnly
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: addColumns
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: totalPriceCents
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: getSingle
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: totalCents
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: totalResult
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: totalPriceCents
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: TicketsCompanion
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: totalCents
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: createTicketWithServices
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: maxTicketNumber
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: selectOnly
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: addColumns
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: getSingle
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: nextTicketNumber
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: maxTicketNumber
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: TicketsCompanion
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: nextTicketNumber
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: businessDate
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: totalCents
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: serviceTotalCents
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: totalCents
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: serviceTotalCents
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: TicketServicesCompanion
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: serviceInput
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: totalPriceCents
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: serviceTotalCents
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: TicketsCompanion
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: totalAmountCents
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: totalCents
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: TicketWithRelations
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: TicketWithRelations
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: TicketServiceWithService
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: ticketService
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: TicketServiceWithService
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: ticketService
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: TicketWithFullDetails
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: TicketWithFullDetails
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: assignedTechnician
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: TicketServiceInput
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: TicketServiceInput
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: quantity
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: unitPriceCents
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

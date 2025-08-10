@@ -1,0 +1,710 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/data/models/checkout_calculation.dart
+source_hash: 9bce30853117ddb6
+regions: []
+symbols:
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: empty
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: formattedSubtotal
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: formattedTax
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: formattedTip
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: formattedDiscount
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: formattedTotal
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: hasTip
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: hasDiscount
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: hasItems
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: taxRate
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: formattedTaxRate
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: taxRate
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

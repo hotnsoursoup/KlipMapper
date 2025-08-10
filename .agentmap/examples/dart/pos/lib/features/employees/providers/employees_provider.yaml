@@ -1,0 +1,2936 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/employees/providers/employees_provider.dart
+source_hash: cd99db5a2a86f323
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: employeeRepository
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: EmployeesMaster
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _refreshTimer
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _refreshTimer
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _refreshTimer
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: Timer
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: periodic
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: onDispose
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _refreshTimer
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: _loadAllEmployees
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _loadAllEmployees
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: getAllEmployees
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: addEmployee
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: insertEmployee
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: updateEmployee
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: updateEmployee
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: updateEmployeeStatus
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: updateEmployeeStatus
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: deleteEmployee
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: deleteEmployee
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: refresh
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: EmployeeFilter
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: EmployeeFilter
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: employeesByFilter
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: includeInactive
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: search
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: filtered
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: activeEmployees
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: employeesByFilterProvider
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: employeesByFilterProvider
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: managers
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: employeesByFilterProvider
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: employeeById
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: hireDate
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: employeeStatistics
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: allEmployeesAsync
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: technicianCount
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: managerCount
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: EmployeeStatistics
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: technicianCount
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: technicianCount
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: managerCount
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: managerCount
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: EmployeeStatistics
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: technicianCount
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: managerCount
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: EmployeeStatistics
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: technicianCount
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: managerCount
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: EmployeeSearchQuery
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: setQuery
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: EmployeeRoleFilter
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: setRole
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: ShowInactiveEmployees
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: toggle
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: employeeClockedIn
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: DriftTimeEntryRepository
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: getActiveTimeEntry
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: ClockInOrder
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: timeRepo
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: timeEntryRepositoryProvider
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: employeeRepositoryProvider
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: employeesMasterProvider
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: future
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: timeRepo
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: getTimeEntries
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: byId
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: byId
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: ClockInOrderEntry
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: dt
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: formattedTime
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

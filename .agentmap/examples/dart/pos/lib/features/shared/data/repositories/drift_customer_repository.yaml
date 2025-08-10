@@ -1,0 +1,3752 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/drift_customer_repository.dart
+source_hash: 0354caaeabbacf75
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 4
+  - 4
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: getCustomers
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _driftToMap
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: getCustomerById
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _driftToMap
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: createCustomer
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: CustomersCompanion
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: createCustomerWithAllFields
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: CustomersCompanion
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: createCustomerLegacy
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: createCustomer
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: toDrift
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: CustomersCompanion
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: driftData
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: searchCustomers
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: offset
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: offset
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: offset
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: _driftToMap
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: getCustomerSearchCount
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: selectOnly
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: addColumns
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: getSingle
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _driftToMap
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: preferredTechnicianId
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: driftCustomer
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

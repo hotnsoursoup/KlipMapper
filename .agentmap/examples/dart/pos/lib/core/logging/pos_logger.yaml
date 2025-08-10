@@ -1,0 +1,2654 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/logging/pos_logger.dart
+source_hash: e0cccc348aeaa6c2
+regions: []
+symbols:
+- kind: function
+  name: PosLogger
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: PosLogger
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _rnd
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: Random
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: buildRedactor
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: redaction
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _rotationAnchor
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _computeNextRotation
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _remoteTicker
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: Timer
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: periodic
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: seconds
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: remote
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: flushIntervalSec
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _flushRemoteQueue
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _entryListeners
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _rnd
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: baseContext
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _writtenBytes
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _rotationAnchor
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: _remoteQueue
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _remoteTicker
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: _ringMax
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: setBaseContext
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: ctx
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: baseContext
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: baseContext
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ctx
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _computeNextRotation
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: rotateDaily
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: rotationTime
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: hh
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: elementAt
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: mm
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: elementAt
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: hh
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: mm
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _sampledIn
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: lvl
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: lvl
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: LogLevel
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: trace
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _rnd
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: nextDouble
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: sampleTraceProbability
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: lvl
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: LogLevel
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: debug
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: _rnd
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: nextDouble
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: sampleDebugProbability
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _categoryAllowed
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: inc
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: includeCats
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: exc
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: excludeCats
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: inc
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: inc
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: exc
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: exc
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _ensureFileOpen
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: dir
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: getApplicationSupportDirectory
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: dir
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: _writtenBytes
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: openWrite
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: mode
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: FileMode
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: append
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _rotateIfNeeded
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: _writtenBytes
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: maxFileBytes
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _rotationAnchor
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: flush
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: replaceAll
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: rotated
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: rename
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: rotated
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: copy
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: rotated
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: writeAsString
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: _file
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: _rotationAnchor
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _computeNextRotation
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _ensureFileOpen
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _writtenBytes
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _recordToRing
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _ringMax
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: removeAt
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: log
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: logger
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: exception
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: spanId
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: minLevel
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: enables
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _sampledIn
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _categoryAllowed
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: merged
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: baseContext
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: baseContext
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: redMsg
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: redMap
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: merged
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: merged
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: redErr
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: exception
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: redSt
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _redactor
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: microsecondsSinceEpoch
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _rnd
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: nextInt
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: LogEntry
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: redMsg
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: logger
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: logger
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: redMap
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: redErr
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: redSt
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: spanId
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: spanId
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: redactionState
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: redMap
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: redErr
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: redSt
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _entryListeners
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: console
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: line
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: logger
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: line
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: _ensureFileOpen
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: jsonLine
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: writeln
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: jsonLine
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: _writtenBytes
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: jsonLine
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: _rotateIfNeeded
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: remote
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _remoteQueue
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: _recordToRing
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: addEntryListener
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _entryListeners
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: removeEntryListener
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: _entryListeners
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: listener
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _flushRemoteQueue
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: remote
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: enabled
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: _remoteQueue
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: _remoteQueue
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: _flushRemoteQueue
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: flush
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: _sink
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: _remoteTicker
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: readLogsFromFiles
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: minLevel
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: dir
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: getApplicationSupportDirectory
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: dir
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: files
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: logDir
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: list
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: files
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: lines
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: f
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: readAsLines
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: line
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: lines
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: line
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: LogEntry
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: fromMap
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: jsonDecode
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: line
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: minLevel
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: minLevel
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: enables
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: correlationId
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: getRecentLogs
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: _ring
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: sublist
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

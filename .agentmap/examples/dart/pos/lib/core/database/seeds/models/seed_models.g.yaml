@@ -1,0 +1,1946 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/database/seeds/models/seed_models.g.dart
+source_hash: a64142540bf05ee1
+regions: []
+symbols:
+- kind: function
+  name: _$ServiceCategorySeedFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _ServiceCategorySeed
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategorySeedToJson
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategoriesSchemaFromJson
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: _ServiceCategoriesSchema
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: ServiceCategorySeed
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoriesValidation
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategoriesSchemaToJson
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: _$ServiceSeedFromJson
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _ServiceSeed
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _$ServiceSeedToJson
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _$ServicesSchemaFromJson
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _ServicesSchema
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ServiceSeed
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: ServicesValidation
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _$ServicesSchemaToJson
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategoriesValidationFromJson
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _ServiceCategoriesValidation
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: colorFormat
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategoriesValidationToJson
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: colorFormat
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: _$ServicesValidationFromJson
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: _ServicesValidation
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: foreignKeys
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: MapEntry
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: _$ServicesValidationToJson
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: foreignKeys
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _$SeedImportResultFromJson
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: _SeedImportResult
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: itemsProcessed
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: itemsImported
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: itemsSkipped
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: backupPath
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: importedAt
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _$SeedImportResultToJson
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: itemsProcessed
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: itemsImported
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: itemsSkipped
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: backupPath
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: importedAt
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _$SeedBackupFromJson
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: _SeedBackup
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: version
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: _$SeedBackupToJson
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: version
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

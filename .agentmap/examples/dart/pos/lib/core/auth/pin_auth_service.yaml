@@ -1,0 +1,2768 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/auth/pin_auth_service.dart
+source_hash: c37efef1b5dcc2d7
+regions: []
+symbols:
+- kind: function
+  name: PinAuthService
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: PinAuthService
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: PinAuthService
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _generateSalt
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: random
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: Random
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: secure
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: generate
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: random
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: nextInt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: base64Encode
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _hashPin
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: combined
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: utf8
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: combined
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: digest
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: sha256
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: convert
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: digest
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: setupPin
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _isValidPin
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: existingEmployee
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: existingEmployee
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: existingEmployee
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: existingEmployee
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _generateSalt
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: hashedPin
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _hashPin
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: hashedPin
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: rowsAffected
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: hashedPin
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: salt
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: pinCreatedAt
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: rowsAffected
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: updatedEmployee
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: updatedEmployee
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: updatedEmployee
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: updatedEmployee
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: updatedEmployee
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: verifyPin
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: hashedPin
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _hashPin
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: hashedPin
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _updatePinLastUsed
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: changePin
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: oldPin
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: newPin
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: oldPinValid
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: verifyPin
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: oldPin
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: oldPinValid
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: setupPin
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: newPin
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: removePin
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: currentPin
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: pinValid
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: verifyPin
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: currentPin
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: pinValid
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: pinCreatedAt
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: pinLastUsedAt
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: getPinCreatedAt
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: pinCreatedAt
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: pinCreatedAt
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: getPinLastUsedAt
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: pinLastUsedAt
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: pinLastUsedAt
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: getEmployeesWithPin
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: isNotNull
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: pinSalt
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: isNotNull
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: _updatePinLastUsed
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: pinLastUsedAt
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _isValidPin
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: pinRegex
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: RegExp
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: pinRegex
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: hasMatch
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: isStrongPin
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: _isValidPin
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: isDescending
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: isDescending
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: isDescending
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: getPinStrengthDescription
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: _isValidPin
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: isStrongPin
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

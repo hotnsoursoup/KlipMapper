@@ -1,0 +1,674 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/appointment_model.dart
+source_hash: fd3f78cc39e92b1b
+regions: []
+symbols:
+- kind: function
+  name: freezed
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: Appointment
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: Appointment
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Appointment
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentFromJson
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: confirmed
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: arrived
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: inService
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: noShow
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: AppointmentSource
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: pos
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: online
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: walkIn
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatusX
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: confirmed
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: arrived
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: inService
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: noShow
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: fromString
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: confirmed
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: arrived
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: inService
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: noShow
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: AppointmentHelpers
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: scheduledStartTime
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: scheduledEndTime
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: scheduledStartTime
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

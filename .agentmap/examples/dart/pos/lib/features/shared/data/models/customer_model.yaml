@@ -1,0 +1,2198 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/customer_model.dart
+source_hash: 6aa0f540c2eacccb
+regions: []
+symbols:
+- kind: function
+  name: freezed
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _$CustomerFromJson
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: toLegacyCustomer
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: membershipLevel
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: fromLegacyCustomer
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: legacy
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: fromV2
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: skip
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: v2
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: toDrift
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: dateOfBirth
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: gender
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: address
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: city
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: zipCode
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: preferredTechnician
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: allergies
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: emailOptIn
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: smsOptIn
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: membershipLevel
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: addLoyaltyPoints
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: points
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: loyaltyPoints
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: points
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: updateLastVisit
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: visitTime
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: visitTime
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

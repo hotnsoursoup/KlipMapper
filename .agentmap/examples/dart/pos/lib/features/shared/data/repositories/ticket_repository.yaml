@@ -1,0 +1,476 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/ticket_repository.dart
+source_hash: b5ef4d4ca2ef9eb1
+regions: []
+symbols:
+- kind: function
+  name: _parseCategoryId
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: TicketRepository
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: TicketRepository
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: TicketRepository
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: getAllTickets
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: getTickets
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: getTickets
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: getTickets
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: getTicketById
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: getTicketById
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: createTicket
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: insertTicket
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: updateTicket
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: updates
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: UnimplementedError
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: assignTechnician
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: assignTechnician
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,644 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/utils/pin_bootstrap.dart
+source_hash: b98bf47607cd25bc
+regions: []
+symbols:
+- kind: function
+  name: PinBootstrap
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _pinService
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: PinAuthService
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: setDefaultPinsForAllEmployees
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: pinsSet
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: pinsSkipped
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _pinService
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _pinService
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: setupPin
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: pinsSet
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: StackTrace
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: current
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: pinsSkipped
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: areAnyPinsMissing
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _pinService
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: runBootstrapIfNeeded
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: needsBootstrap
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: areAnyPinsMissing
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: needsBootstrap
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: setDefaultPinsForAllEmployees
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

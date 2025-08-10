@@ -1,0 +1,1190 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/widgets/pagination_controls.dart
+source_hash: aba0f214a136cdd4
+regions: []
+symbols:
+- kind: function
+  name: PaginationControls
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: currentPage
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: totalPages
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: paginationInfo
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: onFirstPage
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: onPreviousPage
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: onNextPage
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: onLastPage
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: onItemsPerPageChanged
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: itemsPerPage
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: itemsPerPageOptions
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: PaginationControls
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: currentPage
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: totalPages
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: paginationInfo
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: onFirstPage
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: onPreviousPage
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: onNextPage
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: onLastPage
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: onItemsPerPageChanged
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: itemsPerPage
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: itemsPerPageOptions
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: surface
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: top
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: BorderSide
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: labelMedium
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: DropdownButton
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: itemsPerPage
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: underline
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: items
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: itemsPerPageOptions
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: items
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: DropdownMenuItem
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: items
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: items
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: onChanged
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: onItemsPerPageChanged
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: onItemsPerPageChanged
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: paginationInfo
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: bodyMedium
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: textPrimary
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: w500
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Row
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: onFirstPage
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: first_page
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: textLight
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: tooltip
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: onPreviousPage
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: chevron_left
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: canGoToPreviousPage
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: textLight
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: tooltip
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: margin
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: horizontal
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: surface
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: currentPage
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: AppTextStyles
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: labelMedium
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: textPrimary
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: fontWeight
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: FontWeight
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: w600
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: onNextPage
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: chevron_right
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: textLight
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: tooltip
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: IconButton
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: onLastPage
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: last_page
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: canGoToNextPage
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: textLight
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: tooltip
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

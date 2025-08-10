@@ -1,0 +1,4790 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/dashboard/providers/ticket_assignment_provider.freezed.dart
+source_hash: 1b35696593c4c69c
+regions: []
+symbols:
+- kind: function
+  name: _$identity
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentState
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentStateCopyWithImpl
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: $TicketAssignmentStateCopyWith
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: $TicketAssignmentStateCopyWith
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentStateCopyWithImpl
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentStateCopyWithImpl
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: TicketAssignmentStatePatterns
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _TicketAssignmentState
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: _TicketAssignmentState
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: EqualUnmodifiableMapView
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: __$TicketAssignmentStateCopyWithImpl
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentStateCopyWith
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: _$TicketAssignmentStateCopyWith
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: __$TicketAssignmentStateCopyWithImpl
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: __$TicketAssignmentStateCopyWithImpl
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: _TicketAssignmentState
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: _assignments
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: assignments
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: autoAssignmentEnabled
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: lastAssignmentTime
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: _$AssignmentResult
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _$AssignmentResultCopyWithImpl
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: $AssignmentResultCopyWith
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: $AssignmentResultCopyWith
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: _$AssignmentResultCopyWithImpl
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: _$AssignmentResultCopyWithImpl
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: AssignmentResultPatterns
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: failed
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: _Success
+  range:
+  - 492
+  - 492
+  doc_capsule: null
+- kind: function
+  name: _Success
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: __$SuccessCopyWithImpl
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: _$SuccessCopyWith
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: _$SuccessCopyWith
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 529
+  - 529
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: __$SuccessCopyWithImpl
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: __$SuccessCopyWithImpl
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 543
+  - 543
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: _Success
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: assignedAt
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: _Failed
+  range:
+  - 562
+  - 562
+  doc_capsule: null
+- kind: function
+  name: _Failed
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 566
+  - 566
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 568
+  - 568
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 568
+  - 568
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 572
+  - 572
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 572
+  - 572
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 572
+  - 572
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 572
+  - 572
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 573
+  - 573
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 574
+  - 574
+  doc_capsule: null
+- kind: function
+  name: __$FailedCopyWithImpl
+  range:
+  - 574
+  - 574
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 574
+  - 574
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 578
+  - 578
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 579
+  - 579
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 584
+  - 584
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 587
+  - 587
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 588
+  - 588
+  doc_capsule: null
+- kind: function
+  name: _$FailedCopyWith
+  range:
+  - 596
+  - 596
+  doc_capsule: null
+- kind: function
+  name: _$FailedCopyWith
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 599
+  - 599
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: __$FailedCopyWithImpl
+  range:
+  - 608
+  - 608
+  doc_capsule: null
+- kind: function
+  name: __$FailedCopyWithImpl
+  range:
+  - 610
+  - 610
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 610
+  - 610
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 610
+  - 610
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 613
+  - 613
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 618
+  - 618
+  doc_capsule: null
+- kind: function
+  name: _Failed
+  range:
+  - 618
+  - 618
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 619
+  - 619
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 619
+  - 619
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 619
+  - 619
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 619
+  - 619
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 619
+  - 619
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 620
+  - 620
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

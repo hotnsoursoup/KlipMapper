@@ -1,0 +1,1058 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/logging/redaction.dart
+source_hash: 26596019826acf17
+regions: []
+symbols:
+- kind: function
+  name: RedactionConfig
+  range:
+  - 4
+  - 4
+  doc_capsule: null
+- kind: function
+  name: RedactionConfig
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: RedactionConfig
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: RedactionConfig
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Set
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: RedactionConfig
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: Redactor
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: KeyRedactor
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: KeyRedactor
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: keys
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: keys
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: forEach
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: keys
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: PatternRedactor
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: PatternRedactor
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: patterns
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: patterns
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: patterns
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: replaceAll
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: p
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: forEach
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: v
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: out
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: CompositeRedactor
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: CompositeRedactor
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: _list
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: _list
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _list
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: r
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: r
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: redactText
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: _list
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: r
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: r
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: redactMap
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: buildRedactor
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: cfg
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: CompositeRedactor
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: KeyRedactor
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: cfg
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: maskedKeys
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: cfg
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: keyMask
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: PatternRedactor
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: cfg
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: regexPatterns
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: RegExp
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: caseSensitive
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: mask
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: cfg
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: regexMask
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

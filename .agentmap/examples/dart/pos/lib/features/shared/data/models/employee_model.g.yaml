@@ -1,0 +1,878 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/employee_model.g.dart
+source_hash: 8c4fca771088b691
+regions: []
+symbols:
+- kind: function
+  name: _$EmployeeFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _Employee
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: socialSecurityNumber
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: hoursThisWeek
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: hoursThisMonth
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: departmentId
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: departmentName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: canAcceptWalkins
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: canAcceptAppointments
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: profileImageUrl
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: permissions
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: EmployeeCapability
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _$EmployeeToJson
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: socialSecurityNumber
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: hoursThisWeek
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: hoursThisMonth
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: departmentId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: departmentName
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: canAcceptWalkins
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: canAcceptAppointments
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: profileImageUrl
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: permissions
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

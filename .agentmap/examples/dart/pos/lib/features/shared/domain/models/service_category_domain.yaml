@@ -1,0 +1,572 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/domain/models/service_category_domain.dart
+source_hash: dec6bf97c9393f12
+regions: []
+symbols:
+- kind: function
+  name: freezed
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryDomain
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryDomain
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryDomain
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: colorHex
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryDomain
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _$ServiceCategoryDomainFromJson
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: colorHex
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: colorInt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: colorHex
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: substring
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: radix
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: colorInt
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: colorize
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: water_drop
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: architecture
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: spa
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: face
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: layers
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: healing
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: content_cut
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: brush
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: nameLower
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: remove_red_eye
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: star
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: matchesSearch
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: markAsUpdated
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

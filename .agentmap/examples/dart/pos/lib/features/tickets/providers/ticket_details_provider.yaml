@@ -1,0 +1,1610 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/tickets/providers/ticket_details_provider.dart
+source_hash: ae33beafd11877d4
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: TicketDetails
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: TicketDetailsState
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: selectCustomer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: confirmCustomer
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: editCustomer
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: toggleService
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: indexWhere
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: removeAt
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: index
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: selectTechnician
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: technicianName
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: technicianName
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: updateNotes
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: toggleGroupService
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: isGroup
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: isGroup
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: isGroup
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: updateGroupSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: buildTicket
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: canSave
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: TicketDetailsState
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: TicketDetailsState
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: TicketDetailsState
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: isNewCheckIn
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: availableServices
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: availableTechnicians
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: selectedServices
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianId
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: selectedTechnicianName
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: customerConfirmed
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

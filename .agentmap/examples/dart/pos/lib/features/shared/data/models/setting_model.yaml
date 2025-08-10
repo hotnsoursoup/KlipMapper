@@ -1,0 +1,2396 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/setting_model.dart
+source_hash: 14519b767cbac4c9
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _$StoreSettingFromJson
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: fromDrift
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: driftSetting
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: toDrift
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: SettingsCompanion
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: drift
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: boolValue
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: boolValue
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: intValue
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: intValue
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: doubleValue
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: doubleValue
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: boolValue
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: intValue
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: doubleValue
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: getTypedValue
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: createTyped
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: StoreSetting
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: updateValue
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: stringValue
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: _$StoreHoursFromJson
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: defaultHours
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: StoreHours
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: getSummary
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: allSameHours
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: every
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: allSameHours
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: openTimeDisplay
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: closeTimeDisplay
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: openTimeDisplay
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: sampleHours
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: closeTimeDisplay
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: openDays
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: _$DayHoursFromJson
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: minutesToDisplay
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: mins
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: mins
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: displayToMinutes
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: isPM
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: isPM
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: isPM
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: openTimeDisplay
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: minutesToDisplay
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: closeTimeDisplay
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: minutesToDisplay
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: fromDisplayTimes
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: displayToMinutes
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: displayToMinutes
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: SettingCategories
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: store
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: salon
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: store
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: general
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: salon
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: SettingKeys
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: dashboardShowCustomerPhone
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: dashboardEnableCheckoutNotifications
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: dashboardServiceDisplayMode
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: dashboardFontSize
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: dashboardTechnicianLayout
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: storeHoursConfiguration
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: storeOnlineBooking
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: storeLocation
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: storeTimezone
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: storeAppointmentBuffer
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: storeWalkInsEnabled
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: storeMaxDailyAppointments
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: generalTheme
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: generalSoundEffects
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: generalAnimations
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: generalLanguage
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: generalCurrency
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: generalDateFormat
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: generalTimeFormat
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: generalDefaultItemsPerPage
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: salonServiceDurationBuffer
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: salonRequireTechnicianSpecialization
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: salonAutoCheckoutCompleted
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: salonLoyaltyPointsEnabled
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: salonLoyaltyPointsRatio
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: salonRequireAppointmentConfirmation
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: salonReminderHoursBefore
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: salonGroupBookingEnabled
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: salonMaxGroupSize
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: salonPriceDisplayMode
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

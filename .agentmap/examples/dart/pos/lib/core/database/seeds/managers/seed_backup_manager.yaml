@@ -1,0 +1,2462 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/database/seeds/managers/seed_backup_manager.dart
+source_hash: e7c4544d28a21b57
+regions: []
+symbols:
+- kind: function
+  name: SeedBackupManager
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: backupDirName
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: metadataFileName
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: maxBackupsPerType
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: createBackup
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _getBackupDirectory
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: DateFormat
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: format
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: _generateBackupId
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: writeAsString
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _generateContentHash
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: SeedBackup
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: version
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _generateContentHash
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: _countItems
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: createdBy
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _updateMetadataIndex
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _cleanupOldBackups
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: restoreFromBackup
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: backupContent
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: jsonDecode
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: readAsString
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: backupContent
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: _getBackupDirectory
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: metadataFile
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: metadataFile
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: metadataJson
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: jsonDecode
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: metadataFile
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: readAsString
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: backupsList
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: metadataJson
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: backupsList
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: SeedBackup
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: getBackupsForType
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: allBackups
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: allBackups
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: deleteBackup
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: backupFile
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: updatedMetadata
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _saveMetadataIndex
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: updatedMetadata
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: validateBackupIntegrity
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: restoreFromBackup
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: backupId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: currentHash
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: _generateContentHash
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: currentHash
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: version
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: _getBackupDirectory
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: getApplicationSupportDirectory
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: _generateBackupId
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: random
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: microsecondsSinceEpoch
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: substring
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: _generateContentHash
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: utf8
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: jsonString
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: digest
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: sha256
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: convert
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: bytes
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: digest
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: substring
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: _countItems
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: _updateMetadataIndex
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _saveMetadataIndex
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _saveMetadataIndex
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: backups
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: _getBackupDirectory
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: metadataFile
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: metadataJson
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: backups
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: metadataFile
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: writeAsString
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: metadataJson
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: _cleanupOldBackups
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: typeBackups
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: getBackupsForType
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: typeBackups
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: maxBackupsPerType
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: typeBackups
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: toDelete
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: typeBackups
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: take
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: typeBackups
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: maxBackupsPerType
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: toDelete
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: deleteBackup
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: toDelete
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: exportMetadata
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: export
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: export
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: getStorageStats
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: _getBackupDirectory
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: getBackupMetadata
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: totalSize
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: typeStats
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: filePath
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: exists
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: file
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: totalSize
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: typeStats
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: typeStats
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: backup
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: seedType
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: metadata
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: totalSize
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: totalSize
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: typeStats
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: backupDir
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: SeedBackupException
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

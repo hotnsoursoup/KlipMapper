@@ -1,0 +1,3782 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/drift_service_repository.dart
+source_hash: 9b4edc3f3d9afdfa
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: DriftServiceRepository
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: DriftServiceRepository
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: DriftServiceRepository
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _categoriesLoaded
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: getCategoryName
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: getServiceCategories
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _categoriesLoaded
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: ensureInitialized
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: getServices
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: getAllServices
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: rows
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: rows
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: getServicesByCategory
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _categoriesLoaded
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: getCategoriesWithCounts
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: entry
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: Service
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: driftService
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: getCategoriesWithCounts
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: then
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryWithCount
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _categoriesLoaded
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: getCategories
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: categoriesWithCount
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: getCategoriesWithCounts
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: categoriesWithCount
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: ServiceCategory
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: cat
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: createService
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: ServicesCompanion
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: round
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: Service
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: insertService
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: ServicesCompanion
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: round
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: updateService
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: ServicesCompanion
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: round
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: deleteService
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: ServicesCompanion
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: deleteServiceCompat
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: deleteServiceById
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: deleteServiceById
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: ServicesCompanion
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: createServiceCategory
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: newId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoriesCompanion
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: _categoriesLoaded
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: _categoryCache
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryWithCount
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: newId
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: insertServiceCategory
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: createServiceCategory
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: updateServiceCategory
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: intId
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: intId
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoriesCompanion
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: deleteServiceCategory
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: intId
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: intId
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: ServiceCategory
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: ServiceCategory
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryWithCount
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryWithCount
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: serviceCount
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

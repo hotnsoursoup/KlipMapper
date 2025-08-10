@@ -1,0 +1,710 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/utils/ticket_utils.dart
+source_hash: e0472bd2bde01330
+regions: []
+symbols:
+- kind: function
+  name: TicketUtils
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: TicketUtils
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: formatPrice
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: getStatusColor
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: warningOrange
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: getStatusLabel
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: calculateTotalServiceTime
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: total
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: total
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: calculateTotalValue
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: total
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: total
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: getPriorityInfo
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: warningOrange
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: label
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: textSecondary
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: isReadyForCheckout
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: isOverdue
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: expectedDuration
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: calculateTotalServiceTime
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: actualDuration
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: difference
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: inMinutes
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: actualDuration
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: expectedDuration
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: formatServicesList
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: maxServices
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: serviceNames
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: take
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: maxServices
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: serviceNames
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: maxServices
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: remaining
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: maxServices
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

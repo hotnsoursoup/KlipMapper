@@ -1,0 +1,470 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/data/tables/appointments.dart
+source_hash: b4a45dba1102d2ce
+regions: []
+symbols:
+- kind: function
+  name: DataClassName
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: Appointments
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: Customers
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: cascade
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: startDateTime
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: endDateTime
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: boolean
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: lastModifiedBy
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: setNull
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: lastModifiedDevice
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: confirmationType
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: customConstraints
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

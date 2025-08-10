@@ -1,0 +1,1262 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/settings/presentation/screens/settings_screen.dart
+source_hash: a0e32cc01249abc2
+regions: []
+symbols:
+- kind: function
+  name: SettingsScreen
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: SettingsScreen
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: createState
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _SettingsScreenState
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _SettingsScreenState
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _hasUnsavedChanges
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _currentEmployeeId
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updateSetting
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _hasUnsavedChanges
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: errorRed
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: settingsMasterProvider
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: Scaffold
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: appBar
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: AppBar
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: textPrimary
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: elevation
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: body
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: settingsAsync
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: CircularProgressIndicator
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: SingleChildScrollView
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: ConstrainedBox
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: constraints
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: maxWidth
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: crossAxisAlignment
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: CrossAxisAlignment
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: dashboard
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: DashboardSection
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: wallpaper
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: BackgroundsSection
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: store
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: StoreSection
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: person_add
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: CustomerDataSection
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: GeneralSection
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: pages
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: PaginationSection
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: security
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: SettingsCard
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: SecuritySection
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: settings
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: onUpdate
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _update
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _currentEmployeeId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: SizedBox
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _hasUnsavedChanges
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: setState
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: _hasUnsavedChanges
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: ScaffoldMessenger
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: showSnackBar
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: SnackBar
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: successGreen
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: ElevatedButton
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: styleFrom
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: backgroundColor
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: AppColors
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: primaryBlue
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: foregroundColor
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: padding
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: symmetric
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: vertical
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: shape
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: RoundedRectangleBorder
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: circular
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: screen_share
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

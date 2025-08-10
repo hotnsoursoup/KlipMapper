@@ -1,0 +1,758 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/database/seeds/service_category_seeds.dart
+source_hash: f4e8c35602e3330a
+regions: []
+symbols:
+- kind: function
+  name: ServiceCategorySeeds
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: defaultCategories
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: seedCategories
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: existingCategories
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: existingCategories
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: batch
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: batch
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: defaultCategories
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: batch
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: defaultCategories
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: updateCategoryColorsAndIcons
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: categoryDataMap
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: categoryDataMap
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: needsUpdate
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: needsUpdate
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoriesCompanion
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: categoryData
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: getCategoryIdByName
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

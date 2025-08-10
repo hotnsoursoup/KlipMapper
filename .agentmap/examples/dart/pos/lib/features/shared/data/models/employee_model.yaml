@@ -1,0 +1,656 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/employee_model.dart
+source_hash: d5916de4c6e34898
+regions: []
+symbols:
+- kind: function
+  name: freezed
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: socialSecurityNumber
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: pinHash
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: hoursThisWeek
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: hoursThisMonth
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: departmentId
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: departmentName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: canAcceptWalkins
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: canAcceptAppointments
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: profileImageUrl
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: permissions
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: specializations
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _$EmployeeFromJson
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: admin
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: manager
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: receptionist
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: staff
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: EmployeeStatus
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: active
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: inactive
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: onBreak
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: vacation
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: terminated
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: EmployeeRoleX
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: admin
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: manager
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: receptionist
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: staff
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: fromString
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: admin
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: manager
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: receptionist
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: staff
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: EmployeeRole
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: staff
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: EmployeeTechnicianCompat
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: isAvailable
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: displayNameOrFullName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: compactName
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: lastInitial
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: lastInitial
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: initials
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: firstInitial
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: lastInitial
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

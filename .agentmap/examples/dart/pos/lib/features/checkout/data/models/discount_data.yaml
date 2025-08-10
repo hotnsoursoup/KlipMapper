@@ -1,0 +1,854 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/data/models/discount_data.dart
+source_hash: f89d1bfb2284689e
+regions: []
+symbols:
+- kind: function
+  name: DiscountType
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: DiscountData
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: DiscountData
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: DiscountData
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: calculateAmount
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: displayValue
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: DiscountData
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: DiscountData
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: DiscountType
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: values
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: DiscountType
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: appliedAt
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: technicianPin
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

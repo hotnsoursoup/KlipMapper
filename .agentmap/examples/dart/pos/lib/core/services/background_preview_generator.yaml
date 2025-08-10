@@ -1,0 +1,2006 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/background_preview_generator.dart
+source_hash: 3cbedace2817606a
+regions: []
+symbols:
+- kind: function
+  name: ui
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: BackgroundPreviewGenerator
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _previewWidth
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _previewHeight
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: generatePreview
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: BackgroundImageService
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: getAssetPath
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: rootBundle
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: load
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: codec
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ui
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: instantiateImageCodec
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: asUint8List
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: targetWidth
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _previewWidth
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: targetHeight
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _previewHeight
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: frame
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: codec
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: getNextFrame
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: previewImage
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: frame
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: previewImage
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: previewImage
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: buildPreviewWidget
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: BoxFit
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: cover
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: not_interested
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: gradient
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: _getGradient
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: BackgroundImageService
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: getAssetPath
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: border
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Border
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: all
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: ClipRRect
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: borderRadius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: BorderRadius
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: zero
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: Image
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: asset
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: cacheWidth
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: cacheHeight
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: filterQuality
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: FilterQuality
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: medium
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: errorBuilder
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: broken_image
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: buildBackgroundWidget
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: opacity
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: BoxFit
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: cover
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: alignment
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: center
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: expand
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: decoration
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: BoxDecoration
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: gradient
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _getGradient
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: opacity
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: white
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: withValues
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: alpha
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: opacity
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: BackgroundImageService
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: getAssetPath
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: Opacity
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: opacity
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: opacity
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: Image
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: asset
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: fit
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: alignment
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: alignment
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: double
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: infinity
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: cacheWidth
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: cacheHeight
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: filterQuality
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: FilterQuality
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: medium
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: errorBuilder
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: stackTrace
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: Container
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: Center
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Column
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: mainAxisAlignment
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: MainAxisAlignment
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: center
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: children
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: Icon
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Icons
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: broken_image
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: size
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: style
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: TextStyle
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: Colors
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: grey
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: fontSize
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: _getGradient
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: backgroundKey
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: begin
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: topLeft
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: bottomRight
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: begin
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: topLeft
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: bottomRight
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: begin
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: topLeft
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: bottomRight
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: colors
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Color
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: begin
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: topLeft
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: Alignment
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: bottomRight
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: pregenerateAllPreviews
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: backgrounds
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: backgrounds
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: keys
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: generatePreview
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: clearPreviewCache
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: values
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: getCacheStats
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: _previewCache
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: _previewWidth
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: _previewHeight
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

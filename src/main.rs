@@ -8,6 +8,10 @@ mod index;
 mod checker;
 mod watcher;
 mod config;
+
+// New modern architecture modules
+mod core;
+mod parsers;
 mod query_pack;
 mod symbol_table;
 mod anchor;

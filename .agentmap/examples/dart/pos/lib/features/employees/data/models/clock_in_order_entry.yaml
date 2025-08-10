@@ -1,0 +1,320 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/employees/data/models/clock_in_order_entry.dart
+source_hash: 6107c7c9432697a1
+regions: []
+symbols:
+- kind: function
+  name: ClockInOrderEntry
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: formattedTime
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: ClockInOrderEntry
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: formattedTime
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: ClockInOrderEntry
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: fromMap
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: time
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: ClockInOrderEntry
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: formattedTime
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: toMap
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: clockInTime
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: formattedTime
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

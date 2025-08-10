@@ -1,0 +1,500 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/window_service.dart
+source_hash: 30fba15654774f23
+regions: []
+symbols:
+- kind: function
+  name: WindowService
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _methodChannel
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: MethodChannel
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: WindowService
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: WindowService
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _isMaximized
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: isFullscreen
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: isMaximized
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _isMaximized
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: toggleFullscreen
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _methodChannel
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: invokeMethod
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: setFullscreen
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: fullscreen
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: fullscreen
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: _methodChannel
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: invokeMethod
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: fullscreen
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: fullscreen
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: maximizeWindow
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _methodChannel
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: invokeMethod
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _isMaximized
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _isFullscreen
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: initializeWindow
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: maximizeWindow
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: exitApp
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: SystemNavigator
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: pop
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: _methodChannel
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: invokeMethod
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: platformError
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: platformError
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

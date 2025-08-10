@@ -1,0 +1,5750 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/customers/providers/customers_provider.dart
+source_hash: e952cc61654ed1a6
+regions: []
+symbols:
+- kind: function
+  name: Riverpod
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: customerRepository
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: DriftCustomerRepository
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: ticketRepository
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: Riverpod
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: keepAlive
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: CustomersMaster
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _cacheTtl
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: _loadCustomers
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: _shouldUseExistingData
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: difference
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _cacheTtl
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _loadCustomers
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: forceRefresh
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: forceRefresh
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _shouldUseExistingData
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: difference
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: inMinutes
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: currentData
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: customerRepositoryProvider
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: ticketRepo
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: ticketRepositoryProvider
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: ticketRepo
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customerRepo
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: getCustomers
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: totalTickets
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: ticketRepo
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: getTicketsByCustomerId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: totalTickets
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: invalidateCache
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: refresh
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: guard
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: _loadCustomers
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: forceRefresh
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: createCustomer
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: customerRepositoryProvider
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: createCustomerLegacy
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: whenData
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: customerRepositoryProvider
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: updateCustomer
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: whenData
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: customerRepositoryProvider
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: repo
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: whenData
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: updated
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: _lastLoaded
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: loadCustomerTickets
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: ticketRepo
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: ticketRepositoryProvider
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: ticketRepo
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: getTicketsByCustomerId
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: _customerTickets
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: CustomerFilters
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: setSearchQuery
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: setMembershipFilter
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: membershipFilter
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: setDateFilter
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: dateFilter
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: range
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: setNameFilter
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: filterType
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: letter
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: nameFilterType
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: filterType
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: letterFilter
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: letter
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: letter
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: setSortBy
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: sortType
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: currentSort
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: currentSort
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: sortType
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: sortType
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: sortType
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: isAscending
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: clearFilters
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: filteredCustomers
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: customerFiltersProvider
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: values
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: membershipFilter
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: membershipLevel
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: membershipFilter
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: letterFilter
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: nameToFilter
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: nameFilterType
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: nameToFilter
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: nameToFilter
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: last
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: nameParts
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: nameToFilter
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: startsWith
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: letterFilter
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: _applySorting
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: _applySorting
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: nameFilterType
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: aFirstName
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: bFirstName
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: aFirstName
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: bFirstName
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: aNameParts
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: bNameParts
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: aLastName
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: aNameParts
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: aNameParts
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: last
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: aNameParts
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: bLastName
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: bNameParts
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: bNameParts
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: last
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: bNameParts
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: aLastName
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: bLastName
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: aTickets
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: bTickets
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: aTotal
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: aTickets
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: bTotal
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: bTickets
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: aTotal
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: bTotal
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: aVisits
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: bVisits
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: aVisits
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: bVisits
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: aTickets
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: bTickets
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: aLastVisit
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: bLastVisit
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: aTickets
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: aLastVisit
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: aTickets
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: reduce
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: bTickets
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: bLastVisit
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: bTickets
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: reduce
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: aLastVisit
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: bLastVisit
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: aLastVisit
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: bLastVisit
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: aLastVisit
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: bLastVisit
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: comparison
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: customerStatistics
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: values
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: thirtyDaysAgo
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: any
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: thirtyDaysAgo
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: membershipLevel
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: level
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: CustomerStatistics
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 435
+  - 435
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: SelectedCustomer
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: selectCustomer
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: loadCustomerTickets
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: clearSelection
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 473
+  - 473
+  doc_capsule: null
+- kind: function
+  name: selectedCustomerTickets
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: selectedCustomerProvider
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: customerFiltersProvider
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: customersMaster
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: getCustomerTickets
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: selectedCustomer
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: dateFilter
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: dateFilter
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: filters
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: dateFilter
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 491
+  - 491
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 495
+  - 495
+  doc_capsule: null
+- kind: function
+  name: selectedCustomerAnalytics
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: selectedCustomerTicketsProvider
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: totalSpent
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: averageSpent
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: totalSpent
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: sortedTickets
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: sortedTickets
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: sortedTickets
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 517
+  - 517
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: SelectedCustomerAnalytics
+  range:
+  - 522
+  - 522
+  doc_capsule: null
+- kind: function
+  name: totalSpent
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: totalSpent
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 524
+  - 524
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 524
+  - 524
+  doc_capsule: null
+- kind: function
+  name: averageSpent
+  range:
+  - 525
+  - 525
+  doc_capsule: null
+- kind: function
+  name: averageSpent
+  range:
+  - 525
+  - 525
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 532
+  - 532
+  doc_capsule: null
+- kind: function
+  name: customerById
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 536
+  - 536
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 536
+  - 536
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 537
+  - 537
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 537
+  - 537
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 537
+  - 537
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 537
+  - 537
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 539
+  - 539
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 539
+  - 539
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 539
+  - 539
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 544
+  - 544
+  doc_capsule: null
+- kind: function
+  name: customerCount
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 556
+  - 556
+  doc_capsule: null
+- kind: function
+  name: recentCustomers
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 558
+  - 558
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 558
+  - 558
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 558
+  - 558
+  doc_capsule: null
+- kind: function
+  name: customersMasterProvider
+  range:
+  - 558
+  - 558
+  doc_capsule: null
+- kind: function
+  name: customersAsync
+  range:
+  - 560
+  - 560
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 560
+  - 560
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 561
+  - 561
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 561
+  - 561
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 562
+  - 562
+  doc_capsule: null
+- kind: function
+  name: customersMap
+  range:
+  - 562
+  - 562
+  doc_capsule: null
+- kind: function
+  name: values
+  range:
+  - 562
+  - 562
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 562
+  - 562
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: customers
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: take
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 566
+  - 566
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 573
+  - 573
+  doc_capsule: null
+- kind: function
+  name: CustomerFiltersState
+  range:
+  - 574
+  - 574
+  doc_capsule: null
+- kind: function
+  name: CustomerFiltersState
+  range:
+  - 575
+  - 575
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 576
+  - 576
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 576
+  - 576
+  doc_capsule: null
+- kind: function
+  name: membershipFilter
+  range:
+  - 577
+  - 577
+  doc_capsule: null
+- kind: function
+  name: dateFilter
+  range:
+  - 578
+  - 578
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 579
+  - 579
+  doc_capsule: null
+- kind: function
+  name: nameFilterType
+  range:
+  - 579
+  - 579
+  doc_capsule: null
+- kind: function
+  name: letterFilter
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 581
+  - 581
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 581
+  - 581
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 582
+  - 582
+  doc_capsule: null
+- kind: function
+  name: sortAscending
+  range:
+  - 582
+  - 582
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 586
+  - 586
+  doc_capsule: null
+- kind: function
+  name: CustomerStatistics
+  range:
+  - 587
+  - 587
+  doc_capsule: null
+- kind: function
+  name: CustomerStatistics
+  range:
+  - 588
+  - 588
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 589
+  - 589
+  doc_capsule: null
+- kind: function
+  name: totalCount
+  range:
+  - 589
+  - 589
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 590
+  - 590
+  doc_capsule: null
+- kind: function
+  name: activeCount
+  range:
+  - 590
+  - 590
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 591
+  - 591
+  doc_capsule: null
+- kind: function
+  name: inactiveCount
+  range:
+  - 591
+  - 591
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 592
+  - 592
+  doc_capsule: null
+- kind: function
+  name: totalRevenue
+  range:
+  - 592
+  - 592
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 593
+  - 593
+  doc_capsule: null
+- kind: function
+  name: membershipBreakdown
+  range:
+  - 593
+  - 593
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: SelectedCustomerAnalytics
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: SelectedCustomerAnalytics
+  range:
+  - 599
+  - 599
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: totalSpent
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 601
+  - 601
+  doc_capsule: null
+- kind: function
+  name: visitCount
+  range:
+  - 601
+  - 601
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 602
+  - 602
+  doc_capsule: null
+- kind: function
+  name: averageSpent
+  range:
+  - 602
+  - 602
+  doc_capsule: null
+- kind: function
+  name: lastVisit
+  range:
+  - 603
+  - 603
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+- kind: function
+  name: serviceFrequency
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,404 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/time_entry_model.g.dart
+source_hash: f67718b3030c4b6e
+regions: []
+symbols:
+- kind: function
+  name: _$TimeEntryFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _TimeEntry
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryToJson
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

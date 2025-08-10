@@ -1,0 +1,476 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/utils/debouncer.dart
+source_hash: 99aad5c3f2ff9463
+regions: []
+symbols:
+- kind: function
+  name: Debouncer
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: Debouncer
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: run
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Timer
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ValueDebouncer
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _value
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _debouncedValue
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: ValueDebouncer
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: initialValue
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _value
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: initialValue
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _debouncedValue
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: initialValue
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _value
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: debouncedValue
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: _debouncedValue
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _value
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: newValue
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: Timer
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: duration
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: _debouncedValue
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: _value
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: notifyListeners
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: _timer
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: DebouncerMixin
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: setupDebouncer
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: Debouncer
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: milliseconds
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: debounce
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: run
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: cancelDebounce
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: disposeDebouncer
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _debouncer
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: dispose
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

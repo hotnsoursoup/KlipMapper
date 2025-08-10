@@ -1,0 +1,1334 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/background_converter_service.dart
+source_hash: 0fa0e0ea1252538e
+regions: []
+symbols:
+- kind: function
+  name: img
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: BackgroundConverterService
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _processedDir
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _previewsDir
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: getApplicationDocumentsDirectory
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: processedPath
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: previewsPath
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: processedPath
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: previewsPath
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _processBackgroundAssets
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: processedPath
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: previewsPath
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: _processBackgroundAssets
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: processedPath
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: previewsPath
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: backgrounds
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: backgrounds
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: format
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: rootBundle
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: load
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: assetPath
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: buffer
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: asUint8List
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: format
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _convertToPng
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: originalFormat
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: writeAsBytes
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _generatePreview
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: _convertToPng
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: outputFile
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: decodeImage
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: imageData
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: pngBytes
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: encodePng
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: image
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: outputFile
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: writeAsBytes
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: pngBytes
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: _generatePreview
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: sourceFile
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: sourceBytes
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: sourceFile
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: readAsBytes
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: sourceImage
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: decodeImage
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: sourceBytes
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: sourceImage
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: thumbnail
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: copyResize
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: sourceImage
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: width
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: height
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: interpolation
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: Interpolation
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: linear
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: previewBytes
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: img
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: encodePng
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: thumbnail
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: writeAsBytes
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: previewBytes
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: getProcessedImagePath
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: getApplicationDocumentsDirectory
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: processedFile
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: getPreviewImagePath
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: getApplicationDocumentsDirectory
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: File
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: backgroundName
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: previewFile
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: cleanup
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: getApplicationDocumentsDirectory
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: processedDir
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: previewsDir
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: Directory
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: appDir
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: processedDir
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: processedDir
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: previewsDir
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: existsSync
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: previewsDir
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: recursive
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

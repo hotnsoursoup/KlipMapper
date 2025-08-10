@@ -1,0 +1,338 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/calendar/data/models/time_slot.dart
+source_hash: b69106584eff3f73
+regions: []
+symbols:
+- kind: function
+  name: TimeSlot
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: TimeSlot
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: format12Hour
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: h12
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: mm
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: ampm
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: format24Hour
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: hh
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: mm
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

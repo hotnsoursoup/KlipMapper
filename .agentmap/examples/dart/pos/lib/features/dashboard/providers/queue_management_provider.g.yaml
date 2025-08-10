@@ -1,0 +1,3980 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/dashboard/providers/queue_management_provider.g.dart
+source_hash: bd565ba1e43f8c1a
+regions: []
+symbols:
+- kind: function
+  name: ProviderFor
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: QueueManagement
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: queueManagementProvider
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: QueueManagementProvider
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: QueueManagementProvider
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: QueueManagementProvider
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _$queueManagementHash
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: QueueManagement
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _$queueManagementHash
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _$QueueManagement
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: ticketRepository
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: ticketRepositoryProvider
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: TicketRepositoryProvider
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: TicketRepositoryProvider
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: TicketRepositoryProvider
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _$ticketRepositoryHash
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: ticketRepository
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: DriftTicketRepository
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: _$ticketRepositoryHash
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTickets
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTicketsProvider
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: FilteredQueueTicketsProvider
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: FilteredQueueTicketsProvider
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: FilteredQueueTicketsProvider
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: _$filteredQueueTicketsHash
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: filteredQueueTickets
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _$filteredQueueTicketsHash
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: queueLength
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: queueLengthProvider
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: QueueLengthProvider
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: QueueLengthProvider
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: QueueLengthProvider
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: _$queueLengthHash
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: queueLength
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: _$queueLengthHash
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: waitingCustomersCount
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: waitingCustomersCountProvider
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: WaitingCustomersCountProvider
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: WaitingCustomersCountProvider
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: WaitingCustomersCountProvider
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _$waitingCustomersCountHash
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: waitingCustomersCount
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: _$waitingCustomersCountHash
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: nextTicket
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: nextTicketProvider
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: NextTicketProvider
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: NextTicketProvider
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: NextTicketProvider
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: _$nextTicketHash
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: nextTicket
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _$nextTicketHash
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: priorityTickets
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: priorityTicketsProvider
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: PriorityTicketsProvider
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: PriorityTicketsProvider
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: PriorityTicketsProvider
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: _$priorityTicketsHash
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: priorityTickets
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: _$priorityTicketsHash
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: walkInTickets
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: walkInTicketsProvider
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: WalkInTicketsProvider
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: WalkInTicketsProvider
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: WalkInTicketsProvider
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: _$walkInTicketsHash
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: walkInTickets
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: _$walkInTicketsHash
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: appointmentTickets
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: appointmentTicketsProvider
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: AppointmentTicketsProvider
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: AppointmentTicketsProvider
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: AppointmentTicketsProvider
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 393
+  - 393
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: _$appointmentTicketsHash
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: appointmentTickets
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: _$appointmentTicketsHash
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: ticketsByServiceCategory
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: ticketsByServiceCategoryProvider
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: TicketsByServiceCategoryProvider
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: TicketsByServiceCategoryProvider
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: TicketsByServiceCategoryProvider
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 442
+  - 442
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: _$ticketsByServiceCategoryHash
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 454
+  - 454
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 454
+  - 454
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: ticketsByServiceCategory
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 464
+  - 464
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: Map
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: String
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: List
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: _$ticketsByServiceCategoryHash
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: hasUnassignedTickets
+  range:
+  - 474
+  - 474
+  doc_capsule: null
+- kind: function
+  name: hasUnassignedTicketsProvider
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: HasUnassignedTicketsProvider
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: HasUnassignedTicketsProvider
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: HasUnassignedTicketsProvider
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 484
+  - 484
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 487
+  - 487
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 489
+  - 489
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 490
+  - 490
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: _$hasUnassignedTicketsHash
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 496
+  - 496
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 497
+  - 497
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 501
+  - 501
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: hasUnassignedTickets
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 507
+  - 507
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 507
+  - 507
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 508
+  - 508
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: _$hasUnassignedTicketsHash
+  range:
+  - 515
+  - 515
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 519
+  - 519
+  doc_capsule: null
+- kind: function
+  name: estimatedWaitTime
+  range:
+  - 519
+  - 519
+  doc_capsule: null
+- kind: function
+  name: estimatedWaitTimeProvider
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: EstimatedWaitTimeProvider
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: EstimatedWaitTimeProvider
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: EstimatedWaitTimeProvider
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 529
+  - 529
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 532
+  - 532
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 535
+  - 535
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 539
+  - 539
+  doc_capsule: null
+- kind: function
+  name: _$estimatedWaitTimeHash
+  range:
+  - 539
+  - 539
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 541
+  - 541
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 543
+  - 543
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 543
+  - 543
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 544
+  - 544
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 544
+  - 544
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: estimatedWaitTime
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 553
+  - 553
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 554
+  - 554
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: _$estimatedWaitTimeHash
+  range:
+  - 560
+  - 560
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: getTicketById
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: getTicketByIdProvider
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdFamily
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdProvider
+  range:
+  - 567
+  - 567
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdProvider
+  range:
+  - 571
+  - 571
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 571
+  - 571
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 572
+  - 572
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 573
+  - 573
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 575
+  - 575
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 576
+  - 576
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 577
+  - 577
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 578
+  - 578
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 579
+  - 579
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 582
+  - 582
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 583
+  - 583
+  doc_capsule: null
+- kind: function
+  name: _$getTicketByIdHash
+  range:
+  - 583
+  - 583
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 585
+  - 585
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 586
+  - 586
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 592
+  - 592
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 593
+  - 593
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 594
+  - 594
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 594
+  - 594
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 595
+  - 595
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 595
+  - 595
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 599
+  - 599
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 599
+  - 599
+  doc_capsule: null
+- kind: function
+  name: getTicketById
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 605
+  - 605
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 607
+  - 607
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 607
+  - 607
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 607
+  - 607
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 611
+  - 611
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 613
+  - 613
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 613
+  - 613
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 613
+  - 613
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 613
+  - 613
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 616
+  - 616
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 618
+  - 618
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 618
+  - 618
+  doc_capsule: null
+- kind: function
+  name: _$getTicketByIdHash
+  range:
+  - 622
+  - 622
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdFamily
+  range:
+  - 625
+  - 625
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdFamily
+  range:
+  - 627
+  - 627
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 627
+  - 627
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 629
+  - 629
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 630
+  - 630
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 631
+  - 631
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 632
+  - 632
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 633
+  - 633
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 637
+  - 637
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 637
+  - 637
+  doc_capsule: null
+- kind: function
+  name: GetTicketByIdProvider
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 638
+  - 638
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 640
+  - 640
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 641
+  - 641
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 645
+  - 645
+  doc_capsule: null
+- kind: function
+  name: getQueuePosition
+  range:
+  - 645
+  - 645
+  doc_capsule: null
+- kind: function
+  name: getQueuePositionProvider
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionFamily
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionProvider
+  range:
+  - 649
+  - 649
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionProvider
+  range:
+  - 652
+  - 652
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 652
+  - 652
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 653
+  - 653
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 654
+  - 654
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 656
+  - 656
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 657
+  - 657
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 658
+  - 658
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 659
+  - 659
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 660
+  - 660
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 663
+  - 663
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 664
+  - 664
+  doc_capsule: null
+- kind: function
+  name: _$getQueuePositionHash
+  range:
+  - 664
+  - 664
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 666
+  - 666
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 667
+  - 667
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 673
+  - 673
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 674
+  - 674
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 675
+  - 675
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 675
+  - 675
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 676
+  - 676
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 676
+  - 676
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 678
+  - 678
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 680
+  - 680
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 680
+  - 680
+  doc_capsule: null
+- kind: function
+  name: getQueuePosition
+  range:
+  - 681
+  - 681
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 681
+  - 681
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 681
+  - 681
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 685
+  - 685
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 685
+  - 685
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 686
+  - 686
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 687
+  - 687
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 688
+  - 688
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 688
+  - 688
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 688
+  - 688
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 688
+  - 688
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 692
+  - 692
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 693
+  - 693
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 697
+  - 697
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 698
+  - 698
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 699
+  - 699
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 699
+  - 699
+  doc_capsule: null
+- kind: function
+  name: _$getQueuePositionHash
+  range:
+  - 703
+  - 703
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionFamily
+  range:
+  - 706
+  - 706
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionFamily
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 708
+  - 708
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 710
+  - 710
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 711
+  - 711
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 712
+  - 712
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 713
+  - 713
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 714
+  - 714
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 718
+  - 718
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 718
+  - 718
+  doc_capsule: null
+- kind: function
+  name: GetQueuePositionProvider
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 721
+  - 721
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 722
+  - 722
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 726
+  - 726
+  doc_capsule: null
+- kind: function
+  name: getTicketsForTechnicianCategories
+  range:
+  - 726
+  - 726
+  doc_capsule: null
+- kind: function
+  name: getTicketsForTechnicianCategoriesProvider
+  range:
+  - 727
+  - 727
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesFamily
+  range:
+  - 728
+  - 728
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 728
+  - 728
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesProvider
+  range:
+  - 731
+  - 731
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesProvider
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 736
+  - 736
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 737
+  - 737
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 739
+  - 739
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 740
+  - 740
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 741
+  - 741
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 742
+  - 742
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 743
+  - 743
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 746
+  - 746
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 747
+  - 747
+  doc_capsule: null
+- kind: function
+  name: _$getTicketsForTechnicianCategoriesHash
+  range:
+  - 748
+  - 748
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 750
+  - 750
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 751
+  - 751
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 757
+  - 757
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 758
+  - 758
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 760
+  - 760
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 760
+  - 760
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 762
+  - 762
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 763
+  - 763
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 763
+  - 763
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 764
+  - 764
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 764
+  - 764
+  doc_capsule: null
+- kind: function
+  name: getTicketsForTechnicianCategories
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 769
+  - 769
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 769
+  - 769
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 770
+  - 770
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 771
+  - 771
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 772
+  - 772
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 772
+  - 772
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 772
+  - 772
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 776
+  - 776
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 777
+  - 777
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 778
+  - 778
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 779
+  - 779
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 779
+  - 779
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 779
+  - 779
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 782
+  - 782
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 783
+  - 783
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 784
+  - 784
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 784
+  - 784
+  doc_capsule: null
+- kind: function
+  name: _$getTicketsForTechnicianCategoriesHash
+  range:
+  - 788
+  - 788
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesFamily
+  range:
+  - 792
+  - 792
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesFamily
+  range:
+  - 794
+  - 794
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 794
+  - 794
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 796
+  - 796
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 797
+  - 797
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 798
+  - 798
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 799
+  - 799
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 800
+  - 800
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 804
+  - 804
+  doc_capsule: null
+- kind: function
+  name: technicianCategories
+  range:
+  - 805
+  - 805
+  doc_capsule: null
+- kind: function
+  name: GetTicketsForTechnicianCategoriesProvider
+  range:
+  - 806
+  - 806
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 806
+  - 806
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 807
+  - 807
+  doc_capsule: null
+- kind: function
+  name: technicianCategories
+  range:
+  - 807
+  - 807
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 808
+  - 808
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 811
+  - 811
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 812
+  - 812
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

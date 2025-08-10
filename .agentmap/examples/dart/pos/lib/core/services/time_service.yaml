@@ -1,0 +1,596 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/time_service.dart
+source_hash: 9c20ba3218e5230d
+regions: []
+symbols:
+- kind: function
+  name: TimeService
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: TimeService
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: TimeService
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: today
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: todayFormatted
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: timeFormatted
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: nowFormatted
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: isToday
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: startOfDay
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: endOfDay
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: startOfToday
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: endOfToday
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

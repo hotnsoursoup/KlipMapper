@@ -1,0 +1,356 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/employees/data/tables/time_entries.dart
+source_hash: e33dfbf9d9a1cef0
+regions: []
+symbols:
+- kind: function
+  name: DataClassName
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: TimeEntries
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: cascade
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: real
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: withDefault
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: ReferenceName
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: integer
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: references
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: Employees
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: onDelete
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: KeyAction
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: setNull
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: text
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: nullable
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: dateTime
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: named
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: primaryKey
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: customConstraints
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

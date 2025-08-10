@@ -1,0 +1,2042 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/auth/widgets/pin_protected_wrapper.dart
+source_hash: aa5e2a40eb067ed3
+regions: []
+symbols:
+- kind: function
+  name: PinProtectedWrapper
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: sessionTimeout
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: PinProtectedWrapper
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: sessionTimeout
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: GestureDetector
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: onTap
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _handleTap
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: _handleTap
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: pinAuthService
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: PinAuthService
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: pinAuthService
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: _showPinSetupDialog
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _showPinVerificationDialog
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _showPinSetupDialog
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: barrierDismissible
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: setup
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: onComplete
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _showPinVerificationDialog
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: onComplete
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: pin
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: AlertDialog
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: actions
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: Navigator
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: pop
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: PinProtection
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: _pinAuthService
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: PinAuthService
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: protect
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _pinAuthService
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: barrierDismissible
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: setup
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: AlertDialog
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: actions
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: Navigator
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: pop
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _pinAuthService
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: _pinAuthService
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: hasPin
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: setupPin
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: barrierDismissible
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: setup
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: changePin
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: currentPinVerified
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: currentPinVerified
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: bool
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: barrierDismissible
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: PinDialog
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: setup
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: subtitle
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: PinProtectedWidget
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: pinProtected
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: PinProtectedWrapper
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: onAccessGranted
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: requirePinSetup
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: onAccessDenied
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: onPinSetupRequired
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

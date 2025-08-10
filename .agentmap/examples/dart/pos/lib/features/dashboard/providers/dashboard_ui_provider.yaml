@@ -1,0 +1,746 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/dashboard/providers/dashboard_ui_provider.dart
+source_hash: 7783f7cdcc29d17a
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: DashboardUI
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: onDispose
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: openCheckInDialog
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: isCheckInDialogOpen
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: closeCheckInDialog
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isCheckInDialogOpen
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: openTicketDetailsDialog
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: selectedTicketId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsDialogOpen
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: closeTicketDetailsDialog
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: selectedTicketId
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsDialogOpen
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: showSuccessNotification
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _showNotification
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: NotificationType
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: showErrorNotification
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: _showNotification
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: NotificationType
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _showNotification
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: notificationMessage
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: notificationType
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: notificationTimestamp
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: NotificationType
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: notificationTimestamp
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: Timer
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: seconds
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: notificationTimestamp
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: timestamp
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: dismissNotification
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: dismissNotification
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: notificationMessage
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: notificationType
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: notificationTimestamp
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: resetToDefaults
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _notificationTimer
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: cancel
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: DashboardUIState
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: DashboardUIState
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: isCheckInDialogOpen
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsDialogOpen
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: selectedTicketId
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: notificationMessage
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: notificationType
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: notificationTimestamp
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: NotificationType
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: success
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: hasOpenDialogs
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: isCheckInOpen
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: dashboardUIProvider
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isCheckInDialogOpen
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsOpen
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: dashboardUIProvider
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsDialogOpen
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: isCheckInOpen
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: isTicketDetailsOpen
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,908 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/domain/adapters/calendar_appointment_adapter.dart
+source_hash: 1c75fa2fa5765610
+regions: []
+symbols:
+- kind: function
+  name: domain
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: toCalendarAppointment
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: _combineDateTime
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _colorForStatus
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _statusFor
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: CalendarAppointment
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _createFallbackCustomer
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: technicianName
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: isBlocked
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: isRecurring
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: recurringPattern
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: isGroupAppointment
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: groupMemberIds
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _combineDateTime
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: timeString
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: timeString
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: year
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: month
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: day
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: _createFallbackCustomer
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: _statusFor
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: confirmed
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: checkedIn
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: inProgress
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: noShow
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: rescheduled
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatus
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _colorForStatus
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: _statusColor
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: scheduled
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: confirmed
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: checkedIn
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: inProgress
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: completed
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: cancelled
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: noShow
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: rescheduled
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

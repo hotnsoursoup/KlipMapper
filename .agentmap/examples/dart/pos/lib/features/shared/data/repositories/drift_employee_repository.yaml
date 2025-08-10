@@ -1,0 +1,4940 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/drift_employee_repository.dart
+source_hash: 4c825f252c2b8591
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: employeeDao
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: getEmployees
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: getActiveEmployees
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: empWithCategories
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: _employeeDao
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: getEmployeeWithCategories
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: empWithCategories
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: getEmployeesByRole
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: allEmployees
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: allEmployees
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: allEmployees
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: allEmployees
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: debugPrint
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: getTechnicians
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: getEmployeesByRole
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: getEmployeeById
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: insertEmployee
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: hourlyRate
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: hireDate
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: updateEmployee
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: deleteEmployee
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: searchEmployees
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: searchTerm
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: term
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: term
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: like
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: term
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: getActiveEmployeeCount
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: selectOnly
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: addColumns
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: getSingle
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: watchActiveEmployees
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: employeesStream
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: capabilitiesStream
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: employeesStream
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: asyncMap
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: capabilitiesStream
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: watchTechnicians
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: employeesStream
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: capabilitiesStream
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: employeesStream
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: asyncMap
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: capabilitiesStream
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: updateEmployeeCapabilities
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: delete
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: go
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: capability
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: i
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: capability
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: EmployeeServiceCategoriesCompanion
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: capability
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: getEmployeesByCapability
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: capability
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: capabilityEntries
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: capability
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: employeeIds
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: capabilityEntries
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: cast
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: employeeIds
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: isIn
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: employeeIds
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: isIn
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: employeeIds
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: allCapabilities
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: emp
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: _convertToModel
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: employeeCapabilities
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: cap
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: standardCap
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: EmployeeCapability
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: standardCapabilities
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: sc
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: sc
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: sc
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: EmployeeCapability
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: standardCap
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 396
+  - 396
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: clockedInAt
+  range:
+  - 399
+  - 399
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: clockedOutAt
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 404
+  - 404
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 410
+  - 410
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 412
+  - 412
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: commissionRate
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: driftEmployee
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: lastClockIn
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: lastClockOut
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: employeeCapabilities
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 418
+  - 418
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: clockInEmployee
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 424
+  - 424
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 429
+  - 429
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: clockedInAt
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 432
+  - 432
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 433
+  - 433
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: clockOutEmployee
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 448
+  - 448
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: EmployeesCompanion
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: clockedOutAt
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: isClockedIn
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 458
+  - 458
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 459
+  - 459
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 464
+  - 464
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

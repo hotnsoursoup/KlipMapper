@@ -1,0 +1,3962 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/time_entry_model.freezed.dart
+source_hash: 49b6b474e0a5d9ae
+regions: []
+symbols:
+- kind: function
+  name: _$identity
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntry
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryCopyWithImpl
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: $TimeEntryCopyWith
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: $TimeEntryCopyWith
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryCopyWithImpl
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryCopyWithImpl
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: TimeEntryPatterns
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: JsonSerializable
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: _TimeEntry
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: _TimeEntry
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: _TimeEntry
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryFromJson
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: __$TimeEntryCopyWithImpl
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryToJson
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryCopyWith
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: _$TimeEntryCopyWith
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: __$TimeEntryCopyWithImpl
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: __$TimeEntryCopyWithImpl
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: _TimeEntry
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: breakMinutes
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: totalHours
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: editedBy
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: editReason
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

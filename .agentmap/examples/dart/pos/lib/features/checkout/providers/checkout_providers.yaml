@@ -1,0 +1,4892 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/providers/checkout_providers.dart
+source_hash: 7c168e35bf3c4a6e
+regions: []
+symbols:
+- kind: function
+  name: riverpod
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: invoiceRepository
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: DriftInvoiceRepository
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: Checkout
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _taxRate
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: invoiceRepo
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: invoiceRepositoryProvider
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: invoiceRepo
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: CheckoutState
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: toggleTicketSelection
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: currentIds
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: currentIds
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: currentIds
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: remove
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: currentIds
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: currentIds
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: selectAllTickets
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: availableTicketsProvider
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: clearSelection
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: setTipPercentage
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: setCustomTip
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: setDiscount
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: clearDiscount
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: setPaymentMethod
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: method
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: setCardDetails
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: lastFour
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: lastFour
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: setSearchQuery
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: setStatusFilter
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: setSortBy
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: processPayment
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: canProcessPayment
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _setError
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: selectedTicketsProvider
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: checkoutCalculationProvider
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: Invoice
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: invoiceNumber
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: Invoice
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: generateInvoiceNumber
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: ticketIds
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: customerName
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: _getPrimaryCustomerName
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: calculation
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: transactionId
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: authorizationCode
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: processedAt
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: processedBy
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: EmployeeContext
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: invoiceRepo
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: invoiceRepositoryProvider
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: invoiceRepo
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: createInvoice
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: ticketsProvider
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: ticketsMasterProvider
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: notifier
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: updatedTicket
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: ticketsProvider
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: updateTicket
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: updatedTicket
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: _resetCheckoutState
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: invoiceNumber
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: invoice
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: AppLogger
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: _setError
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _resetCheckoutState
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: _setError
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: state
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: AsyncValue
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: currentState
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 312
+  - 312
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: _getPrimaryCustomerName
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: reduce
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: refresh
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: invalidateSelf
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: allTicketsAsync
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: ticketsMasterProvider
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: checkoutProvider
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: allTicketsAsync
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: allTickets
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: allTickets
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: any
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: sort
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: compareTo
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 392
+  - 392
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 400
+  - 400
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 406
+  - 406
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 407
+  - 407
+  doc_capsule: null
+- kind: function
+  name: allTicketsAsync
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: ticketsMasterProvider
+  range:
+  - 408
+  - 408
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: checkoutProvider
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 409
+  - 409
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 411
+  - 411
+  doc_capsule: null
+- kind: function
+  name: allTicketsAsync
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 413
+  - 413
+  doc_capsule: null
+- kind: function
+  name: data
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 414
+  - 414
+  doc_capsule: null
+- kind: function
+  name: tickets
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: loading
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: __
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 425
+  - 425
+  doc_capsule: null
+- kind: function
+  name: checkoutCalculation
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: selectedTicketsProvider
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: checkoutProvider
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: empty
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 434
+  - 434
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 436
+  - 436
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: Checkout
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: _taxRate
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: totalBeforeDiscount
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: finalDiscountAmount
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: clamp
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: totalBeforeDiscount
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: totalBeforeDiscount
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: finalDiscountAmount
+  range:
+  - 447
+  - 447
+  doc_capsule: null
+- kind: function
+  name: CheckoutCalculation
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: tipAmount
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: taxAmount
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: finalDiscountAmount
+  range:
+  - 453
+  - 453
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 454
+  - 454
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 454
+  - 454
+  doc_capsule: null
+- kind: function
+  name: itemCount
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 460
+  - 460
+  doc_capsule: null
+- kind: function
+  name: canProcessPayment
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: selectedTicketsProvider
+  range:
+  - 462
+  - 462
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: checkoutProvider
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 463
+  - 463
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 465
+  - 465
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 467
+  - 467
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerName
+  range:
+  - 472
+  - 472
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 472
+  - 472
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 473
+  - 473
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 473
+  - 473
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 473
+  - 473
+  doc_capsule: null
+- kind: function
+  name: selectedTicketsProvider
+  range:
+  - 473
+  - 473
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 479
+  - 479
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 480
+  - 480
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: customerCounts
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: entries
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: reduce
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: a
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: b
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: mostFrequent
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 492
+  - 492
+  doc_capsule: null
+- kind: function
+  name: readyTicketsCount
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 493
+  - 493
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: availableTicketsProvider
+  range:
+  - 494
+  - 494
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 495
+  - 495
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 495
+  - 495
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: totalAvailableValue
+  range:
+  - 500
+  - 500
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 500
+  - 500
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 501
+  - 501
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 501
+  - 501
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 501
+  - 501
+  doc_capsule: null
+- kind: function
+  name: availableTicketsProvider
+  range:
+  - 501
+  - 501
+  doc_capsule: null
+- kind: function
+  name: availableTickets
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: ticket
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 511
+  - 511
+  doc_capsule: null
+- kind: function
+  name: isTicketSelected
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: checkoutProvider
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: checkoutState
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: ticketId
+  range:
+  - 514
+  - 514
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 518
+  - 518
+  doc_capsule: null
+- kind: function
+  name: selectionSummary
+  range:
+  - 519
+  - 519
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 519
+  - 519
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: selectedTicketsProvider
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 521
+  - 521
+  doc_capsule: null
+- kind: function
+  name: selectedTickets
+  range:
+  - 521
+  - 521
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 521
+  - 521
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 524
+  - 524
+  doc_capsule: null
+- kind: function
+  name: riverpod
+  range:
+  - 529
+  - 529
+  doc_capsule: null
+- kind: function
+  name: readyTicketsSummary
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 530
+  - 530
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: watch
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: readyTicketsCountProvider
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: count
+  range:
+  - 534
+  - 534
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 540
+  - 540
+  doc_capsule: null
+- kind: function
+  name: CheckoutState
+  range:
+  - 541
+  - 541
+  doc_capsule: null
+- kind: function
+  name: CheckoutState
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: CheckoutState
+  range:
+  - 544
+  - 544
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: tipPercentage
+  range:
+  - 546
+  - 546
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: customTipAmount
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: discountType
+  range:
+  - 548
+  - 548
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: discountCode
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: discountReason
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: cardType
+  range:
+  - 553
+  - 553
+  doc_capsule: null
+- kind: function
+  name: lastFourDigits
+  range:
+  - 554
+  - 554
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 555
+  - 555
+  doc_capsule: null
+- kind: function
+  name: errorMessage
+  range:
+  - 556
+  - 556
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: searchQuery
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: statusFilter
+  range:
+  - 558
+  - 558
+  doc_capsule: null
+- kind: function
+  name: Default
+  range:
+  - 559
+  - 559
+  doc_capsule: null
+- kind: function
+  name: sortBy
+  range:
+  - 559
+  - 559
+  doc_capsule: null
+- kind: function
+  name: canProcessPayment
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: selectedTicketIds
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: paymentMethod
+  range:
+  - 565
+  - 565
+  doc_capsule: null
+- kind: function
+  name: isProcessing
+  range:
+  - 566
+  - 566
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,2126 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/drift_schedule_repository.dart
+source_hash: c5a6d69b3de829f2
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: function
+  name: DriftScheduleRepository
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: DriftScheduleRepository
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: DriftScheduleRepository
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: ensureInitialized
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _initialized
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: getEmployeeSchedule
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: schedules
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: schedules
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: getAllSchedules
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: schedules
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: orderBy
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: OrderingTerm
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: expression
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: schedules
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: saveEmployeeSchedule
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: weeklySchedule
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: transaction
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: TechnicianSchedulesCompanion
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: weeklySchedule
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: into
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: TechnicianSchedulesCompanion
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: insert
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: _generateScheduleId
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: effectiveDate
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: daySchedule
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: deleteEmployeeSchedule
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: update
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: _database
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: technicianSchedules
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: write
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: TechnicianSchedulesCompanion
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: Value
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: _generateScheduleId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: getDayOrder
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: dayOrder
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: dayOrder
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: formatTime
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: parseTime
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: timeString
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: timeString
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: timePart
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: toUpperCase
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: timePart
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: split
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: timeParts
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: totalMinutes
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: fromDb
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: schedule
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: defaultWorkingDay
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: dayOff
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: WeeklySchedule
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: dayOfWeek
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: isScheduledOff
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: DriftScheduleRepository
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: formatTime
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: startTime
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: end
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: DriftScheduleRepository
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: formatTime
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: endTime
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

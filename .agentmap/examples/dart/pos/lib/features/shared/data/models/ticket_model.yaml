@@ -1,0 +1,3206 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/ticket_model.dart
+source_hash: c4eb4d70269f2546
+regions: []
+symbols:
+- kind: function
+  name: _getCategoryIdFromName
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: GroupMember
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: isGuest
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: GroupMember
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: isGuest
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: GroupMember
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: GroupMember
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isGuest
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: isGuest
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: isGuestService
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: guestName
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: addOn
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: waitTimeMinutes
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: difference
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: inMinutes
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: isGroup
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: fold
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: sum
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: involvedTechnicianIds
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: allServicesCompleted
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: every
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: formattedWaitTime
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: waitTimeMinutes
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: remainingMinutes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: remainingMinutes
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: remainingMinutes
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: formattedCheckInTime
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: period
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: displayHour
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: hour
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: minute
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: padLeft
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: GroupMember
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: m
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: TicketService
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: primaryCustomer
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: primaryCustomer
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: primaryCustomer
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: primaryCustomer
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: Customer
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: withName
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: legacyServices
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: Service
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: Service
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: serviceId
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: serviceName
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: _getCategoryIdFromName
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: ts
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: primaryCustomer
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: legacyServices
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: toDouble
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: Payment
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: Ticket
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: priority
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: isConfirmed
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: confirmedAt
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: primaryCustomerId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: groupMembers
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: ticketServices
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: payment
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: ticketNumber
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: checkInTime
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 379
+  - 379
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 381
+  - 381
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 382
+  - 382
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: totalAmount
+  range:
+  - 384
+  - 384
+  doc_capsule: null
+- kind: function
+  name: paymentStatus
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: isGroupService
+  range:
+  - 386
+  - 386
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

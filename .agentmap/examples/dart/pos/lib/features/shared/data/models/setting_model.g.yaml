@@ -1,0 +1,482 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/setting_model.g.dart
+source_hash: a6a288df85d1fa2d
+regions: []
+symbols:
+- kind: function
+  name: _$StoreSettingFromJson
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: _StoreSetting
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: parse
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _$StoreSettingToJson
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: dataType
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: isSystem
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: toIso8601String
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _$StoreHoursFromJson
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: _StoreHours
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: MapEntry
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: k
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: DayHours
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _$StoreHoursToJson
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: hours
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: _$DayHoursFromJson
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _DayHours
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: toInt
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: _$DayHoursToJson
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: isOpen
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: openTime
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: closeTime
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

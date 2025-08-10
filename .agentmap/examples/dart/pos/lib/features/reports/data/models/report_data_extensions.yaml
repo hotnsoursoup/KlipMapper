@@ -1,0 +1,50 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/reports/data/models/report_data_extensions.dart
+source_hash: fc0ed0f778912b91
+regions: []
+symbols:
+- kind: function
+  name: ReportDataExtensions
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: asRevenue
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: asServicePerformance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: asTechnicianPerformance
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: asCustomerAnalytics
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: asAppointmentAnalytics
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: asPaymentAnalytics
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

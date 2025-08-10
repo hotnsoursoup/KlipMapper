@@ -1,0 +1,2372 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/database/seeds/validators/seed_validator.dart
+source_hash: 703b67f4b2f7f015
+regions: []
+symbols:
+- kind: function
+  name: ValidationResult
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: valid
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: invalid
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: ServiceCategoryValidator
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: validateCategory
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: field
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: field
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: descMaxLength
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: descMaxLength
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: colorFormat
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: _isValidHexColor
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: icon
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: validateUniqueness
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: constraint
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: constraint
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: ids
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: duplicateIds
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: _findDuplicates
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: ids
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: duplicateIds
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: duplicateIds
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _findDuplicates
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: _isValidHexColor
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: hexRegex
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: RegExp
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: hexRegex
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: hasMatch
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: color
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: ServiceValidator
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: validateService
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: field
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: requiredFields
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: field
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: nameMaxLength
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: descMaxLength
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: descriptionMaxLength
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: descMaxLength
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: durationRange
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: priceRange
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: minDollars
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: min
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: maxDollars
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: max
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: basePriceCents
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 190
+  - 190
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: validateCollection
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: validation
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: constraint
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: uniqueConstraints
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: constraint
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: trim
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: _findDuplicates
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: names
+  range:
+  - 205
+  - 205
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: duplicateNames
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: validCategoryIds
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: toSet
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: invalidServices
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: validCategoryIds
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: invalidServices
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: isNotEmpty
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: invalidIds
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: invalidServices
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: inactiveServices
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: inactiveServices
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: errors
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: warnings
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: SchemaValidator
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: supportedVersions
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: validateVersion
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: supportedVersions
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: schemaVersion
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: invalid
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: supportedVersions
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: valid
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: validateCreationDate
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: oneYearAgo
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: subtract
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: oneYearFromNow
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: days
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: isBefore
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: oneYearAgo
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: invalid
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: createdDate
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: oneYearFromNow
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: invalid
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: ValidationResult
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: valid
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: _findDuplicates
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: list
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: seen
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: duplicates
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: item
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: list
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: seen
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: item
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: duplicates
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: item
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: seen
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: item
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: duplicates
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,1202 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/services/remote_view_service.dart
+source_hash: 4bc1b12d0cf61bf2
+regions: []
+symbols:
+- kind: function
+  name: io
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: RemoteViewService
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: RemoteViewService
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: RemoteViewService
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: _server
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _isStreaming
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _port
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: _livekitUrl
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: start
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: port
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: warning
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: _port
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: port
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: _generateRoomId
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: handler
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: Cascade
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _createApiHandler
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: _createStaticHandler
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: handler
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: _server
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: io
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: serve
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: handler
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _port
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: Exception
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: stop
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _server
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: close
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _server
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _isStreaming
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: isRunning
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: isStreaming
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: _isStreaming
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: viewerUrl
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: roomName
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: connectedViewers
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: _initializeLiveKitRoom
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: _startScreenSharing
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: _stopScreenSharing
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _onRoomEvent
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: _generateRoomId
+  range:
+  - 236
+  - 236
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: random
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: Random
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: nextInt
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: substring
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: _generateAccessToken
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: roomName
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: participantName
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: payload
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: _apiKey
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: participantName
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: roomName
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: base64Encode
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: utf8
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: payload
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: _generateViewerToken
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: roomName
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: viewerId
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: payload
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _apiKey
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: viewerId
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: roomName
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: base64Encode
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: utf8
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: encode
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: payload
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _createApiHandler
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: url
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _handleStatusRequest
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: _handleRoomInfoRequest
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: _handleViewerTokenRequest
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: notFound
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: _createStaticHandler
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: url
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: url
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: path
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: ok
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: _generateViewerHtml
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: headers
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: notFound
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: _handleStatusRequest
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 328
+  - 328
+  doc_capsule: null
+- kind: function
+  name: _isStreaming
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: _port
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 331
+  - 331
+  doc_capsule: null
+- kind: function
+  name: connectedViewers
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 333
+  - 333
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: ok
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: headers
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: _handleRoomInfoRequest
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: notFound
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: roomInfo
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: _livekitUrl
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: _isStreaming
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: ok
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: roomInfo
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: headers
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: _handleViewerTokenRequest
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: request
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: _isRunning
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: notFound
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: viewerId
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: millisecondsSinceEpoch
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: token
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: _generateViewerToken
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: viewerId
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: tokenInfo
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: token
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: _roomName
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: _livekitUrl
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: viewerId
+  range:
+  - 373
+  - 373
+  doc_capsule: null
+- kind: function
+  name: Response
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: ok
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: jsonEncode
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: tokenInfo
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: headers
+  range:
+  - 378
+  - 378
+  doc_capsule: null
+- kind: function
+  name: _generateViewerHtml
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,7160 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/models/appointment_model.freezed.dart
+source_hash: 96ec04543b0512d3
+regions: []
+symbols:
+- kind: function
+  name: _$identity
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _$Appointment
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentCopyWithImpl
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: hashAll
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: $AppointmentCopyWith
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: $AppointmentCopyWith
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentCopyWithImpl
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentCopyWithImpl
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: $CustomerCopyWith
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: AppointmentPatterns
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: maybeMap
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: mapOrNull
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: maybeWhen
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: when
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: StateError
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: optionalTypeArgs
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: whenOrNull
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 232
+  - 232
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: ''
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: $default
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _that
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 235
+  - 235
+  doc_capsule: null
+- kind: function
+  name: JsonSerializable
+  range:
+  - 244
+  - 244
+  doc_capsule: null
+- kind: function
+  name: _Appointment
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: _Appointment
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: _Appointment
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentFromJson
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: EqualUnmodifiableListView
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 268
+  - 268
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: EqualUnmodifiableListView
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 292
+  - 292
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: __$AppointmentCopyWithImpl
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: _$identity
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentToJson
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 302
+  - 302
+  doc_capsule: null
+- kind: function
+  name: JsonKey
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: includeFromJson
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: includeToJson
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: Object
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: hashAll
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: runtimeType
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: hash
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentCopyWith
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentCopyWith
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: useResult
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: __$AppointmentCopyWithImpl
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: __$AppointmentCopyWithImpl
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 332
+  - 332
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 334
+  - 334
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: _Appointment
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: appointmentDate
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: appointmentTime
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: status
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianId
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: assignedTechnicianId
+  range:
+  - 348
+  - 348
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: _serviceIds
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: serviceIds
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: notes
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: reminderSent
+  range:
+  - 351
+  - 351
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: confirmationSent
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: source
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: cancelledAt
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: cancellationReason
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: isGroupBooking
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: groupSize
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: _services
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: freezed
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: requestedTechnicianName
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: pragma
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 372
+  - 372
+  doc_capsule: null
+- kind: function
+  name: $CustomerCopyWith
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: _then
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: _self
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: customer
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 377
+  - 377
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

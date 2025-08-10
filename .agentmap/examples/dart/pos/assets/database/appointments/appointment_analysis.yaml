@@ -1,0 +1,101 @@
+agentmap: v1
+source: examples/dart/pos/assets/database/appointments/appointment_analysis.py
+source_hash: 0ea417e665216724
+regions: []
+symbols:
+- kind: class
+  name: AppointmentAnalyzer
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: __init__
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: _load_appointments
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: _load_services
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _load_employees
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: _load_employee_categories
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: _load_service_categories
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: _load_tickets
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: _load_payments
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: analyze_appointments
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: generate_report
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: get_category_mapping
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: main
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+imports:
+- name: sqlite3
+  from: null
+  path: null
+- name: json
+  from: null
+  path: null
+- name: csv
+  from: null
+  path: null
+- name: datetime
+  from: null
+  path: null
+- name: typing
+  from: null
+  path: null
+usage_slices: []
+call_graph: []

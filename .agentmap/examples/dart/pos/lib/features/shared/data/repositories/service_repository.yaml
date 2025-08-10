@@ -1,0 +1,668 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/shared/data/repositories/service_repository.dart
+source_hash: 20c0c4808248b6af
+regions: []
+symbols:
+- kind: function
+  name: ServiceRepository
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: DriftServiceRepository
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ServiceRepository
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: ServiceRepository
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: getAllServices
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: activeOnly
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: getServices
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: getServicesByCategory
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: getServicesByCategory
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: getServiceById
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: UnimplementedError
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: searchServices
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: UnimplementedError
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: function
+  name: getAllCategories
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: getCategoriesWithCounts
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: categories
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 61
+  - 61
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: c
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: createService
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: createService
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: durationMinutes
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: basePrice
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: price
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: updateService
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: updateService
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: deleteService
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: _driftRepo
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: deleteService
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 103
+  - 103
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: toggleServiceActive
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: UnimplementedError
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: Deprecated
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: getPopularServices
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: limit
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: UnimplementedError
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

@@ -1,0 +1,6296 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/domain/providers/appointment_providers.g.dart
+source_hash: 11adaa186c1ce7cd
+regions: []
+symbols:
+- kind: function
+  name: ProviderFor
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: appointmentRepository
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: appointmentRepositoryProvider
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: AppointmentRepositoryProvider
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: AppointmentRepositoryProvider
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: AppointmentRepositoryProvider
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: _$appointmentRepositoryHash
+  range:
+  - 32
+  - 32
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: appointmentRepository
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: DriftAppointmentRepository
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: _$appointmentRepositoryHash
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: TodaysAppointments
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: todaysAppointmentsProvider
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: TodaysAppointmentsProvider
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: TodaysAppointmentsProvider
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: TodaysAppointmentsProvider
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: _$todaysAppointmentsHash
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 77
+  - 77
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: TodaysAppointments
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: _$todaysAppointmentsHash
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: _$TodaysAppointments
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 85
+  - 85
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: appointmentsMaster
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: appointmentsMasterProvider
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: AppointmentsMasterProvider
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: AppointmentsMasterProvider
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: AppointmentsMasterProvider
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 123
+  - 123
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsMasterHash
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: appointmentsMaster
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsMasterHash
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: appointmentWithServices
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: appointmentWithServicesProvider
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesFamily
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesProvider
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesProvider
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: _$appointmentWithServicesHash
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 180
+  - 180
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: appointmentWithServices
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 200
+  - 200
+  doc_capsule: null
+- kind: function
+  name: _$appointmentWithServicesHash
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesFamily
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesFamily
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 217
+  - 217
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: AppointmentWithServicesProvider
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: appointmentId
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsForDashboard
+  range:
+  - 229
+  - 229
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsForDashboardProvider
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsForDashboardProvider
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsForDashboardProvider
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsForDashboardProvider
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: _$upcomingAppointmentsForDashboardHash
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 259
+  - 259
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 260
+  - 260
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 261
+  - 261
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsForDashboard
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: _$upcomingAppointmentsForDashboardHash
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: TodaysCalendarAppointments
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: todaysCalendarAppointmentsProvider
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: TodaysCalendarAppointmentsProvider
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: TodaysCalendarAppointmentsProvider
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: TodaysCalendarAppointmentsProvider
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 286
+  - 286
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 287
+  - 287
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _$todaysCalendarAppointmentsHash
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 293
+  - 293
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 294
+  - 294
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: TodaysCalendarAppointments
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: _$todaysCalendarAppointmentsHash
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: _$TodaysCalendarAppointments
+  range:
+  - 301
+  - 301
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 311
+  - 311
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRange
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRangeProvider
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeFamily
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeProvider
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeProvider
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 335
+  - 335
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 337
+  - 337
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 342
+  - 342
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByDateRangeHash
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 349
+  - 349
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 350
+  - 350
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 359
+  - 359
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRange
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 368
+  - 368
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 369
+  - 369
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 370
+  - 370
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 371
+  - 371
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 374
+  - 374
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 375
+  - 375
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 376
+  - 376
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByDateRangeHash
+  range:
+  - 380
+  - 380
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeFamily
+  range:
+  - 383
+  - 383
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeFamily
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 385
+  - 385
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 387
+  - 387
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 388
+  - 388
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 389
+  - 389
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 390
+  - 390
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 391
+  - 391
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: dateRange
+  range:
+  - 394
+  - 394
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeProvider
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: dateRange
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 395
+  - 395
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 397
+  - 397
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 398
+  - 398
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRangeForCalendar
+  range:
+  - 401
+  - 401
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRangeForCalendarProvider
+  range:
+  - 402
+  - 402
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarFamily
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 403
+  - 403
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarProvider
+  range:
+  - 405
+  - 405
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarProvider
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 415
+  - 415
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 416
+  - 416
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 417
+  - 417
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 419
+  - 419
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 420
+  - 420
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 421
+  - 421
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 422
+  - 422
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 423
+  - 423
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 426
+  - 426
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 427
+  - 427
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByDateRangeForCalendarHash
+  range:
+  - 428
+  - 428
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 430
+  - 430
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 431
+  - 431
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 437
+  - 437
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 438
+  - 438
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 439
+  - 439
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 440
+  - 440
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 441
+  - 441
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 443
+  - 443
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 444
+  - 444
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 445
+  - 445
+  doc_capsule: null
+- kind: function
+  name: appointmentsByDateRangeForCalendar
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 446
+  - 446
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 449
+  - 449
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 450
+  - 450
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 451
+  - 451
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 452
+  - 452
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 455
+  - 455
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 456
+  - 456
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 457
+  - 457
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByDateRangeForCalendarHash
+  range:
+  - 461
+  - 461
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarFamily
+  range:
+  - 464
+  - 464
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarFamily
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 466
+  - 466
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 468
+  - 468
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 469
+  - 469
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 470
+  - 470
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 471
+  - 471
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 472
+  - 472
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: dateRange
+  range:
+  - 475
+  - 475
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByDateRangeForCalendarProvider
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 476
+  - 476
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: dateRange
+  range:
+  - 477
+  - 477
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 478
+  - 478
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 481
+  - 481
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 482
+  - 482
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: customerAppointments
+  range:
+  - 485
+  - 485
+  doc_capsule: null
+- kind: function
+  name: customerAppointmentsProvider
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsFamily
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 486
+  - 486
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsProvider
+  range:
+  - 488
+  - 488
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsProvider
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 498
+  - 498
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 499
+  - 499
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 500
+  - 500
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 502
+  - 502
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 503
+  - 503
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 504
+  - 504
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 505
+  - 505
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 506
+  - 506
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 509
+  - 509
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: _$customerAppointmentsHash
+  range:
+  - 510
+  - 510
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 512
+  - 512
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 513
+  - 513
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 519
+  - 519
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 520
+  - 520
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 521
+  - 521
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 522
+  - 522
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 523
+  - 523
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 525
+  - 525
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 526
+  - 526
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 527
+  - 527
+  doc_capsule: null
+- kind: function
+  name: customerAppointments
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 528
+  - 528
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 531
+  - 531
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 532
+  - 532
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 533
+  - 533
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 536
+  - 536
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 537
+  - 537
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 538
+  - 538
+  doc_capsule: null
+- kind: function
+  name: _$customerAppointmentsHash
+  range:
+  - 542
+  - 542
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsFamily
+  range:
+  - 545
+  - 545
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsFamily
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 547
+  - 547
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 549
+  - 549
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 550
+  - 550
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 551
+  - 551
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 552
+  - 552
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 553
+  - 553
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 556
+  - 556
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 556
+  - 556
+  doc_capsule: null
+- kind: function
+  name: CustomerAppointmentsProvider
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: customerId
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 557
+  - 557
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 559
+  - 559
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 560
+  - 560
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: technicianAppointments
+  range:
+  - 563
+  - 563
+  doc_capsule: null
+- kind: function
+  name: technicianAppointmentsProvider
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsFamily
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 564
+  - 564
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsProvider
+  range:
+  - 566
+  - 566
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsProvider
+  range:
+  - 576
+  - 576
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 576
+  - 576
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 577
+  - 577
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 578
+  - 578
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 578
+  - 578
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 580
+  - 580
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 581
+  - 581
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 582
+  - 582
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 583
+  - 583
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 584
+  - 584
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 587
+  - 587
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 588
+  - 588
+  doc_capsule: null
+- kind: function
+  name: _$technicianAppointmentsHash
+  range:
+  - 588
+  - 588
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 590
+  - 590
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 591
+  - 591
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 597
+  - 597
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 598
+  - 598
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 599
+  - 599
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 600
+  - 600
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 601
+  - 601
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 601
+  - 601
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 603
+  - 603
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 604
+  - 604
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 605
+  - 605
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 605
+  - 605
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 605
+  - 605
+  doc_capsule: null
+- kind: function
+  name: technicianAppointments
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: $1
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 606
+  - 606
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 609
+  - 609
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 610
+  - 610
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 611
+  - 611
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 612
+  - 612
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 615
+  - 615
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 616
+  - 616
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 617
+  - 617
+  doc_capsule: null
+- kind: function
+  name: _$technicianAppointmentsHash
+  range:
+  - 621
+  - 621
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsFamily
+  range:
+  - 624
+  - 624
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 628
+  - 628
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsFamily
+  range:
+  - 630
+  - 630
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 630
+  - 630
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 632
+  - 632
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 633
+  - 633
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 634
+  - 634
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 635
+  - 635
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 636
+  - 636
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 639
+  - 639
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 639
+  - 639
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 639
+  - 639
+  doc_capsule: null
+- kind: function
+  name: TechnicianAppointmentsProvider
+  range:
+  - 640
+  - 640
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 640
+  - 640
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 641
+  - 641
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 641
+  - 641
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 641
+  - 641
+  doc_capsule: null
+- kind: function
+  name: date
+  range:
+  - 641
+  - 641
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 642
+  - 642
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 645
+  - 645
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 646
+  - 646
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 650
+  - 650
+  doc_capsule: null
+- kind: function
+  name: SelectedDate
+  range:
+  - 650
+  - 650
+  doc_capsule: null
+- kind: function
+  name: selectedDateProvider
+  range:
+  - 651
+  - 651
+  doc_capsule: null
+- kind: function
+  name: SelectedDateProvider
+  range:
+  - 651
+  - 651
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 651
+  - 651
+  doc_capsule: null
+- kind: function
+  name: SelectedDateProvider
+  range:
+  - 654
+  - 654
+  doc_capsule: null
+- kind: function
+  name: SelectedDateProvider
+  range:
+  - 657
+  - 657
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 657
+  - 657
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 659
+  - 659
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 660
+  - 660
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 661
+  - 661
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 662
+  - 662
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 663
+  - 663
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 664
+  - 664
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 665
+  - 665
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 668
+  - 668
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 669
+  - 669
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateHash
+  range:
+  - 669
+  - 669
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 671
+  - 671
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 672
+  - 672
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 673
+  - 673
+  doc_capsule: null
+- kind: function
+  name: SelectedDate
+  range:
+  - 673
+  - 673
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 676
+  - 676
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 676
+  - 676
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 677
+  - 677
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 678
+  - 678
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 679
+  - 679
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateHash
+  range:
+  - 684
+  - 684
+  doc_capsule: null
+- kind: function
+  name: _$SelectedDate
+  range:
+  - 686
+  - 686
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 687
+  - 687
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 688
+  - 688
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 689
+  - 689
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 690
+  - 690
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 691
+  - 691
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 691
+  - 691
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 692
+  - 692
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 692
+  - 692
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 693
+  - 693
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 694
+  - 694
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 701
+  - 701
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 706
+  - 706
+  doc_capsule: null
+- kind: function
+  name: AppointmentFilters
+  range:
+  - 706
+  - 706
+  doc_capsule: null
+- kind: function
+  name: appointmentFiltersProvider
+  range:
+  - 707
+  - 707
+  doc_capsule: null
+- kind: function
+  name: AppointmentFiltersProvider
+  range:
+  - 707
+  - 707
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 707
+  - 707
+  doc_capsule: null
+- kind: function
+  name: AppointmentFiltersProvider
+  range:
+  - 710
+  - 710
+  doc_capsule: null
+- kind: function
+  name: AppointmentFiltersProvider
+  range:
+  - 713
+  - 713
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 713
+  - 713
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 715
+  - 715
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 716
+  - 716
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 717
+  - 717
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 718
+  - 718
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 719
+  - 719
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 720
+  - 720
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 721
+  - 721
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 724
+  - 724
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 725
+  - 725
+  doc_capsule: null
+- kind: function
+  name: _$appointmentFiltersHash
+  range:
+  - 725
+  - 725
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 727
+  - 727
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 728
+  - 728
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 729
+  - 729
+  doc_capsule: null
+- kind: function
+  name: AppointmentFilters
+  range:
+  - 729
+  - 729
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 732
+  - 732
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 732
+  - 732
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 733
+  - 733
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 734
+  - 734
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: AppointmentFilterState
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 735
+  - 735
+  doc_capsule: null
+- kind: function
+  name: _$appointmentFiltersHash
+  range:
+  - 740
+  - 740
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentFilters
+  range:
+  - 743
+  - 743
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 744
+  - 744
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 745
+  - 745
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 746
+  - 746
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 747
+  - 747
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 748
+  - 748
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 748
+  - 748
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 749
+  - 749
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 750
+  - 750
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 751
+  - 751
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 752
+  - 752
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 752
+  - 752
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 759
+  - 759
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 764
+  - 764
+  doc_capsule: null
+- kind: function
+  name: AppointmentViewMode
+  range:
+  - 764
+  - 764
+  doc_capsule: null
+- kind: function
+  name: appointmentViewModeProvider
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: AppointmentViewModeProvider
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 765
+  - 765
+  doc_capsule: null
+- kind: function
+  name: AppointmentViewModeProvider
+  range:
+  - 768
+  - 768
+  doc_capsule: null
+- kind: function
+  name: AppointmentViewModeProvider
+  range:
+  - 771
+  - 771
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 771
+  - 771
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 773
+  - 773
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 774
+  - 774
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 775
+  - 775
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 776
+  - 776
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 777
+  - 777
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 778
+  - 778
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 779
+  - 779
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 782
+  - 782
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 783
+  - 783
+  doc_capsule: null
+- kind: function
+  name: _$appointmentViewModeHash
+  range:
+  - 783
+  - 783
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 785
+  - 785
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 786
+  - 786
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 787
+  - 787
+  doc_capsule: null
+- kind: function
+  name: AppointmentViewMode
+  range:
+  - 787
+  - 787
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 790
+  - 790
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 790
+  - 790
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 791
+  - 791
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 792
+  - 792
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 793
+  - 793
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 793
+  - 793
+  doc_capsule: null
+- kind: function
+  name: CalendarViewMode
+  range:
+  - 793
+  - 793
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 793
+  - 793
+  doc_capsule: null
+- kind: function
+  name: _$appointmentViewModeHash
+  range:
+  - 798
+  - 798
+  doc_capsule: null
+- kind: function
+  name: _$AppointmentViewMode
+  range:
+  - 801
+  - 801
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 802
+  - 802
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 803
+  - 803
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 804
+  - 804
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 805
+  - 805
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 806
+  - 806
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 806
+  - 806
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 807
+  - 807
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 807
+  - 807
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 808
+  - 808
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 809
+  - 809
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 809
+  - 809
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 816
+  - 816
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 816
+  - 816
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 816
+  - 816
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 816
+  - 816
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 821
+  - 821
+  doc_capsule: null
+- kind: function
+  name: filteredAppointments
+  range:
+  - 821
+  - 821
+  doc_capsule: null
+- kind: function
+  name: filteredAppointmentsProvider
+  range:
+  - 822
+  - 822
+  doc_capsule: null
+- kind: function
+  name: FilteredAppointmentsProvider
+  range:
+  - 822
+  - 822
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 822
+  - 822
+  doc_capsule: null
+- kind: function
+  name: FilteredAppointmentsProvider
+  range:
+  - 825
+  - 825
+  doc_capsule: null
+- kind: function
+  name: FilteredAppointmentsProvider
+  range:
+  - 836
+  - 836
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 836
+  - 836
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 838
+  - 838
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 839
+  - 839
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 840
+  - 840
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 841
+  - 841
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 842
+  - 842
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 843
+  - 843
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 844
+  - 844
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 847
+  - 847
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 848
+  - 848
+  doc_capsule: null
+- kind: function
+  name: _$filteredAppointmentsHash
+  range:
+  - 848
+  - 848
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 850
+  - 850
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 851
+  - 851
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 852
+  - 852
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 853
+  - 853
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 854
+  - 854
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 854
+  - 854
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 856
+  - 856
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 857
+  - 857
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 857
+  - 857
+  doc_capsule: null
+- kind: function
+  name: filteredAppointments
+  range:
+  - 858
+  - 858
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 858
+  - 858
+  doc_capsule: null
+- kind: function
+  name: _$filteredAppointmentsHash
+  range:
+  - 862
+  - 862
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 866
+  - 866
+  doc_capsule: null
+- kind: function
+  name: appointmentsByFilter
+  range:
+  - 866
+  - 866
+  doc_capsule: null
+- kind: function
+  name: appointmentsByFilterProvider
+  range:
+  - 867
+  - 867
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterFamily
+  range:
+  - 867
+  - 867
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 867
+  - 867
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterProvider
+  range:
+  - 870
+  - 870
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterProvider
+  range:
+  - 881
+  - 881
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 881
+  - 881
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 882
+  - 882
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 883
+  - 883
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 885
+  - 885
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 886
+  - 886
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 887
+  - 887
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 888
+  - 888
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 889
+  - 889
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 892
+  - 892
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 893
+  - 893
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByFilterHash
+  range:
+  - 893
+  - 893
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 895
+  - 895
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 896
+  - 896
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 902
+  - 902
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 903
+  - 903
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 904
+  - 904
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 905
+  - 905
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 906
+  - 906
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 906
+  - 906
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 908
+  - 908
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 909
+  - 909
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 909
+  - 909
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 910
+  - 910
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 910
+  - 910
+  doc_capsule: null
+- kind: function
+  name: appointmentsByFilter
+  range:
+  - 911
+  - 911
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 911
+  - 911
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 911
+  - 911
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 914
+  - 914
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 915
+  - 915
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 916
+  - 916
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 916
+  - 916
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 916
+  - 916
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 916
+  - 916
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 919
+  - 919
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 920
+  - 920
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 921
+  - 921
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 921
+  - 921
+  doc_capsule: null
+- kind: function
+  name: _$appointmentsByFilterHash
+  range:
+  - 925
+  - 925
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterFamily
+  range:
+  - 929
+  - 929
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterFamily
+  range:
+  - 935
+  - 935
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 935
+  - 935
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 937
+  - 937
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 938
+  - 938
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 939
+  - 939
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 940
+  - 940
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 941
+  - 941
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 945
+  - 945
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 945
+  - 945
+  doc_capsule: null
+- kind: function
+  name: AppointmentsByFilterProvider
+  range:
+  - 946
+  - 946
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 946
+  - 946
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 946
+  - 946
+  doc_capsule: null
+- kind: function
+  name: filter
+  range:
+  - 946
+  - 946
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 946
+  - 946
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 948
+  - 948
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 949
+  - 949
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 954
+  - 954
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointments
+  range:
+  - 954
+  - 954
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsProvider
+  range:
+  - 955
+  - 955
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsProvider
+  range:
+  - 955
+  - 955
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 955
+  - 955
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsProvider
+  range:
+  - 959
+  - 959
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsProvider
+  range:
+  - 971
+  - 971
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 971
+  - 971
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 973
+  - 973
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 974
+  - 974
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 975
+  - 975
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 976
+  - 976
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 977
+  - 977
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 978
+  - 978
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 979
+  - 979
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 982
+  - 982
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 983
+  - 983
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateAppointmentsHash
+  range:
+  - 983
+  - 983
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 985
+  - 985
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 986
+  - 986
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 987
+  - 987
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 988
+  - 988
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 989
+  - 989
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 989
+  - 989
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 991
+  - 991
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 992
+  - 992
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 992
+  - 992
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointments
+  range:
+  - 993
+  - 993
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 993
+  - 993
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateAppointmentsHash
+  range:
+  - 997
+  - 997
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1000
+  - 1000
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsStream
+  range:
+  - 1000
+  - 1000
+  doc_capsule: null
+- kind: function
+  name: selectedDateAppointmentsStreamProvider
+  range:
+  - 1001
+  - 1001
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsStreamProvider
+  range:
+  - 1002
+  - 1002
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1002
+  - 1002
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsStreamProvider
+  range:
+  - 1004
+  - 1004
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsStreamProvider
+  range:
+  - 1010
+  - 1010
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1010
+  - 1010
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1012
+  - 1012
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1013
+  - 1013
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1014
+  - 1014
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1015
+  - 1015
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1016
+  - 1016
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1017
+  - 1017
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1018
+  - 1018
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1021
+  - 1021
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1022
+  - 1022
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateAppointmentsStreamHash
+  range:
+  - 1022
+  - 1022
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1024
+  - 1024
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1025
+  - 1025
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1026
+  - 1026
+  doc_capsule: null
+- kind: function
+  name: SelectedDateAppointmentsStream
+  range:
+  - 1026
+  - 1026
+  doc_capsule: null
+- kind: function
+  name: _$selectedDateAppointmentsStreamHash
+  range:
+  - 1029
+  - 1029
+  doc_capsule: null
+- kind: function
+  name: _$SelectedDateAppointmentsStream
+  range:
+  - 1032
+  - 1032
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 1034
+  - 1034
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 1035
+  - 1035
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1036
+  - 1036
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 1037
+  - 1037
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 1038
+  - 1038
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 1038
+  - 1038
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1039
+  - 1039
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1040
+  - 1040
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1041
+  - 1041
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1042
+  - 1042
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1042
+  - 1042
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 1049
+  - 1049
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1053
+  - 1053
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStream
+  range:
+  - 1053
+  - 1053
+  doc_capsule: null
+- kind: function
+  name: weekAppointmentsForCalendarStreamProvider
+  range:
+  - 1054
+  - 1054
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamFamily
+  range:
+  - 1055
+  - 1055
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1055
+  - 1055
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamProvider
+  range:
+  - 1057
+  - 1057
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamProvider
+  range:
+  - 1063
+  - 1063
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1063
+  - 1063
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1064
+  - 1064
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1065
+  - 1065
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1067
+  - 1067
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1068
+  - 1068
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1069
+  - 1069
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1070
+  - 1070
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1071
+  - 1071
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1074
+  - 1074
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1075
+  - 1075
+  doc_capsule: null
+- kind: function
+  name: _$weekAppointmentsForCalendarStreamHash
+  range:
+  - 1076
+  - 1076
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1078
+  - 1078
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 1079
+  - 1079
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1085
+  - 1085
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1086
+  - 1086
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1087
+  - 1087
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStream
+  range:
+  - 1088
+  - 1088
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1090
+  - 1090
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1091
+  - 1091
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1092
+  - 1092
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1093
+  - 1093
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1093
+  - 1093
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1093
+  - 1093
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1096
+  - 1096
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 1097
+  - 1097
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1098
+  - 1098
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 1098
+  - 1098
+  doc_capsule: null
+- kind: function
+  name: _$weekAppointmentsForCalendarStreamHash
+  range:
+  - 1102
+  - 1102
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamFamily
+  range:
+  - 1105
+  - 1105
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamFamily
+  range:
+  - 1114
+  - 1114
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1114
+  - 1114
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1116
+  - 1116
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1117
+  - 1117
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1118
+  - 1118
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1119
+  - 1119
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1120
+  - 1120
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 1123
+  - 1123
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1123
+  - 1123
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarStreamProvider
+  range:
+  - 1124
+  - 1124
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1124
+  - 1124
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1125
+  - 1125
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1125
+  - 1125
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1126
+  - 1126
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1129
+  - 1129
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 1130
+  - 1130
+  doc_capsule: null
+- kind: function
+  name: _$WeekAppointmentsForCalendarStream
+  range:
+  - 1133
+  - 1133
+  doc_capsule: null
+- kind: function
+  name: _$args
+  range:
+  - 1135
+  - 1135
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1135
+  - 1135
+  doc_capsule: null
+- kind: function
+  name: $arg
+  range:
+  - 1135
+  - 1135
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1136
+  - 1136
+  doc_capsule: null
+- kind: function
+  name: _$args
+  range:
+  - 1136
+  - 1136
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 1138
+  - 1138
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1138
+  - 1138
+  doc_capsule: null
+- kind: function
+  name: $mustCallSuper
+  range:
+  - 1139
+  - 1139
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1140
+  - 1140
+  doc_capsule: null
+- kind: function
+  name: runBuild
+  range:
+  - 1141
+  - 1141
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 1142
+  - 1142
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 1142
+  - 1142
+  doc_capsule: null
+- kind: function
+  name: _$args
+  range:
+  - 1142
+  - 1142
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1143
+  - 1143
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1144
+  - 1144
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1145
+  - 1145
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1146
+  - 1146
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1146
+  - 1146
+  doc_capsule: null
+- kind: function
+  name: element
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: handleValue
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: created
+  range:
+  - 1153
+  - 1153
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1158
+  - 1158
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsCount
+  range:
+  - 1158
+  - 1158
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsCountProvider
+  range:
+  - 1159
+  - 1159
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsCountProvider
+  range:
+  - 1159
+  - 1159
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1159
+  - 1159
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsCountProvider
+  range:
+  - 1162
+  - 1162
+  doc_capsule: null
+- kind: function
+  name: UpcomingAppointmentsCountProvider
+  range:
+  - 1166
+  - 1166
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1166
+  - 1166
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1168
+  - 1168
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1169
+  - 1169
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1170
+  - 1170
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1171
+  - 1171
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1172
+  - 1172
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1173
+  - 1173
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1174
+  - 1174
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1177
+  - 1177
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1178
+  - 1178
+  doc_capsule: null
+- kind: function
+  name: _$upcomingAppointmentsCountHash
+  range:
+  - 1178
+  - 1178
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1180
+  - 1180
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1181
+  - 1181
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 1182
+  - 1182
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1182
+  - 1182
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 1183
+  - 1183
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1183
+  - 1183
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1185
+  - 1185
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1186
+  - 1186
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1186
+  - 1186
+  doc_capsule: null
+- kind: function
+  name: upcomingAppointmentsCount
+  range:
+  - 1187
+  - 1187
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1187
+  - 1187
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 1191
+  - 1191
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1191
+  - 1191
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 1192
+  - 1192
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 1193
+  - 1193
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 1194
+  - 1194
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 1194
+  - 1194
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 1194
+  - 1194
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1194
+  - 1194
+  doc_capsule: null
+- kind: function
+  name: _$upcomingAppointmentsCountHash
+  range:
+  - 1199
+  - 1199
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1203
+  - 1203
+  doc_capsule: null
+- kind: function
+  name: nextAppointment
+  range:
+  - 1203
+  - 1203
+  doc_capsule: null
+- kind: function
+  name: nextAppointmentProvider
+  range:
+  - 1204
+  - 1204
+  doc_capsule: null
+- kind: function
+  name: NextAppointmentProvider
+  range:
+  - 1204
+  - 1204
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1204
+  - 1204
+  doc_capsule: null
+- kind: function
+  name: NextAppointmentProvider
+  range:
+  - 1207
+  - 1207
+  doc_capsule: null
+- kind: function
+  name: NextAppointmentProvider
+  range:
+  - 1211
+  - 1211
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1211
+  - 1211
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1213
+  - 1213
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1214
+  - 1214
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1215
+  - 1215
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1216
+  - 1216
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1217
+  - 1217
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1218
+  - 1218
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1219
+  - 1219
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1222
+  - 1222
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1223
+  - 1223
+  doc_capsule: null
+- kind: function
+  name: _$nextAppointmentHash
+  range:
+  - 1223
+  - 1223
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1225
+  - 1225
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1226
+  - 1226
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 1227
+  - 1227
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1227
+  - 1227
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 1228
+  - 1228
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1228
+  - 1228
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1230
+  - 1230
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1231
+  - 1231
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1231
+  - 1231
+  doc_capsule: null
+- kind: function
+  name: nextAppointment
+  range:
+  - 1232
+  - 1232
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1232
+  - 1232
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 1236
+  - 1236
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1236
+  - 1236
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 1237
+  - 1237
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 1238
+  - 1238
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 1239
+  - 1239
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 1239
+  - 1239
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1239
+  - 1239
+  doc_capsule: null
+- kind: function
+  name: _$nextAppointmentHash
+  range:
+  - 1244
+  - 1244
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1247
+  - 1247
+  doc_capsule: null
+- kind: function
+  name: appointmentStatistics
+  range:
+  - 1247
+  - 1247
+  doc_capsule: null
+- kind: function
+  name: appointmentStatisticsProvider
+  range:
+  - 1248
+  - 1248
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatisticsProvider
+  range:
+  - 1248
+  - 1248
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1248
+  - 1248
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatisticsProvider
+  range:
+  - 1251
+  - 1251
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatisticsProvider
+  range:
+  - 1260
+  - 1260
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1260
+  - 1260
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1262
+  - 1262
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1263
+  - 1263
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1264
+  - 1264
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1265
+  - 1265
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1266
+  - 1266
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1267
+  - 1267
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1268
+  - 1268
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1271
+  - 1271
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1272
+  - 1272
+  doc_capsule: null
+- kind: function
+  name: _$appointmentStatisticsHash
+  range:
+  - 1272
+  - 1272
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1274
+  - 1274
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1275
+  - 1275
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 1276
+  - 1276
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1277
+  - 1277
+  doc_capsule: null
+- kind: function
+  name: $ProviderElement
+  range:
+  - 1278
+  - 1278
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1278
+  - 1278
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1280
+  - 1280
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1281
+  - 1281
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1281
+  - 1281
+  doc_capsule: null
+- kind: function
+  name: appointmentStatistics
+  range:
+  - 1282
+  - 1282
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1282
+  - 1282
+  doc_capsule: null
+- kind: function
+  name: overrideWithValue
+  range:
+  - 1286
+  - 1286
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1286
+  - 1286
+  doc_capsule: null
+- kind: function
+  name: $ProviderOverride
+  range:
+  - 1287
+  - 1287
+  doc_capsule: null
+- kind: function
+  name: origin
+  range:
+  - 1288
+  - 1288
+  doc_capsule: null
+- kind: function
+  name: providerOverride
+  range:
+  - 1289
+  - 1289
+  doc_capsule: null
+- kind: function
+  name: $SyncValueProvider
+  range:
+  - 1289
+  - 1289
+  doc_capsule: null
+- kind: function
+  name: AppointmentStatistics
+  range:
+  - 1289
+  - 1289
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 1289
+  - 1289
+  doc_capsule: null
+- kind: function
+  name: _$appointmentStatisticsHash
+  range:
+  - 1294
+  - 1294
+  doc_capsule: null
+- kind: function
+  name: ProviderFor
+  range:
+  - 1297
+  - 1297
+  doc_capsule: null
+- kind: function
+  name: weekAppointmentsForCalendar
+  range:
+  - 1297
+  - 1297
+  doc_capsule: null
+- kind: function
+  name: weekAppointmentsForCalendarProvider
+  range:
+  - 1298
+  - 1298
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarFamily
+  range:
+  - 1299
+  - 1299
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1299
+  - 1299
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarProvider
+  range:
+  - 1301
+  - 1301
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarProvider
+  range:
+  - 1311
+  - 1311
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1311
+  - 1311
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1312
+  - 1312
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1313
+  - 1313
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1315
+  - 1315
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1316
+  - 1316
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1317
+  - 1317
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1318
+  - 1318
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1319
+  - 1319
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1322
+  - 1322
+  doc_capsule: null
+- kind: function
+  name: debugGetCreateSourceHash
+  range:
+  - 1323
+  - 1323
+  doc_capsule: null
+- kind: function
+  name: _$weekAppointmentsForCalendarHash
+  range:
+  - 1323
+  - 1323
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1325
+  - 1325
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 1326
+  - 1326
+  doc_capsule: null
+- kind: function
+  name: $internal
+  range:
+  - 1332
+  - 1332
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1333
+  - 1333
+  doc_capsule: null
+- kind: function
+  name: $createElement
+  range:
+  - 1334
+  - 1334
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1335
+  - 1335
+  doc_capsule: null
+- kind: function
+  name: $FutureProviderElement
+  range:
+  - 1336
+  - 1336
+  doc_capsule: null
+- kind: function
+  name: pointer
+  range:
+  - 1336
+  - 1336
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1338
+  - 1338
+  doc_capsule: null
+- kind: function
+  name: create
+  range:
+  - 1339
+  - 1339
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1339
+  - 1339
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1340
+  - 1340
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1340
+  - 1340
+  doc_capsule: null
+- kind: function
+  name: weekAppointmentsForCalendar
+  range:
+  - 1341
+  - 1341
+  doc_capsule: null
+- kind: function
+  name: ref
+  range:
+  - 1341
+  - 1341
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1341
+  - 1341
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1344
+  - 1344
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1345
+  - 1345
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1346
+  - 1346
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 1347
+  - 1347
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1347
+  - 1347
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1347
+  - 1347
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1350
+  - 1350
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 1351
+  - 1351
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1352
+  - 1352
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 1352
+  - 1352
+  doc_capsule: null
+- kind: function
+  name: _$weekAppointmentsForCalendarHash
+  range:
+  - 1356
+  - 1356
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarFamily
+  range:
+  - 1359
+  - 1359
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarFamily
+  range:
+  - 1361
+  - 1361
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1361
+  - 1361
+  doc_capsule: null
+- kind: function
+  name: retry
+  range:
+  - 1363
+  - 1363
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 1364
+  - 1364
+  doc_capsule: null
+- kind: function
+  name: dependencies
+  range:
+  - 1365
+  - 1365
+  doc_capsule: null
+- kind: function
+  name: $allTransitiveDependencies
+  range:
+  - 1366
+  - 1366
+  doc_capsule: null
+- kind: function
+  name: isAutoDispose
+  range:
+  - 1367
+  - 1367
+  doc_capsule: null
+- kind: function
+  name: call
+  range:
+  - 1370
+  - 1370
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1370
+  - 1370
+  doc_capsule: null
+- kind: function
+  name: WeekAppointmentsForCalendarProvider
+  range:
+  - 1371
+  - 1371
+  doc_capsule: null
+- kind: function
+  name: _
+  range:
+  - 1371
+  - 1371
+  doc_capsule: null
+- kind: function
+  name: argument
+  range:
+  - 1371
+  - 1371
+  doc_capsule: null
+- kind: function
+  name: anchorDay
+  range:
+  - 1371
+  - 1371
+  doc_capsule: null
+- kind: function
+  name: from
+  range:
+  - 1371
+  - 1371
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 1373
+  - 1373
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 1374
+  - 1374
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

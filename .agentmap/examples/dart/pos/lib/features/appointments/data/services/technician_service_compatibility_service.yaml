@@ -1,0 +1,2138 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/appointments/data/services/technician_service_compatibility_service.dart
+source_hash: 3ba4caa2a461f717
+regions: []
+symbols:
+- kind: function
+  name: db
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: TechnicianServiceCompatibilityService
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: TechnicianServiceCompatibilityService
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: TechnicianServiceCompatibilityService
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: _instance
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: TechnicianServiceCompatibilityService
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _internal
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: _employeeRepository
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: DriftEmployeeRepository
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: _technicianCapabilitiesCache
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: _serviceCategoryCache
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: _lastCacheUpdate
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: _cacheExpiry
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: Duration
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: minutes
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: canTechnicianPerformService
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 30
+  - 30
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 31
+  - 31
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 38
+  - 38
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianCapabilities
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: _getServiceCategory
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 44
+  - 44
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 47
+  - 47
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 49
+  - 49
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: getCompatibleServices
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 57
+  - 57
+  doc_capsule: null
+- kind: function
+  name: allServices
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: allServices
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: allServices
+  range:
+  - 65
+  - 65
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianCapabilities
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 69
+  - 69
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: allServices
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: _getServiceCategory
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 73
+  - 73
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 81
+  - 81
+  doc_capsule: null
+- kind: function
+  name: allServices
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: getCompatibleTechnicians
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: allTechnicians
+  range:
+  - 89
+  - 89
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: _getServiceCategory
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: compatibleTechnicians
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: allTechnicians
+  range:
+  - 95
+  - 95
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianCapabilities
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: capabilities
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: contains
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: serviceCategory
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: compatibleTechnicians
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 98
+  - 98
+  doc_capsule: null
+- kind: function
+  name: compatibleTechnicians
+  range:
+  - 102
+  - 102
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: allTechnicians
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: checkMultiServiceCompatibility
+  range:
+  - 111
+  - 111
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 115
+  - 115
+  doc_capsule: null
+- kind: function
+  name: ServiceCompatibilityResult
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: services
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: canPerform
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: canTechnicianPerformService
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: canPerform
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 134
+  - 134
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: technicianName
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianName
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: serviceNames
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: s
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: ServiceCompatibilityResult
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: getSuggestedTechnicians
+  range:
+  - 164
+  - 164
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 165
+  - 165
+  doc_capsule: null
+- kind: function
+  name: allTechnicians
+  range:
+  - 166
+  - 166
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: suggestions
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: allTechnicians
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: canPerformAll
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: canPerform
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: canTechnicianPerformService
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: canPerform
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: canPerformAll
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: canPerformAll
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: suggestions
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: suggestions
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianCapabilities
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: _isCacheValid
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: _technicianCapabilitiesCache
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: _technicianCapabilitiesCache
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: _employeeRepository
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 206
+  - 206
+  doc_capsule: null
+- kind: function
+  name: innerJoin
+  range:
+  - 207
+  - 207
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: equalsExp
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employeeServiceCategories
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: rows
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: query
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: categoryNames
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: rows
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: row
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: read
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: _technicianCapabilitiesCache
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: categoryNames
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: _lastCacheUpdate
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: categoryNames
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: _getServiceCategory
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: _isCacheValid
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: _serviceCategoryCache
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: containsKey
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 233
+  - 233
+  doc_capsule: null
+- kind: function
+  name: _serviceCategoryCache
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 234
+  - 234
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: db
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 238
+  - 238
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: serviceCategories
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: tbl
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: tbl
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: categoryId
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: category
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: _serviceCategoryCache
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: categoryName
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: service
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: name
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: _getTechnicianName
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 262
+  - 262
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 263
+  - 263
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: int
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: tryParse
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: technicianId
+  range:
+  - 266
+  - 266
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 267
+  - 267
+  doc_capsule: null
+- kind: function
+  name: _employeeRepository
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: initialize
+  range:
+  - 269
+  - 269
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: _employeeRepository
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: getEmployees
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: technicians
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: firstWhere
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: t
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: orElse
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: techId
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 278
+  - 278
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 279
+  - 279
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 280
+  - 280
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: technician
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: fullName
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 291
+  - 291
+  doc_capsule: null
+- kind: function
+  name: _isCacheValid
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: _lastCacheUpdate
+  range:
+  - 298
+  - 298
+  doc_capsule: null
+- kind: function
+  name: age
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: difference
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: _lastCacheUpdate
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: age
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: _cacheExpiry
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: clearCache
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: _technicianCapabilitiesCache
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: _serviceCategoryCache
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: clear
+  range:
+  - 306
+  - 306
+  doc_capsule: null
+- kind: function
+  name: _lastCacheUpdate
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: Logger
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: info
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: ServiceCompatibilityResult
+  range:
+  - 313
+  - 313
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 314
+  - 314
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 315
+  - 315
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 316
+  - 316
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 317
+  - 317
+  doc_capsule: null
+- kind: function
+  name: ServiceCompatibilityResult
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: isFullyCompatible
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: warningMessage
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: compatibleServices
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 329
+  - 329
+  doc_capsule: null
+- kind: function
+  name: incompatibleServices
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+- kind: function
+  name: length
+  range:
+  - 330
+  - 330
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

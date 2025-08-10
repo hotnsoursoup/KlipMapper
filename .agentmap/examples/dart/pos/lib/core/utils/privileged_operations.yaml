@@ -1,0 +1,2606 @@
+agentmap: v1
+source: examples/dart/pos/lib/core/utils/privileged_operations.dart
+source_hash: 61618baa5b14b3a5
+regions: []
+symbols:
+- kind: function
+  name: model
+  range:
+  - 8
+  - 8
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: voidTicket
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: refundPayment
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: modifyPrice
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: overrideDiscount
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: viewReports
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: editEmployeeData
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: modifyInventory
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: function
+  name: accessSettings
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: cancelAppointment
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: requiresPin
+  range:
+  - 34
+  - 34
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 36
+  - 36
+  doc_capsule: null
+- kind: function
+  name: specificEmployeeId
+  range:
+  - 37
+  - 37
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: requiresPin
+  range:
+  - 40
+  - 40
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 42
+  - 42
+  doc_capsule: null
+- kind: function
+  name: specificEmployeeId
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperations
+  range:
+  - 48
+  - 48
+  doc_capsule: null
+- kind: function
+  name: _defaultConfigs
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: voidTicket
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 54
+  - 54
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 55
+  - 55
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 56
+  - 56
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: refundPayment
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: deleteCustomer
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 62
+  - 62
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 63
+  - 63
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: modifyPrice
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 66
+  - 66
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 68
+  - 68
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: overrideDiscount
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 70
+  - 70
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: viewReports
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 74
+  - 74
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 75
+  - 75
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 76
+  - 76
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: editEmployeeData
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 78
+  - 78
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: modifyInventory
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 83
+  - 83
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: accessSettings
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 87
+  - 87
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 88
+  - 88
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: cancelAppointment
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 90
+  - 90
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 91
+  - 91
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 92
+  - 92
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: clockIn
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperation
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: clockOut
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationConfig
+  range:
+  - 99
+  - 99
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: requestAuthorization
+  range:
+  - 106
+  - 106
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 107
+  - 107
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 110
+  - 110
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 113
+  - 113
+  doc_capsule: null
+- kind: function
+  name: _defaultConfigs
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 114
+  - 114
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: requiresPin
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: requiresManagerPin
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: _requestManagerAuthorization
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: PinProtection
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 132
+  - 132
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 133
+  - 133
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 141
+  - 141
+  doc_capsule: null
+- kind: function
+  name: _requestManagerAuthorization
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 149
+  - 149
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 150
+  - 150
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 151
+  - 151
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: currentEmployee
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: _getEmployee
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: currentEmployee
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: _isManagerOrAdmin
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: currentEmployee
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 157
+  - 157
+  doc_capsule: null
+- kind: function
+  name: PinProtection
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: _requestAnyManagerPin
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 167
+  - 167
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: _requestAnyManagerPin
+  range:
+  - 176
+  - 176
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 177
+  - 177
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: managers
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: _getActiveManagers
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: managers
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: isEmpty
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: managerId
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: managers
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: first
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: PinProtection
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: verify
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: managerId
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: authMessage
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: customMessage
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 201
+  - 201
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 202
+  - 202
+  doc_capsule: null
+- kind: function
+  name: _getEmployee
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: getSingleOrNull
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: model
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 218
+  - 218
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 226
+  - 226
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 227
+  - 227
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 228
+  - 228
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 230
+  - 230
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 231
+  - 231
+  doc_capsule: null
+- kind: function
+  name: _getActiveManagers
+  range:
+  - 237
+  - 237
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: PosDatabase
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: instance
+  range:
+  - 239
+  - 239
+  doc_capsule: null
+- kind: function
+  name: managersData
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: select
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: database
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: employees
+  range:
+  - 240
+  - 240
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: isActive
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: equals
+  range:
+  - 241
+  - 241
+  doc_capsule: null
+- kind: function
+  name: where
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: isIn
+  range:
+  - 242
+  - 242
+  doc_capsule: null
+- kind: function
+  name: get
+  range:
+  - 243
+  - 243
+  doc_capsule: null
+- kind: function
+  name: managersData
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: map
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: model
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: Employee
+  range:
+  - 245
+  - 245
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 246
+  - 246
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: firstName
+  range:
+  - 247
+  - 247
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: lastName
+  range:
+  - 248
+  - 248
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 249
+  - 249
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: phone
+  range:
+  - 250
+  - 250
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 251
+  - 251
+  doc_capsule: null
+- kind: function
+  name: locationId
+  range:
+  - 252
+  - 252
+  doc_capsule: null
+- kind: function
+  name: username
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: email
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: id
+  range:
+  - 253
+  - 253
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: createdAt
+  range:
+  - 254
+  - 254
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: employeeData
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: updatedAt
+  range:
+  - 255
+  - 255
+  doc_capsule: null
+- kind: function
+  name: toList
+  range:
+  - 256
+  - 256
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 257
+  - 257
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 258
+  - 258
+  doc_capsule: null
+- kind: function
+  name: _isManagerOrAdmin
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 264
+  - 264
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: role
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: toLowerCase
+  range:
+  - 265
+  - 265
+  doc_capsule: null
+- kind: function
+  name: executeWithAuthorization
+  range:
+  - 270
+  - 270
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 271
+  - 271
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 272
+  - 272
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 273
+  - 273
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 274
+  - 274
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 275
+  - 275
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 276
+  - 276
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 277
+  - 277
+  doc_capsule: null
+- kind: function
+  name: authorized
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: requestAuthorization
+  range:
+  - 281
+  - 281
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 282
+  - 282
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 283
+  - 283
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 284
+  - 284
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 285
+  - 285
+  doc_capsule: null
+- kind: function
+  name: authorized
+  range:
+  - 288
+  - 288
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: logWarning
+  range:
+  - 289
+  - 289
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 290
+  - 290
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: logInfo
+  range:
+  - 295
+  - 295
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 296
+  - 296
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 297
+  - 297
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 299
+  - 299
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 300
+  - 300
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 303
+  - 303
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 304
+  - 304
+  doc_capsule: null
+- kind: function
+  name: ErrorLogger
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: logError
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: stack
+  range:
+  - 305
+  - 305
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 307
+  - 307
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 308
+  - 308
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: mounted
+  range:
+  - 309
+  - 309
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: e
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 310
+  - 310
+  doc_capsule: null
+- kind: function
+  name: _showErrorDialog
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 318
+  - 318
+  doc_capsule: null
+- kind: function
+  name: showDialog
+  range:
+  - 319
+  - 319
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 320
+  - 320
+  doc_capsule: null
+- kind: function
+  name: builder
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: AlertDialog
+  range:
+  - 321
+  - 321
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 322
+  - 322
+  doc_capsule: null
+- kind: function
+  name: content
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: message
+  range:
+  - 323
+  - 323
+  doc_capsule: null
+- kind: function
+  name: actions
+  range:
+  - 324
+  - 324
+  doc_capsule: null
+- kind: function
+  name: TextButton
+  range:
+  - 325
+  - 325
+  doc_capsule: null
+- kind: function
+  name: onPressed
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: Navigator
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: of
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: pop
+  range:
+  - 326
+  - 326
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 327
+  - 327
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperationContext
+  range:
+  - 336
+  - 336
+  doc_capsule: null
+- kind: function
+  name: requestPrivilegedAuthorization
+  range:
+  - 338
+  - 338
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 339
+  - 339
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 340
+  - 340
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 341
+  - 341
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperations
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: requestAuthorization
+  range:
+  - 343
+  - 343
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 344
+  - 344
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 345
+  - 345
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 346
+  - 346
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 347
+  - 347
+  doc_capsule: null
+- kind: function
+  name: executePrivilegedOperation
+  range:
+  - 352
+  - 352
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 353
+  - 353
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 354
+  - 354
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 355
+  - 355
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 356
+  - 356
+  doc_capsule: null
+- kind: function
+  name: result
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 357
+  - 357
+  doc_capsule: null
+- kind: function
+  name: error
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 358
+  - 358
+  doc_capsule: null
+- kind: function
+  name: PrivilegedOperations
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: executeWithAuthorization
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: T
+  range:
+  - 360
+  - 360
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 361
+  - 361
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: operation
+  range:
+  - 362
+  - 362
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: currentEmployeeId
+  range:
+  - 363
+  - 363
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: action
+  range:
+  - 364
+  - 364
+  doc_capsule: null
+- kind: function
+  name: customConfig
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: config
+  range:
+  - 365
+  - 365
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: onSuccess
+  range:
+  - 366
+  - 366
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+- kind: function
+  name: onError
+  range:
+  - 367
+  - 367
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []

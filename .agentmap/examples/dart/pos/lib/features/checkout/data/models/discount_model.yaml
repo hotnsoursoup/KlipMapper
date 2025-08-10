@@ -1,0 +1,1478 @@
+agentmap: v1
+source: examples/dart/pos/lib/features/checkout/data/models/discount_model.dart
+source_hash: 6a8639b71262066f
+regions: []
+symbols:
+- kind: function
+  name: JsonSerializable
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 16
+  - 16
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 17
+  - 17
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 21
+  - 21
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 22
+  - 22
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 26
+  - 26
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 27
+  - 27
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: function
+  name: calculateAmount
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 35
+  - 35
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 41
+  - 41
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 46
+  - 46
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 53
+  - 53
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: subtotal
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 58
+  - 58
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 59
+  - 59
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 60
+  - 60
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 64
+  - 64
+  doc_capsule: null
+- kind: function
+  name: discountAmount
+  range:
+  - 67
+  - 67
+  doc_capsule: null
+- kind: function
+  name: isValid
+  range:
+  - 71
+  - 71
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: DateTime
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: now
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: isAfter
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 72
+  - 72
+  doc_capsule: null
+- kind: function
+  name: displayName
+  range:
+  - 79
+  - 79
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 80
+  - 80
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 82
+  - 82
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 84
+  - 84
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 86
+  - 86
+  doc_capsule: null
+- kind: function
+  name: description
+  range:
+  - 93
+  - 93
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 94
+  - 94
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 96
+  - 96
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 97
+  - 97
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 100
+  - 100
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 101
+  - 101
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 104
+  - 104
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 105
+  - 105
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 108
+  - 108
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: add
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: toStringAsFixed
+  range:
+  - 109
+  - 109
+  doc_capsule: null
+- kind: function
+  name: parts
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: join
+  range:
+  - 112
+  - 112
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 116
+  - 116
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 117
+  - 117
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 118
+  - 118
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 119
+  - 119
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 120
+  - 120
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 121
+  - 121
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 122
+  - 122
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 124
+  - 124
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 125
+  - 125
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 126
+  - 126
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 127
+  - 127
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 128
+  - 128
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 129
+  - 129
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 130
+  - 130
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 131
+  - 131
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 135
+  - 135
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 136
+  - 136
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 137
+  - 137
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 138
+  - 138
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 139
+  - 139
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 140
+  - 140
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 142
+  - 142
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 143
+  - 143
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 144
+  - 144
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 145
+  - 145
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 146
+  - 146
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 147
+  - 147
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 148
+  - 148
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 152
+  - 152
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 153
+  - 153
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 154
+  - 154
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 155
+  - 155
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 156
+  - 156
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 158
+  - 158
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 159
+  - 159
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 160
+  - 160
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 161
+  - 161
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 162
+  - 162
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 163
+  - 163
+  doc_capsule: null
+- kind: function
+  name: commonDiscounts
+  range:
+  - 168
+  - 168
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 169
+  - 169
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 170
+  - 170
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 171
+  - 171
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 172
+  - 172
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 173
+  - 173
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: fixed
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: amount
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 174
+  - 174
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: employee
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: percentage
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: employeeId
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 175
+  - 175
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: fromJson
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: _$DiscountFromJson
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: json
+  range:
+  - 178
+  - 178
+  doc_capsule: null
+- kind: function
+  name: toJson
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: _$DiscountToJson
+  range:
+  - 179
+  - 179
+  doc_capsule: null
+- kind: function
+  name: copyWith
+  range:
+  - 181
+  - 181
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 182
+  - 182
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 183
+  - 183
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 184
+  - 184
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 185
+  - 185
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 186
+  - 186
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 187
+  - 187
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 188
+  - 188
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 189
+  - 189
+  doc_capsule: null
+- kind: function
+  name: Discount
+  range:
+  - 191
+  - 191
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 192
+  - 192
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 193
+  - 193
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 194
+  - 194
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 195
+  - 195
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 196
+  - 196
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: expiresAt
+  range:
+  - 197
+  - 197
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: maxAmount
+  range:
+  - 198
+  - 198
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: minOrderAmount
+  range:
+  - 199
+  - 199
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 203
+  - 203
+  doc_capsule: null
+- kind: function
+  name: toString
+  range:
+  - 204
+  - 204
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 208
+  - 208
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 209
+  - 209
+  doc_capsule: null
+- kind: function
+  name: identical
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 210
+  - 210
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 211
+  - 211
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 212
+  - 212
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 213
+  - 213
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 214
+  - 214
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 215
+  - 215
+  doc_capsule: null
+- kind: function
+  name: other
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 216
+  - 216
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 219
+  - 219
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 220
+  - 220
+  doc_capsule: null
+- kind: function
+  name: type
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 221
+  - 221
+  doc_capsule: null
+- kind: function
+  name: value
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 222
+  - 222
+  doc_capsule: null
+- kind: function
+  name: code
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 223
+  - 223
+  doc_capsule: null
+- kind: function
+  name: reason
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 224
+  - 224
+  doc_capsule: null
+- kind: function
+  name: authorizedBy
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+- kind: function
+  name: hashCode
+  range:
+  - 225
+  - 225
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []
