@@ -2,6 +2,11 @@
 // Application entry point that initializes all core services and launches the Flutter POS app. Handles database connections, settings, window configuration, and service loading before starting the main UI.
 // Usage: ACTIVE - Main entry point for the entire Flutter application
 
+// agentmap:1
+// gz64: H4sIAAAAAAAC/02LQQ7CIBBF7zLrpkBClbDyDrozLqCAkkAlpTGQpnd3Ztfd+2/e7PADDWLkMECIDtk3k0vylTmzbqx8K0vRsmziMpK5TUHOl5kbeijY148R+iSTWd6oqcVVewb9fA3QVh8q6P0YILqGALbf6UjG9kcvnhjHhpm4TlJxpaQ8/m8zPGKiAAAA
+// total-bytes: 192 sha1:fa5729a8
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'app/app.dart';

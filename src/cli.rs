@@ -76,6 +76,17 @@ enum Cmd {
         #[arg(long)]
         filter: Vec<String>,
     },
+    /// Embed compressed anchor headers directly in source files.
+    Embed {
+        /// Paths to process
+        path: Vec<PathBuf>,
+        /// Preview changes without modifying files
+        #[arg(long)]
+        dry_run: bool,
+        /// Force overwrite existing anchors
+        #[arg(long)]
+        force: bool,
+    },
 }
 
 #[derive(Clone, Copy, Debug, ValueEnum)]
@@ -284,6 +295,18 @@ pub fn run() -> anyhow::Result<()> {
                 }
             }
         }
+        Cmd::Embed { path, dry_run, force } => {
+            println!("🔗 Embedding compressed anchor headers in source files...");
+            
+            // Process files to embed anchors
+            let embedded = embed_anchor_headers(path, &adapters, !dry_run, force)?;
+            
+            if dry_run {
+                println!("🔍 Dry run complete: {} files would be modified", embedded);
+            } else {
+                println!("✅ Successfully embedded anchors in {} files", embedded);
+            }
+        }
     }
     Ok(())
 }
@@ -328,4 +351,219 @@ fn load_symbol_table(
     });
     
     Ok(symbol_table)
+}
+
+fn embed_anchor_headers(
+    paths: Vec<PathBuf>,
+    adapters: &[Box<dyn crate::adapters::Adapter>],
+    write: bool,
+    force: bool,
+) -> anyhow::Result<usize> {
+    use crate::anchor::{AnchorHeaderBuilder, AnchorCompressor};
+    use crate::symbol_resolver::SymbolResolver;
+    use ignore::WalkBuilder;
+    use std::fs;
+    
+    println!("DEBUG: embed_anchor_headers called with {} paths, write: {}, force: {}", 
+             paths.len(), write, force);
+    
+    // Collect all files to process
+    let files: Vec<PathBuf> = paths
+        .into_iter()
+        .flat_map(|p| {
+            if p.is_dir() {
+                let walker_files: Vec<PathBuf> = WalkBuilder::new(&p)
+                    .standard_filters(true)
+                    .build()
+                    .filter_map(|e| e.ok())
+                    .filter(|e| e
+                        .file_type()
+                        .map(|t| t.is_file())
+                        .unwrap_or(false))
+                    .map(|e| e.into_path())
+                    // Only process source files that adapters support
+                    .filter(|path| adapters.iter().any(|adapter| adapter.supports(path)))
+                    .collect();
+                println!("DEBUG: Found {} supported files in directory {}", walker_files.len(), p.display());
+                walker_files
+            } else {
+                vec![p]
+            }
+        })
+        .collect();
+
+    println!("DEBUG: Total files to process: {}", files.len());
+    
+    if files.is_empty() {
+        anyhow::bail!("No supported files found to embed anchors");
+    }
+
+    let mut modified_count = 0;
+
+    for file_path in files {
+        println!("DEBUG: Processing {}", file_path.display());
+        
+        // Read current file content
+        let content = match fs::read_to_string(&file_path) {
+            Ok(content) => content,
+            Err(e) => {
+                eprintln!("WARN: Failed to read file {}: {}", file_path.display(), e);
+                continue;
+            }
+        };
+
+        // Check if file already has anchors and handle force flag
+        if content.contains("agentmap:1") && !force {
+            println!("DEBUG: File {} already has anchors, skipping (use --force to overwrite)", file_path.display());
+            continue;
+        }
+
+        // Find matching adapter
+        let adapter = adapters.iter().find(|a| a.supports(&file_path));
+        let adapter = match adapter {
+            Some(a) => a,
+            None => {
+                println!("DEBUG: No adapter found for {}", file_path.display());
+                continue;
+            }
+        };
+
+        println!("DEBUG: Using adapter {} for {}", adapter.name(), file_path.display());
+
+        // Analyze file to extract symbols using enhanced symbol resolver
+        let mut resolver = SymbolResolver::new(
+            file_path.extension()
+                .and_then(|ext| ext.to_str())
+                .unwrap_or("unknown")
+                .to_string(),
+            content.clone(),
+        );
+
+        // Parse with tree-sitter to get AST
+        let mut parser = tree_sitter::Parser::new();
+        let language = match file_path.extension().and_then(|ext| ext.to_str()) {
+            Some("dart") => tree_sitter_dart::language(),
+            Some("py") => tree_sitter_python::language(),
+            Some("ts") | Some("tsx") => tree_sitter_typescript::language_typescript(),
+            Some("js") | Some("jsx") => tree_sitter_javascript::language(),
+            Some("rs") => tree_sitter_rust::language(),
+            Some("go") => tree_sitter_go::language(),
+            Some("java") => tree_sitter_java::language(),
+            _ => {
+                println!("DEBUG: Unsupported language for {}", file_path.display());
+                continue;
+            }
+        };
+
+        parser.set_language(&language)
+            .map_err(|e| anyhow::anyhow!("Failed to set parser language: {}", e))?;
+
+        let tree = match parser.parse(&content, None) {
+            Some(tree) => tree,
+            None => {
+                eprintln!("WARN: Failed to parse {}", file_path.display());
+                continue;
+            }
+        };
+
+        // Extract symbols using enhanced resolver
+        let symbols = match resolver.resolve_symbols(&tree) {
+            Ok(symbols) => symbols,
+            Err(e) => {
+                eprintln!("WARN: Failed to resolve symbols for {}: {}", file_path.display(), e);
+                continue;
+            }
+        };
+
+        println!("DEBUG: Extracted {} symbols from {}", symbols.len(), file_path.display());
+
+        // Build anchor header
+        let mut builder = AnchorHeaderBuilder::new(
+            file_path.clone(),
+            file_path.extension()
+                .and_then(|ext| ext.to_str())
+                .unwrap_or("unknown")
+                .to_string(),
+            content.clone(),
+        );
+
+        for symbol in symbols {
+            builder = builder.add_symbol(symbol);
+        }
+
+        let header = builder.build();
+
+        // Compress header for embedding
+        let compressed = match AnchorCompressor::compress_header(&header) {
+            Ok(compressed) => compressed,
+            Err(e) => {
+                eprintln!("WARN: Failed to compress header for {}: {}", file_path.display(), e);
+                continue;
+            }
+        };
+
+        // Generate comment lines for the language
+        let header_comments = AnchorCompressor::format_header_comments(
+            &compressed,
+            file_path.extension()
+                .and_then(|ext| ext.to_str())
+                .unwrap_or("unknown")
+        );
+
+        // Embed comments at the beginning of the file (after any existing file header comments)
+        let mut new_content = String::new();
+        let lines: Vec<&str> = content.lines().collect();
+        let mut insert_at = 0;
+
+        // Skip any existing file header comments to insert after them
+        for (i, line) in lines.iter().enumerate() {
+            if line.trim().starts_with("//") || line.trim().starts_with("#") {
+                insert_at = i + 1;
+            } else if line.trim().is_empty() {
+                // Allow empty lines in header area
+                continue;
+            } else {
+                break;
+            }
+        }
+
+        // Add original content up to insertion point
+        for line in lines.iter().take(insert_at) {
+            new_content.push_str(line);
+            new_content.push('\n');
+        }
+
+        // Add anchor header comments
+        new_content.push('\n');
+        for comment in header_comments {
+            new_content.push_str(&comment);
+            new_content.push('\n');
+        }
+        new_content.push('\n');
+
+        // Add remaining content
+        for line in lines.iter().skip(insert_at) {
+            new_content.push_str(line);
+            new_content.push('\n');
+        }
+
+        // Write the modified content if requested
+        if write {
+            match fs::write(&file_path, &new_content) {
+                Ok(_) => {
+                    println!("DEBUG: Embedded anchor header in {}", file_path.display());
+                    modified_count += 1;
+                }
+                Err(e) => {
+                    eprintln!("WARN: Failed to write modified file {}: {}", file_path.display(), e);
+                }
+            }
+        } else {
+            println!("DEBUG: Would embed anchor header in {} ({} bytes)", 
+                     file_path.display(), new_content.len());
+            modified_count += 1;
+        }
+    }
+
+    Ok(modified_count)
 }
