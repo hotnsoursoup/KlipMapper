@@ -1,0 +1,89 @@
+agentmap: v1
+source: examples/go/sample.go
+source_hash: 56bfe4b5dc76415d
+regions:
+- name: package
+  anchor: <r:package>
+  start: 1
+  end: 3
+- name: imports
+  anchor: <r:imports>
+  start: 4
+  end: 10
+- name: types
+  anchor: <r:types>
+  start: 11
+  end: 21
+- name: methods
+  anchor: <r:methods>
+  start: 22
+  end: 37
+- name: handlers
+  anchor: <r:handlers>
+  start: 38
+  end: 43
+- name: main
+  anchor: <r:main>
+  start: 44
+  end: 53
+symbols:
+- kind: module
+  name: main
+  range:
+  - 2
+  - 2
+  doc_capsule: null
+- kind: type
+  name: User
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: type
+  name: UserService
+  range:
+  - 18
+  - 18
+  doc_capsule: null
+- kind: function
+  name: NewUserService
+  range:
+  - 23
+  - 23
+  doc_capsule: null
+- kind: method
+  name: AddUser
+  range:
+  - 29
+  - 29
+  doc_capsule: null
+- kind: method
+  name: GetUser
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: method
+  name: HandleGetUser
+  range:
+  - 39
+  - 39
+  doc_capsule: null
+- kind: function
+  name: main
+  range:
+  - 45
+  - 45
+  doc_capsule: null
+imports:
+- name: '"fmt"'
+  from: null
+  path: null
+- name: '"encoding/json"'
+  from: null
+  path: null
+- name: '"net/http"'
+  from: null
+  path: null
+usage_slices: []
+call_graph: []

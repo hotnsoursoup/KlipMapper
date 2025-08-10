@@ -23,6 +23,7 @@ pub trait Adapter: Send + Sync {
 }
 
 pub mod ts_adapter;
+pub mod enhanced_dart;
 
 pub mod registry {
     use super::*;
@@ -38,8 +39,13 @@ pub mod registry {
         let dart_q = include_str!("../../queries/dart.scm");
         let py_q = include_str!("../../queries/python.scm");
         let ts_q = include_str!("../../queries/typescript.scm");
+        let rust_q = include_str!("../../queries/rust.scm");
+        let go_q = include_str!("../../queries/go.scm");
+        let java_q = include_str!("../../queries/java.scm");
 
         let mut v: Vec<Box<dyn Adapter>> = Vec::new();
+        
+        // Existing languages
         v.push(make(tree_sitter_dart::language(), &[".dart"], dart_q));
         v.push(make(tree_sitter_python::language(), &[".py"], py_q));
         v.push(make(
@@ -52,6 +58,12 @@ pub mod registry {
             &[".js", ".jsx"],
             ts_q,
         ));
+        
+        // New modern languages
+        v.push(make(tree_sitter_rust::language(), &[".rs"], rust_q));
+        v.push(make(tree_sitter_go::language(), &[".go"], go_q));
+        v.push(make(tree_sitter_java::language(), &[".java"], java_q));
+        
         Ok(v)
     }
 }

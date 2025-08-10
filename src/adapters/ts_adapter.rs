@@ -73,9 +73,49 @@ impl Adapter for TsAdapter {
                         range.end_point.row as u32 + 1),
                 doc_capsule: None,
             });
-        } else if cname == "class_name" || cname == "flutter_class_name" {
+        } else if cname == "class_name" || cname == "flutter_class_name" || cname == "struct_name" || cname == "interface_name" {
             a.symbols.push(Symbol {
                 kind: "class".into(),
+                name: text,
+                range: (range.start_point.row as u32 + 1,
+                        range.end_point.row as u32 + 1),
+                doc_capsule: None,
+            });
+        } else if cname == "enum_name" {
+            a.symbols.push(Symbol {
+                kind: "enum".into(),
+                name: text,
+                range: (range.start_point.row as u32 + 1,
+                        range.end_point.row as u32 + 1),
+                doc_capsule: None,
+            });
+        } else if cname == "trait_name" {
+            a.symbols.push(Symbol {
+                kind: "trait".into(),
+                name: text,
+                range: (range.start_point.row as u32 + 1,
+                        range.end_point.row as u32 + 1),
+                doc_capsule: None,
+            });
+        } else if cname == "type_name" || cname == "impl_type" {
+            a.symbols.push(Symbol {
+                kind: "type".into(),
+                name: text,
+                range: (range.start_point.row as u32 + 1,
+                        range.end_point.row as u32 + 1),
+                doc_capsule: None,
+            });
+        } else if cname == "module_name" || cname == "package_name" {
+            a.symbols.push(Symbol {
+                kind: "module".into(),
+                name: text,
+                range: (range.start_point.row as u32 + 1,
+                        range.end_point.row as u32 + 1),
+                doc_capsule: None,
+            });
+        } else if cname == "constructor_name" {
+            a.symbols.push(Symbol {
+                kind: "constructor".into(),
                 name: text,
                 range: (range.start_point.row as u32 + 1,
                         range.end_point.row as u32 + 1),

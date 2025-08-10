@@ -1,0 +1,108 @@
+agentmap: v1
+source: examples/java/sample.java
+source_hash: ab615cb6b9f89c3a
+regions:
+- name: package
+  anchor: <r:package>
+  start: 1
+  end: 3
+- name: imports
+  anchor: <r:imports>
+  start: 4
+  end: 7
+- name: class
+  anchor: <r:class>
+  start: 8
+  end: 9
+- name: fields
+  anchor: <r:fields>
+  start: 10
+  end: 13
+- name: constructor
+  anchor: <r:constructor>
+  start: 14
+  end: 18
+- name: methods
+  anchor: <r:methods>
+  start: 19
+  end: 31
+- name: inner-class
+  anchor: <r:inner-class>
+  start: 32
+  end: 54
+symbols:
+- kind: module
+  name: package com.example.demo;
+  range:
+  - 2
+  - 2
+  doc_capsule: null
+- kind: class
+  name: UserManager
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: constructor
+  name: UserManager
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: method
+  name: addUser
+  range:
+  - 20
+  - 20
+  doc_capsule: null
+- kind: method
+  name: getUser
+  range:
+  - 24
+  - 24
+  doc_capsule: null
+- kind: method
+  name: getAllUsers
+  range:
+  - 28
+  - 28
+  doc_capsule: null
+- kind: class
+  name: User
+  range:
+  - 33
+  - 33
+  doc_capsule: null
+- kind: constructor
+  name: User
+  range:
+  - 43
+  - 43
+  doc_capsule: null
+- kind: method
+  name: getId
+  range:
+  - 50
+  - 50
+  doc_capsule: null
+- kind: method
+  name: getName
+  range:
+  - 51
+  - 51
+  doc_capsule: null
+- kind: method
+  name: getEmail
+  range:
+  - 52
+  - 52
+  doc_capsule: null
+imports:
+- name: import java.util.*;
+  from: null
+  path: null
+- name: import com.fasterxml.jackson.annotation.JsonProperty;
+  from: null
+  path: null
+usage_slices: []
+call_graph: []

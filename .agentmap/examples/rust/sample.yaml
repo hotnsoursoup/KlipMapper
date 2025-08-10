@@ -1,0 +1,60 @@
+agentmap: v1
+source: examples/rust/sample.rs
+source_hash: 790d33224c444d3a
+regions:
+- name: imports
+  anchor: <r:imports>
+  start: 1
+  end: 4
+- name: structs
+  anchor: <r:structs>
+  start: 5
+  end: 12
+- name: impl
+  anchor: <r:impl>
+  start: 13
+  end: 23
+- name: functions
+  anchor: <r:functions>
+  start: 24
+  end: 30
+symbols:
+- kind: class
+  name: User
+  range:
+  - 7
+  - 7
+  doc_capsule: null
+- kind: type
+  name: User
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: new
+  range:
+  - 15
+  - 15
+  doc_capsule: null
+- kind: function
+  name: is_valid
+  range:
+  - 19
+  - 19
+  doc_capsule: null
+- kind: function
+  name: create_user_map
+  range:
+  - 25
+  - 25
+  doc_capsule: null
+imports:
+- name: use std::collections::HashMap;
+  from: null
+  path: null
+- name: use serde::{Deserialize, Serialize};
+  from: null
+  path: null
+usage_slices: []
+call_graph: []

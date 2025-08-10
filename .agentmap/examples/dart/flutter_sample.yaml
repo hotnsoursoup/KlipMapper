@@ -1,0 +1,110 @@
+agentmap: v1
+source: examples/dart/flutter_sample.dart
+source_hash: 64a7ca773cec7888
+regions:
+- name: imports
+  anchor: <r:imports>
+  start: 1
+  end: 3
+- name: app
+  anchor: <r:app>
+  start: 4
+  end: 7
+- name: build
+  anchor: <r:build>
+  start: 8
+  end: 18
+symbols:
+- kind: function
+  name: MyApp
+  range:
+  - 5
+  - 5
+  doc_capsule: null
+- kind: function
+  name: MyApp
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: key
+  range:
+  - 6
+  - 6
+  doc_capsule: null
+- kind: function
+  name: override
+  range:
+  - 9
+  - 9
+  doc_capsule: null
+- kind: function
+  name: build
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: context
+  range:
+  - 10
+  - 10
+  doc_capsule: null
+- kind: function
+  name: MaterialApp
+  range:
+  - 11
+  - 11
+  doc_capsule: null
+- kind: function
+  name: home
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: Scaffold
+  range:
+  - 12
+  - 12
+  doc_capsule: null
+- kind: function
+  name: appBar
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: AppBar
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: title
+  range:
+  - 13
+  - 13
+  doc_capsule: null
+- kind: function
+  name: body
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: child
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+- kind: function
+  name: Text
+  range:
+  - 14
+  - 14
+  doc_capsule: null
+imports: []
+usage_slices: []
+call_graph: []
