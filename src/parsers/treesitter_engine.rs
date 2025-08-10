@@ -83,13 +83,18 @@ impl ModernTreeSitterEngine {
 
         tracing::debug!("Parsing file: {} with language: {:?}", path.display(), language);
 
-        // Skip query operations for now to avoid Clone trait issues
-        // let queries = &self.queries[&language];
-
-        // Multi-pass analysis
-        let symbols = Vec::new(); // TODO: Implement extraction with proper borrow handling
-        let imports = Vec::new(); // TODO: Implement import extraction
-        let annotations = Vec::new(); // TODO: Implement annotation extraction
+        // Perform actual symbol extraction without borrowing self mutably
+        let queries = &self.queries[&language];
+        let mut symbols = Vec::new();
+        
+        // Extract different symbol types using separate cursor for each operation
+        symbols.extend(Self::extract_classes_static(&tree, queries, content, path).await?);
+        symbols.extend(Self::extract_functions_static(&tree, queries, content, path).await?);
+        symbols.extend(Self::extract_methods_static(&tree, queries, content, path).await?);
+        symbols.extend(Self::extract_variables_static(&tree, queries, content, path).await?);
+        
+        let imports = Self::extract_imports_static(&tree, queries, content, path).await?;
+        let annotations = Self::extract_annotations_static(&tree, queries, content, path).await?;
 
         Ok(FileParseResult {
             path: path.to_path_buf(),
@@ -101,9 +106,7 @@ impl ModernTreeSitterEngine {
         })
     }
 
-    #[allow(dead_code)]
-    async fn extract_classes(
-        &mut self,
+    async fn extract_classes_static(
         tree: &Tree,
         queries: &LanguageQueries,
         content: &str,
@@ -111,7 +114,8 @@ impl ModernTreeSitterEngine {
     ) -> Result<Vec<ParsedSymbol>> {
         let mut symbols = Vec::new();
         
-        let matches: Vec<_> = self.cursor.matches(&queries.classes, tree.root_node(), content.as_bytes()).collect();
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.classes, tree.root_node(), content.as_bytes()).collect();
         
         for match_ in matches {
             let mut class_name = None;
@@ -166,9 +170,7 @@ impl ModernTreeSitterEngine {
         Ok(symbols)
     }
 
-    #[allow(dead_code)]
-    async fn extract_functions(
-        &mut self,
+    async fn extract_functions_static(
         tree: &Tree,
         queries: &LanguageQueries,
         content: &str,
@@ -176,7 +178,8 @@ impl ModernTreeSitterEngine {
     ) -> Result<Vec<ParsedSymbol>> {
         let mut symbols = Vec::new();
         
-        let matches: Vec<_> = self.cursor.matches(&queries.functions, tree.root_node(), content.as_bytes()).collect();
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.functions, tree.root_node(), content.as_bytes()).collect();
         
         for match_ in matches {
             let mut function_name = None;
@@ -235,9 +238,7 @@ impl ModernTreeSitterEngine {
         Ok(symbols)
     }
 
-    #[allow(dead_code)]
-    async fn extract_methods(
-        &mut self,
+    async fn extract_methods_static(
         tree: &Tree,
         queries: &LanguageQueries,
         content: &str,
@@ -245,7 +246,8 @@ impl ModernTreeSitterEngine {
     ) -> Result<Vec<ParsedSymbol>> {
         let mut symbols = Vec::new();
         
-        let matches: Vec<_> = self.cursor.matches(&queries.methods, tree.root_node(), content.as_bytes()).collect();
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.methods, tree.root_node(), content.as_bytes()).collect();
         
         for match_ in matches {
             let mut method_name = None;
@@ -305,9 +307,7 @@ impl ModernTreeSitterEngine {
         Ok(symbols)
     }
 
-    #[allow(dead_code)]
-    async fn extract_variables(
-        &mut self,
+    async fn extract_variables_static(
         tree: &Tree,
         queries: &LanguageQueries,
         content: &str,
@@ -315,7 +315,8 @@ impl ModernTreeSitterEngine {
     ) -> Result<Vec<ParsedSymbol>> {
         let mut symbols = Vec::new();
         
-        let matches: Vec<_> = self.cursor.matches(&queries.variables, tree.root_node(), content.as_bytes()).collect();
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.variables, tree.root_node(), content.as_bytes()).collect();
         
         for match_ in matches {
             let mut var_name = None;
@@ -369,34 +370,156 @@ impl ModernTreeSitterEngine {
         Ok(symbols)
     }
 
-    #[allow(dead_code)]
-    async fn extract_imports(
-        &mut self,
-        _tree: &Tree,
-        _queries: &LanguageQueries,
-        _content: &str,
-        _file_path: &Path,
+    async fn extract_imports_static(
+        tree: &Tree,
+        queries: &LanguageQueries,
+        content: &str,
+        file_path: &Path,
     ) -> Result<Vec<ImportInfo>> {
-        // TODO: Implement import extraction
-        Ok(Vec::new())
+        let mut imports = Vec::new();
+        
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.imports, tree.root_node(), content.as_bytes()).collect();
+        
+        for match_ in matches {
+            let mut source = None;
+            let mut items = Vec::new();
+            let mut alias = None;
+            let mut location = None;
+
+            for capture in match_.captures {
+                let node = capture.node;
+                let node_text = node.utf8_text(content.as_bytes())?;
+                let capture_name = queries.imports.capture_names().get(capture.index as usize).unwrap();
+
+                match *capture_name {
+                    "import.source" | "import.uri" | "import.library" | "import.path" => {
+                        source = Some(node_text.trim_matches('"').to_string());
+                    }
+                    "import.alias" => {
+                        alias = Some(node_text.to_string());
+                    }
+                    "import.show" | "import.clause" => {
+                        // Parse import items - simplified for now
+                        items.push(node_text.to_string());
+                    }
+                    "import" => {
+                        location = Some(SourceLocation {
+                            file_path: file_path.to_path_buf(),
+                            start_line: node.start_position().row as u32 + 1,
+                            start_column: node.start_position().column as u32,
+                            end_line: node.end_position().row as u32 + 1,
+                            end_column: node.end_position().column as u32,
+                            byte_offset: node.start_byte() as u32,
+                            byte_length: (node.end_byte() - node.start_byte()) as u32,
+                        });
+                    }
+                    _ => {}
+                }
+            }
+
+            if let (Some(src), Some(loc)) = (source, location) {
+                imports.push(ImportInfo {
+                    source: src,
+                    items: if items.is_empty() { vec!["*".to_string()] } else { items },
+                    alias,
+                    location: loc,
+                });
+            }
+        }
+
+        Ok(imports)
     }
 
-    #[allow(dead_code)]
-    async fn extract_annotations(
-        &mut self,
-        _tree: &Tree,
-        _queries: &LanguageQueries,
-        _content: &str,
-        _file_path: &Path,
+    async fn extract_annotations_static(
+        tree: &Tree,
+        queries: &LanguageQueries,
+        content: &str,
+        file_path: &Path,
     ) -> Result<Vec<AnnotationInfo>> {
-        // TODO: Implement annotation extraction
-        Ok(Vec::new())
+        let mut annotations = Vec::new();
+        
+        let mut cursor = tree_sitter::QueryCursor::new();
+        let matches: Vec<_> = cursor.matches(&queries.annotations, tree.root_node(), content.as_bytes()).collect();
+        
+        for match_ in matches {
+            let mut annotation_name = None;
+            let mut arguments = std::collections::HashMap::new();
+            let mut location = None;
+
+            for capture in match_.captures {
+                let node = capture.node;
+                let node_text = node.utf8_text(content.as_bytes())?;
+                let capture_name = queries.annotations.capture_names().get(capture.index as usize).unwrap();
+
+                match *capture_name {
+                    "annotation.name" => {
+                        annotation_name = Some(node_text.to_string());
+                    }
+                    "annotation.args" => {
+                        // Parse arguments - simplified for now
+                        arguments.insert("raw_args".to_string(), node_text.to_string());
+                    }
+                    "annotation" => {
+                        location = Some(SourceLocation {
+                            file_path: file_path.to_path_buf(),
+                            start_line: node.start_position().row as u32 + 1,
+                            start_column: node.start_position().column as u32,
+                            end_line: node.end_position().row as u32 + 1,
+                            end_column: node.end_position().column as u32,
+                            byte_offset: node.start_byte() as u32,
+                            byte_length: (node.end_byte() - node.start_byte()) as u32,
+                        });
+                    }
+                    _ => {}
+                }
+            }
+
+            if let (Some(name), Some(loc)) = (annotation_name, location) {
+                annotations.push(AnnotationInfo {
+                    name,
+                    arguments,
+                    location: loc,
+                });
+            }
+        }
+
+        Ok(annotations)
     }
 
-    #[allow(dead_code)]
-    fn parse_parameters(&self, _node: Node, _content: &str) -> Result<Vec<Parameter>> {
-        // TODO: Implement parameter parsing
-        Ok(Vec::new())
+    fn parse_parameters_static(node: Node, content: &str) -> Result<Vec<Parameter>> {
+        let mut parameters = Vec::new();
+        
+        // Walk through parameter list nodes
+        let mut cursor = node.walk();
+        for child in node.children(&mut cursor) {
+            if child.kind().contains("parameter") || child.kind().contains("arg") {
+                let param_text = child.utf8_text(content.as_bytes())?;
+                
+                // Simple parameter parsing - can be enhanced per language
+                let param_name = if let Some(name_child) = child.child_by_field_name("name") {
+                    name_child.utf8_text(content.as_bytes())?
+                } else {
+                    param_text
+                };
+                
+                let param_type = if let Some(type_child) = child.child_by_field_name("type") {
+                    Some(type_child.utf8_text(content.as_bytes())?.to_string())
+                } else {
+                    None
+                };
+                
+                parameters.push(Parameter {
+                    name: param_name.to_string(),
+                    param_type,
+                    is_optional: param_text.contains('?'), // Basic nullable detection
+                    default_value: None, // TODO: Extract default values
+                    is_named: true, // Most parameters are named
+                });
+            }
+        }
+        
+        Ok(parameters)
     }
 }
 
