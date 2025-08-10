@@ -20,7 +20,10 @@ mod export_formats;
 fn main() {
     logging::init();
     if let Err(e) = cli::run() {
-        eprintln!("Error: {}", e);
+        eprintln!("Error: {:#}", e);
+        for (i, cause) in e.chain().skip(1).enumerate() {
+            eprintln!("  caused by[{}]: {}", i, cause);
+        }
         std::process::exit(1);
     }
 }
