@@ -1,16 +1,28 @@
 # Rust
-target/
+/target/
+**/target/
+**/*.rs.bk
+*.pdb
 Cargo.lock
 
 # IDE
 .vscode/
+!.vscode/extensions.json
 .idea/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
+.history/
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 *.tmp
 *.temp
@@ -20,40 +32,101 @@ Thumbs.db
 *.dll
 *.so
 *.dylib
-*.pdb
+
+# AgentMap specific outputs
+*.agentmap
+*.sidecar
+*.anchor
+/output/
+/exports/
+/cache/
+/temp/
+/tmp/
+/test_output/
+/fixtures/generated/
+/test_results/
+*.test
 
 # Logs
 *.log
 logs/
+debug.log
+error.log
 
 # Environment
 .env
 .env.local
 .env.production
 .env.staging
+.env.test
+.env.*.local
 
 # Backup files
 *.bak
 *.backup
-*~
+*.old
+*.orig
 
 # Testing
 coverage/
 *.coverage
+.nyc_output
+*.lcov
 
 # Documentation build
 book/
 target/doc/
+/docs/_build/
+/docs/build/
 
 # Profiling
 *.prof
 flamegraph.svg
 perf.data*
 
-# Editor/IDE specific
-*.sublime-project
-*.sublime-workspace
-.history/
-
 # Cache directories
 .cache/
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python (for any Python tooling)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary directories
+tmp/
+temp/

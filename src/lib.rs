@@ -23,3 +23,5 @@ pub mod symbol_resolver;
 pub mod wildcard_matcher;
 pub mod architecture_exporter;
 pub mod export_formats;
+
+// Integration tests are in separate test targets

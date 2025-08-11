@@ -1,0 +1,705 @@
+{
+  "metadata": {
+    "document_version": "1.1.0",
+    "last_updated": "2025-01-11T20:15:00Z",
+    "last_updated_by": "Claude-Agent-Session-002",
+    "total_tasks": 30,
+    "completed_tasks": 5,
+    "in_progress_tasks": 0,
+    "pending_tasks": 25,
+    "completion_percentage": 16.7
+  },
+  "instructions": {
+    "purpose": "This JSON document tracks the 30-task AgentMap integration plan progress. It prevents race conditions by providing atomic updates and explicit instructions for AI agents.",
+    "usage_rules": [
+      "ALWAYS read the entire document before making ANY changes",
+      "NEVER edit this file while another agent might be working on tasks",
+      "UPDATE completion_percentage = (completed_tasks / total_tasks) * 100",
+      "INCREMENT metadata.document_version patch number for each update",
+      "UPDATE last_updated timestamp in ISO 8601 format",
+      "UPDATE last_updated_by with your agent session identifier",
+      "VALIDATE all JSON syntax before saving",
+      "COMMIT this file along with task implementation files"
+    ],
+    "update_workflow": [
+      "1. Read current document state",
+      "2. Identify your task from the tasks array",
+      "3. Update task status (pending -> in_progress -> completed)",
+      "4. Add your implementation_notes and lessons_learned",
+      "5. Update metadata counters and percentages",
+      "6. Validate JSON syntax",
+      "7. Save and commit with descriptive message"
+    ],
+    "status_definitions": {
+      "pending": "Task not yet started",
+      "in_progress": "Task currently being worked on by an agent",
+      "completed": "Task fully implemented and tested",
+      "blocked": "Task cannot proceed due to dependencies",
+      "deferred": "Task postponed to later phase"
+    }
+  },
+  "phase_overview": {
+    "phase_1": {
+      "name": "Configuration & Query Management",
+      "tasks": "1-5",
+      "description": "Foundation config system with validation, environment support, and query providers",
+      "status": "100% complete (5/5)"
+    },
+    "phase_2": {
+      "name": "Performance & Search Optimization", 
+      "tasks": "6-10",
+      "description": "Wildcard matcher performance, fuzzy matching, parallel search, architecture metrics",
+      "status": "0% complete (0/5)"
+    },
+    "phase_3": {
+      "name": "Integration & Export Systems",
+      "tasks": "11-15", 
+      "description": "Pattern detection, export formats, symbol table, CLI integration",
+      "status": "0% complete (0/5)"
+    },
+    "phase_4": {
+      "name": "File Identity & URI System",
+      "tasks": "16-20",
+      "description": "Stable file identity, URN-based identifiers, module resolution",
+      "status": "0% complete (0/5)"
+    },
+    "phase_5": {
+      "name": "Multi-Edge Graph & Scheduling", 
+      "tasks": "21-25",
+      "description": "Graph structure, incremental SCC, generation-based visibility",
+      "status": "0% complete (0/5)"
+    },
+    "phase_6": {
+      "name": "Advanced Ranking & Analysis",
+      "tasks": "26-30",
+      "description": "Enhanced ranking, usage analysis, two-pass pipeline integration",
+      "status": "0% complete (0/5)"
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Config Validation System",
+      "description": "Add schema and semantic validation with proper error handling",
+      "phase": 1,
+      "priority": "high",
+      "estimated_hours": "2-3",
+      "status": "completed",
+      "assigned_files": ["src/config.rs"],
+      "dependencies": [],
+      "started_date": "2025-01-11T16:00:00Z",
+      "completed_date": "2025-01-11T17:30:00Z",
+      "implementation_notes": [
+        "Added ConfigError enum with typed validation errors",
+        "Implemented validate() method with schema and semantic checks", 
+        "Added ensure_supported_language() with normalization support",
+        "Added validate_glob_pattern() with bracket validation",
+        "Created comprehensive test suite with edge cases"
+      ],
+      "tests_added": [
+        "tests/unit/config_validation.rs - 8 test functions",
+        "Language validation, glob patterns, line budgets, auto config"
+      ],
+      "lessons_learned": [
+        "thiserror provides excellent typed error handling",
+        "Comprehensive validation prevents runtime issues",
+        "Language normalization (typescript->ts) improves UX"
+      ]
+    },
+    {
+      "id": 2, 
+      "name": "Environment & Profile Support",
+      "description": "Support environment variable overrides and configuration profiles",
+      "phase": 1,
+      "priority": "high", 
+      "estimated_hours": "3-4",
+      "status": "completed",
+      "assigned_files": ["src/config.rs"],
+      "dependencies": [1],
+      "started_date": "2025-01-11T17:30:00Z",
+      "completed_date": "2025-01-11T18:45:00Z",
+      "implementation_notes": [
+        "Added load_with_env() method with full environment integration",
+        "Implemented apply_profile() with development/production/testing profiles",
+        "Added apply_env_overrides() supporting AGENTMAP_* environment variables",
+        "Environment variables override profile settings and file configuration",
+        "Added profile aliases: dev->development, prod->production"
+      ],
+      "tests_added": [
+        "tests/unit/config_env_profile.rs - 9 test functions",
+        "Environment overrides, profile switching, precedence testing"
+      ],
+      "lessons_learned": [
+        "Environment variable parsing needs robust error handling for malformed values",
+        "Profile system provides excellent development/production separation",
+        "Precedence order: environment > profile > file > defaults works well"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Robust Glob Implementation", 
+      "description": "Replace manual glob matching with globset crate for performance",
+      "phase": 1,
+      "priority": "medium",
+      "estimated_hours": "2",
+      "status": "completed",
+      "assigned_files": ["src/config.rs", "Cargo.toml"],
+      "dependencies": [1, 2],
+      "started_date": "2025-01-11T18:45:00Z",
+      "completed_date": "2025-01-11T19:30:00Z", 
+      "implementation_notes": [
+        "Added globset 0.4 dependency for industry-standard glob matching",
+        "Implemented GlobMatcher struct with Arc<GlobSet> for thread-safe caching",
+        "Created build_globset() method with efficient pattern compilation",
+        "Added fallback to simple matching for compatibility",
+        "Supports brace expansion, character classes, complex nested patterns"
+      ],
+      "tests_added": [
+        "tests/unit/config_glob.rs - 11 test functions",
+        "Pattern compilation, matching logic, performance comparison, integration"
+      ],
+      "lessons_learned": [
+        "globset provides O(1) pattern matching vs O(n) simple matching", 
+        "Arc<GlobSet> enables zero-copy sharing across threads",
+        "Fallback compatibility ensures robustness during development"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Query Provider Abstraction",
+      "description": "Abstract query sources with provider pattern for embedded/filesystem queries",
+      "phase": 1, 
+      "priority": "high",
+      "estimated_hours": "4-5",
+      "status": "pending",
+      "assigned_files": ["src/query_pack.rs"],
+      "dependencies": [3],
+      "implementation_requirements": [
+        "Define QueryProvider trait with defs(), refs(), exports() methods",
+        "Implement EmbeddedProvider using include_str!()",
+        "Implement FsProvider for runtime query overrides", 
+        "Add language expansion for Java, Go, JavaScript, Dart",
+        "Provider switching and query loading tests"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Query Caching System",
+      "description": "Implement LRU cache for compiled TreeSitter queries", 
+      "phase": 1,
+      "priority": "medium",
+      "estimated_hours": "3",
+      "status": "completed",
+      "assigned_files": ["src/query_pack.rs", "Cargo.toml"],
+      "dependencies": [4],
+      "started_date": "2025-01-11T19:45:00Z",
+      "completed_date": "2025-01-11T20:15:00Z",
+      "implementation_notes": [
+        "Added lru 0.12 dependency for thread-safe LRU cache implementation",
+        "Created CacheKey struct with language, query type, and SHA256 content hash",
+        "Implemented QueryCache with CachedQuery content storage (avoids TreeSitter Query clone issues)",
+        "Added compile_query_cached method with enhanced error context including hash for debugging",
+        "Updated QueryPackRegistry to use cached compilation throughout load_query_packs",
+        "Added cache access methods: get_cache(), with_cache_capacity(), cache invalidation on provider switch",
+        "Implemented query validation at startup with validate_enabled_languages method"
+      ],
+      "tests_added": [
+        "test_cache_key_creation - validates hash consistency and key uniqueness",
+        "test_query_cache_basic_operations - basic cache insert/get/clear operations", 
+        "test_query_cache_lru_behavior - validates LRU eviction with capacity=2",
+        "test_registry_with_cache - integration test with QueryPackRegistry",
+        "test_query_validation - startup validation for supported/unsupported languages",
+        "test_cache_invalidation_on_provider_switch - cache clearing on provider changes"
+      ],
+      "lessons_learned": [
+        "TreeSitter Query doesn't implement Clone, requiring content-based caching strategy",
+        "LRU cache v0.12 requires NonZeroUsize for capacity, handled with proper conversion",
+        "Thread-safe Arc<Mutex<LruCache>> provides good performance for query content caching",
+        "SHA256 hash truncation to 16 chars provides good uniqueness vs memory tradeoff",
+        "Cache invalidation on provider switch essential for correct behavior during testing"
+      ],
+      "implementation_requirements": [
+        "Create QueryCache struct with lru::LruCache ✓",
+        "Implement cache key with language and content hash ✓", 
+        "Add query validation at startup for enabled languages ✓",
+        "Provide clear error messages with file context ✓",
+        "Cache hit/miss behavior and invalidation tests ✓"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Wildcard Matcher Performance",
+      "description": "Optimize pattern caching and memory usage in wildcard matcher",
+      "phase": 2,
+      "priority": "medium", 
+      "estimated_hours": "2-3",
+      "status": "pending",
+      "assigned_files": ["src/wildcard_matcher.rs"],
+      "dependencies": [5],
+      "implementation_requirements": [
+        "Replace HashMap with lru::LruCache for pattern cache",
+        "Add configurable cache size limits",
+        "Implement cache eviction strategies",
+        "Add performance metrics tracking",
+        "Cache eviction and memory usage tests"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Enhanced Fuzzy Matching",
+      "description": "Replace manual Levenshtein with fuzzy-matcher library",
+      "phase": 2,
+      "priority": "medium",
+      "estimated_hours": "2-3", 
+      "status": "pending",
+      "assigned_files": ["src/wildcard_matcher.rs"],
+      "dependencies": [6],
+      "implementation_requirements": [
+        "Integrate fuzzy_matcher::skim::SkimMatcherV2",
+        "Replace fuzzy_similarity() and levenshtein_distance()", 
+        "Add configurable fuzzy matching thresholds",
+        "Implement scoring normalization",
+        "Fuzzy quality benchmarks and score consistency tests"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Parallel Search Implementation",
+      "description": "Add parallel search capabilities using rayon",
+      "phase": 2,
+      "priority": "high",
+      "estimated_hours": "4",
+      "status": "pending", 
+      "assigned_files": ["src/wildcard_matcher.rs"],
+      "dependencies": [7],
+      "implementation_requirements": [
+        "Implement par_iter() for multi-scope searches",
+        "Add worker chunking strategy",
+        "Implement bounded binary heap for top-k results", 
+        "Add memory limits per worker",
+        "Parallel consistency and performance scaling tests"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Advanced Ranking System", 
+      "description": "Implement sophisticated result ranking with feature breakdown",
+      "phase": 2,
+      "priority": "medium",
+      "estimated_hours": "3",
+      "status": "pending",
+      "assigned_files": ["src/wildcard_matcher.rs"],
+      "dependencies": [8],
+      "implementation_requirements": [
+        "Add prefix bonus, camel/snake case token overlap",
+        "Implement path proximity scoring",
+        "Add per-feature contribution tracking",
+        "Expose ranking breakdown to callers", 
+        "Ranking consistency and feature contribution tests"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Architecture Metrics Implementation",
+      "description": "Replace placeholder metrics with real implementations", 
+      "phase": 2,
+      "priority": "high",
+      "estimated_hours": "5-6",
+      "status": "pending",
+      "assigned_files": ["src/architecture_exporter.rs"],
+      "dependencies": [9],
+      "implementation_requirements": [
+        "Implement cyclomatic_complexity() with decision point counting",
+        "Add cognitive_complexity() with Sonar-like heuristics",
+        "Implement circular dependency detection using petgraph",
+        "Add real source snippet extraction with SourceMap",
+        "Metrics accuracy and SCC detection tests"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Pattern Detection Algorithms",
+      "description": "Implement AST-based pattern recognition",
+      "phase": 3,
+      "priority": "high",
+      "estimated_hours": "4-5", 
+      "status": "pending",
+      "assigned_files": ["src/architecture_exporter.rs"],
+      "dependencies": [10],
+      "implementation_requirements": [
+        "Create PatternDetector trait framework",
+        "Implement Singleton pattern detection (private constructor + static accessor)",
+        "Add Factory pattern detection (subtype/trait returning methods)",
+        "Implement Observer pattern detection (subject-listener collections)",
+        "Pattern recognition accuracy and false positive/negative tests"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Export Formats Module",
+      "description": "Create pluggable export system for architecture data",
+      "phase": 3, 
+      "priority": "medium",
+      "estimated_hours": "3-4",
+      "status": "pending",
+      "assigned_files": ["src/export_formats.rs"],
+      "dependencies": [11],
+      "implementation_requirements": [
+        "Define Exporter trait with export() method",
+        "Implement JSON, CSV, DOT, Mermaid exporters",
+        "Add streaming writers for memory efficiency", 
+        "Implement for_format() factory function",
+        "Format consistency and streaming behavior tests"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Symbol Table Foundation",
+      "description": "Create core cross-reference and indexing system",
+      "phase": 3,
+      "priority": "high", 
+      "estimated_hours": "5-6",
+      "status": "pending",
+      "assigned_files": ["src/symbol_table.rs"],
+      "dependencies": [12],
+      "implementation_requirements": [
+        "Design SymbolTable with numeric IDs for performance",
+        "Implement build_from_anchor_headers() integration",
+        "Add lookup_name(), outgoing() query methods",
+        "Create binding resolution with BindingId support",
+        "Symbol resolution and cross-reference accuracy tests"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "CLI Data Integration",
+      "description": "Replace demo data with real symbol resolution",
+      "phase": 3,
+      "priority": "high",
+      "estimated_hours": "3-4",
+      "status": "pending",
+      "assigned_files": ["src/cli.rs"], 
+      "dependencies": [13],
+      "implementation_requirements": [
+        "Wire real load_anchor_headers_from_sidecars()",
+        "Replace demo SymbolTable with build_from_anchor_headers()",
+        "Integrate architecture exporter with real headers",
+        "Add progress indicators using indicatif",
+        "End-to-end CLI workflows and progress display tests"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "CLI UX Improvements",
+      "description": "Enhance user experience with validation and diagnostics",
+      "phase": 3,
+      "priority": "medium",
+      "estimated_hours": "2-3",
+      "status": "pending",
+      "assigned_files": ["src/cli.rs"],
+      "dependencies": [14],
+      "implementation_requirements": [
+        "Add comprehensive command validation", 
+        "Implement user-friendly error messages with context",
+        "Add --quiet/--verbose flags with proper logging levels",
+        "Integrate configuration system with CLI commands",
+        "Command validation and error message clarity tests"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "File Identity System", 
+      "description": "Implement stable file identity across edits and renames",
+      "phase": 4,
+      "priority": "high",
+      "estimated_hours": "4-5",
+      "status": "pending",
+      "assigned_files": ["src/core/symbol_types.rs", "src/identity.rs"],
+      "dependencies": [15],
+      "implementation_requirements": [
+        "Create FileId struct with NFC path normalization",
+        "Add FileSnapshot for mutable change detection",
+        "Implement device/inode tracking for rename detection",
+        "Add case-sensitive/insensitive filesystem handling",
+        "Path round-trip and Unicode handling tests"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Canonical URI System",
+      "description": "Implement URN-based canonical identifiers", 
+      "phase": 4,
+      "priority": "high",
+      "estimated_hours": "3-4",
+      "status": "pending",
+      "assigned_files": ["src/identity.rs", "src/core/symbol_types.rs"],
+      "dependencies": [16],
+      "implementation_requirements": [
+        "Design SymbolId with URN format: urn:agentmap:symbol:...",
+        "Implement BindingId for exported bindings",
+        "Add RFC 3986 percent-encoding for special characters",
+        "Create parser/formatter with round-trip tests",
+        "URI parsing and encoding edge case tests"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Qualified Scope Rules",
+      "description": "Implement language-specific module path resolution",
+      "phase": 4,
+      "priority": "high",
+      "estimated_hours": "5-6",
+      "status": "pending",
+      "assigned_files": ["src/core/symbol_types.rs", "src/parsers/"],
+      "dependencies": [17],
+      "implementation_requirements": [
+        "Add TypeScript/JavaScript Node resolution with tsconfig support",
+        "Implement Python PEP 420 namespace package support", 
+        "Add Go module path from go.mod + package directories",
+        "Implement Rust crate + module tree resolution",
+        "Module resolution per language and complex import path tests"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Signature Hash System",
+      "description": "Implement disambiguation hashing for overloads",
+      "phase": 4,
+      "priority": "medium",
+      "estimated_hours": "3-4",
+      "status": "pending",
+      "assigned_files": ["src/identity.rs"],
+      "dependencies": [18],
+      "implementation_requirements": [
+        "Create signature tuple extraction per language",
+        "Implement parameter type normalization",
+        "Add blake3 hashing with 10-character hex output",
+        "Handle method overloads, Rust trait vs impl methods",
+        "Hash stability and overload disambiguation tests"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Canonical Kind System",
+      "description": "Standardize symbol kinds across languages",
+      "phase": 4, 
+      "priority": "low",
+      "estimated_hours": "2",
+      "status": "pending",
+      "assigned_files": ["src/core/symbol_types.rs"],
+      "dependencies": [19],
+      "implementation_requirements": [
+        "Define canonical kind enum with stable string values",
+        "Map language-specific AST node types to canonical kinds",
+        "Add kind compatibility scoring for ranking",
+        "Implement accessor metadata preservation",
+        "Kind mapping consistency and compatibility scoring tests"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Multi-Edge Graph Structure",
+      "description": "Implement multi-edge graph with origin tracking",
+      "phase": 5,
+      "priority": "high", 
+      "estimated_hours": "4-5",
+      "status": "pending",
+      "assigned_files": ["src/core/relationship_analyzer.rs", "src/graph.rs"],
+      "dependencies": [20],
+      "implementation_requirements": [
+        "Create EdgeKey and EdgeValue structures",
+        "Implement RelationshipGraph with by_origin indexing",
+        "Add reverse index for efficient reverse lookups",
+        "Implement RCU-style visibility with generation counters",
+        "Edge insertion and origin-based removal tests"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Incremental SCC Scheduling",
+      "description": "Dynamic dependency tracking with on-demand SCC resolution",
+      "phase": 5,
+      "priority": "high",
+      "estimated_hours": "5-6",
+      "status": "pending",
+      "assigned_files": ["src/core/relationship_analyzer.rs", "src/scheduler.rs"],
+      "dependencies": [21],
+      "implementation_requirements": [
+        "Create Scheduler with pending dependency tracking",
+        "Implement dynamic candidate queue with backpressure",
+        "Add SCC computation over indexed subgraphs",
+        "Use tokio::sync for async coordination",
+        "Dependency resolution order and SCC batching tests"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Generation-Based Visibility", 
+      "description": "Implement RCU-style consistent reads during updates",
+      "phase": 5,
+      "priority": "medium",
+      "estimated_hours": "3",
+      "status": "pending",
+      "assigned_files": ["src/graph.rs"],
+      "dependencies": [22],
+      "implementation_requirements": [
+        "Add generation counter to graph structure",
+        "Implement atomic committed_gen with acquire/release semantics",
+        "Filter edge visibility based on generation in queries", 
+        "Add batch commit operations",
+        "Read consistency and generation ordering tests"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Language-Specific Edge Cases",
+      "description": "Handle complex import/export patterns per language",
+      "phase": 5,
+      "priority": "high",
+      "estimated_hours": "6",
+      "status": "pending",
+      "assigned_files": ["src/parsers/*.rs"],
+      "dependencies": [23],
+      "implementation_requirements": [
+        "TypeScript: default exports, namespace exports, declaration merging",
+        "Python: PEP 420 namespace packages, sys.path resolution",
+        "Go: methods on named non-struct types",
+        "Rust: trait declarations vs impl methods",
+        "Complex import patterns and re-export chain tests"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Binding Resolution System",
+      "description": "Implement export binding resolution with re-export chains",
+      "phase": 5,
+      "priority": "high",
+      "estimated_hours": "4",
+      "status": "pending", 
+      "assigned_files": ["src/core/symbol_types.rs", "src/identity.rs"],
+      "dependencies": [24],
+      "implementation_requirements": [
+        "Create ModuleExports and ModuleReexports tables",
+        "Implement BindingId → SymbolId resolution",
+        "Add re-export chain following with cycle detection",
+        "Handle proxy namespaces for wildcard exports",
+        "Re-export chains and cycle detection tests"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Enhanced Ranking Signals",
+      "description": "Implement comprehensive ranking with explainable features",
+      "phase": 6,
+      "priority": "medium",
+      "estimated_hours": "4-5",
+      "status": "pending",
+      "assigned_files": ["src/wildcard_matcher.rs", "src/ranking.rs"],
+      "dependencies": [25],
+      "implementation_requirements": [
+        "Add frequency/popularity signal from usage data",
+        "Implement document/context token overlap with TF-IDF", 
+        "Add single-token edit distance bonuses",
+        "Implement import distance penalties",
+        "Signal accuracy and ranking stability tests"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Per-Language Ranking Weights",
+      "description": "Optimize ranking weights per programming language",
+      "phase": 6,
+      "priority": "low",
+      "estimated_hours": "2-3",
+      "status": "pending",
+      "assigned_files": ["src/ranking.rs"],
+      "dependencies": [26],
+      "implementation_requirements": [
+        "Define language-specific weight profiles",
+        "Implement weight configuration system",
+        "Add ranking explanation with contribution breakdown",
+        "Provide English summary generation for rankings",
+        "Language-specific accuracy and explanation quality tests"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Usage Analysis System",
+      "description": "Resolve usage sites to bindings with diagnostic context",
+      "phase": 6,
+      "priority": "high",
+      "estimated_hours": "4",
+      "status": "pending",
+      "assigned_files": ["src/core/relationship_analyzer.rs"],
+      "dependencies": [27],
+      "implementation_requirements": [
+        "Implement usage site → BindingId resolution",
+        "Add binding → symbol resolution with re-export tracking",
+        "Create diagnostic messages for re-export chains",
+        "Track usage frequency for ranking signals", 
+        "Usage resolution accuracy and diagnostic quality tests"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Two-Pass Pipeline Integration",
+      "description": "Integrate indexing and resolution with incremental scheduling",
+      "phase": 6,
+      "priority": "high",
+      "estimated_hours": "5-6",
+      "status": "pending",
+      "assigned_files": ["src/core/relationship_analyzer.rs", "src/scheduler.rs"],
+      "dependencies": [28],
+      "implementation_requirements": [
+        "Implement index phase with dependency publication",
+        "Add resolve phase with SCC-aware scheduling",
+        "Integrate with existing TreeSitter engine",
+        "Add progress tracking and error handling",
+        "End-to-end pipeline and incremental update tests"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Integration Testing & Validation",
+      "description": "Comprehensive integration tests for full system",
+      "phase": 6,
+      "priority": "high", 
+      "estimated_hours": "4-5",
+      "status": "pending",
+      "assigned_files": ["tests/integration/"],
+      "dependencies": [29],
+      "implementation_requirements": [
+        "Create multi-language test fixtures with complex scenarios",
+        "Test file identity across filesystem operations",
+        "Validate URI encoding/decoding round-trips",
+        "Test incremental updates and graph consistency",
+        "Complete system validation and performance regression tests"
+      ]
+    }
+  ],
+  "blocking_issues": [],
+  "known_risks": [
+    {
+      "risk": "TreeSitter version compatibility",
+      "impact": "medium",
+      "mitigation": "Staying on 0.22.6 until language grammar compatibility resolved"
+    },
+    {
+      "risk": "Complex integration between modern and legacy systems",
+      "impact": "high", 
+      "mitigation": "Incremental integration with comprehensive testing at each step"
+    },
+    {
+      "risk": "Memory usage with large codebases",
+      "impact": "medium",
+      "mitigation": "Bounded caches and streaming operations throughout implementation"
+    }
+  ],
+  "success_metrics": {
+    "phase_1_complete": "All placeholder implementations replaced, real metrics operational",
+    "phase_2_complete": "Performance optimizations deliver measurable improvements", 
+    "full_integration": "End-to-end symbol resolution with consistent URIs",
+    "performance_target": "Sub-second analysis on medium codebases (1000+ files)",
+    "correctness_target": "95%+ accuracy on symbol resolution test suite"
+  }
+}
