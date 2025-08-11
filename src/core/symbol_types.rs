@@ -231,6 +231,52 @@ pub enum DependencyStrength {
     Weak,      // Loose coupling
 }
 
+// Additional relationship types for relationship analysis
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq, Hash)]
+pub enum RelationshipType {
+    Import,
+    Export, 
+    Inherits,
+    Implements,
+    Extends,
+    Uses,
+    Calls,
+    References,
+    Composition,
+    Aggregation,
+    Association,
+    Dependency,
+}
+
+// Relationship data structure for relationship analysis
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct RelationshipData {
+    pub from_symbol: String,
+    pub to_symbol: String,
+    pub relationship_type: RelationshipType,
+    pub location: SourceLocation,
+    pub metadata: HashMap<String, String>,
+}
+
+impl std::fmt::Display for RelationshipType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            RelationshipType::Import => write!(f, "Import"),
+            RelationshipType::Export => write!(f, "Export"),
+            RelationshipType::Inherits => write!(f, "Inherits"),
+            RelationshipType::Implements => write!(f, "Implements"),
+            RelationshipType::Extends => write!(f, "Extends"),
+            RelationshipType::Uses => write!(f, "Uses"),
+            RelationshipType::Calls => write!(f, "Calls"),
+            RelationshipType::References => write!(f, "References"),
+            RelationshipType::Composition => write!(f, "Composition"),
+            RelationshipType::Aggregation => write!(f, "Aggregation"),
+            RelationshipType::Association => write!(f, "Association"),
+            RelationshipType::Dependency => write!(f, "Dependency"),
+        }
+    }
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct SymbolMetrics {
     pub complexity: u32,
