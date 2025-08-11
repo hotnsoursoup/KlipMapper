@@ -100,7 +100,36 @@ impl AgentMapConfig {
         "purpose", "io", "invariants", "imports", "hotspots", "dependencies", "exports", "tests"
     ];
     
+    /// Supported configuration profiles
+    pub const SUPPORTED_PROFILES: &'static [&'static str] = &[
+        "default", "development", "dev", "production", "prod", "testing", "test"
+    ];
+    
     pub fn load_from_dir(root: &Path) -> Result<Self> {
+        // Use the new environment-aware loader
+        Self::load_with_env(root)
+    }
+    
+    /// Load configuration with environment variable overrides and profile support
+    pub fn load_with_env(root: &Path) -> Result<Self> {
+        let mut config = Self::load_yaml(root)?;
+        
+        // Apply profile-specific configuration
+        let profile = std::env::var("AGENTMAP_PROFILE")
+            .unwrap_or_else(|_| "default".to_string());
+        config.apply_profile(&profile)?;
+        
+        // Apply environment variable overrides
+        config.apply_env_overrides("AGENTMAP_")?;
+        
+        // Validate the final configuration
+        config.validate().context("Configuration validation failed")?;
+        
+        Ok(config)
+    }
+    
+    /// Load base configuration from YAML file
+    fn load_yaml(root: &Path) -> Result<Self> {
         let config_path = root.join(".agentmap").join("config.yaml");
         
         if config_path.exists() {
@@ -110,9 +139,6 @@ impl AgentMapConfig {
             // Merge with defaults
             let default_config = Self::default();
             config.merge_defaults(default_config);
-            
-            // Validate the merged configuration
-            config.validate().context("Configuration validation failed")?;
             
             Ok(config)
         } else {
@@ -326,6 +352,218 @@ impl AgentMapConfig {
     /// Check if configuration is valid (non-panicking version of validate)
     pub fn is_valid(&self) -> bool {
         self.validate().is_ok()
+    }
+    
+    /// Apply profile-specific configuration overrides
+    fn apply_profile(&mut self, profile: &str) -> Result<()> {
+        let profile_lower = profile.to_lowercase();
+        let normalized_profile = match profile_lower.as_str() {
+            "dev" => "development",
+            "prod" => "production",  
+            "test" => "testing",
+            other => other,
+        };
+        
+        if !Self::SUPPORTED_PROFILES.contains(&normalized_profile) {
+            eprintln!(
+                "Warning: Unknown profile '{}'. Supported profiles: {:?}", 
+                profile, Self::SUPPORTED_PROFILES
+            );
+            return Ok(()); // Don't fail on unknown profiles, just warn
+        }
+        
+        match normalized_profile {
+            "development" => {
+                // Development profile: more verbose, include more files
+                if self.exclude.is_none() {
+                    self.exclude = Some(vec![
+                        "**/*.g.dart".to_string(),
+                        "**/target/debug/**".to_string(),
+                        "**/node_modules/**".to_string(),
+                    ]);
+                }
+                // Enable more granular tracking in development
+                if let Some(ref mut granularity) = self.granularity {
+                    if granularity.track_member_access.is_none() {
+                        granularity.track_member_access = Some(true);
+                    }
+                }
+            },
+            "production" => {
+                // Production profile: optimized for performance
+                if self.exclude.is_none() {
+                    self.exclude = Some(vec![
+                        "**/*.g.dart".to_string(),
+                        "**/build/**".to_string(),
+                        "**/target/**".to_string(),
+                        "**/node_modules/**".to_string(),
+                        "**/test/**".to_string(),
+                        "**/tests/**".to_string(),
+                    ]);
+                }
+                // Reduce tracking overhead in production
+                if let Some(ref mut granularity) = self.granularity {
+                    if granularity.track_member_access.is_none() {
+                        granularity.track_member_access = Some(false);
+                    }
+                    if granularity.track_generics.is_none() {
+                        granularity.track_generics = Some(false);
+                    }
+                }
+            },
+            "testing" => {
+                // Testing profile: include test files, minimal exclusions
+                if self.exclude.is_none() {
+                    self.exclude = Some(vec![
+                        "**/*.g.dart".to_string(),
+                        "**/node_modules/**".to_string(),
+                    ]);
+                }
+                if self.include.is_none() {
+                    self.include = Some(vec![
+                        "**/*.dart".to_string(),
+                        "**/*.ts".to_string(),
+                        "**/*.js".to_string(),
+                        "**/*.py".to_string(),
+                        "**/*.rs".to_string(),
+                        "**/test/**/*.dart".to_string(),
+                        "**/tests/**/*.rs".to_string(),
+                    ]);
+                }
+            },
+            _ => {} // default profile or others - no special handling
+        }
+        
+        Ok(())
+    }
+    
+    /// Apply environment variable overrides
+    fn apply_env_overrides(&mut self, prefix: &str) -> Result<()> {
+        // Map environment variables to configuration fields
+        
+        // AGENTMAP_LANGUAGES=dart,ts,py
+        if let Ok(val) = std::env::var(format!("{prefix}LANGUAGES")) {
+            let languages: Vec<String> = val.split(',')
+                .map(|s| s.trim().to_string())
+                .filter(|s| !s.is_empty())
+                .collect();
+            if !languages.is_empty() {
+                self.languages = Some(languages);
+            }
+        }
+        
+        // AGENTMAP_INCLUDE=**/*.dart,**/*.ts
+        if let Ok(val) = std::env::var(format!("{prefix}INCLUDE")) {
+            let patterns: Vec<String> = val.split(',')
+                .map(|s| s.trim().to_string())
+                .filter(|s| !s.is_empty())
+                .collect();
+            if !patterns.is_empty() {
+                self.include = Some(patterns);
+            }
+        }
+        
+        // AGENTMAP_EXCLUDE=**/*.g.dart,**/build/**
+        if let Ok(val) = std::env::var(format!("{prefix}EXCLUDE")) {
+            let patterns: Vec<String> = val.split(',')
+                .map(|s| s.trim().to_string())
+                .filter(|s| !s.is_empty())
+                .collect();
+            if !patterns.is_empty() {
+                self.exclude = Some(patterns);
+            }
+        }
+        
+        // AGENTMAP_LINE_BUDGET=15
+        if let Ok(val) = std::env::var(format!("{prefix}LINE_BUDGET")) {
+            if let Ok(budget) = val.parse::<u32>() {
+                if self.preamble.is_none() {
+                    self.preamble = Some(PreambleConfig {
+                        line_budget: Some(budget),
+                        sections: None,
+                    });
+                } else if let Some(ref mut preamble) = self.preamble {
+                    preamble.line_budget = Some(budget);
+                }
+            }
+        }
+        
+        // AGENTMAP_MIN_REFS=5
+        if let Ok(val) = std::env::var(format!("{prefix}MIN_REFS")) {
+            if let Ok(min_refs) = val.parse::<u32>() {
+                if self.auto.is_none() {
+                    self.auto = Some(AutoConfig {
+                        enable: Some(true),
+                        min_refs: Some(min_refs),
+                        min_files: None,
+                    });
+                } else if let Some(ref mut auto_config) = self.auto {
+                    auto_config.min_refs = Some(min_refs);
+                }
+            }
+        }
+        
+        // AGENTMAP_MIN_FILES=3
+        if let Ok(val) = std::env::var(format!("{prefix}MIN_FILES")) {
+            if let Ok(min_files) = val.parse::<u32>() {
+                if self.auto.is_none() {
+                    self.auto = Some(AutoConfig {
+                        enable: Some(true),
+                        min_refs: None,
+                        min_files: Some(min_files),
+                    });
+                } else if let Some(ref mut auto_config) = self.auto {
+                    auto_config.min_files = Some(min_files);
+                }
+            }
+        }
+        
+        // AGENTMAP_TRACK_CALLS=true|false
+        if let Ok(val) = std::env::var(format!("{prefix}TRACK_CALLS")) {
+            if let Ok(track_calls) = val.to_lowercase().parse::<bool>() {
+                if self.granularity.is_none() {
+                    self.granularity = Some(GranularityConfig {
+                        track_calls: Some(track_calls),
+                        track_member_access: None,
+                        track_generics: None,
+                    });
+                } else if let Some(ref mut granularity) = self.granularity {
+                    granularity.track_calls = Some(track_calls);
+                }
+            }
+        }
+        
+        // AGENTMAP_TRACK_MEMBER_ACCESS=true|false
+        if let Ok(val) = std::env::var(format!("{prefix}TRACK_MEMBER_ACCESS")) {
+            if let Ok(track_member) = val.to_lowercase().parse::<bool>() {
+                if self.granularity.is_none() {
+                    self.granularity = Some(GranularityConfig {
+                        track_calls: None,
+                        track_member_access: Some(track_member),
+                        track_generics: None,
+                    });
+                } else if let Some(ref mut granularity) = self.granularity {
+                    granularity.track_member_access = Some(track_member);
+                }
+            }
+        }
+        
+        // AGENTMAP_TRACK_GENERICS=true|false
+        if let Ok(val) = std::env::var(format!("{prefix}TRACK_GENERICS")) {
+            if let Ok(track_generics) = val.to_lowercase().parse::<bool>() {
+                if self.granularity.is_none() {
+                    self.granularity = Some(GranularityConfig {
+                        track_calls: None,
+                        track_member_access: None,
+                        track_generics: Some(track_generics),
+                    });
+                } else if let Some(ref mut granularity) = self.granularity {
+                    granularity.track_generics = Some(track_generics);
+                }
+            }
+        }
+        
+        Ok(())
     }
 }
 
