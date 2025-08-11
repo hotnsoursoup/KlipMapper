@@ -1,6 +1,33 @@
 use serde::{Deserialize, Serialize};
 use std::{collections::HashMap, path::{Path, PathBuf}};
-use anyhow::Result;
+use anyhow::{Result, Context};
+use thiserror::Error;
+use regex::Regex;
+
+/// Configuration validation errors
+#[derive(Error, Debug)]
+pub enum ConfigError {
+    #[error("Unsupported language: {language}. Supported languages: {supported:?}")]
+    UnsupportedLanguage { language: String, supported: Vec<String> },
+    
+    #[error("Invalid glob pattern '{pattern}': {source}")]
+    InvalidGlobPattern { pattern: String, #[source] source: anyhow::Error },
+    
+    #[error("Invalid line budget: {value}. Must be between 1 and 100")]
+    InvalidLineBudget { value: u32 },
+    
+    #[error("Invalid minimum references: {value}. Must be between 1 and 1000")]
+    InvalidMinRefs { value: u32 },
+    
+    #[error("Invalid minimum files: {value}. Must be between 1 and 100")]
+    InvalidMinFiles { value: u32 },
+    
+    #[error("Empty language list is not allowed")]
+    EmptyLanguageList,
+    
+    #[error("Path does not exist: {path}")]
+    PathDoesNotExist { path: String },
+}
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct AgentMapConfig {
@@ -63,6 +90,16 @@ impl Default for AgentMapConfig {
 }
 
 impl AgentMapConfig {
+    /// Supported languages for validation
+    pub const SUPPORTED_LANGUAGES: &'static [&'static str] = &[
+        "dart", "ts", "js", "py", "rust", "rs", "go", "java", "typescript", "javascript", "python"
+    ];
+    
+    /// Valid preamble sections
+    pub const VALID_SECTIONS: &'static [&'static str] = &[
+        "purpose", "io", "invariants", "imports", "hotspots", "dependencies", "exports", "tests"
+    ];
+    
     pub fn load_from_dir(root: &Path) -> Result<Self> {
         let config_path = root.join(".agentmap").join("config.yaml");
         
@@ -73,6 +110,9 @@ impl AgentMapConfig {
             // Merge with defaults
             let default_config = Self::default();
             config.merge_defaults(default_config);
+            
+            // Validate the merged configuration
+            config.validate().context("Configuration validation failed")?;
             
             Ok(config)
         } else {
@@ -87,6 +127,145 @@ impl AgentMapConfig {
         if self.preamble.is_none() { self.preamble = defaults.preamble; }
         if self.granularity.is_none() { self.granularity = defaults.granularity; }
         if self.auto.is_none() { self.auto = defaults.auto; }
+    }
+    
+    /// Validate the configuration for correctness
+    pub fn validate(&self) -> Result<(), ConfigError> {
+        self.validate_schema()?;
+        self.validate_semantics()?;
+        Ok(())
+    }
+    
+    /// Validate configuration schema and structure
+    fn validate_schema(&self) -> Result<(), ConfigError> {
+        // Validate languages
+        if let Some(languages) = &self.languages {
+            if languages.is_empty() {
+                return Err(ConfigError::EmptyLanguageList);
+            }
+            
+            for lang in languages {
+                self.ensure_supported_language(lang)?;
+            }
+        }
+        
+        // Validate glob patterns
+        if let Some(includes) = &self.include {
+            for pattern in includes {
+                self.validate_glob_pattern(pattern)
+                    .map_err(|e| ConfigError::InvalidGlobPattern {
+                        pattern: pattern.clone(),
+                        source: e,
+                    })?;
+            }
+        }
+        
+        if let Some(excludes) = &self.exclude {
+            for pattern in excludes {
+                self.validate_glob_pattern(pattern)
+                    .map_err(|e| ConfigError::InvalidGlobPattern {
+                        pattern: pattern.clone(),
+                        source: e,
+                    })?;
+            }
+        }
+        
+        Ok(())
+    }
+    
+    /// Validate configuration semantics and constraints
+    fn validate_semantics(&self) -> Result<(), ConfigError> {
+        // Validate preamble config
+        if let Some(preamble) = &self.preamble {
+            if let Some(line_budget) = preamble.line_budget {
+                if line_budget == 0 || line_budget > 100 {
+                    return Err(ConfigError::InvalidLineBudget { value: line_budget });
+                }
+            }
+            
+            if let Some(sections) = &preamble.sections {
+                for section in sections {
+                    if !Self::VALID_SECTIONS.contains(&section.as_str()) {
+                        // Warning: unknown section, but don't fail validation
+                        eprintln!("Warning: Unknown preamble section '{}'. Valid sections: {:?}", 
+                                 section, Self::VALID_SECTIONS);
+                    }
+                }
+            }
+        }
+        
+        // Validate auto config
+        if let Some(auto) = &self.auto {
+            if let Some(min_refs) = auto.min_refs {
+                if min_refs == 0 || min_refs > 1000 {
+                    return Err(ConfigError::InvalidMinRefs { value: min_refs });
+                }
+            }
+            
+            if let Some(min_files) = auto.min_files {
+                if min_files == 0 || min_files > 100 {
+                    return Err(ConfigError::InvalidMinFiles { value: min_files });
+                }
+            }
+        }
+        
+        Ok(())
+    }
+    
+    /// Ensure a language is supported
+    fn ensure_supported_language(&self, lang: &str) -> Result<(), ConfigError> {
+        // Normalize common language aliases
+        let normalized = match lang {
+            "typescript" => "ts",
+            "javascript" => "js", 
+            "python" => "py",
+            "rust" => "rs",
+            other => other,
+        };
+        
+        if !Self::SUPPORTED_LANGUAGES.contains(&normalized) {
+            return Err(ConfigError::UnsupportedLanguage {
+                language: lang.to_string(),
+                supported: Self::SUPPORTED_LANGUAGES.iter().map(|s| s.to_string()).collect(),
+            });
+        }
+        
+        Ok(())
+    }
+    
+    /// Validate a glob pattern
+    fn validate_glob_pattern(&self, pattern: &str) -> Result<()> {
+        // Basic validation - ensure pattern is not empty and has valid structure
+        if pattern.is_empty() {
+            anyhow::bail!("Glob pattern cannot be empty");
+        }
+        
+        // Check for invalid patterns that would cause issues
+        if pattern.contains("***") {
+            anyhow::bail!("Invalid glob pattern: triple asterisk not allowed");
+        }
+        
+        // Validate bracket expressions if present
+        if pattern.contains('[') {
+            let mut bracket_count = 0;
+            for c in pattern.chars() {
+                match c {
+                    '[' => bracket_count += 1,
+                    ']' => {
+                        bracket_count -= 1;
+                        if bracket_count < 0 {
+                            anyhow::bail!("Invalid glob pattern: unmatched closing bracket");
+                        }
+                    },
+                    _ => {},
+                }
+            }
+            if bracket_count != 0 {
+                anyhow::bail!("Invalid glob pattern: unmatched opening bracket");
+            }
+        }
+        
+        Ok(())
     }
     
     pub fn is_language_enabled(&self, lang: &str) -> bool {
@@ -131,6 +310,22 @@ impl AgentMapConfig {
         self.query_overrides.as_ref()
             .and_then(|overrides| overrides.get(lang_query))
             .map(PathBuf::from)
+    }
+    
+    /// Get normalized language name
+    pub fn normalize_language(&self, lang: &str) -> String {
+        match lang {
+            "typescript" => "ts".to_string(),
+            "javascript" => "js".to_string(),
+            "python" => "py".to_string(),
+            "rust" => "rs".to_string(),
+            other => other.to_string(),
+        }
+    }
+    
+    /// Check if configuration is valid (non-panicking version of validate)
+    pub fn is_valid(&self) -> bool {
+        self.validate().is_ok()
     }
 }
 
