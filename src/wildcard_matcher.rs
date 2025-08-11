@@ -565,7 +565,7 @@ mod tests {
         
         let results = WildcardQueryBuilder::new()
             .glob("*", SearchScope::Kinds)
-            .search(&[header])
+            .search(&[header.clone()])
             .unwrap();
 
         // Should match all symbol kinds

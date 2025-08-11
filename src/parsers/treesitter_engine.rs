@@ -118,52 +118,44 @@ impl ModernTreeSitterEngine {
         let matches: Vec<_> = cursor.matches(&queries.classes, tree.root_node(), content.as_bytes()).collect();
         
         for match_ in matches {
-            let mut class_name = None;
-            let mut superclass = None;
-            let mut location = None;
-
             for capture in match_.captures {
                 let node = capture.node;
-                let node_text = node.utf8_text(content.as_bytes())?;
                 let capture_name = queries.classes.capture_names().get(capture.index as usize).unwrap();
 
-                match *capture_name {
-                    "class.name" => class_name = Some(node_text.to_string()),
-                    "class.superclass" => superclass = Some(node_text.to_string()),
-                    "class.definition" => {
-                        location = Some(SourceLocation {
-                            file_path: file_path.to_path_buf(),
-                            start_line: node.start_position().row as u32 + 1,
-                            start_column: node.start_position().column as u32,
-                            end_line: node.end_position().row as u32 + 1,
-                            end_column: node.end_position().column as u32,
-                            byte_offset: node.start_byte() as u32,
-                            byte_length: (node.end_byte() - node.start_byte()) as u32,
-                        });
-                    }
-                    _ => {}
+                if *capture_name == "class.definition" {
+                    // Extract class name from child nodes
+                    let class_name = Self::extract_name_from_node(node, content)
+                        .unwrap_or_else(|| "UnknownClass".to_string());
+                    
+                    let location = SourceLocation {
+                        file_path: file_path.to_path_buf(),
+                        start_line: node.start_position().row as u32 + 1,
+                        start_column: node.start_position().column as u32,
+                        end_line: node.end_position().row as u32 + 1,
+                        end_column: node.end_position().column as u32,
+                        byte_offset: node.start_byte() as u32,
+                        byte_length: (node.end_byte() - node.start_byte()) as u32,
+                    };
+
+                    let symbol_id = format!("{}::{}", file_path.to_string_lossy(), class_name);
+                    
+                    let symbol_kind = SymbolKind::Class {
+                        is_abstract: false,
+                        superclass: None,
+                        interfaces: Vec::new(),
+                        is_generic: false,
+                    };
+
+                    let symbol = Symbol::new(symbol_id.clone(), class_name.clone(), symbol_kind, location)
+                        .with_visibility(Visibility::Public);
+
+                    symbols.push(ParsedSymbol {
+                        symbol,
+                        raw_node: node.kind().to_string(),
+                        node_kind: "class".to_string(),
+                        capture_name: "class.definition".to_string(),
+                    });
                 }
-            }
-
-            if let (Some(name), Some(loc)) = (class_name, location) {
-                let symbol_id = format!("{}::{}", file_path.to_string_lossy(), name);
-                
-                let symbol_kind = SymbolKind::Class {
-                    is_abstract: false, // TODO: Detect from modifiers
-                    superclass,
-                    interfaces: Vec::new(), // TODO: Extract interfaces
-                    is_generic: false, // TODO: Detect generics
-                };
-
-                let symbol = Symbol::new(symbol_id, name, symbol_kind, loc)
-                    .with_visibility(Visibility::Public); // TODO: Detect actual visibility
-
-                symbols.push(ParsedSymbol {
-                    symbol,
-                    raw_node: "class_definition".to_string(),
-                    node_kind: "class".to_string(),
-                    capture_name: "class.definition".to_string(),
-                });
             }
         }
 
@@ -520,6 +512,20 @@ impl ModernTreeSitterEngine {
         }
         
         Ok(parameters)
+    }
+    
+    // Helper method to extract name from a node by looking for identifier children
+    fn extract_name_from_node(node: Node, content: &str) -> Option<String> {
+        // Try to find an identifier child node
+        let mut cursor = node.walk();
+        for child in node.children(&mut cursor) {
+            if child.kind() == "identifier" || child.kind() == "type_identifier" {
+                if let Ok(text) = child.utf8_text(content.as_bytes()) {
+                    return Some(text.to_string());
+                }
+            }
+        }
+        None
     }
 }
 

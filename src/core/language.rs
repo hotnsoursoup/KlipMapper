@@ -115,56 +115,28 @@ impl LanguageQueryPatterns {
     pub fn dart() -> Self {
         Self {
             classes: r#"
-            (class_definition 
-                name: (identifier) @class.name
-                superclass: (type_identifier)? @class.superclass
-                body: (class_body) @class.body) @class.definition
+            (class_definition) @class.definition
             "#,
             functions: r#"
-            (function_declaration
-                name: (identifier) @function.name
-                parameters: (formal_parameter_list) @function.params
-                body: (_) @function.body) @function.definition
+            (function_signature) @function.definition
             "#,
             methods: r#"
-            (method_declaration
-                name: (identifier) @method.name
-                parameters: (formal_parameter_list) @method.params
-                body: (_) @method.body) @method.definition
+            (method_signature) @method.definition
             "#,
             imports: r#"
-            (import_specification
-                library: (dotted_identifier) @import.library
-                (import_combinator)? @import.combinator) @import
-                
-            (library_import
-                uri: (string_literal) @import.uri
-                (as_clause (identifier) @import.alias)?
-                (show_clause (identifier_list))? @import.show
-                (hide_clause (identifier_list))? @import.hide) @import
+            (import_specification) @import
             "#,
             exports: r#"
-            (library_export
-                uri: (string_literal) @export.uri
-                (show_clause (identifier_list))? @export.show
-                (hide_clause (identifier_list))? @export.hide) @export
+            (library_export) @export
             "#,
             variables: r#"
-            (initialized_variable_definition
-                (declared_identifier
-                    name: (identifier) @variable.name
-                    type: (type_identifier)? @variable.type) 
-                value: (_) @variable.value) @variable.definition
+            (initialized_variable_definition) @variable.definition
             "#,
             types: r#"
-            (type_alias
-                name: (type_identifier) @type.name
-                type: (_) @type.definition) @type.alias
+            (type_alias) @type.alias
             "#,
             annotations: r#"
-            (annotation
-                name: (identifier) @annotation.name
-                arguments: (arguments)? @annotation.args) @annotation
+            (annotation) @annotation
             "#,
         }
     }
@@ -172,85 +144,51 @@ impl LanguageQueryPatterns {
     pub fn typescript() -> Self {
         Self {
             classes: r#"
-            (class_declaration
-                name: (type_identifier) @class.name
-                superclass: (class_heritage (identifier))? @class.superclass
-                body: (class_body) @class.body) @class.definition
+            (class_declaration) @class.definition
             "#,
             functions: r#"
-            (function_declaration
-                name: (identifier) @function.name
-                parameters: (formal_parameters) @function.params
-                body: (statement_block) @function.body) @function.definition
+            (function_declaration) @function.definition
             "#,
             methods: r#"
-            (method_definition
-                name: (property_identifier) @method.name
-                parameters: (formal_parameters) @method.params
-                body: (statement_block) @method.body) @method.definition
+            (method_definition) @method.definition
             "#,
             imports: r#"
-            (import_statement
-                source: (string) @import.source
-                (import_clause)? @import.clause) @import
+            (import_statement) @import
             "#,
             exports: r#"
             (export_statement) @export
             "#,
             variables: r#"
-            (variable_declaration
-                (variable_declarator
-                    name: (identifier) @variable.name
-                    value: (_)? @variable.value)) @variable.definition
+            (variable_declaration) @variable.definition
             "#,
             types: r#"
-            (type_alias_declaration
-                name: (type_identifier) @type.name
-                value: (_) @type.definition) @type.alias
+            (type_alias_declaration) @type.alias
             "#,
             annotations: r#"
-            (decorator
-                (call_expression
-                    function: (identifier) @annotation.name
-                    arguments: (arguments)? @annotation.args)) @annotation
+            (decorator) @annotation
             "#,
         }
     }
 
     pub fn javascript() -> Self {
-        // JavaScript patterns (similar to TypeScript but without types)
         Self {
             classes: r#"
-            (class_declaration
-                name: (identifier) @class.name
-                superclass: (class_heritage (identifier))? @class.superclass
-                body: (class_body) @class.body) @class.definition
+            (class_declaration) @class.definition
             "#,
             functions: r#"
-            (function_declaration
-                name: (identifier) @function.name
-                parameters: (formal_parameters) @function.params
-                body: (statement_block) @function.body) @function.definition
+            (function_declaration) @function.definition
             "#,
             methods: r#"
-            (method_definition
-                name: (property_identifier) @method.name
-                parameters: (formal_parameters) @method.params
-                body: (statement_block) @method.body) @method.definition
+            (method_definition) @method.definition
             "#,
             imports: r#"
-            (import_statement
-                source: (string) @import.source
-                (import_clause)? @import.clause) @import
+            (import_statement) @import
             "#,
             exports: r#"
             (export_statement) @export
             "#,
             variables: r#"
-            (variable_declaration
-                (variable_declarator
-                    name: (identifier) @variable.name
-                    value: (_)? @variable.value)) @variable.definition
+            (variable_declaration) @variable.definition
             "#,
             types: "",
             annotations: "",
@@ -260,41 +198,24 @@ impl LanguageQueryPatterns {
     pub fn python() -> Self {
         Self {
             classes: r#"
-            (class_definition
-                name: (identifier) @class.name
-                superclasses: (argument_list)? @class.superclasses
-                body: (block) @class.body) @class.definition
+            (class_definition) @class.definition
             "#,
             functions: r#"
-            (function_definition
-                name: (identifier) @function.name
-                parameters: (parameters) @function.params
-                body: (block) @function.body) @function.definition
+            (function_definition) @function.definition
             "#,
             methods: r#"
-            (function_definition
-                name: (identifier) @method.name
-                parameters: (parameters) @method.params
-                body: (block) @method.body) @method.definition
+            (function_definition) @method.definition
             "#,
             imports: r#"
-            (import_statement
-                name: (dotted_name) @import.name) @import
-                
-            (import_from_statement
-                module_name: (dotted_name)? @import.module
-                name: (dotted_name) @import.name) @import.from
+            (import_statement) @import
             "#,
             exports: "",
             variables: r#"
-            (assignment
-                left: (identifier) @variable.name
-                right: (_) @variable.value) @variable.definition
+            (assignment) @variable.definition
             "#,
             types: "",
             annotations: r#"
-            (decorator
-                (identifier) @annotation.name) @annotation
+            (decorator) @annotation
             "#,
         }
     }
@@ -302,48 +223,28 @@ impl LanguageQueryPatterns {
     pub fn rust() -> Self {
         Self {
             classes: r#"
-            (struct_item
-                name: (type_identifier) @struct.name
-                body: (_) @struct.body) @struct.definition
-                
-            (enum_item
-                name: (type_identifier) @enum.name
-                body: (_) @enum.body) @enum.definition
+            (struct_item) @struct.definition
             "#,
             functions: r#"
-            (function_item
-                name: (identifier) @function.name
-                parameters: (parameters) @function.params
-                body: (block) @function.body) @function.definition
+            (function_item) @function.definition
             "#,
             methods: r#"
-            (function_item
-                name: (identifier) @method.name
-                parameters: (parameters) @method.params
-                body: (block) @method.body) @method.definition
+            (function_item) @method.definition
             "#,
             imports: r#"
-            (use_declaration
-                argument: (_) @import.path) @import
+            (use_declaration) @import
             "#,
             exports: r#"
             (visibility_modifier) @export
             "#,
             variables: r#"
-            (let_declaration
-                pattern: (identifier) @variable.name
-                value: (_)? @variable.value) @variable.definition
+            (let_declaration) @variable.definition
             "#,
             types: r#"
-            (type_item
-                name: (type_identifier) @type.name
-                type: (_) @type.definition) @type.alias
+            (type_item) @type.alias
             "#,
             annotations: r#"
-            (attribute_item
-                (attribute
-                    (identifier) @annotation.name
-                    arguments: (_)? @annotation.args)) @annotation
+            (attribute_item) @annotation
             "#,
         }
     }
@@ -351,41 +252,23 @@ impl LanguageQueryPatterns {
     pub fn go() -> Self {
         Self {
             classes: r#"
-            (type_declaration
-                (type_spec
-                    name: (type_identifier) @struct.name
-                    type: (struct_type) @struct.body)) @struct.definition
+            (type_declaration) @struct.definition
             "#,
             functions: r#"
-            (function_declaration
-                name: (identifier) @function.name
-                parameters: (parameter_list) @function.params
-                body: (block) @function.body) @function.definition
+            (function_declaration) @function.definition
             "#,
             methods: r#"
-            (method_declaration
-                name: (field_identifier) @method.name
-                parameters: (parameter_list) @method.params
-                body: (block) @method.body) @method.definition
+            (method_declaration) @method.definition
             "#,
             imports: r#"
-            (import_spec
-                path: (interpreted_string_literal) @import.path
-                name: (package_identifier)? @import.alias) @import
+            (import_spec) @import
             "#,
             exports: "",
             variables: r#"
-            (var_declaration
-                (var_spec
-                    name: (identifier) @variable.name
-                    type: (_)? @variable.type
-                    value: (_)? @variable.value)) @variable.definition
+            (var_declaration) @variable.definition
             "#,
             types: r#"
-            (type_declaration
-                (type_spec
-                    name: (type_identifier) @type.name
-                    type: (_) @type.definition)) @type.alias
+            (type_declaration) @type.alias
             "#,
             annotations: "",
         }
@@ -394,38 +277,24 @@ impl LanguageQueryPatterns {
     pub fn java() -> Self {
         Self {
             classes: r#"
-            (class_declaration
-                name: (identifier) @class.name
-                superclass: (superclass (type_identifier))? @class.superclass
-                body: (class_body) @class.body) @class.definition
+            (class_declaration) @class.definition
             "#,
             functions: r#"
-            (method_declaration
-                name: (identifier) @method.name
-                parameters: (formal_parameters) @method.params
-                body: (block) @method.body) @method.definition
+            (method_declaration) @method.definition
             "#,
             methods: r#"
-            (method_declaration
-                name: (identifier) @method.name
-                parameters: (formal_parameters) @method.params
-                body: (block) @method.body) @method.definition
+            (method_declaration) @method.definition
             "#,
             imports: r#"
-            (import_declaration
-                (scoped_identifier) @import.path) @import
+            (import_declaration) @import
             "#,
             exports: "",
             variables: r#"
-            (variable_declarator
-                name: (identifier) @variable.name
-                value: (_)? @variable.value) @variable.definition
+            (variable_declarator) @variable.definition
             "#,
             types: "",
             annotations: r#"
-            (annotation
-                name: (identifier) @annotation.name
-                arguments: (annotation_argument_list)? @annotation.args) @annotation
+            (annotation) @annotation
             "#,
         }
     }
