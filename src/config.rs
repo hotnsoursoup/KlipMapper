@@ -3,6 +3,8 @@ use std::{collections::HashMap, path::{Path, PathBuf}};
 use anyhow::{Result, Context};
 use thiserror::Error;
 use regex::Regex;
+use globset::{Glob, GlobSet, GlobSetBuilder};
+use std::sync::Arc;
 
 /// Configuration validation errors
 #[derive(Error, Debug)]
@@ -27,6 +29,54 @@ pub enum ConfigError {
     
     #[error("Path does not exist: {path}")]
     PathDoesNotExist { path: String },
+    
+    #[error("Failed to build glob set: {source}")]
+    GlobSetBuildError { #[source] source: globset::Error },
+}
+
+/// Cached glob matcher for efficient path matching
+#[derive(Debug, Clone)]
+pub struct GlobMatcher {
+    include_set: Option<Arc<GlobSet>>,
+    exclude_set: Option<Arc<GlobSet>>,
+}
+
+impl GlobMatcher {
+    /// Check if a path should be excluded based on include/exclude patterns
+    pub fn should_exclude(&self, path: &str) -> bool {
+        // First check exclude patterns - if any match, exclude the path
+        if let Some(ref exclude_set) = self.exclude_set {
+            if exclude_set.is_match(path) {
+                return true;
+            }
+        }
+        
+        // If there are include patterns, path must match at least one to be included
+        if let Some(ref include_set) = self.include_set {
+            return !include_set.is_match(path);
+        }
+        
+        // No include patterns specified, and path doesn't match exclude patterns
+        false
+    }
+    
+    /// Check if a path matches include patterns
+    pub fn matches_include(&self, path: &str) -> bool {
+        if let Some(ref include_set) = self.include_set {
+            include_set.is_match(path)
+        } else {
+            true // No include patterns means everything is included by default
+        }
+    }
+    
+    /// Check if a path matches exclude patterns
+    pub fn matches_exclude(&self, path: &str) -> bool {
+        if let Some(ref exclude_set) = self.exclude_set {
+            exclude_set.is_match(path)
+        } else {
+            false // No exclude patterns means nothing is excluded by default
+        }
+    }
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -40,6 +90,10 @@ pub struct AgentMapConfig {
     pub auto: Option<AutoConfig>,
     pub query_overrides: Option<HashMap<String, String>>,
     pub track: Option<Vec<String>>,
+    
+    /// Cached glob matcher (not serialized)
+    #[serde(skip)]
+    pub glob_matcher: Option<GlobMatcher>,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
@@ -85,6 +139,7 @@ impl Default for AgentMapConfig {
             }),
             query_overrides: None,
             track: None,
+            glob_matcher: None,
         }
     }
 }
@@ -124,6 +179,9 @@ impl AgentMapConfig {
         
         // Validate the final configuration
         config.validate().context("Configuration validation failed")?;
+        
+        // Build glob matcher for efficient path matching
+        config.build_globset().context("Failed to build glob matcher")?;
         
         Ok(config)
     }
@@ -259,6 +317,52 @@ impl AgentMapConfig {
         Ok(())
     }
     
+    /// Build GlobSet for efficient path matching
+    pub fn build_globset(&mut self) -> Result<(), ConfigError> {
+        let mut include_builder = GlobSetBuilder::new();
+        let mut exclude_builder = GlobSetBuilder::new();
+        
+        // Add include patterns
+        if let Some(patterns) = &self.include {
+            for pattern in patterns {
+                let glob = Glob::new(pattern)
+                    .map_err(|e| ConfigError::GlobSetBuildError { source: e })?;
+                include_builder.add(glob);
+            }
+        }
+        
+        // Add exclude patterns  
+        if let Some(patterns) = &self.exclude {
+            for pattern in patterns {
+                let glob = Glob::new(pattern)
+                    .map_err(|e| ConfigError::GlobSetBuildError { source: e })?;
+                exclude_builder.add(glob);
+            }
+        }
+        
+        // Build the glob sets
+        let include_set = if self.include.is_some() {
+            Some(Arc::new(include_builder.build()
+                .map_err(|e| ConfigError::GlobSetBuildError { source: e })?))
+        } else {
+            None
+        };
+        
+        let exclude_set = if self.exclude.is_some() {
+            Some(Arc::new(exclude_builder.build()
+                .map_err(|e| ConfigError::GlobSetBuildError { source: e })?))
+        } else {
+            None
+        };
+        
+        self.glob_matcher = Some(GlobMatcher {
+            include_set,
+            exclude_set,
+        });
+        
+        Ok(())
+    }
+    
     /// Validate a glob pattern
     fn validate_glob_pattern(&self, pattern: &str) -> Result<()> {
         // Basic validation - ensure pattern is not empty and has valid structure
@@ -301,6 +405,18 @@ impl AgentMapConfig {
     }
     
     pub fn should_exclude_path(&self, path: &Path) -> bool {
+        let path_str = path.to_string_lossy();
+        
+        if let Some(ref matcher) = self.glob_matcher {
+            return matcher.should_exclude(&path_str);
+        }
+        
+        // Fallback to simple pattern matching if glob matcher is not built
+        self.should_exclude_path_simple(path)
+    }
+    
+    /// Fallback method using simple pattern matching
+    fn should_exclude_path_simple(&self, path: &Path) -> bool {
         let path_str = path.to_string_lossy();
         
         if let Some(excludes) = &self.exclude {
