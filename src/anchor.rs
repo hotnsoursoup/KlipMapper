@@ -68,10 +68,10 @@ pub struct SymbolEdge {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct GuardInfo {
     /// IO effects: "network", "file", "database", etc.
-    #[serde(rename = "io", skip_serializing_if = "Vec::is_empty")]
+    #[serde(rename = "io", skip_serializing_if = "Vec::is_empty", default)]
     pub io_effects: Vec<String>,
     /// Invariants/preconditions
-    #[serde(rename = "inv", skip_serializing_if = "Vec::is_empty")]
+    #[serde(rename = "inv", skip_serializing_if = "Vec::is_empty", default)]
     pub invariants: Vec<String>,
 }
 
@@ -96,13 +96,13 @@ pub struct Symbol {
     #[serde(rename = "fr")]
     pub frames: Vec<ScopeFrame>,
     /// Role annotations
-    #[serde(rename = "roles", skip_serializing_if = "Vec::is_empty")]
+    #[serde(rename = "roles", skip_serializing_if = "Vec::is_empty", default)]
     pub roles: Vec<String>,
     /// Symbol references (imports, type uses, etc.)
-    #[serde(rename = "refs", skip_serializing_if = "Vec::is_empty")]
+    #[serde(rename = "refs", skip_serializing_if = "Vec::is_empty", default)]
     pub references: Vec<SymbolReference>,
     /// Outgoing edges to other symbols
-    #[serde(rename = "edges", skip_serializing_if = "Vec::is_empty")]
+    #[serde(rename = "edges", skip_serializing_if = "Vec::is_empty", default)]
     pub edges: Vec<SymbolEdge>,
     /// Content fingerprint for change detection
     #[serde(rename = "fg")]
@@ -421,8 +421,12 @@ mod tests {
 
     #[test]
     fn test_anchor_compression() {
-        let mut symbols = Vec::new();
-        symbols.push(Symbol {
+        let header = AnchorHeaderBuilder::new(
+            PathBuf::from("test.rs"),
+            "rust".to_string(),
+            "struct TestClass {}".to_string(),
+        )
+        .add_symbol(Symbol {
             id: "C1".to_string(),
             kind: "class".to_string(),
             name: "TestClass".to_string(),
@@ -445,14 +449,7 @@ mod tests {
             edges: Vec::new(),
             fingerprint: "abc123".to_string(),
             guard: None,
-        });
-
-        let header = AnchorHeaderBuilder::new(
-            PathBuf::from("test.rs"),
-            "rust".to_string(),
-            "struct TestClass {}".to_string(),
-        )
-        .add_symbol(symbols[0].clone())
+        })
         .build();
 
         let compressed = AnchorCompressor::compress_header(&header).unwrap();

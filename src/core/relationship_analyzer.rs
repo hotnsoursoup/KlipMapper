@@ -1026,7 +1026,12 @@ mod tests {
             symbols: vec![parsed_symbol],
             imports: Vec::new(),
             annotations: Vec::new(),
-            tree_sitter_tree: unsafe { std::mem::zeroed() }, // Mock tree for testing
+            tree_sitter_tree: {
+                // Create a minimal valid tree for testing
+                let mut parser = tree_sitter::Parser::new();
+                parser.set_language(&tree_sitter_dart::language()).unwrap();
+                parser.parse("class Test {}", None).unwrap()
+            },
         };
 
         let result = analyzer.register_file(file_result).await;

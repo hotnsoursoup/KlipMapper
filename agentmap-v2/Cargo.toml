@@ -1,0 +1,84 @@
+[package]
+name = "agentmap"
+version = "2.0.0"
+edition = "2021"
+description = "Multi-language code analysis for AI agents with RAG integration"
+license = "MIT"
+repository = "https://github.com/hotnsoursoup/agentmap"
+keywords = ["code-analysis", "treesitter", "rag", "ai", "embeddings"]
+categories = ["development-tools", "parsing"]
+
+[features]
+default = ["cli"]
+cli = ["clap"]
+# TODO: Re-enable when db-kit path is fixed for Windows
+# db-kit = ["db-kit-lib"]
+# embedding = ["db-kit-lib", "tokio/rt-multi-thread"]
+# embedding-openai = ["embedding", "db-kit-lib/embedding-openai"]
+# embedding-ollama = ["embedding", "db-kit-lib/embedding-ollama"]
+sidecar = ["serde_yaml"]
+tracing = ["dep:tracing"]
+all = ["cli", "sidecar", "tracing"]
+
+
+[dependencies]
+# Core parsing
+tree-sitter = "0.22"
+tree-sitter-rust = "0.21"
+tree-sitter-python = "0.21"
+tree-sitter-typescript = "0.21"
+tree-sitter-javascript = "0.21"
+tree-sitter-go = "0.21"
+tree-sitter-java = "0.21"
+
+# Dart uses different versioning
+tree-sitter-dart = "0.0.4"
+
+# Error handling
+thiserror = "2"
+anyhow = "1"
+
+# Serialization (always needed for output)
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Optional dependencies
+clap = { version = "4", features = ["derive"], optional = true }
+# db-kit-lib = { path = "/mnt/e/shared-libs/sqlite-pool/db-kit", package = "db-kit", features = ["embedding-gemini", "sqlite"], optional = true }
+serde_yaml = { version = "0.9", optional = true }
+tracing = { version = "0.1", optional = true }
+
+# Utilities
+sha2 = "0.10"
+parking_lot = "0.12"
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
+tempfile = "3"
+pretty_assertions = "1"
+
+[dependencies.tokio]
+version = "1"
+features = ["rt-multi-thread", "macros"]
+optional = true
+
+
+[[bin]]
+name = "agentmap"
+path = "src/bin/agentmap.rs"
+required-features = ["cli"]
+
+[[example]]
+name = "oauth_embedding_test"
+required-features = ["embedding"]
+
+[dependencies.dirs]
+version = "5"
+
+[dependencies.reqwest]
+version = "0.12"
+features = ["json"]
+
