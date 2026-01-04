@@ -38,6 +38,7 @@ impl SidecarMiddleware {
     }
 
     /// Get the sidecar path for a source file.
+    #[cfg(feature = "sidecar")]
     fn sidecar_path(&self, source_path: &std::path::Path) -> PathBuf {
         let base_dir = self.output_dir.as_ref()
             .map(|d| d.clone())

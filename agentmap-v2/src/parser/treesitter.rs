@@ -107,6 +107,8 @@ impl TreeSitterParser {
     }
 
     /// Extract symbols using manual AST walking (fallback).
+    /// Reserved for future use when query-based extraction isn't available.
+    #[allow(dead_code)]
     fn extract_symbols(
         &self,
         tree: &Tree,

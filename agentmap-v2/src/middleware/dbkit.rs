@@ -6,7 +6,10 @@
 #[cfg(feature = "db-kit")]
 use db_kit_lib as db_kit;
 
-use crate::core::{Result, CodeAnalysis, Symbol, Relationship, RelationshipKind, SymbolKind};
+use crate::core::{Result, CodeAnalysis};
+#[cfg(feature = "db-kit")]
+use crate::core::{Symbol, Relationship, RelationshipKind, SymbolKind};
+#[cfg(feature = "db-kit")]
 use crate::parser::ParsedFile;
 use super::{Middleware, Context};
 use std::collections::HashMap;
@@ -189,7 +192,7 @@ impl Middleware for DbKitMiddleware {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::core::{SourceLocation, Visibility};
+    use crate::core::{Symbol, SymbolKind, SourceLocation, Visibility};
     use std::path::PathBuf;
 
     #[test]

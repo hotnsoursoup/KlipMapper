@@ -108,7 +108,7 @@ impl Middleware for CachingMiddleware {
         Ok(())
     }
 
-    fn after_analyze(&self, ctx: &Context, analysis: &CodeAnalysis) -> Result<()> {
+    fn after_analyze(&self, _ctx: &Context, analysis: &CodeAnalysis) -> Result<()> {
         // Cache the analysis result
         if !analysis.metadata.content_hash.is_empty() {
             self.set(analysis.metadata.content_hash.clone(), analysis.clone());

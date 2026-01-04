@@ -32,6 +32,14 @@ pub mod analyzer;
 pub mod middleware;
 pub mod config;
 pub mod extensions;
+pub mod scanner;
+pub mod query;
+pub mod util;
+pub mod export;
+pub mod anchor;
+pub mod checker;
+pub mod watcher;
+pub mod architecture;
 
 #[cfg(feature = "embedding")]
 pub mod embedding;
@@ -54,6 +62,21 @@ pub use parser::{Parser, Language};
 pub use analyzer::Analyzer;
 pub use middleware::{Middleware, MiddlewareStack};
 pub use config::Config;
+pub use scanner::{Scanner, ScanConfig, ScanResult};
+pub use query::{QueryBuilder, SymbolMatcher, Pattern, SearchResults};
+pub use export::{ExportFormat, Exporter, export, export_all};
+pub use anchor::{
+    AnchorHeader, AnchorHeaderBuilder, AnchorCompressor,
+    InlineAnchor, Symbol as AnchorSymbol, SourceRange as AnchorSourceRange,
+    ANCHOR_VERSION,
+};
+pub use checker::{Checker, CheckConfig, CheckResult, CheckSummary, CheckIssue};
+pub use watcher::{Watcher, WatchConfig, WatchEvent, WatchEventKind};
+pub use architecture::{
+    ArchitectureExporter, ExporterConfig, ProjectArchitecture,
+    DetailLevel, ArchitectureSymbol, ArchitectureRelationship,
+    ArchitectureLayer, ArchitecturePattern, PatternType,
+};
 
 /// Main entry point for code analysis.
 pub struct AgentMap {

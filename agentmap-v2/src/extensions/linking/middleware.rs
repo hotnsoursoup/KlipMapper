@@ -91,7 +91,17 @@ impl LinkerMiddleware {
                     linked.to = id;
                 }
                 ResolvedReference::Ambiguous(ids) => {
-                    // Use first match (could be smarter)
+                    // Log ambiguous resolution for debugging
+                    #[cfg(feature = "tracing")]
+                    tracing::debug!(
+                        name = to_name,
+                        candidates = ids.len(),
+                        "Ambiguous resolution: picking first of {} candidates",
+                        ids.len()
+                    );
+
+                    // Use first match - in the future could use heuristics like
+                    // preferring same-file symbols or closer scope matches
                     if let Some(first) = ids.first() {
                         linked.to = first.clone();
                     }
