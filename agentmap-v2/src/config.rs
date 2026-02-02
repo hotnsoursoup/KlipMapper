@@ -57,10 +57,6 @@ pub struct MiddlewareConfig {
 pub struct OutputConfig {
     /// Default output format.
     pub format: String,
-    /// Generate sidecar files.
-    pub sidecar: bool,
-    /// Sidecar file suffix.
-    pub sidecar_suffix: String,
 }
 
 impl Default for Config {
@@ -105,8 +101,6 @@ impl Default for OutputConfig {
     fn default() -> Self {
         Self {
             format: "json".to_string(),
-            sidecar: false,
-            sidecar_suffix: ".agentmap.yaml".to_string(),
         }
     }
 }
@@ -121,20 +115,12 @@ impl Config {
     }
 
     /// Parse configuration from YAML string.
-    #[cfg(feature = "sidecar")]
     pub fn from_yaml(content: &str) -> Result<Self> {
         serde_yaml::from_str(content)
             .map_err(|e| Error::config(format!("Invalid config: {}", e)))
     }
 
-    #[cfg(not(feature = "sidecar"))]
-    pub fn from_yaml(_content: &str) -> Result<Self> {
-        // Without YAML support, return default
-        Ok(Self::default())
-    }
-
     /// Save configuration to a file.
-    #[cfg(feature = "sidecar")]
     pub fn save(&self, path: &Path) -> Result<()> {
         let content = serde_yaml::to_string(self)
             .map_err(|e| Error::config(format!("Failed to serialize: {}", e)))?;

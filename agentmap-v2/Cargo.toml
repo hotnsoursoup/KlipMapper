@@ -11,14 +11,12 @@ categories = ["development-tools", "parsing"]
 [features]
 default = ["cli"]
 cli = ["clap"]
-# TODO: Re-enable when db-kit path is fixed for Windows
-# db-kit = ["db-kit-lib"]
-# embedding = ["db-kit-lib", "tokio/rt-multi-thread"]
-# embedding-openai = ["embedding", "db-kit-lib/embedding-openai"]
-# embedding-ollama = ["embedding", "db-kit-lib/embedding-ollama"]
-sidecar = []
+db-kit = ["db-kit-lib", "tokio/rt-multi-thread"]
+embedding = ["db-kit-lib", "tokio/rt-multi-thread"]
+embedding-openai = ["embedding", "db-kit-lib/embedding-openai"]
+embedding-ollama = ["embedding", "db-kit-lib/embedding-ollama"]
 tracing = ["dep:tracing"]
-all = ["cli", "sidecar", "tracing"]
+all = ["cli", "tracing", "db-kit"]
 
 
 [dependencies]
@@ -45,7 +43,7 @@ serde_yaml = "0.9"
 
 # Optional dependencies
 clap = { version = "4", features = ["derive"], optional = true }
-# db-kit-lib = { path = "/mnt/e/shared-libs/sqlite-pool/db-kit", package = "db-kit", features = ["embedding-gemini", "sqlite"], optional = true }
+db-kit-lib = { path = "../../../shared-libs/sqlite-pool/db-kit", package = "db-kit", features = ["sqlite", "agentmap"], optional = true }
 tracing = { version = "0.1", optional = true }
 
 # Utilities
@@ -62,6 +60,7 @@ console = "0.15"
 # Pattern matching
 regex = "1.10"
 lru = "0.12"
+nucleo-matcher = "0.3"
 
 # File watching
 notify = "7"

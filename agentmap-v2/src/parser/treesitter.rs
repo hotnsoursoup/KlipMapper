@@ -70,8 +70,12 @@ impl TreeSitterParser {
                                 .unwrap_or("")
                                 .to_string();
 
+                            // Get visibility from the context node
+                            let visibility = self.get_visibility(&context_node, content, language);
+
                             let symbol = Symbol::new(name.to_string(), kind, location)
-                                .with_code(code_content);
+                                .with_code(code_content)
+                                .with_visibility(visibility);
                             symbols.push(symbol);
                         }
                     }

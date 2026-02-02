@@ -23,7 +23,6 @@
 //!
 //! - `cli` - Command-line interface (default)
 //! - `db-kit` - Integration with db-kit for RAG indexing
-//! - `sidecar` - YAML sidecar file output
 //! - `tracing` - Observability via tracing crate
 
 pub mod core;
@@ -32,6 +31,7 @@ pub mod analyzer;
 pub mod middleware;
 pub mod config;
 pub mod extensions;
+pub mod adapters;
 pub mod scanner;
 pub mod query;
 pub mod util;
@@ -64,7 +64,7 @@ pub use middleware::{Middleware, MiddlewareStack};
 pub use config::Config;
 pub use scanner::{Scanner, ScanConfig, ScanResult};
 pub use query::{QueryBuilder, SymbolMatcher, Pattern, SearchResults};
-pub use export::{ExportFormat, Exporter, export, export_all};
+pub use export::{ExportFormat, Exporter, export, export_all, AgentContextExporter, AgentContext, ProjectContext};
 pub use anchor::{
     AnchorHeader, AnchorHeaderBuilder, AnchorCompressor,
     InlineAnchor, Symbol as AnchorSymbol, SourceRange as AnchorSourceRange,

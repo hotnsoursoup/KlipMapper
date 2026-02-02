@@ -18,6 +18,7 @@ mod graphml;
 mod diagram;
 mod tabular;
 mod document;
+mod agent;
 
 use std::io::Write;
 use anyhow::Result;
@@ -29,6 +30,7 @@ pub use graphml::GraphMlExporter;
 pub use tabular::{CsvExporter, CypherExporter};
 pub use document::{HtmlExporter, MarkdownExporter};
 pub use json::JsonExporter;
+pub use agent::{AgentContextExporter, AgentContext, ProjectContext};
 
 /// Supported export formats.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -57,6 +59,8 @@ pub enum ExportFormat {
     D2,
     /// Cypher queries for Neo4j
     Cypher,
+    /// Token-efficient format for AI agents
+    AgentContext,
 }
 
 impl ExportFormat {
@@ -74,6 +78,7 @@ impl ExportFormat {
             ExportFormat::PlantUml => "puml",
             ExportFormat::D2 => "d2",
             ExportFormat::Cypher => "cypher",
+            ExportFormat::AgentContext => "json",
         }
     }
 
@@ -87,6 +92,7 @@ impl ExportFormat {
             ExportFormat::D2 | ExportFormat::Cypher | ExportFormat::Csv => "text/plain",
             ExportFormat::Html => "text/html",
             ExportFormat::Markdown => "text/markdown",
+            ExportFormat::AgentContext => "application/json",
         }
     }
 }
@@ -106,6 +112,7 @@ impl std::fmt::Display for ExportFormat {
             ExportFormat::PlantUml => "PlantUML",
             ExportFormat::D2 => "D2",
             ExportFormat::Cypher => "Cypher",
+            ExportFormat::AgentContext => "Agent Context",
         };
         write!(f, "{}", name)
     }
@@ -139,6 +146,7 @@ pub fn export(
         ExportFormat::PlantUml => PlantUmlExporter::new().export(analysis, output),
         ExportFormat::D2 => D2Exporter::new().export(analysis, output),
         ExportFormat::Cypher => CypherExporter::new().export(analysis, output),
+        ExportFormat::AgentContext => AgentContextExporter::new().export(analysis, output),
     }
 }
 
@@ -161,5 +169,6 @@ pub fn export_all(
         ExportFormat::PlantUml => PlantUmlExporter::new().export_all(analyses, output),
         ExportFormat::D2 => D2Exporter::new().export_all(analyses, output),
         ExportFormat::Cypher => CypherExporter::new().export_all(analyses, output),
+        ExportFormat::AgentContext => AgentContextExporter::new().export_all(analyses, output),
     }
 }

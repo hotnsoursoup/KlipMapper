@@ -13,7 +13,7 @@ pub enum CheckResult {
     Skipped,
     /// Analysis is outdated (source changed).
     Outdated,
-    /// Analysis is missing (no anchor/sidecar).
+    /// Analysis is missing (no anchor).
     Missing,
     /// Analysis is invalid (corrupt or error).
     Invalid,
@@ -327,10 +327,8 @@ pub struct CheckConfig {
     pub verify_symbols: bool,
     /// Verify cross-references are valid.
     pub verify_xrefs: bool,
-    /// Check anchor headers (vs sidecar files).
+    /// Check anchor headers.
     pub check_anchors: bool,
-    /// Check sidecar files.
-    pub check_sidecars: bool,
     /// Run checks in parallel.
     pub parallel: bool,
     /// Include hidden files.
@@ -371,12 +369,6 @@ impl CheckConfig {
         self
     }
 
-    /// Enable/disable checking sidecar files.
-    pub fn with_check_sidecars(mut self, check: bool) -> Self {
-        self.check_sidecars = check;
-        self
-    }
-
     /// Enable/disable parallel execution.
     pub fn with_parallel(mut self, parallel: bool) -> Self {
         self.parallel = parallel;
@@ -403,7 +395,6 @@ impl Default for CheckConfig {
             verify_symbols: false,
             verify_xrefs: false,
             check_anchors: true,
-            check_sidecars: false,
             parallel: true,
             include_hidden: false,
             extensions: Vec::new(),

@@ -54,8 +54,21 @@ impl Analyzer for DefaultAnalyzer {
             parsed.language,
         );
 
-        // Copy symbols from parsed file
-        analysis.symbols = parsed.symbols.clone();
+        // Copy symbols from parsed file, fixing file paths
+        analysis.symbols = parsed.symbols.iter().map(|s| {
+            let mut symbol = s.clone();
+            // Fix the file path in location if it's empty
+            if symbol.location.file_path.as_os_str().is_empty() {
+                symbol.location.file_path = path.to_path_buf();
+            }
+            // Regenerate ID with correct file path
+            symbol.id = crate::core::SymbolId::new(
+                path.to_string_lossy().as_ref(),
+                symbol.location.start_line,
+                &symbol.name,
+            );
+            symbol
+        }).collect();
 
         // Extract inheritance relationships
         let inheritance_rels = self.inheritance_analyzer.analyze(parsed, path)?;

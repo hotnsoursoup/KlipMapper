@@ -9,7 +9,6 @@
 //! - [`CachingMiddleware`] - Caches analysis results by content hash
 //! - [`MetricsMiddleware`] - Collects analysis metrics
 //! - [`DbKitMiddleware`] - Converts to db-kit format for RAG
-//! - [`SidecarMiddleware`] - Writes YAML sidecar files
 //!
 //! # Example
 //!
@@ -27,7 +26,6 @@ mod logging;
 mod caching;
 mod metrics;
 mod dbkit;
-mod sidecar;
 
 pub use stack::MiddlewareStack;
 pub use context::Context;
@@ -35,7 +33,6 @@ pub use logging::{LoggingMiddleware, LogLevel};
 pub use caching::{CachingMiddleware, CacheStats};
 pub use metrics::{MetricsMiddleware, MetricsSnapshot};
 pub use dbkit::{DbKitMiddleware, PortableGraph, PortableEntity, PortableRelationship};
-pub use sidecar::SidecarMiddleware;
 
 use crate::core::{Result, CodeAnalysis};
 use crate::parser::ParsedFile;

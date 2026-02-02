@@ -92,6 +92,11 @@ impl QueryLoader {
         self.load_embedded_query(Language::TypeScript, QueryType::Definitions, include_str!("../../queries/typescript/defs.scm"));
         self.load_embedded_query(Language::TypeScript, QueryType::Imports, include_str!("../../queries/typescript/imports.scm"));
         self.load_embedded_query(Language::TypeScript, QueryType::Uses, include_str!("../../queries/typescript/uses.scm"));
+
+        // Dart queries
+        self.load_embedded_query(Language::Dart, QueryType::Definitions, include_str!("../../queries/dart/defs.scm"));
+        self.load_embedded_query(Language::Dart, QueryType::Imports, include_str!("../../queries/dart/imports.scm"));
+        self.load_embedded_query(Language::Dart, QueryType::Uses, include_str!("../../queries/dart/uses.scm"));
     }
 
     fn load_embedded_query(&mut self, lang: Language, query_type: QueryType, content: &str) {

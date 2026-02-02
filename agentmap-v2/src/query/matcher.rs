@@ -6,6 +6,8 @@ use regex::Regex;
 use parking_lot::Mutex;
 use lru::LruCache;
 use anyhow::{Result, Context};
+use nucleo_matcher::{Matcher, Config, Utf32Str};
+use std::collections::HashSet;
 
 use crate::core::{Symbol, CodeAnalysis};
 use super::pattern::{Pattern, PatternType, SearchScope, MatchResult, MatchLocation, RankingBreakdown};
@@ -76,6 +78,8 @@ pub struct SymbolMatcher {
     metrics: Arc<Mutex<CacheMetrics>>,
     /// Configuration
     config: MatchConfig,
+    /// Nucleo matcher for fuzzy matching
+    fuzzy_matcher: Arc<Mutex<Matcher>>,
 }
 
 impl SymbolMatcher {
@@ -87,10 +91,18 @@ impl SymbolMatcher {
     /// Create a matcher with custom config.
     pub fn with_config(config: MatchConfig) -> Self {
         let capacity = NonZeroUsize::new(config.cache_capacity.max(1)).unwrap();
+        
+        // Configure nucleo matcher based on case sensitivity
+        let mut nucleo_config = Config::DEFAULT;
+        if !config.case_sensitive {
+            nucleo_config.ignore_case = true;
+        }
+
         Self {
             pattern_cache: Arc::new(Mutex::new(LruCache::new(capacity))),
             metrics: Arc::new(Mutex::new(CacheMetrics::default())),
             config,
+            fuzzy_matcher: Arc::new(Mutex::new(Matcher::new(nucleo_config))),
         }
     }
 
@@ -186,9 +198,9 @@ impl SymbolMatcher {
             }
         };
 
-        // Apply case sensitivity
-        let (text, pattern_str) = if self.config.case_sensitive {
-            (text, pattern.pattern.clone())
+        // Apply case sensitivity (except for fuzzy matching which handles it via config)
+        let (text_processed, pattern_str) = if self.config.case_sensitive {
+            (text.clone(), pattern.pattern.clone())
         } else {
             (text.to_lowercase(), pattern.pattern.to_lowercase())
         };
@@ -197,23 +209,24 @@ impl SymbolMatcher {
         let base_score = match &pattern.pattern_type {
             PatternType::Glob => {
                 let regex = self.glob_to_regex(&pattern_str)?;
-                if regex.is_match(&text) { 1.0 } else { 0.0 }
+                if regex.is_match(&text_processed) { 1.0 } else { 0.0 }
             }
             PatternType::Regex => {
                 let regex = self.get_or_compile_regex(&pattern_str)?;
-                if regex.is_match(&text) { 1.0 } else { 0.0 }
+                if regex.is_match(&text_processed) { 1.0 } else { 0.0 }
             }
             PatternType::Exact => {
-                if text == pattern_str { 1.0 } else { 0.0 }
+                if text_processed == pattern_str { 1.0 } else { 0.0 }
             }
             PatternType::Fuzzy(threshold) => {
-                let similarity = self.fuzzy_similarity(&text, &pattern_str);
+                // Pass original text to fuzzy matcher (it handles case sensitivity based on config)
+                let similarity = self.fuzzy_similarity(&text, &pattern.pattern);
                 if similarity >= *threshold { similarity } else { 0.0 }
             }
         };
 
         if base_score > 0.0 {
-            let ranking = self.calculate_ranking(&text, &pattern_str, base_score);
+            let ranking = self.calculate_ranking(&text_processed, &pattern_str, base_score);
             Ok(Some(MatchResult {
                 symbol: symbol.clone(),
                 location,
@@ -345,18 +358,57 @@ impl SymbolMatcher {
 
     /// Calculate fuzzy similarity between two strings.
     fn fuzzy_similarity(&self, text: &str, pattern: &str) -> f32 {
-        if text.is_empty() && pattern.is_empty() {
-            return 1.0;
+        // Use nucleo-matcher for superior fuzzy matching performance
+        if text.is_empty() { return if pattern.is_empty() { 1.0 } else { 0.0 }; }
+        if pattern.is_empty() { return 0.0; }
+        
+        // Handle edge case where strings are identical
+        if text == pattern { return 1.0; }
+        
+        let mut haystack_buf = Vec::new();
+        let mut needle_buf = Vec::new();
+        
+        // Try to get a score using nucleo-matcher
+        // Use catch_unwind as a safety measure since we're manipulating buffers and pointers
+        let result = std::panic::catch_unwind(std::panic::AssertUnwindSafe(|| {
+            let haystack_utf32 = Utf32Str::new(text, &mut haystack_buf);
+            let needle_utf32 = Utf32Str::new(pattern, &mut needle_buf);
+            
+            let mut matcher = self.fuzzy_matcher.lock();
+            
+            // Try fuzzy matching - prefer longer string as haystack for better results
+            let (hay, needle) = if text.len() >= pattern.len() {
+                (haystack_utf32, needle_utf32)
+            } else {
+                (needle_utf32, haystack_utf32)
+            };
+            
+            matcher.fuzzy_match(hay, needle)
+        }));
+        
+        match result {
+            Ok(Some(score)) => {
+                // Normalize score: nucleo-matcher returns 0-65535, normalize to 0-1
+                let normalized = score as f32 / 65535.0;
+                normalized.min(1.0)
+            },
+            Ok(None) => {
+                // No match found, fall back to simple similarity
+                self.simple_similarity_fallback(text, pattern)
+            },
+            Err(_) => {
+                // Panic occurred, fall back to simple similarity
+                self.simple_similarity_fallback(text, pattern)
+            }
         }
+    }
+    
+    /// Fallback similarity calculation for edge cases.
+    fn simple_similarity_fallback(&self, text: &str, pattern: &str) -> f32 {
         if text.is_empty() || pattern.is_empty() {
             return 0.0;
         }
-        if text == pattern {
-            return 1.0;
-        }
 
-        // Simple character overlap (Jaccard-style)
-        use std::collections::HashSet;
         let text_chars: HashSet<char> = text.chars().collect();
         let pattern_chars: HashSet<char> = pattern.chars().collect();
 

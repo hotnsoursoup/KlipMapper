@@ -209,6 +209,7 @@ impl AnchorHeaderBuilder {
 /// Builder for creating symbols with a fluent API.
 ///
 /// Alternative to constructing `Symbol` directly.
+#[allow(dead_code)]
 pub struct SymbolBuilder {
     id: String,
     kind: String,
@@ -223,6 +224,7 @@ pub struct SymbolBuilder {
     guard: Option<super::types::GuardInfo>,
 }
 
+#[allow(dead_code)]
 impl SymbolBuilder {
     /// Create a new symbol builder.
     pub fn new(
@@ -313,6 +315,7 @@ impl SymbolBuilder {
 }
 
 /// Batch builder for creating multiple symbols efficiently.
+#[allow(dead_code)]
 pub struct BatchSymbolBuilder {
     file_path: PathBuf,
     language: String,
@@ -321,6 +324,7 @@ pub struct BatchSymbolBuilder {
     symbols: Vec<Symbol>,
 }
 
+#[allow(dead_code)]
 impl BatchSymbolBuilder {
     /// Create a new batch builder.
     pub fn new(file_path: PathBuf, language: String, content: String) -> Self {

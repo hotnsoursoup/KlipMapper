@@ -324,7 +324,7 @@ impl AnchorCompressor {
     /// Extract all anchor comments from source code.
     ///
     /// Returns both header and inline anchors found in the source.
-    pub fn extract_anchors(source: &str, lang: &str) -> ExtractedAnchors {
+    pub fn extract_anchors(source: &str, _lang: &str) -> ExtractedAnchors {
         let lines: Vec<&str> = source.lines().collect();
         let mut result = ExtractedAnchors {
             header: None,

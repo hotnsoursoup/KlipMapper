@@ -123,6 +123,7 @@ pub fn parse_frontmatter(content: &str) -> Option<Frontmatter> {
 }
 
 /// Parse frontmatter as AgentCard.
+#[allow(dead_code)]
 pub fn parse_agent_card(content: &str) -> Option<AgentCard> {
     parse_frontmatter(content)?.parse_as()
 }
@@ -130,6 +131,7 @@ pub fn parse_agent_card(content: &str) -> Option<AgentCard> {
 /// Extract frontmatter and remaining content.
 ///
 /// Returns (frontmatter, remaining_content).
+#[allow(dead_code)]
 pub fn split_frontmatter(content: &str) -> (Option<Frontmatter>, &str) {
     let mut lines = content.lines();
 

@@ -79,7 +79,7 @@ enum Commands {
         json: bool,
     },
 
-    /// Validate analysis metadata (anchors/sidecars) is up-to-date
+    /// Validate analysis metadata (anchors) is up-to-date
     Check {
         /// Paths to check
         path: Vec<PathBuf>,
@@ -92,13 +92,9 @@ enum Commands {
         #[arg(long)]
         verify_symbols: bool,
 
-        /// Check anchor headers (default)
+        /// Check anchor headers
         #[arg(long)]
         anchors: bool,
-
-        /// Check sidecar files
-        #[arg(long)]
-        sidecars: bool,
 
         /// Output as JSON
         #[arg(long, short)]
@@ -198,6 +194,21 @@ enum Commands {
         #[arg(default_value = ".")]
         path: PathBuf,
     },
+
+    /// Detect design patterns and architectural conventions
+    Patterns {
+        /// Path to analyze
+        #[arg(default_value = ".")]
+        path: PathBuf,
+
+        /// Output as JSON
+        #[arg(long, short)]
+        json: bool,
+
+        /// Minimum confidence threshold (0.0 - 1.0)
+        #[arg(long, default_value = "0.5")]
+        min_confidence: f32,
+    },
 }
 
 #[derive(Clone, Debug, Default)]
@@ -236,6 +247,8 @@ enum ExportFormatArg {
     Plantuml,
     D2,
     Cypher,
+    /// Token-efficient format for AI agents
+    Agent,
 }
 
 impl From<ExportFormatArg> for agentmap::ExportFormat {
@@ -253,6 +266,7 @@ impl From<ExportFormatArg> for agentmap::ExportFormat {
             ExportFormatArg::Plantuml => agentmap::ExportFormat::PlantUml,
             ExportFormatArg::D2 => agentmap::ExportFormat::D2,
             ExportFormatArg::Cypher => agentmap::ExportFormat::Cypher,
+            ExportFormatArg::Agent => agentmap::ExportFormat::AgentContext,
         }
     }
 }
@@ -318,8 +332,8 @@ fn run(cli: Cli) -> Result<(), Box<dyn std::error::Error>> {
         Commands::Scan { path, kind, visibility, no_write: _, json } => {
             run_scan(&agent, &path, kind.as_deref(), visibility.as_deref(), json)
         }
-        Commands::Check { path, verify_hashes, verify_symbols, anchors, sidecars, json } => {
-            run_check(&path, verify_hashes, verify_symbols, anchors, sidecars, json)
+        Commands::Check { path, verify_hashes, verify_symbols, anchors, json } => {
+            run_check(&path, verify_hashes, verify_symbols, anchors, json)
         }
         Commands::Watch { path, debounce, extensions, no_recursive, show_progress } => {
             run_watch(&path, debounce, extensions.as_deref(), no_recursive, show_progress)
@@ -332,6 +346,9 @@ fn run(cli: Cli) -> Result<(), Box<dyn std::error::Error>> {
         }
         Commands::Stats { path } => {
             run_stats(&agent, &path, &metrics)
+        }
+        Commands::Patterns { path, json, min_confidence } => {
+            run_patterns(&agent, &path, json, min_confidence)
         }
     }
 }
@@ -420,7 +437,6 @@ fn run_check(
     verify_hashes: bool,
     verify_symbols: bool,
     anchors: bool,
-    sidecars: bool,
     json: bool,
 ) -> Result<(), Box<dyn std::error::Error>> {
     use agentmap::{Checker, CheckConfig, CheckResult};
@@ -434,8 +450,7 @@ fn run_check(
     let config = CheckConfig::new()
         .with_verify_hashes(verify_hashes || !verify_symbols)
         .with_verify_symbols(verify_symbols)
-        .with_check_anchors(anchors || !sidecars)
-        .with_check_sidecars(sidecars);
+        .with_check_anchors(anchors);
 
     let checker = Checker::with_config(config);
     let summary = checker.check_paths(&paths)?;
@@ -736,7 +751,7 @@ fn run_export_enhanced(
 
     let exporter = ArchitectureExporter::with_config(path.clone(), config);
 
-    // Export with empty headers (would need to load from sidecars)
+    // Export with empty headers (would need to load from database)
     let architecture = exporter.export(&[])?;
 
     // Serialize architecture to the requested format
@@ -845,4 +860,206 @@ fn format_summary(analyses: &[agentmap::CodeAnalysis]) -> String {
     }
 
     out
+}
+
+fn run_patterns(
+    agent: &AgentMap,
+    path: &PathBuf,
+    json: bool,
+    min_confidence: f32,
+) -> Result<(), Box<dyn std::error::Error>> {
+    // Analyze the codebase
+    let analyses = if path.is_file() {
+        vec![agent.analyze_file(path)?]
+    } else {
+        agent.analyze_directory(path)?
+    };
+
+    // Detect patterns by examining naming conventions and relationships
+    let mut patterns: Vec<DetectedPattern> = Vec::new();
+
+    // Collect all symbols and their info
+    let mut factories = Vec::new();
+    let mut repositories = Vec::new();
+    let mut services = Vec::new();
+    let mut controllers = Vec::new();
+    let mut singletons = Vec::new();
+    let mut builders = Vec::new();
+    let mut handlers = Vec::new();
+    let mut providers = Vec::new();
+
+    for analysis in &analyses {
+        for symbol in &analysis.symbols {
+            let name_lower = symbol.name.to_lowercase();
+            let file_path = analysis.file_path.to_string_lossy().to_string();
+
+            let info = PatternInstance {
+                name: symbol.name.clone(),
+                file: file_path,
+                line: symbol.location.start_line,
+                kind: symbol.kind.to_string(),
+            };
+
+            if name_lower.contains("factory") {
+                factories.push(info);
+            } else if name_lower.contains("repository") || name_lower.contains("repo") {
+                repositories.push(info);
+            } else if name_lower.contains("service") {
+                services.push(info);
+            } else if name_lower.contains("controller") {
+                controllers.push(info);
+            } else if name_lower.contains("singleton") {
+                singletons.push(info);
+            } else if name_lower.contains("builder") {
+                builders.push(info);
+            } else if name_lower.contains("handler") {
+                handlers.push(info);
+            } else if name_lower.contains("provider") {
+                providers.push(info);
+            }
+        }
+    }
+
+    // Create pattern entries
+    if !factories.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Factory".to_string(),
+            pattern_type: "creational".to_string(),
+            confidence: 0.9,
+            instances: factories,
+            description: "Creates objects without specifying exact classes".to_string(),
+        });
+    }
+
+    if !repositories.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Repository".to_string(),
+            pattern_type: "architectural".to_string(),
+            confidence: 0.9,
+            instances: repositories,
+            description: "Encapsulates data access logic".to_string(),
+        });
+    }
+
+    if !services.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Service".to_string(),
+            pattern_type: "architectural".to_string(),
+            confidence: 0.85,
+            instances: services,
+            description: "Encapsulates business logic".to_string(),
+        });
+    }
+
+    if !controllers.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Controller".to_string(),
+            pattern_type: "architectural".to_string(),
+            confidence: 0.9,
+            instances: controllers,
+            description: "Handles requests and coordinates responses (MVC)".to_string(),
+        });
+    }
+
+    if !singletons.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Singleton".to_string(),
+            pattern_type: "creational".to_string(),
+            confidence: 0.85,
+            instances: singletons,
+            description: "Ensures only one instance exists".to_string(),
+        });
+    }
+
+    if !builders.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Builder".to_string(),
+            pattern_type: "creational".to_string(),
+            confidence: 0.9,
+            instances: builders,
+            description: "Constructs complex objects step by step".to_string(),
+        });
+    }
+
+    if !handlers.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Handler".to_string(),
+            pattern_type: "behavioral".to_string(),
+            confidence: 0.8,
+            instances: handlers,
+            description: "Processes requests or events".to_string(),
+        });
+    }
+
+    if !providers.is_empty() {
+        patterns.push(DetectedPattern {
+            name: "Provider".to_string(),
+            pattern_type: "architectural".to_string(),
+            confidence: 0.8,
+            instances: providers,
+            description: "Supplies dependencies or services".to_string(),
+        });
+    }
+
+    // Filter by confidence
+    patterns.retain(|p| p.confidence >= min_confidence);
+
+    // Output
+    if json {
+        let output = PatternReport {
+            files_analyzed: analyses.len(),
+            patterns_found: patterns.len(),
+            patterns,
+        };
+        println!("{}", serde_json::to_string_pretty(&output)?);
+    } else {
+        println!("Pattern Analysis");
+        println!("================");
+        println!("Files analyzed: {}", analyses.len());
+        println!("Patterns found: {}\n", patterns.len());
+
+        for pattern in &patterns {
+            println!("{} ({}) - {:.0}% confidence",
+                pattern.name,
+                pattern.pattern_type,
+                pattern.confidence * 100.0
+            );
+            println!("  {}", pattern.description);
+            println!("  Instances:");
+            for inst in &pattern.instances {
+                println!("    - {} [{}] at {}:{}", inst.name, inst.kind, inst.file, inst.line);
+            }
+            println!();
+        }
+
+        if patterns.is_empty() {
+            println!("No patterns detected above {:.0}% confidence threshold.", min_confidence * 100.0);
+        }
+    }
+
+    Ok(())
+}
+
+#[derive(serde::Serialize)]
+struct PatternReport {
+    files_analyzed: usize,
+    patterns_found: usize,
+    patterns: Vec<DetectedPattern>,
+}
+
+#[derive(serde::Serialize)]
+struct DetectedPattern {
+    name: String,
+    pattern_type: String,
+    confidence: f32,
+    instances: Vec<PatternInstance>,
+    description: String,
+}
+
+#[derive(serde::Serialize)]
+struct PatternInstance {
+    name: String,
+    file: String,
+    line: u32,
+    kind: String,
 }

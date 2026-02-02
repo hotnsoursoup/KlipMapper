@@ -11,11 +11,11 @@ use rayon::prelude::*;
 use crate::anchor::{AnchorCompressor, AnchorHeader};
 use crate::parser::Language;
 
-use super::types::{CheckConfig, CheckIssue, CheckResult, CheckSummary};
+use super::types::{CheckConfig, CheckIssue, CheckSummary};
 
 /// File and analysis validator.
 ///
-/// Checks that analysis metadata (anchors or sidecars) is valid and
+/// Checks that analysis metadata (anchors) is valid and
 /// up-to-date with the source files.
 pub struct Checker {
     config: CheckConfig,
@@ -99,11 +99,6 @@ impl Checker {
             return self.check_anchor(path_buf, &content);
         }
 
-        // Check for sidecar file
-        if self.config.check_sidecars {
-            return self.check_sidecar(path_buf, &content);
-        }
-
         // No check method enabled
         CheckIssue::skipped(path_buf)
     }
@@ -159,63 +154,6 @@ impl Checker {
         }
 
         CheckIssue::valid(path)
-    }
-
-    /// Check sidecar file for a source file.
-    fn check_sidecar(&self, path: PathBuf, content: &str) -> CheckIssue {
-        // Find sidecar path
-        let sidecar_path = self.sidecar_path(&path, content);
-
-        // Check if sidecar exists
-        if !sidecar_path.exists() {
-            return CheckIssue::missing(path, format!("Sidecar not found: {}", sidecar_path.display()));
-        }
-
-        // Read sidecar content
-        let sidecar_content = match fs::read_to_string(&sidecar_path) {
-            Ok(c) => c,
-            Err(e) => return CheckIssue::invalid(path, format!("Cannot read sidecar: {}", e)),
-        };
-
-        // Parse sidecar YAML
-        let sidecar: serde_yaml::Value = match serde_yaml::from_str(&sidecar_content) {
-            Ok(v) => v,
-            Err(e) => return CheckIssue::invalid(path, format!("Invalid sidecar YAML: {}", e)),
-        };
-
-        // Verify hash if enabled
-        if self.config.verify_hashes {
-            if let Some(stored_hash) = sidecar.get("source_hash").and_then(|v| v.as_str()) {
-                let current_hash = AnchorCompressor::hash_content(content);
-                // Compare first 16 chars (SHA-256 truncated)
-                let stored_short = &stored_hash[..stored_hash.len().min(16)];
-                if !current_hash.starts_with(stored_short) {
-                    return CheckIssue::outdated(path, "Source hash mismatch - file has changed");
-                }
-            }
-        }
-
-        CheckIssue::valid(path)
-    }
-
-    /// Calculate sidecar file path.
-    fn sidecar_path(&self, source: &Path, content: &str) -> PathBuf {
-        // Check frontmatter for agentmap reference
-        let head: String = content.lines().take(80).collect::<Vec<_>>().join("\n");
-
-        if let Some(fm) = crate::util::parse_frontmatter(&head) {
-            if let Some(agentmap_ref) = fm.get_string("agentmap") {
-                if let Some(parent) = source.parent() {
-                    return parent.join(agentmap_ref);
-                }
-            }
-        }
-
-        // Default sidecar location
-        let mut sidecar = PathBuf::from(".agentmap");
-        sidecar.push(source);
-        sidecar.set_extension("yaml");
-        sidecar
     }
 
     /// Strip anchor header from content for hashing.
@@ -407,15 +345,4 @@ fn main() {}
         assert!(!stripped.contains("agentmap:1"));
     }
 
-    #[test]
-    fn test_sidecar_path_default() {
-        let checker = Checker::new();
-        let source = PathBuf::from("src/main.rs");
-        let content = "fn main() {}";
-
-        let sidecar = checker.sidecar_path(&source, content);
-
-        assert!(sidecar.to_string_lossy().contains(".agentmap"));
-        assert!(sidecar.to_string_lossy().contains("main.yaml"));
-    }
 }

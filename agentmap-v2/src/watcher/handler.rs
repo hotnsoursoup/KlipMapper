@@ -2,7 +2,7 @@
 
 use std::collections::HashMap;
 use std::path::{Path, PathBuf};
-use std::sync::mpsc::{channel, Receiver, Sender};
+use std::sync::mpsc::{channel, Receiver};
 use std::sync::{Arc, Mutex};
 use std::time::{Duration, Instant};
 
@@ -17,6 +17,7 @@ use super::types::{WatchCallback, WatchConfig, WatchEvent, WatchEventKind, Watch
 
 // Emoji constants for output
 const WATCHING: &str = "\u{1F440}"; // eyes
+#[allow(dead_code)]
 const ANALYZING: &str = "\u{1F50D}"; // magnifying glass
 const SUCCESS: &str = "\u{2705}"; // check
 const ERROR: &str = "\u{274C}"; // x
@@ -331,12 +332,14 @@ impl Default for Watcher {
 }
 
 /// Builder for creating a watcher with callback handling.
+#[allow(dead_code)]
 pub struct WatcherBuilder {
     watcher: Watcher,
     on_change: Option<WatchCallback>,
     on_remove: Option<WatchCallback>,
 }
 
+#[allow(dead_code)]
 impl WatcherBuilder {
     /// Create a new builder.
     pub fn new() -> Self {
